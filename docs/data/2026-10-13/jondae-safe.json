@@ -1,0 +1,502 @@
+{
+ "lede": "오늘은 가을비 뒤에 갑자기 쌀쌀해진 날씨, 웰시코기 축제, 민속촌 귀신 이야기, K팝 소식까지 가볍게 꺼낼 만한 소재가 골고루 있어요.",
+ "today": {
+  "situation": "어디서든 가볍게 시작할 때",
+  "text": "어제는 서울이 30도까지 올랐는데, 오늘은 비 오고 내일은 9도래요. 가을이 마음의 준비 시간을 안 주네요.",
+  "why": "날씨 변화는 누구나 몸으로 느끼는 소재라 부담 없이 시작할 수 있고, 가을이 사람처럼 갑자기 움직인다는 온화한 의인화라 분위기도 부드러워져요.",
+  "explain": "어제 서울이 30.1도로 10월 기준 역대급 늦더위였는데, 가을비가 지나가고 내일 아침 서울은 9도까지 떨어진대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음식",
+    "topic": "빼빼로·가나 상품",
+    "safety": "가장 안전",
+    "text": "요즘 빼빼로가 책갈피로도 나온대요. 저는 과자를 책갈피로 쓰면 끝까지 못 읽고 먹어 버릴 것 같아요.",
+    "explain": "롯데웰푸드가 빼빼로는 책갈피, 가나는 키링으로 만든 이색 상품을 내놨대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가장 안전",
+    "text": "웰시코기 축제에서 식빵 엉덩이가 잔디를 뒤덮었대요. 저도 그 잔디 위에 잠깐 누워 있고 싶어요.",
+    "explain": "웰시코기 특유의 동그란 엉덩이가 식빵 같다고 해서 '식빵 엉덩이'라고 부르는데, 그런 강아지들이 모인 축제가 화제래요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "편의점 K팝 상품",
+    "safety": "가벼움",
+    "text": "요즘 편의점이 K팝 팬들을 겨냥해서 노래캔디 같은 상품을 늘리고 있대요. 편의점은 이제 간식 말고 취향도 파나 봐요.",
+    "explain": "CU가 K팝 가수와 연계한 상품을 확대한다는 소식이에요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을비와 기온",
+    "safety": "가장 안전",
+    "text": "비 오고 내일부터 확 추워진대요. 저는 아직 옷장 계절 교체를 못 해서 마음이 급해지네요.",
+    "explain": "가을비가 지나가고 내일 아침 기온이 크게 떨어지며 찬 바람이 분다는 예보예요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "가을비와 기온",
+    "safety": "가장 안전",
+    "text": "오늘 비 오고 내일은 아침에 9도까지 내려간대요. 어제는 서울이 30도였는데 몸이 적응할 틈이 없네요.",
+    "explain": "어제 서울이 30.1도로 늦더위였다가, 가을비 뒤에 기온이 크게 떨어진다는 예보예요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "민속촌 귀신 교육",
+    "safety": "가벼움",
+    "text": "한국민속촌에서 귀신이 아이들을 참교육했더니 말을 잘 듣는다는 이야기가 화제래요. 귀신이 제일 효과적인 선생님일 수도 있겠어요.",
+    "explain": "민속촌 귀신 분장 배우가 장난치는 아이들에게 한마디 하자 아이들이 얌전해졌다는 이야기가 온라인에서 화제가 됐대요."
+   },
+   {
+    "field": "음식",
+    "topic": "어젯밤 야식과 간 건강",
+    "safety": "상대가 관심 있을 때",
+    "text": "밤늦게 먹는 음식이 간에 부담을 줄 수 있다는 연구가 나왔대요. 저는 야식 앞에서는 늘 의지가 약해져요.",
+    "explain": "저녁 늦게 먹는 습관이 지방간 같은 간 질환 위험을 높일 수 있다는 건강 정보 기사가 나왔어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "K-우주인",
+    "safety": "가벼움",
+    "text": "우리 기술로 한국인 우주인을 만들겠다는 계획이 나왔대요. 저는 지하철 환승도 헷갈리는데 우주는 정말 대단하네요.",
+    "explain": "정부가 우리 기술로 유인 우주탐사를 추진한다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가장 안전",
+    "text": "혹시 웰시코기 축제 소식 보셨어요? 식빵 같은 엉덩이들이 잔디에 가득했대요.",
+    "explain": "웰시코기의 동그란 엉덩이가 식빵을 닮아서 '식빵 엉덩이'라고 불러요. 그런 강아지들이 모인 축제가 화제가 됐어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을비와 기온",
+    "safety": "가장 안전",
+    "text": "오늘 비가 꽤 요란하게 왔죠. 내일은 많이 쌀쌀하대서 저는 겉옷을 미리 꺼내 놨어요.",
+    "explain": "오늘 전국에 돌풍과 벼락을 동반한 가을비가 왔고, 내일은 기온이 뚝 떨어진대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "CGV 특별관 K팝 실황",
+    "safety": "가벼움",
+    "text": "CGV에서 10월에 K팝 실황도 특별관에서 상영한대요. 콘서트를 영화관에서 보는 시대네요.",
+    "explain": "CGV가 10월 기술 특별관 라인업을 공개했는데 영화뿐 아니라 K팝 실황 상영도 포함돼 있어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "드라마 화제성",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 '닥터X' 김지원 배우가 드라마 출연자 화제성 1위래요. 혹시 보고 계신 드라마 있으세요?",
+    "explain": "한 화제성 조사에서 김지원 배우가 드라마 출연자 화제성 1위를 했다는 기사예요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 안경",
+    "safety": "가벼움",
+    "text": "연세대 논술 시험장에서 AI 안경이 적발됐대요. 안경이 저보다 똑똑해졌다는 게 살짝 신기하면서도 서운해요.",
+    "explain": "연세대 수시 시험장에서 AI 기능이 있는 안경을 쓴 사례가 적발됐고, 대입에서는 첫 사례래요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을비와 기온",
+    "safety": "가장 안전",
+    "text": "내일 출근길이 많이 쌀쌀하대요. 저는 아침마다 이불이랑 이별하는 게 제일 힘든데 내일은 더 힘들 것 같아요.",
+    "explain": "가을비 뒤에 기온이 뚝 떨어져서 내일 출근길 서울 아침 기온이 9도 정도래요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "축구대표팀 소식",
+    "safety": "상대가 관심 있을 때",
+    "text": "축구대표팀 관련해서 이런저런 말이 많았는데 축구협회가 억측을 멈춰 달라고 했대요. 저는 사실이 확인되기 전까지는 듣기만 하려고요.",
+    "explain": "대표팀 내부 불화설이 온라인에서 퍼지자 축구협회가 근거 없는 추측과 비방을 자제해 달라고 밝혔어요."
+   },
+   {
+    "field": "음식",
+    "topic": "편의점 간식",
+    "safety": "가장 안전",
+    "text": "요즘 편의점이 K팝 캔디까지 파는데, 저는 점심 뭐 먹을지 고르는 것부터 늘 숙제예요.",
+    "explain": "CU가 노래캔디 등 K팝 연계 상품을 늘린다는 소식이에요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "가을비와 기온",
+    "safety": "가장 안전",
+    "text": "오늘 비가 와서 오시는 길 불편하지 않으셨어요? 내일은 더 쌀쌀하다고 하니 따뜻하게 입고 다니세요.",
+    "explain": "오늘 전국에 가을비가 내렸고 내일은 기온이 뚝 떨어진다는 예보가 있었어요."
+   },
+   {
+    "field": "음식",
+    "topic": "빼빼로 상품",
+    "safety": "가장 안전",
+    "text": "요즘 빼빼로가 책갈피로도 나온대요. 저는 그걸 사면 읽는 것보다 먹는 데 더 집중할 것 같아요.",
+    "explain": "롯데웰푸드가 빼빼로를 책갈피로, 가나를 키링으로 만든 이색 상품을 내놨대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가벼움",
+    "text": "웰시코기 축제 영상 보셨어요? 식빵 같은 엉덩이들이 줄지어 있는 걸 보면 저절로 기분이 좋아져요.",
+    "explain": "웰시코기의 통통한 엉덩이를 식빵에 빗대 부르는 말이고, 그런 강아지들이 모인 축제가 화제가 됐어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "CGV 특별관",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 영화관에서 K팝 실황도 상영한대요. 혹시 영화관 자주 가세요?",
+    "explain": "CGV가 10월 특별관 라인업에 영화뿐 아니라 K팝 실황 상영을 포함했다고 알렸어요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날씨가 갑자기 변해서 옷 고르기 어렵지 않으세요? 이럴 때 꼭 챙기시는 거 있으세요?",
+  "why": "날씨는 누구나 겪는 일이라 답하기 쉽고, '꼭 챙기는 것'을 물으면 자연스럽게 개인적인 이야기로 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "친구 모임에서 첫마디 꺼내기",
+   "topics": "가을 날씨, 웰시코기 축제, 빼빼로 책갈피",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 서울이 30도였는데 오늘은 비 오고 내일은 9도래요. 가을이 마음의 준비 시간을 안 주네요.",
+     "humor": {
+      "type": "의인화",
+      "why": "가을을 사람처럼 말해서 급한 날씨 변화를 부드럽게 표현했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "맞아요, 저도 어제 반팔 입었는데 오늘 아침엔 외투 찾았어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 옷장 계절 교체를 아직 못 해서 지금 마음이 더 급해요.",
+     "humor": {
+      "type": "자조",
+      "why": "스스로를 살짝 낮추는 말이라 상대에게 부담이 없어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저도요. 그런데 웰시코기 축제 소식 보셨어요? 영상 보고 기분이 좋아졌어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "식빵 같은 엉덩이들이 잔디에 가득하다는 그 소식이죠? 저도 그 잔디에 잠깐 누워 있고 싶었어요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그 영상만 보면 하루 피로가 풀리는 것 같아요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "요즘 빼빼로가 책갈피로도 나온대요. 저는 책갈피로 쓰다가 읽기도 전에 먹을 것 같아요.",
+     "humor": {
+      "type": "반전",
+      "why": "책갈피로 산 과자를 결국 먹어 버린다는 온화한 반전이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그러면 책은 한 장도 못 읽겠네요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기",
+   "topics": "가을비, AI 안경, 민속촌 귀신",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 비가 요란하게 왔죠. 가을이 갑자기 문을 쾅 닫고 들어온 느낌이에요.",
+     "humor": {
+      "type": "의인화",
+      "why": "가을을 문을 쾅 닫는 사람처럼 표현했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "아, 네. 그랬죠.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 말이 좀 썰렁했네요. 제 유머는 가을 저녁처럼 쌀쌀하다고 해 주세요.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁함을 스스로 인정하고 날씨에 빗대 분위기를 풀었어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 방금 그 수습이 더 웃겼어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "감사합니다. 그런데 연세대 시험장에서 AI 안경이 적발됐다는 소식 보셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "봤어요. 안경까지 AI가 들어갔다는 게 놀라웠어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 아직 안경을 자꾸 어디 뒀는지 못 찾는 수준이라 그 안경은 좀 부럽네요.",
+     "humor": {
+      "type": "자조",
+      "why": "자신의 건망증을 가볍게 낮춰 말해서 상대를 소재로 삼지 않고 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저도 안경 찾는 데는 AI가 필요해요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람과 엘리베이터에서 만났어요. 날씨 이야기로 한마디 꺼내 보세요.",
+   "hints": [
+    "오늘 날씨를 한 문장으로 말하기",
+    "내일 날씨를 덧붙이며 질문 던지기"
+   ],
+   "answer": "오늘 비가 꽤 왔죠. 내일은 많이 쌀쌀하다고 하니 따뜻하게 입고 오세요.",
+   "note": "날씨 공감 + 가벼운 배려형: 사실 하나에 배려 한마디를 붙이면 자연스러워요."
+  },
+  {
+   "q": "친구 모임에서 분위기가 조용해졌어요. 가벼운 소식으로 이어 가 보세요.",
+   "hints": [
+    "웰시코기 축제처럼 기분 좋은 소식 고르기",
+    "내 반응을 한 줄로 덧붙이기"
+   ],
+   "answer": "웰시코기 축제에서 식빵 엉덩이가 잔디를 뒤덮었대요. 저도 보고 싶어서 영상 찾아봤어요.",
+   "note": "소식 + 내 반응형: 소식만 말하지 않고 내 반응을 붙이면 대화가 이어져요."
+  },
+  {
+   "q": "썰렁한 말을 해서 어색해졌어요. 부드럽게 수습해 보세요.",
+   "hints": [
+    "스스로 인정하기",
+    "날씨나 사물에 빗대 가볍게 넘기기"
+   ],
+   "answer": "방금 제 말이 가을 저녁처럼 쌀쌀했네요. 따뜻한 얘기로 다시 시작해 볼게요.",
+   "note": "자조형 수습: 나를 살짝 낮추면 상대가 편안하게 웃을 수 있어요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "30도 늦더위 뒤 가을비, 내일 아침 9도",
+   "summary": "어제 서울이 30.1도까지 올랐다가 가을비가 내렸고, 내일은 기온이 크게 떨어진대요.",
+   "context": "어제 서울 낮 기온이 30.1도로 10월 기준 이례적인 늦더위였어요. 오늘은 돌풍과 벼락을 동반한 가을비가 전국에 내렸고, 비가 그친 뒤 찬 바람이 불면서 내일 아침 서울은 9도까지 내려간대요. 하루 사이 기온 차가 커서 옷차림과 건강 관리에 신경 쓰라는 예보가 나왔어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBROXY2aWR1X1k0X00yLWtWVHUtdGQ3aDdVRnJxU1NrbXZWQ2FlQzhqQkp0Mzh5ci1LRUQ3aVliN0wtckZ6dmRRWWFzQlpYVDFoUkxrM1hMYXItYWZXTmFTNTNVVERjSUU?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "웰시코기 축제, 식빵 엉덩이가 잔디를 덮었어요",
+   "summary": "웰시코기 강아지들이 모인 축제 영상이 화제가 됐대요.",
+   "context": "웰시코기는 다리가 짧고 엉덩이가 동그란 강아지 품종이에요. 그 엉덩이 모양이 식빵 같다고 해서 '식빵 엉덩이'라는 애칭이 있어요. 이런 강아지들이 잔디밭에 모인 축제 모습이 온라인에서 화제가 됐어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aTmNJcHNlZTIzZGs3WWJiQXduSzJjUE55WkZOeHNRV1RHLVhHTDB1cmFub3c3WU9pSE1RcUlOZmItY0FFQVNnelJsaTJuSjJKZEJZWEEyMElFTXc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "빼빼로는 책갈피, 가나는 키링으로 변신",
+   "summary": "롯데웰푸드가 과자를 활용한 이색 상품을 내놨대요.",
+   "context": "롯데웰푸드는 빼빼로와 가나 같은 과자 브랜드를 만드는 식품 회사예요. 11월 11일 빼빼로데이를 앞두고 과자를 책갈피나 키링 같은 일상 소품으로 바꾼 상품을 선보였대요. 과자를 먹는 것뿐 아니라 갖고 다니는 즐거움을 주겠다는 시도예요.",
+   "source": "아시아투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FRUp2RTZ2Z1M1d3dWSkZfaGwxQkRjLVhUNzBaaXJIbVhkNkI3TkhZX1p2UmwySlQxdi15dVVKbFU4Z19CTVYwcVNKMkx4Mllxc1JGYVpLQUxnMW9oSWl2UXhlNmNaZERxTFFjX3Jn?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "편의점이 K팝 팬을 겨냥한 상품을 늘려요",
+   "summary": "CU가 노래캔디 등 K팝 연계 상품을 확대한대요.",
+   "context": "CU는 전국에 매장이 있는 편의점 브랜드예요. K팝 가수와 협업한 상품이 팬들 사이에서 인기를 끌자 관련 상품을 더 늘리기로 했대요. 편의점이 단순히 물건을 파는 곳에서 팬 문화를 즐기는 공간으로 넓어지고 있다는 이야기예요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wVG1jXzBxZnhFcC1HNHFaamJLRXhnUy11a28tUTUtNmNoQmZKbzB5QWFLbkV2dWd2WF9MZVZ3dmdzb1ZkZ3JDN0M1eGE3MzV2b1hOV2QxSzNuVkxWWGV3WdIBYEFVX3lxTE8wVG1jXzBxZnhFcC1HNHFaamJLRXhnUy11a28tUTUtNmNoQmZKbzB5QWFLbkV2dWd2WF9MZVZ3dmdzb1ZkZ3JDN0M1eGE3MzV2b1hOV2QxSzNuVkxWWGV3WQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "연세대 수시 시험장에서 AI 안경 적발",
+   "summary": "대입 시험에서 AI 안경이 적발된 첫 사례래요.",
+   "context": "AI 기능이 들어간 스마트 안경이 시험장에서 쓰인 정황이 적발됐대요. 대입에서는 처음 있는 일이라 앞으로 시험 감독 방식이 달라질 수 있다는 이야기가 나와요. 기술이 일상에 들어오면서 생기는 새로운 문제를 보여 주는 사례예요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0LUdSbzN5anJtS2tLdTE0RUZSRWxkaTU5bWMxUVp2SjBRclpseVpEM053S0hBbm9wbnpacm9kUEpLSmJ6ZHlZRkNMYVVrWkl3d09sSFRibUJqNjE5NzFXX0RNZ2NXTnVUekE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "CGV 10월 특별관, 영화부터 K팝 실황까지",
+   "summary": "CGV가 10월 특별관 상영 라인업을 공개했대요.",
+   "context": "CGV는 4DX, 스크린X 같은 기술 특별관을 운영하는 영화관 브랜드예요. 10월에는 영화뿐 아니라 K팝 콘서트 실황도 특별관에서 볼 수 있대요. 영화관이 콘서트장처럼 쓰이는 흐름을 보여 주는 소식이에요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Da2pVcVhhZEpERHZ6MTVVejZQTWVVLXdQVTdKSXREcW5JVzRiZ19VaTBvXzg1eHJlTXRTYWdhbmM5T3Awd0xoMWNZdlg1SFZtN3hBdTBqZlVzd0wz?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "축구협회 \"대표팀 선수 향한 억측과 비방 멈춰 달라\"",
+   "summary": "대표팀 내부 불화설이 퍼지자 협회가 자제를 당부했대요.",
+   "context": "축구 대표팀 내부에 갈등이 있다는 근거 없는 이야기가 온라인에서 퍼졌고, 한 선수 측은 사실무근이라며 법적 대응을 예고했어요. 축구협회도 억측과 악의적 비방을 멈춰 달라고 밝혔어요. 확인되지 않은 이야기는 가려서 들어야 한다는 점을 보여 주는 사례예요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQM0x2OWhQMm1fX2YtVGFReDZtWUhrMVBDTnFoM091RHBaTG8wUUZxSFRtdGlRcGtiTC15NUhkZG5QMDBHbkRZMmxZQ1MtU2lfdXpSY05YS29fZU9oY2lEMNIBYEFVX3lxTFBQM0x2OWhQMm1fX2YtVGFReDZtWUhrMVBDTnFoM091RHBaTG8wUUZxSFRtdGlRcGtiTC15NUhkZG5QMDBHbkRZMmxZQ1MtU2lfdXpSY05YS29fZU9oY2lEMA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "카카오톡, AI 에이전트 허브로 진화 조준",
+   "summary": "5000만 사용자의 메신저가 AI 비서 역할을 키우려 한대요.",
+   "context": "카카오톡은 국내 대부분이 쓰는 메신저예요. AI 에이전트는 사용자를 대신해 예약이나 검색 같은 일을 처리해 주는 AI를 말해요. 카카오톡 안에서 이런 기능을 모아 쓰게 하려는 전략이라는 소식이에요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53d3BITUc4SDlORnJWZG9KeXJLTTZRZmxqcHFycllEbWdqdDVMYnlhWUdlWHoySGtZNW9fNzVmN0E2WGw4dnE5NHUtN0czS0sxRmQ0eW9FZnJyMlUzNl9fdS1wTWFCc0Q2WHc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "특검, 윤석열 선거법 항소심서 1심과 같은 당선무효형 구형",
+   "summary": "항소심에서도 징역 1년 6개월이 구형됐고 선고는 다음 달 4일이에요.",
+   "context": "윤석열 전 대통령이 대선 과정에서 허위사실을 공표했다는 혐의로 재판을 받고 있어요. 특검은 항소심에서도 1심과 같은 징역 1년 6개월을 구형했어요. 유죄가 확정되면 국민의힘이 선거비용 약 397억 원을 반환해야 할 수 있다는 보도가 나와요. 선고는 11월 4일로 예정돼 있어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHZ3hUeXlZcERRVkFnUDFtUl9MWjBPWmhaelBmV0VqYU42dnctOW1RMExQcHhFN0dOOXAyX2lFYUtNQnNCX1JVM25OZ1pwZnJZSW9DN19MTGppblZBcDZGV1YtQWdsdGF6T3R4R3JzM1hudw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "금융위·외교부·감사원 등 44개 기관 세종 이전 추진",
+   "summary": "정부가 내년 27개 기관을 세종으로 옮기는 2차 이전을 본격화했어요.",
+   "context": "세종시는 행정수도 기능을 위해 만든 도시로, 정부 부처가 단계적으로 옮겨 가고 있어요. 이번 2차 이전에는 금융위원회 등 여러 기관이 포함됐어요. 금융위가 세종으로 가면 서울에 있는 금융사와 거리가 멀어져 업무 방식이 바뀔 수 있다는 우려와 균형발전 기대가 함께 나와요.",
+   "source": "대전일보",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMV0Z3TkItYzJCWDZJSGFCb29YZDBvN2hNdEJ4ZlBLUnFiWUVYcGN3M002aDdxSXE0dmNoSFlBeDE1LURDZklrOWd6cWl0WWtPZ1ROdnY2MzhjUlFKbkhPbDNrWmpTZGUtQlZZQXBKd9IBc0FVX3lxTE54SVR5aTZraDNDOWhWeFBWZDNQc010TnZfRUZxUXBvZnF0VVhGdWlKUGY5cWVhbnh2cWJlaFJaSmNlaTJxVDNBTDJMeEY2SWREQzFJc2dVdkdsQ3N6bmZyeWdvZTlTcDA2VnZNMjhTXzJ6dms?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "국감서 추미애 경기지사 'SNS 정치' 공방",
+   "summary": "추미애 지사는 퇴근 뒤 SNS 글을 쓰며 도정에 소홀하지 않았다고 해명했어요.",
+   "context": "국정감사는 국회가 정부와 지자체의 일을 점검하는 절차예요. 여당과 야당 의원들이 추 지사의 SNS 활동과 대권 행보 의혹을 두고 질의했고, 추 지사는 오해라고 답했어요. 정치인의 SNS 활동이 공직 업무와 어떻게 구분돼야 하는지를 두고 해석이 갈려요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wQjJmVDhzb3hYMXo2dGtVc0pJN2lQeFh4Y3dSZTVIdEFyd2dtOXpiWXRDbktTMGtvblluNDZIeG9mN2JleHRBWDAyeDdrUVNRc1lUSlpyNkNDWU15c0FVV3Zwaw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "우크라 외교장관 \"북한군 포로 문제는 종결된 사안\"",
+   "summary": "한국 정부는 원만한 해결을 기대하며 소통 중이라고 밝혔어요.",
+   "context": "우크라이나가 붙잡은 북한군 포로의 한국행 문제가 공개되면서 두 나라 사이에 논란이 생겼어요. 한국은 주우크라이나 대사를 본국으로 불러 보고를 받았고, 우크라이나 외교장관은 이 문제가 끝났다고 말했어요. 한국 외교부는 원만한 해결을 기대하며 계속 소통하고 있다는 입장이에요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HcGtuUkdOdUR5UFZLMGRwNnIxWTdVRVN2Rm5idzlFQ2pfalFFbFhWeWJRZjRoN3Bhd3hBS2RZX044cWtsZ3hLWWUwZmVjaWJFUTE0QjRMNFpad9IBX0FVX3lxTFBPMEp0WUZnYWVSOEt4T1RvZjlsUWl1dlpRTUxSd05OVGpFQmhBUzhWZ21wR0dSQkxWaVhsUU5FaHJHTGZWMDJGRnVOMDJQQTRKYXUtd0F3TFRrTUVuVy1J?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "후티 반군 사우디 공세, 브렌트유 한 달 만에 최고가",
+   "summary": "중동 긴장으로 국제 유가가 올라 국내 물가 부담이 우려된대요.",
+   "context": "후티는 예멘의 무장 세력이에요. 이들이 사우디아라비아를 드론 등으로 공격하면서 수도 리야드 공항 운영이 차질을 빚었어요. 중동 정세가 불안해지면 원유 공급 우려가 커져 브렌트유(국제 원유 가격 기준) 값이 오르고, 한국 기업과 소비자의 물가 부담으로 이어질 수 있어요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OOFNoZWdxc2x6RF93aXg4cTZKQTlKUDU1WGNGZ1J6Smhqd2pyOUxBWEJIdjBfUEpNZzZfRVYwTU1MYURxY09QNzl2ak5aOUVOZkN2emxxeUVVeTRXUjhVdkNCTDBqczNia2kwZVN3N2hfX1XSAWZBVV95cUxNRURCeW9HbGRmWkdxV2w0Qjl5cWxhc1NQNDcyX3p3eUR0eWQ2U3Z6dmpUSG5JaEFTNUppRlVFZ2w3S0huQ052b2tYSVV5OHlOY1NzU3kyUHFsY0wwZkNHd3dNMjFGaFE?oc=5"
+  }
+ ],
+ "term": {
+  "word": "브렌트유",
+  "meaning": "북해에서 나오는 원유로, 국제 원유 가격을 정할 때 기준이 되는 대표적인 가격이에요.",
+  "example": "브렌트유가 올랐다는데 주유소 기름값도 곧 오르려나요?"
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "오늘 {날씨} 예보가 있대요. 가을비라 그런지 조금 운치 있어요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 최저 {최저}도에 비 올 확률이 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고가 {최고}도인데 내일은 {내일최고}도래요. 날씨가 계절을 급하게 갈아타네요.",
+   "explain": "오늘 {지역} 최고 {최고}도, 내일 최고 {내일최고}도로 기온 차가 커요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘과 내일 기온 차가 커서 옷 고르기가 어렵네요. 저는 겉옷을 하나 더 챙겼어요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 내일 최고 {내일최고}도래요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 {최고}도까지 올라간대요. 가을인데 여름이 짐을 다 안 챙기고 간 것 같아요.",
+   "explain": "오늘 {지역} 최고 {최고}도, 최저 {최저}도예요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 최고 {최고}도라 꽤 덥대요. 저는 벌써 시원한 음료가 생각나요.",
+   "explain": "{지역}의 오늘 낮 기온이 {최고}도까지 오른다는 예보예요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침이 {최저}도래요. 이불 밖은 이제 위험한 계절이 됐어요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "아침 기온이 {최저}도까지 내려간대요. 저는 따뜻한 차가 먼저 생각나요.",
+   "explain": "{지역}은 오늘 아침 {최저}도, 낮 {최고}도로 쌀쌀한 날씨예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨가 {최저}도에서 {최고}도라 걷기 좋대요. 저는 점심 먹고 잠깐 걸어 보려고요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘은 {날씨} 날씨래요. 이런 날은 괜히 창가 자리에 앉고 싶어져요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 비 올 확률 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "의인화",
+   "desc": "가을이나 과자 같은 사물을 사람처럼 말해 부드럽게 웃기는 방식"
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰 말해 상대가 부담 없이 웃게 만드는 방식"
+  },
+  {
+   "name": "반전",
+   "desc": "기대한 흐름을 온화하게 비틀어 작은 웃음을 주는 방식"
+  }
+ ],
+ "date": "2026-10-13",
+ "weekday": "화요일",
+ "tone": "jondae",
+ "strength": "safe",
+ "generated_at": "2026-10-13 20:39",
+ "model": "claude-sonnet-5-5"
+}
