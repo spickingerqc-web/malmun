@@ -220,7 +220,7 @@ def call_claude(system: str, user: str) -> str:
         },
     }
     resp = client.messages.create(
-        model=MODEL, max_tokens=8000, system=system,
+        model=MODEL, max_tokens=24000, system=system,
         messages=[{"role": "user", "content": user + "\n\n반드시 write_malmun 도구를 호출해서 결과를 전달하세요. 다른 텍스트는 쓰지 마세요."}],
         tools=[tool], tool_choice={"type": "auto"},
     )
