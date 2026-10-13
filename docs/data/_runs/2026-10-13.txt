@@ -1,22 +1,13 @@
-run 2026-10-13 15:18 model=claude-sonnet-5-5 items=72
-fail banmal-normal: BadRequestError('Error code: 400 - {\'type\': \'error\', \'error\': {\'type\': \'invalid_request_error\', \'message\': \'tool_choice: type "tool" and "any" are not supported for this model.\'}, \'request_id\': \'req_011CfykSuwiG3EAh4nLQNTAe\'}')
-  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 241, in generate_variant
+run 2026-10-13 15:22 model=claude-sonnet-5-5 items=72
+fail banmal-normal: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 320, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 244, in generate_variant
     raw = call_claude(SYSTEM_PROMPT, prompt)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 222, in call_claude
-    resp = client.messages.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1029, in create
-    return self._post(
-           ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1557, in post
-    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1222, in request
-    raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tool_choice: type "tool" and "any" are not supported for this model.'}, 'request_id': 'req_011CfykSuwiG3EAh4nLQNTAe'}
+  File "/home/runner/work/malmun/malmun/generate.py", line 228, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
 
