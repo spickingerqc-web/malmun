@@ -1,0 +1,10 @@
+run 2026-10-13 15:11 model=claude-sonnet-5-5 items=72
+fail banmal-normal: RuntimeError('JSON 파싱 실패: JSON을 찾지 못했습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 288, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 225, in generate_variant
+    raise RuntimeError(last_err or "생성 실패")
+RuntimeError: JSON 파싱 실패: JSON을 찾지 못했습니다
+
