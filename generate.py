@@ -280,9 +280,12 @@ def call_claude(system: str, user: str) -> str:
     client = anthropic.Anthropic()
     guard = ("\n\n출력 규칙: 설명 없이 JSON 객체 하나만 출력하세요. 코드펜스(```)도 쓰지 마세요. "
              "JSON 문자열 안의 한글은 \\u 이스케이프 없이 한글 그대로 씁니다. 첫 글자는 { 입니다.")
+    # 이 모델은 기본으로 '생각'이 켜져 있고 그 토큰이 max_tokens에 포함된다 → 끈다
     with client.messages.stream(
         model=MODEL, max_tokens=int(os.getenv("MAX_TOKENS", "32000")), system=system,
         messages=[{"role": "user", "content": user + guard}],
+        thinking={"type": "disabled"},
+        output_config={"effort": "medium"},
     ) as stream:
         resp = stream.get_final_message()
     text = "".join(getattr(b, "text", "") for b in resp.content)
