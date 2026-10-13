@@ -221,16 +221,19 @@ def call_claude(system: str, user: str) -> str:
     }
     resp = client.messages.create(
         model=MODEL, max_tokens=8000, system=system,
-        messages=[{"role": "user", "content": user}],
-        tools=[tool], tool_choice={"type": "tool", "name": "write_malmun"},
+        messages=[{"role": "user", "content": user + "\n\n반드시 write_malmun 도구를 호출해서 결과를 전달하세요. 다른 텍스트는 쓰지 마세요."}],
+        tools=[tool], tool_choice={"type": "auto"},
     )
     if resp.stop_reason == "max_tokens":
         raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
     for b in resp.content:
         if getattr(b, "type", "") == "tool_use":
             return json.dumps(b.input, ensure_ascii=False)
+    # 도구를 안 썼으면 텍스트에서 JSON을 찾는다
     text = "".join(getattr(b, "text", "") for b in resp.content)
-    raise RuntimeError(f"tool_use 응답 없음. stop={resp.stop_reason} text={text[:300]!r}")
+    if "{" in text:
+        return text
+    raise RuntimeError(f"도구도 JSON도 없음. stop={resp.stop_reason} blocks={[getattr(b, 'type', '?') for b in resp.content]} text={text[:300]!r}")
 
 
 def generate_variant(today: datetime, items: list[dict[str, Any]], tone: str, strength: str, prev: dict | None) -> dict:
