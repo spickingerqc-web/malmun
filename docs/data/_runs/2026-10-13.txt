@@ -1,13 +1,13 @@
-run 2026-10-13 19:15 model=claude-sonnet-5-5 items=72
-fail banmal-safe: RuntimeError("출력이 max_tokens에서 잘렸습니다 (len=0) 앞='' 뒤=''")
+run 2026-10-13 19:22 model=claude-sonnet-5-5 items=72
+fail banmal-safe: RuntimeError("출력이 max_tokens에서 잘렸습니다 (len=0) blocks=[('thinking', 0)] usage=Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=28044, output_tokens=3000, output_tokens_details=OutputTokensDetails(thinking_tokens=3000), server_tool_use=None, service_tier='standard') 앞='' 뒤=''")
 Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 375, in main
+  File "/home/runner/work/malmun/malmun/generate.py", line 378, in main
     payload = generate_variant(today, items, tone, strength, prev)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 299, in generate_variant
+  File "/home/runner/work/malmun/malmun/generate.py", line 302, in generate_variant
     raw = call_claude(SYSTEM_PROMPT, prompt)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 290, in call_claude
-    raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) 앞={text[:200]!r} 뒤={text[-200:]!r}")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다 (len=0) 앞='' 뒤=''
+  File "/home/runner/work/malmun/malmun/generate.py", line 292, in call_claude
+    raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) blocks={kinds} usage={usage} 앞={text[:200]!r} 뒤={text[-200:]!r}")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다 (len=0) blocks=[('thinking', 0)] usage=Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=28044, output_tokens=3000, output_tokens_details=OutputTokensDetails(thinking_tokens=3000), server_tool_use=None, service_tier='standard') 앞='' 뒤=''
 
