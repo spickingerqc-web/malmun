@@ -1,13 +1,19 @@
-run 2026-10-13 19:22 model=claude-sonnet-5-5 items=72
-fail banmal-safe: RuntimeError("출력이 max_tokens에서 잘렸습니다 (len=0) blocks=[('thinking', 0)] usage=Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=28044, output_tokens=3000, output_tokens_details=OutputTokensDetails(thinking_tokens=3000), server_tool_use=None, service_tier='standard') 앞='' 뒤=''")
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 378, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 302, in generate_variant
+run 2026-10-13 19:31 model=claude-sonnet-5-5 items=72
+fail banmal-safe: BadRequestError('Error code: 400 - {\'type\': \'error\', \'error\': {\'type\': \'invalid_request_error\', \'message\': \'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.\'}, \'request_id\': \'req_011Cfz5jAef3x8UyqgYcfso1\'}')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 305, in generate_variant
     raw = call_claude(SYSTEM_PROMPT, prompt)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 292, in call_claude
-    raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) blocks={kinds} usage={usage} 앞={text[:200]!r} 뒤={text[-200:]!r}")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다 (len=0) blocks=[('thinking', 0)] usage=Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=28044, output_tokens=3000, output_tokens_details=OutputTokensDetails(thinking_tokens=3000), server_tool_use=None, service_tier='standard') 앞='' 뒤=''
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 172, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1557, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1222, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.'}, 'request_id': 'req_011Cfz5jAef3x8UyqgYcfso1'}
 
