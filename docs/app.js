@@ -232,7 +232,7 @@
         '<div class="line">"' + esc(line.text) + '"</div>' +
         (line.why ? '<div class="why">' + esc(line.why) + '</div>' : "") +
         (line.explain ? '<div class="explain"><b>상대가 모르면</b> ' + esc(line.explain) + '</div>' : "") +
-        '<div class="row" style="margin-top:2px;flex-wrap:nowrap"><a class="btn grow" href="#quick">이 말로 할게요</a><a class="btn ghost onDark" href="#talk">대화 보기</a></div>' +
+        '<div class="row" style="margin-top:2px;flex-wrap:nowrap"><a class="btn grow" href="#quick">말할 준비</a><a class="btn ghost onDark" href="#talk">대화 보기</a></div>' +
       '</div>' +
       '<div class="card task">' +
         '<button class="check' + (done ? " on" : "") + '" id="home-done" aria-pressed="' + done + '" aria-label="오늘 할 것 완료 표시">' + (done ? I.check : "") + '</button>' +
@@ -259,7 +259,7 @@
     var fq = data.fallback_question || { text: "요즘 뭐가 제일 재밌어?", why: "질문을 받으면 사람은 대부분 이야기를 시작해요." };
 
     var v = el('<div class="view">' +
-      '<div class="topbar"><a class="iconbtn" href="#home" aria-label="홈으로">' + I.back + '</a><div><div class="title">만나기 30초 전</div><div class="sub">딱 하나만 고르면 돼요. 나머지는 상대가 채워 줘요.</div></div></div>' +
+      '<div class="topbar"><a class="iconbtn" href="#home" aria-label="홈으로">' + I.back + '</a><div><div class="title">말하기 전에</div><div class="sub">하나만 고르고, 말해 본 뒤 아래 버튼을 눌러요. 반응은 상관없어요.</div></div></div>' +
       '<div class="chips scroll" id="q-sits">' + SITUATIONS.map(function (s) { return '<button class="chip' + (s === quickSit ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + '</button>'; }).join("") + '</div>' +
       '<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">꺼낼 말 하나</div><div class="list" id="q-list">' +
         list.map(function (o, i) {
@@ -430,7 +430,7 @@
       '<div class="list" id="l-list">' + (logs.length ? logs.map(function (l) {
         var r = l.reaction === "good" ? '<span class="tag">웃었다</span>' : l.reaction === "bad" ? '<span class="tag warm">썰렁</span>' : l.reaction === "ok" ? '<span class="tag know">그냥</span>' : (l.said ? "" : '<span class="tag know">연습</span>');
         return '<div class="entry"><div style="font-size:0.95rem">' + (l.text ? '"' + esc(l.text) + '"' : '<span class="muted">(내용 없이 꺼냄)</span>') + '</div><div class="meta">' + r + (l.situation ? '<span>' + esc(l.situation) + '</span>' : "") + '<span>' + esc(fmtShort(l.date || todayStr(new Date(l.ts)))) + '</span>' + (l.reaction === "bad" ? '<span>꺼낸 것만으로 1회</span>' : "") + '<button class="del" data-del="' + l.id + '">삭제</button></div></div>';
-      }).join("") : '<div class="empty">아직 기록이 없어요. "만나기 30초 전"에서 하나 고르고, 말해 본 뒤 눌러 보세요.</div>') + '</div>' +
+      }).join("") : '<div class="empty">아직 기록이 없어요. "말할 준비"에서 하나 고르고, 말해 본 뒤 눌러 보세요.</div>') + '</div>' +
       '<div class="card" style="display:flex;flex-direction:column;gap:8px"><div class="small" style="font-weight:600">직접 적기</div><textarea id="l-ta" placeholder="오늘 써 본 말이나 들은 말"></textarea><div class="row"><input type="text" id="l-sit" placeholder="상황 (예: 친구와 점심)" style="flex:1 1 140px"><button class="btn" id="l-add">저장</button></div></div>' +
       '<div style="flex:1 1 auto"></div>' + tabbar("log") + '</div>');
     v.querySelector("#l-filter").addEventListener("click", function (e) { var b = e.target.closest("button"); if (!b) return; logFilter = b.dataset.f; route(); });
