@@ -1,7 +1,73 @@
-run 2026-10-13 15:43 model=claude-sonnet-5-5 items=72
-ok banmal-safe
-ok banmal-normal
-ok banmal-bold
-ok jondae-safe
-ok jondae-normal
-ok jondae-bold
+run 2026-10-13 17:19 model=claude-sonnet-5-5 items=72
+fail banmal-safe: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
+fail banmal-normal: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
+fail banmal-bold: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
+fail jondae-safe: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
+fail jondae-normal: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
+fail jondae-bold: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+Traceback (most recent call last):
+  File "/home/runner/work/malmun/malmun/generate.py", line 373, in main
+    payload = generate_variant(today, items, tone, strength, prev)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 297, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 281, in call_claude
+    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다
+
