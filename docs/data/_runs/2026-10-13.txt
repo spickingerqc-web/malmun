@@ -1,5 +1,5 @@
-run 2026-10-13 20:04 model=claude-sonnet-5-5 items=72
-fail banmal-safe: BadRequestError('Error code: 400 - {\'type\': \'error\', \'error\': {\'type\': \'invalid_request_error\', \'message\': \'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.\'}, \'request_id\': \'req_011Cfz8Ea5MR2qVGZU1bho8q\'}')
+run 2026-10-13 20:05 model=claude-sonnet-5-5 items=72
+fail banmal-safe: BadRequestError('Error code: 400 - {\'type\': \'error\', \'error\': {\'type\': \'invalid_request_error\', \'message\': \'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.\'}, \'request_id\': \'req_011Cfz8JsumYSiGRdX3UZNMW\'}')
        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/malmun/malmun/generate.py", line 305, in generate_variant
     raw = call_claude(SYSTEM_PROMPT, prompt)
@@ -15,5 +15,5 @@ fail banmal-safe: BadRequestError('Error code: 400 - {\'type\': \'error\', \'err
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1222, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.'}, 'request_id': 'req_011Cfz8Ea5MR2qVGZU1bho8q'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'To turn thinking off on this model, send "thinking": {"type": "between_tools"} instead of {"type": "disabled"}. The model does not think before responding. The short updates it writes between tool calls come back as thinking blocks.'}, 'request_id': 'req_011Cfz8JsumYSiGRdX3UZNMW'}
 
