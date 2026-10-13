@@ -219,11 +219,13 @@ def call_claude(system: str, user: str) -> str:
             "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "types"],
         },
     }
-    resp = client.messages.create(
+    # 긴 출력은 스트리밍이 필요하다 (SDK 규칙)
+    with client.messages.stream(
         model=MODEL, max_tokens=24000, system=system,
         messages=[{"role": "user", "content": user + "\n\n반드시 write_malmun 도구를 호출해서 결과를 전달하세요. 다른 텍스트는 쓰지 마세요."}],
         tools=[tool], tool_choice={"type": "auto"},
-    )
+    ) as stream:
+        resp = stream.get_final_message()
     if resp.stop_reason == "max_tokens":
         raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
     for b in resp.content:
