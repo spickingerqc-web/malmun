@@ -200,8 +200,15 @@ def call_claude(system: str, user: str) -> str:
     import anthropic
 
     client = anthropic.Anthropic()
-    resp = client.messages.create(model=MODEL, max_tokens=8000, system=system, messages=[{"role": "user", "content": user}])
-    return "".join(getattr(b, "text", "") for b in resp.content)
+    # 응답이 "{"로 시작하도록 어시스턴트 턴을 미리 채운다
+    resp = client.messages.create(
+        model=MODEL, max_tokens=8000, system=system,
+        messages=[{"role": "user", "content": user}, {"role": "assistant", "content": "{"}],
+    )
+    text = "".join(getattr(b, "text", "") for b in resp.content)
+    if resp.stop_reason == "max_tokens":
+        raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
+    return "{" + text
 
 
 def generate_variant(today: datetime, items: list[dict[str, Any]], tone: str, strength: str, prev: dict | None) -> dict:
@@ -213,7 +220,7 @@ def generate_variant(today: datetime, items: list[dict[str, Any]], tone: str, st
         try:
             cand = _extract_json(raw)
         except Exception as e:  # noqa: BLE001
-            last_err = f"JSON 파싱 실패: {e}"
+            last_err = f"JSON 파싱 실패: {e} | 응답 앞부분: {raw[:300]!r} | 끝부분: {raw[-200:]!r}"
             continue
         problems = _validate(cand)
         payload = cand
