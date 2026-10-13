@@ -1,2 +1,7 @@
-run 2026-10-13 20:05 model=claude-sonnet-5-5 items=72
-ok banmal-safe
+run 2026-10-13 20:21 model=claude-sonnet-5-5 items=72
+skip banmal-safe
+skip banmal-normal
+skip banmal-bold
+skip jondae-safe
+skip jondae-normal
+skip jondae-bold
