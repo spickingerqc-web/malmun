@@ -349,8 +349,17 @@ def main(argv: list[str]) -> int:
     out_dir = DATA_DIR / date
     out_dir.mkdir(exist_ok=True)
 
-    items = fetch_news()
+    items = []
+    for attempt in range(3):
+        items = fetch_news()
+        if len(items) >= 8:
+            break
+        print(f"[rss] {len(items)}건뿐. {30 * (attempt + 1)}초 후 재시도", file=sys.stderr)
+        time.sleep(30 * (attempt + 1))
     if len(items) < 8:
+        runs_dir = DATA_DIR / "_runs"
+        runs_dir.mkdir(exist_ok=True)
+        (runs_dir / f"{date}.txt").write_text(f"run {datetime.now(KST).strftime('%Y-%m-%d %H:%M')} 기사 수집 실패: {len(items)}건 (3회 시도)\n", encoding="utf-8")
         print(f"기사가 {len(items)}건뿐입니다. 중단.", file=sys.stderr)
         return 3
 
