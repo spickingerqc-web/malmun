@@ -1,10 +1,22 @@
-run 2026-10-13 15:11 model=claude-sonnet-5-5 items=72
-fail banmal-normal: RuntimeError('JSON 파싱 실패: JSON을 찾지 못했습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 288, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 225, in generate_variant
-    raise RuntimeError(last_err or "생성 실패")
-RuntimeError: JSON 파싱 실패: JSON을 찾지 못했습니다
+run 2026-10-13 15:15 model=claude-sonnet-5-5 items=72
+fail banmal-normal: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'This model does not support assistant message prefill. The conversation must end with a user message.'}, 'request_id': 'req_011CfykDa23LgwEyxAk1cbVL'}")
+^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 219, in generate_variant
+    raw = call_claude(SYSTEM_PROMPT, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 204, in call_claude
+    resp = client.messages.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1029, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1557, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1222, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'This model does not support assistant message prefill. The conversation must end with a user message.'}, 'request_id': 'req_011CfykDa23LgwEyxAk1cbVL'}
 
