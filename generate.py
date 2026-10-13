@@ -272,7 +272,7 @@ def call_claude(system: str, user: str) -> str:
             "properties": {
                 "lede": {"type": "string"},
                 "today": {"type": "object", "properties": {"situation": {"type": "string"}, "text": {"type": "string"}, "why": {"type": "string"}, "explain": {"type": "string"}}, "required": ["situation", "text", "why", "explain"]},
-                "openers": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "object", "properties": {"topic": {"type": "string"}, "safety": {"type": "string"}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["topic", "text", "explain"]}}},
+                "openers": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "object", "properties": {"field": {"type": "string"}, "topic": {"type": "string"}, "safety": {"type": "string"}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["field", "topic", "text", "explain"]}}},
                 "fallback_question": {"type": "object", "properties": {"text": {"type": "string"}, "why": {"type": "string"}}, "required": ["text", "why"]},
                 "scenes": {"type": "array", "items": {"type": "object", "properties": {"title": {"type": "string"}, "topics": {"type": "string"}, "lines": {"type": "array", "items": {"type": "object", "properties": {"who": {"type": "string", "enum": ["a", "b"]}, "text": {"type": "string"}, "humor": {"type": ["object", "null"], "properties": {"type": {"type": "string"}, "why": {"type": "string"}}}}, "required": ["who", "text"]}}}, "required": ["title", "topics", "lines"]}},
                 "drills": {"type": "array", "items": {"type": "object", "properties": {"q": {"type": "string"}, "hints": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "string"}, "note": {"type": "string"}}, "required": ["q", "answer", "note"]}},
@@ -285,7 +285,7 @@ def call_claude(system: str, user: str) -> str:
     }
     # 긴 출력은 스트리밍이 필요하다 (SDK 규칙)
     with client.messages.stream(
-        model=MODEL, max_tokens=24000, system=system,
+        model=MODEL, max_tokens=48000, system=system,
         messages=[{"role": "user", "content": user + "\n\n반드시 write_malmun 도구를 호출해서 결과를 전달하세요. 다른 텍스트는 쓰지 마세요."}],
         tools=[tool], tool_choice={"type": "auto"},
     ) as stream:
