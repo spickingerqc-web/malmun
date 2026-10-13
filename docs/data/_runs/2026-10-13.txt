@@ -1,73 +1,13 @@
-run 2026-10-13 18:32 model=claude-sonnet-5-5 items=72
-fail banmal-safe: RuntimeError('출력이 max_tokens에서 잘렸습니다')
+run 2026-10-13 19:15 model=claude-sonnet-5-5 items=72
+fail banmal-safe: RuntimeError("출력이 max_tokens에서 잘렸습니다 (len=0) 앞='' 뒤=''")
 Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
+  File "/home/runner/work/malmun/malmun/generate.py", line 375, in main
     payload = generate_variant(today, items, tone, strength, prev)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
+  File "/home/runner/work/malmun/malmun/generate.py", line 299, in generate_variant
     raw = call_claude(SYSTEM_PROMPT, prompt)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
-
-fail banmal-normal: RuntimeError('출력이 max_tokens에서 잘렸습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
-    raw = call_claude(SYSTEM_PROMPT, prompt)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
-
-fail banmal-bold: RuntimeError('출력이 max_tokens에서 잘렸습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
-    raw = call_claude(SYSTEM_PROMPT, prompt)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
-
-fail jondae-safe: RuntimeError('출력이 max_tokens에서 잘렸습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
-    raw = call_claude(SYSTEM_PROMPT, prompt)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
-
-fail jondae-normal: RuntimeError('출력이 max_tokens에서 잘렸습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
-    raw = call_claude(SYSTEM_PROMPT, prompt)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
-
-fail jondae-bold: RuntimeError('출력이 max_tokens에서 잘렸습니다')
-Traceback (most recent call last):
-  File "/home/runner/work/malmun/malmun/generate.py", line 401, in main
-    payload = generate_variant(today, items, tone, strength, prev)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 325, in generate_variant
-    raw = call_claude(SYSTEM_PROMPT, prompt)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malmun/malmun/generate.py", line 309, in call_claude
-    raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-RuntimeError: 출력이 max_tokens에서 잘렸습니다
+  File "/home/runner/work/malmun/malmun/generate.py", line 290, in call_claude
+    raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) 앞={text[:200]!r} 뒤={text[-200:]!r}")
+RuntimeError: 출력이 max_tokens에서 잘렸습니다 (len=0) 앞='' 뒤=''
 
