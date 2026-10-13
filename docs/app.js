@@ -4,6 +4,8 @@
 
   var SITUATIONS = ["친구 모임", "어른·선배", "처음 만난 사람", "직장·학교", "손님·고객"];
   var FIELDS = ["날씨·생활", "스포츠", "음악·K팝", "영화·드라마", "IT·과학", "음식", "경제·돈", "동물·신기한 이야기"];
+  // 시·도별 대표 좌표 (날씨 조회용)
+  var REGIONS = [["서울", 37.57, 126.98], ["경기", 37.29, 127.01], ["인천", 37.46, 126.71], ["강원", 37.88, 127.73], ["충북", 36.64, 127.49], ["충남", 36.66, 126.67], ["대전", 36.35, 127.38], ["세종", 36.48, 127.29], ["전북", 35.82, 127.15], ["전남", 34.82, 126.46], ["광주", 35.16, 126.85], ["경북", 36.57, 128.73], ["경남", 35.24, 128.69], ["대구", 35.87, 128.60], ["울산", 35.54, 129.31], ["부산", 35.18, 129.08], ["제주", 33.50, 126.53]];
   var REACTIONS = { good: "웃었다", ok: "그냥", bad: "썰렁" };
   var STORE_KEY = "malmun:v1";
   var $app = document.getElementById("app");
@@ -12,7 +14,7 @@
   // ---------- 저장소 ----------
   var state = load();
   function load() {
-    var base = { onboarded: false, situations: ["친구 모임", "처음 만난 사람"], interests: [], tone: "banmal", strength: "safe",
+    var base = { onboarded: false, situations: ["친구 모임", "처음 만난 사람"], interests: [], region: "", weather: null, tone: "banmal", strength: "safe",
       notify: false, notifyTime: "07:00", logs: [], done: {}, drafts: {}, lastData: null };
     try { var raw = localStorage.getItem(STORE_KEY); if (raw) return Object.assign(base, JSON.parse(raw)); } catch (e) {}
     return base;
@@ -41,7 +43,7 @@
   function pickToday(list) { var r = rankByInterest(list); return r[0] || null; }
   // 오늘의 새 소재: 관심 밖 분야 하나 (날짜로 돌아가며 고름)
   function pickFresh(list) {
-    var out = list.filter(function (o) { return !isInterest(o); });
+    var out = list.filter(function (o) { return !isInterest(o) && !o.local && fieldOf(o) !== "날씨·생활"; });
     if (!out.length) return null;
     var seed = parseInt((dataDate || "").replace(/-/g, ""), 10) || 0;
     return out[seed % out.length];
@@ -61,6 +63,52 @@
       if (state.lastData) { data = state.lastData; dataDate = data.date; dataWarning = "인터넷에 연결되지 않아 마지막으로 받은 내용을 보여 드려요."; }
       else { data = null; }
     });
+  }
+
+  // ---------- 내 지역 날씨 (open-meteo, 무료, 키 없음) ----------
+  function loadWeather() {
+    var r = REGIONS.filter(function (x) { return x[0] === state.region; })[0];
+    if (!r) { state.weather = null; return Promise.resolve(); }
+    var td = todayStr();
+    if (state.weather && state.weather.date === td && state.weather.region === state.region) return Promise.resolve();
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=" + r[1] + "&longitude=" + r[2] + "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=Asia%2FSeoul&forecast_days=2";
+    return fetch(url).then(function (x) { return x.json(); }).then(function (j) {
+      var d = j.daily;
+      state.weather = { date: td, region: state.region, hi: Math.round(d.temperature_2m_max[0]), lo: Math.round(d.temperature_2m_min[0]), rain: d.precipitation_probability_max[0], code: d.weather_code[0],
+        tomorrowHi: Math.round(d.temperature_2m_max[1]), tomorrowLo: Math.round(d.temperature_2m_min[1]) };
+      save();
+    }).catch(function () {});
+  }
+  function weatherWord(code) { if (code == null) return ""; if (code === 0) return "맑음"; if (code <= 3) return "구름"; if (code <= 48) return "안개"; if (code <= 67) return "비"; if (code <= 77) return "눈"; if (code <= 82) return "소나기"; if (code <= 86) return "눈"; return "천둥번개"; }
+  // 내 지역 날씨로 만든 한마디 (AI 없이 템플릿)
+  function weatherOpener() {
+    var w = state.weather; if (!w) return null;
+    var jondae = state.tone === "jondae";
+    var text, explain;
+    if (w.rain >= 60) {
+      text = jondae ? "오늘 " + w.region + "에 비 올 확률이 " + w.rain + "%래요. 우산 챙기셨어요?" : "오늘 " + w.region + " 비 올 확률 " + w.rain + "%래. 우산 챙겼어?";
+      explain = "오늘 " + w.region + " 낮 최고 " + w.hi + "도, 비 올 확률 " + w.rain + "%" + (jondae ? "예요." : "야.");
+    } else if (w.tomorrowHi - w.hi <= -5 || w.hi - w.tomorrowHi >= 5) {
+      text = jondae ? "오늘 " + w.region + "는 " + w.hi + "도인데 내일은 " + w.tomorrowHi + "도래요. 옷 고르기 어렵네요." : "오늘 " + w.region + " " + w.hi + "도인데 내일은 " + w.tomorrowHi + "도래. 뭐 입어야 되냐.";
+      explain = "하루 사이에 " + Math.abs(w.hi - w.tomorrowHi) + "도 차이" + (jondae ? "가 나요." : "가 나.");
+    } else if (w.hi >= 28) {
+      text = jondae ? "오늘 " + w.region + " " + w.hi + "도까지 간대요. 아직 여름이죠?" : "오늘 " + w.region + " " + w.hi + "도래. 아직 여름 아니냐?";
+      explain = "오늘 " + w.region + " 낮 최고 " + w.hi + "도" + (jondae ? "예요." : "야.");
+    } else if (w.lo <= 5) {
+      text = jondae ? "오늘 아침 " + w.region + "가 " + w.lo + "도였대요. 겉옷 챙기셨어요?" : "오늘 아침 " + w.region + " " + w.lo + "도였대. 겉옷 챙겼어?";
+      explain = "오늘 " + w.region + " 최저 " + w.lo + "도, 최고 " + w.hi + "도" + (jondae ? "예요." : "야.");
+    } else {
+      text = jondae ? "오늘 " + w.region + "는 " + w.hi + "도에 " + weatherWord(w.code) + "이래요. 나가기 좋은 날이죠?" : "오늘 " + w.region + " " + w.hi + "도에 " + weatherWord(w.code) + "이래. 나가기 딱 좋네.";
+      explain = "오늘 " + w.region + " 최고 " + w.hi + "도, 최저 " + w.lo + "도" + (jondae ? "예요." : "야.");
+    }
+    return { field: "날씨·생활", topic: "내 지역 날씨", safety: "가장 안전", text: text, explain: explain, local: true };
+  }
+  // 자리별 목록에 내 지역 날씨 한마디를 앞에 끼워 넣는다 (AI가 쓴 날씨 한마디는 뒤로)
+  function withLocalWeather(list) {
+    var w = weatherOpener(); if (!w) return list;
+    var rest = list.filter(function (o) { return fieldOf(o) !== "날씨·생활"; });
+    var ai = list.filter(function (o) { return fieldOf(o) === "날씨·생활"; });
+    return [w].concat(rest, ai);
   }
 
   // ---------- 아이콘 ----------
@@ -104,25 +152,30 @@
   views.onboarding = function () {
     var picked = state.situations.slice();
     var pickedF = state.interests.slice();
-    var step1 = obStep === 1;
+    var step1 = obStep === 1, step3 = obStep === 3;
+    var pickedR = state.region;
     var v = el('<div class="view dark">' +
       '<div class="row" style="gap:10px"><div style="width:34px;height:34px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center">' + I.logo.replace('viewBox', 'width="20" height="20" viewBox') + '</div><div class="display" style="font-size:1.25rem">말문</div></div>' +
       '<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:24px 0">' +
-        '<div class="eyebrow" style="color:var(--card-dark-accent)">' + (step1 ? "1 / 2" : "2 / 2") + '</div>' +
+        '<div class="eyebrow" style="color:var(--card-dark-accent)">' + obStep + ' / 3</div>' +
         (step1
           ? '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">사람을 만나면<br>무슨 말을 해야 할지<br>막막한가요?</h1>' +
             '<p style="color:var(--card-dark-muted);line-height:1.7">말문은 매일 아침, 그날 쓸 수 있는 한마디를 준비해 둬요. 외우는 게 아니라 꺼내 보는 연습이에요.<br>하루에 할 일은 딱 하나. 점수도, 틀린 답도 없어요.</p>'
+          : step3
+          ? '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">어디에<br>살고 계세요?</h1>' +
+            '<p style="color:var(--card-dark-muted);line-height:1.7">내 지역 날씨로 한마디를 만들어 드려요. 날씨는 누구와도 안전한 첫마디예요. 안 골라도 괜찮아요.</p>'
           : '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">어떤 이야기가<br>조금이라도<br>편한가요?</h1>' +
             '<p style="color:var(--card-dark-muted);line-height:1.7">고른 분야의 한마디를 먼저 보여 드려요. 매일 하나씩은 다른 분야도 슬쩍 끼워 넣을게요. 화제가 넓어지는 건 그렇게 시작돼요.</p>') +
       '</div>' +
       '<div style="display:flex;flex-direction:column;gap:12px">' +
-        '<div class="small" style="color:#AAB4C3">' + (step1 ? "주로 어떤 자리에서 어려우세요? (여러 개 가능)" : "관심 분야 2~3개를 골라 주세요. 없으면 건너뛰어도 돼요.") + '</div>' +
+        '<div class="small" style="color:#AAB4C3">' + (step1 ? "주로 어떤 자리에서 어려우세요? (여러 개 가능)" : step3 ? "사는 지역 (하나)" : "관심 분야 2~3개를 골라 주세요. 없으면 건너뛰어도 돼요.") + '</div>' +
         '<div class="chips" id="ob-chips"></div>' +
-        '<div class="row" style="flex-wrap:nowrap;margin-top:6px">' + (step1 ? "" : '<button class="btn ghost onDark" id="ob-back" style="white-space:nowrap;min-width:72px">이전</button>') + '<button class="btn big light grow" id="ob-start">' + (step1 ? "다음" : "시작하기") + '</button></div>' +
+        '<div class="row" style="flex-wrap:nowrap;margin-top:6px">' + (step1 ? "" : '<button class="btn ghost onDark" id="ob-back" style="white-space:nowrap;min-width:72px">이전</button>') + '<button class="btn big light grow" id="ob-start">' + (step3 ? "시작하기" : "다음") + '</button></div>' +
         '<div class="xs" style="text-align:center;color:#8E99AB">회원가입 없이 바로 시작해요. 기록은 이 기기에만 저장돼요. <a href="#privacy" style="color:#C6CEDB">개인정보 처리방침</a></div>' +
       '</div></div>');
     var chips = v.querySelector("#ob-chips");
-    var items = step1 ? SITUATIONS : FIELDS, sel = step1 ? picked : pickedF;
+    var items = step1 ? SITUATIONS : step3 ? REGIONS.map(function (r) { return r[0]; }) : FIELDS;
+    var sel = step1 ? picked : step3 ? (pickedR ? [pickedR] : []) : pickedF;
     function draw() {
       chips.innerHTML = items.map(function (s) { return '<button class="chip' + (sel.indexOf(s) >= 0 ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + "</button>"; }).join("");
     }
@@ -130,21 +183,25 @@
     chips.addEventListener("click", function (e) {
       var b = e.target.closest("button"); if (!b) return;
       var s = b.dataset.s, i = sel.indexOf(s);
-      if (i >= 0) sel.splice(i, 1); else sel.push(s);
+      if (step3) { sel.length = 0; if (i < 0) sel.push(s); pickedR = sel[0] || ""; }
+      else if (i >= 0) sel.splice(i, 1); else sel.push(s);
       draw();
     });
     var back = v.querySelector("#ob-back");
-    if (back) back.addEventListener("click", function () { state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; }); obStep = 1; route(); });
+    if (back) back.addEventListener("click", function () {
+      if (step3) state.region = pickedR; else state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; });
+      save(); obStep -= 1; route();
+    });
     v.querySelector("#ob-start").addEventListener("click", function () {
       if (step1) {
         if (!picked.length) { toast("하나만 골라 주세요"); return; }
         state.situations = SITUATIONS.filter(function (s) { return picked.indexOf(s) >= 0; }); save();
         obStep = 2; route(); return;
       }
-      state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; });
-      state.onboarded = true; save();
+      if (!step3) { state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; }); save(); obStep = 3; route(); return; }
+      state.region = pickedR; state.onboarded = true; save();
       obStep = 1;
-      location.hash = "#home";
+      loadWeather().then(function () { location.hash = "#home"; route(); });
     });
     return v;
   };
@@ -153,7 +210,7 @@
   views.home = function () {
     if (!data) return noData("home");
     var sit = primarySituation();
-    var pool = (data.openers && data.openers[sit]) || [];
+    var pool = withLocalWeather((data.openers && data.openers[sit]) || []);
     var opener = pickToday(pool);
     var fresh = pickFresh(pool);
     var line = opener ? { text: opener.text, why: fieldOf(opener) + (opener.safety ? " · " + opener.safety : ""), explain: opener.explain, situation: sit } : data.today;
@@ -169,6 +226,7 @@
       '</div>' +
       (dataWarning ? '<div class="note">' + esc(dataWarning) + '</div>' : "") +
       (dataDate !== td ? '<div class="note">오늘 내용이 아직 준비되지 않아 ' + esc(fmtShort(dataDate)) + ' 내용을 보여 드려요.</div>' : "") +
+      (state.weather ? '<div class="small muted">오늘 ' + esc(state.weather.region) + ' ' + state.weather.lo + '~' + state.weather.hi + '도 · ' + esc(weatherWord(state.weather.code)) + (state.weather.rain >= 30 ? ' · 비 ' + state.weather.rain + '%' : '') + '</div>' : "") +
       '<div class="card hero">' +
         '<div class="meta"><span class="eyebrow">오늘의 한마디</span><span>' + esc(line.situation || sit) + '</span></div>' +
         '<div class="line">"' + esc(line.text) + '"</div>' +
@@ -196,7 +254,7 @@
     if (!data) return noData("quick");
     var sits = state.situations.length ? state.situations : SITUATIONS;
     if (!quickSit || sits.indexOf(quickSit) < 0) quickSit = sits[0];
-    var list = rankByInterest((data.openers && data.openers[quickSit]) || []);
+    var list = rankByInterest(withLocalWeather((data.openers && data.openers[quickSit]) || []));
     if (quickPick >= list.length) quickPick = 0;
     var fq = data.fallback_question || { text: "요즘 뭐가 제일 재밌어?", why: "질문을 받으면 사람은 대부분 이야기를 시작해요." };
 
@@ -206,7 +264,7 @@
       '<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">꺼낼 말 하나</div><div class="list" id="q-list">' +
         list.map(function (o, i) {
           return '<button class="opener' + (i === quickPick ? " on" : "") + '" data-i="' + i + '" aria-pressed="' + (i === quickPick) + '">' +
-            '<span class="head"><span>' + esc(fieldOf(o)) + (o.safety ? " · " + esc(o.safety) : "") + (isInterest(o) ? " · 관심" : "") + '</span>' + (i === quickPick ? I.check.replace('viewBox', 'width="18" height="18" style="color:var(--accent)" viewBox') : "") + '</span>' +
+            '<span class="head"><span>' + esc(fieldOf(o)) + (o.safety ? " · " + esc(o.safety) : "") + (o.local ? " · 내 지역" : isInterest(o) ? " · 관심" : "") + '</span>' + (i === quickPick ? I.check.replace('viewBox', 'width="18" height="18" style="color:var(--accent)" viewBox') : "") + '</span>' +
             '<span class="text">"' + esc(o.text) + '"</span>' +
             (o.explain ? '<span class="explain"><b>모르면</b> ' + esc(o.explain) + '</span>' : "") + '</button>';
         }).join("") +
@@ -394,6 +452,7 @@
       '<div class="topbar"><a class="iconbtn" href="#log" aria-label="뒤로">' + I.back + '</a><div class="title">설정</div></div>' +
       '<div><div class="eyebrow" style="margin-bottom:8px">나에게 맞추기</div><div class="group">' +
         '<div class="grow-row"><div class="h">자주 있는 자리</div><div class="chips" id="s-sits">' + SITUATIONS.map(function (s) { return '<button class="chip' + (state.situations.indexOf(s) >= 0 ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + '</button>'; }).join("") + '</div><div class="d">첫 번째로 고른 자리가 홈의 "오늘의 한마디"에 쓰여요.</div></div>' +
+        '<div class="grow-row"><div class="h">사는 지역</div><div class="chips" id="s-region">' + REGIONS.map(function (r) { return '<button class="chip' + (state.region === r[0] ? " on" : "") + '" data-r="' + esc(r[0]) + '">' + esc(r[0]) + '</button>'; }).join("") + '</div><div class="d">내 지역 날씨로 한마디를 만들어요. 서울 기준 소식에 끌려가지 않게요.</div></div>' +
         '<div class="grow-row"><div class="h">관심 분야</div><div class="chips" id="s-fields">' + FIELDS.map(function (f) { return '<button class="chip' + (state.interests.indexOf(f) >= 0 ? " on" : "") + '" data-f="' + esc(f) + '">' + esc(f) + '</button>'; }).join("") + '</div><div class="d">고른 분야의 한마디를 먼저 보여 줘요. 하나도 안 고르면 골고루 보여요.</div></div>' +
         '<div class="grow-row"><div class="between"><div class="h">유머 강도</div></div><div class="seg" id="s-str"><button data-v="safe"' + (state.strength === "safe" ? ' class="on"' : "") + '>안전하게</button><button data-v="normal"' + (state.strength === "normal" ? ' class="on"' : "") + '>보통</button><button data-v="bold"' + (state.strength === "bold" ? ' class="on"' : "") + '>조금 과감하게</button></div><div class="d">안전하게: 날씨·계절·나를 낮추는 농담 위주. 상대를 소재로 삼지 않아요.</div></div>' +
         '<div class="grow-row"><div class="between"><div><div class="h">말투</div><div class="d">예시 대사를 어떤 말투로 볼지</div></div><div class="toggle2" id="s-tone"><button data-v="banmal"' + (state.tone === "banmal" ? ' class="on"' : "") + '>반말</button><button data-v="jondae"' + (state.tone === "jondae" ? ' class="on"' : "") + '>존댓말</button></div></div></div>' +
@@ -412,6 +471,11 @@
       var b = e.target.closest("button"); if (!b) return; var s = b.dataset.s, i = state.situations.indexOf(s);
       if (i >= 0) { if (state.situations.length === 1) { toast("하나는 남겨 두세요"); return; } state.situations.splice(i, 1); } else state.situations.push(s);
       state.situations = SITUATIONS.filter(function (x) { return state.situations.indexOf(x) >= 0; }); save(); route();
+    });
+    v.querySelector("#s-region").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      state.region = state.region === b.dataset.r ? "" : b.dataset.r; state.weather = null; save();
+      loadWeather().then(route);
     });
     v.querySelector("#s-fields").addEventListener("click", function (e) {
       var b = e.target.closest("button"); if (!b) return; var f = b.dataset.f, i = state.interests.indexOf(f);
@@ -445,9 +509,9 @@
     return el('<div class="view"><div class="topbar"><a class="iconbtn" href="' + (state.onboarded ? "#settings" : "#onboarding") + '" aria-label="뒤로">' + I.back + '</a><div class="title">개인정보 처리방침</div></div>' +
       '<div class="card" style="display:flex;flex-direction:column;gap:10px;font-size:0.93rem">' +
       '<p><b>수집하는 정보</b><br>말문은 회원가입이 없고, 이름·이메일·연락처를 수집하지 않아요.</p>' +
-      '<p><b>기기에만 저장되는 정보</b><br>내가 고른 자리, 관심 분야, 말투, 유머 강도, 내 기록(한마디·반응·날짜)은 이 기기의 브라우저 저장소에만 저장돼요. 서버로 보내지 않아요. 앱 데이터를 지우거나 "모든 기록 지우기"를 누르면 사라져요.</p>' +
+      '<p><b>기기에만 저장되는 정보</b><br>내가 고른 자리, 관심 분야, 사는 지역(시·도 단위), 말투, 유머 강도, 내 기록(한마디·반응·날짜)은 이 기기의 브라우저 저장소에만 저장돼요. 서버로 보내지 않아요. 앱 데이터를 지우거나 "모든 기록 지우기"를 누르면 사라져요.</p>' +
       '<p><b>서버에서 받는 정보</b><br>매일 생성되는 뉴스 요약과 대화 예시 파일을 내려받기만 해요. 이때 일반적인 웹 접속 기록(접속 시각, IP) 외에 개인을 식별하는 정보는 전송되지 않아요.</p>' +
-      '<p><b>제3자</b><br>글꼴은 Google Fonts에서 불러와요. 내용 생성에는 Anthropic Claude API가 쓰이지만, 사용자의 기록은 전달되지 않아요.</p>' +
+      '<p><b>제3자</b><br>글꼴은 Google Fonts에서 불러와요. 지역을 고르면 그 시·도의 대표 좌표로 Open-Meteo에서 날씨를 받아요(정확한 위치는 보내지 않아요). 내용 생성에는 Anthropic Claude API가 쓰이지만, 사용자의 기록은 전달되지 않아요.</p>' +
       '<p><b>이 앱은 치료 도구가 아니에요</b><br>말문은 대화 소재와 연습을 돕는 앱이에요. 마음이 많이 힘들다면 전문가의 도움을 받는 것이 좋아요.</p>' +
       '<p class="xs muted">최종 수정: 2026년 10월</p></div></div>');
   };
@@ -472,5 +536,5 @@
 
   // ---------- 시작 ----------
   if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js").catch(function () {}); }
-  loadData().then(function () { route(); scheduleNotify(); });
+  loadData().then(loadWeather).then(function () { route(); scheduleNotify(); });
 })();
