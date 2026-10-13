@@ -200,15 +200,37 @@ def call_claude(system: str, user: str) -> str:
     import anthropic
 
     client = anthropic.Anthropic()
-    # 응답이 "{"로 시작하도록 어시스턴트 턴을 미리 채운다
+    # 도구 호출로 JSON을 강제한다: 응답은 항상 tool_use.input(dict)으로 온다
+    tool = {
+        "name": "write_malmun",
+        "description": "오늘의 말문 콘텐츠를 저장한다. 시스템 프롬프트에 적힌 JSON 구조 그대로 채운다.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "lede": {"type": "string"},
+                "today": {"type": "object", "properties": {"situation": {"type": "string"}, "text": {"type": "string"}, "why": {"type": "string"}, "explain": {"type": "string"}}, "required": ["situation", "text", "why", "explain"]},
+                "openers": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "object", "properties": {"topic": {"type": "string"}, "safety": {"type": "string"}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["topic", "text", "explain"]}}},
+                "fallback_question": {"type": "object", "properties": {"text": {"type": "string"}, "why": {"type": "string"}}, "required": ["text", "why"]},
+                "scenes": {"type": "array", "items": {"type": "object", "properties": {"title": {"type": "string"}, "topics": {"type": "string"}, "lines": {"type": "array", "items": {"type": "object", "properties": {"who": {"type": "string", "enum": ["a", "b"]}, "text": {"type": "string"}, "humor": {"type": ["object", "null"], "properties": {"type": {"type": "string"}, "why": {"type": "string"}}}}, "required": ["who", "text"]}}}, "required": ["title", "topics", "lines"]}},
+                "drills": {"type": "array", "items": {"type": "object", "properties": {"q": {"type": "string"}, "hints": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "string"}, "note": {"type": "string"}}, "required": ["q", "answer", "note"]}},
+                "news": {"type": "array", "items": {"type": "object", "properties": {"kind": {"type": "string", "enum": ["talk", "know"]}, "tag": {"type": "string"}, "title": {"type": "string"}, "summary": {"type": "string"}, "source": {"type": "string"}, "url": {"type": "string"}}, "required": ["kind", "tag", "title", "summary", "source", "url"]}},
+                "types": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "desc": {"type": "string"}}, "required": ["name", "desc"]}},
+            },
+            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "types"],
+        },
+    }
     resp = client.messages.create(
         model=MODEL, max_tokens=8000, system=system,
-        messages=[{"role": "user", "content": user}, {"role": "assistant", "content": "{"}],
+        messages=[{"role": "user", "content": user}],
+        tools=[tool], tool_choice={"type": "tool", "name": "write_malmun"},
     )
-    text = "".join(getattr(b, "text", "") for b in resp.content)
     if resp.stop_reason == "max_tokens":
         raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-    return "{" + text
+    for b in resp.content:
+        if getattr(b, "type", "") == "tool_use":
+            return json.dumps(b.input, ensure_ascii=False)
+    text = "".join(getattr(b, "text", "") for b in resp.content)
+    raise RuntimeError(f"tool_use 응답 없음. stop={resp.stop_reason} text={text[:300]!r}")
 
 
 def generate_variant(today: datetime, items: list[dict[str, Any]], tone: str, strength: str, prev: dict | None) -> dict:
