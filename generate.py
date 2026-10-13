@@ -146,8 +146,17 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
   "drills": [{"q": "상황과 과제", "hints": ["힌트 유형 1", "힌트 유형 2"], "answer": "예시 한마디", "note": "유형과 설명 한 줄"}],
   "news": [{"kind": "talk|know", "tag": "8개 분야 중 하나 (know는 '알아만 두기')", "title": "요약형 제목", "summary": "한두 문장", "context": "배경과 왜 중요한지 2~3문장. 세상 돌아가는 걸 모르는 사람에게 설명하듯, 중립적으로", "source": "언론사", "url": "링크"}],
   "term": {"word": "오늘 뉴스에 나온 용어 하나", "meaning": "쉬운 말로 한두 문장", "example": "대화에서 쓰는 예 한 문장"},
+  "weather_templates": [
+    {"cond": "rain|swing|hot|cold|mild", "text": "빈칸이 든 한마디", "explain": "빈칸이 든 설명 한 줄"}
+  ],
   "types": [{"name": "유형", "desc": "한 줄"}]
 }
+
+날씨 문장 틀 규칙 (weather_templates)
+- 앱이 사용자 지역의 실제 날씨 숫자를 채워 넣습니다. 빈칸은 정확히 이 표기만 씁니다: {지역} {최고} {최저} {비확률} {내일최고} {날씨}
+- cond 다섯 가지(rain=비 올 확률 높음, swing=오늘과 내일 기온 차 큼, hot=더움, cold=아침 쌀쌀, mild=평범)마다 2개씩, 총 10개.
+- 오늘 날짜·계절에 맞는 표현을 쓰되, 서울 등 특정 도시 이름은 넣지 않습니다. 말투 설정(반말/존댓말)을 따릅니다.
+- 예: {"cond":"rain","text":"오늘 {지역} 비 올 확률 {비확률}%래. 우산 챙겼어?","explain":"오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%야."}
 
 "세상" 탭 규칙 (news와 term)
 - 사용자는 세상 돌아가는 걸 잘 모르는 사람입니다. context는 전제 지식 없이 읽히게, 고유명사엔 짧은 설명을 붙입니다.
@@ -156,7 +165,7 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
 - term은 오늘 뉴스에 실제로 나온 말에서 고릅니다. 너무 쉬운 말(예: 날씨)은 피합니다.
 
 분량: openers는 상황 5개 각각 4개(총 20). scenes 2개(각 8~10줄, 유머 2~3개, 둘 중 하나는 썰렁 수습 장면 포함).
-drills 3개. news는 talk 7 + know 5 (모두 context 포함). term 1개. types는 오늘 쓴 유형만."""
+drills 3개. news는 talk 7 + know 5 (모두 context 포함). term 1개. weather_templates 10개. types는 오늘 쓴 유형만."""
 
 
 def tone_instruction(tone: str, strength: str) -> str:
@@ -283,9 +292,10 @@ def call_claude(system: str, user: str) -> str:
                 "drills": {"type": "array", "items": {"type": "object", "properties": {"q": {"type": "string"}, "hints": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "string"}, "note": {"type": "string"}}, "required": ["q", "answer", "note"]}},
                 "news": {"type": "array", "items": {"type": "object", "properties": {"kind": {"type": "string", "enum": ["talk", "know"]}, "tag": {"type": "string"}, "title": {"type": "string"}, "summary": {"type": "string"}, "context": {"type": "string"}, "source": {"type": "string"}, "url": {"type": "string"}}, "required": ["kind", "tag", "title", "summary", "context", "source", "url"]}},
                 "term": {"type": "object", "properties": {"word": {"type": "string"}, "meaning": {"type": "string"}, "example": {"type": "string"}}, "required": ["word", "meaning"]},
+                "weather_templates": {"type": "array", "items": {"type": "object", "properties": {"cond": {"type": "string", "enum": ["rain", "swing", "hot", "cold", "mild"]}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["cond", "text", "explain"]}},
                 "types": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "desc": {"type": "string"}}, "required": ["name", "desc"]}},
             },
-            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "term", "types"],
+            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "term", "weather_templates", "types"],
         },
     }
     # 긴 출력은 스트리밍이 필요하다 (SDK 규칙)

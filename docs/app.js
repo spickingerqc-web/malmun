@@ -34,16 +34,26 @@
   function primarySituation() { return state.situations[0] || SITUATIONS[0]; }
   function fieldOf(o) { return o.field || o.tag || o.topic || ""; }
   function isInterest(o) { return state.interests.indexOf(fieldOf(o)) >= 0; }
+  function isWeather(o) { var f = fieldOf(o) + " " + (o.topic || ""); return o.local || /날씨|기온|더위|추위|장마|폭염|한파|비 오|비오|눈 오/.test(f); }
   // 관심 분야를 앞으로, 그 뒤에 나머지. 원래 순서는 유지.
   function rankByInterest(list) {
     if (!state.interests.length) return list.slice();
     return list.filter(isInterest).concat(list.filter(function (o) { return !isInterest(o); }));
   }
-  // 오늘의 한마디: 관심 분야 중 첫 번째. 관심 분야가 없는 날은 그냥 첫 번째.
-  function pickToday(list) { var r = rankByInterest(list); return r[0] || null; }
+  // 오늘의 한마디: 날씨가 아닌 것 중에서, 관심 분야 우선, 날짜에 따라 돌아가며.
+  function pickToday(list) {
+    var pool = list.filter(function (o) { return !isWeather(o); });
+    if (!pool.length) pool = list.filter(function (o) { return !o.local; });
+    if (!pool.length) return list[0] || null;
+    var ranked = rankByInterest(pool);
+    var top = state.interests.length ? ranked.filter(isInterest) : [];
+    if (!top.length) top = ranked;
+    var seed = parseInt((dataDate || "").replace(/-/g, ""), 10) || 0;
+    return top[seed % top.length];
+  }
   // 오늘의 새 소재: 관심 밖 분야 하나 (날짜로 돌아가며 고름)
   function pickFresh(list) {
-    var out = list.filter(function (o) { return !isInterest(o) && !o.local && fieldOf(o) !== "날씨·생활"; });
+    var out = list.filter(function (o) { return !isInterest(o) && !isWeather(o); });
     if (!out.length) return null;
     var seed = parseInt((dataDate || "").replace(/-/g, ""), 10) || 0;
     return out[seed % out.length];
@@ -81,9 +91,27 @@
   }
   function weatherWord(code) { if (code == null) return ""; if (code === 0) return "맑음"; if (code <= 3) return "구름"; if (code <= 48) return "안개"; if (code <= 67) return "비"; if (code <= 77) return "눈"; if (code <= 82) return "소나기"; if (code <= 86) return "눈"; return "천둥번개"; }
   // 내 지역 날씨로 만든 한마디 (AI 없이 템플릿)
+  function weatherCond(w) {
+    if (w.rain >= 60) return "rain";
+    if (Math.abs(w.hi - w.tomorrowHi) >= 5) return "swing";
+    if (w.hi >= 28) return "hot";
+    if (w.lo <= 5) return "cold";
+    return "mild";
+  }
+  function fillWeather(t, w) {
+    return String(t).replace(/\{지역\}/g, w.region).replace(/\{최고\}/g, w.hi).replace(/\{최저\}/g, w.lo).replace(/\{비확률\}/g, w.rain).replace(/\{내일최고\}/g, w.tomorrowHi).replace(/\{날씨\}/g, weatherWord(w.code));
+  }
   function weatherOpener() {
     var w = state.weather; if (!w) return null;
     var jondae = state.tone === "jondae";
+    // 오늘 생성된 날씨 문장 틀이 있으면 그걸 쓴다 (날짜로 돌아가며 선택). 없으면 아래 기본 틀.
+    var cond = weatherCond(w);
+    var tpls = ((data && data.weather_templates) || []).filter(function (t) { return t.cond === cond && t.text; });
+    if (tpls.length) {
+      var seed = parseInt((dataDate || "").replace(/-/g, ""), 10) || 0;
+      var t = tpls[seed % tpls.length];
+      return { field: "날씨·생활", topic: "내 지역 날씨", safety: "가장 안전", text: fillWeather(t.text, w), explain: fillWeather(t.explain || "", w), local: true };
+    }
     var text, explain;
     if (w.rain >= 60) {
       text = jondae ? "오늘 " + w.region + "에 비 올 확률이 " + w.rain + "%래요. 우산 챙기셨어요?" : "오늘 " + w.region + " 비 올 확률 " + w.rain + "%래. 우산 챙겼어?";
@@ -104,11 +132,13 @@
     return { field: "날씨·생활", topic: "내 지역 날씨", safety: "가장 안전", text: text, explain: explain, local: true };
   }
   // 자리별 목록에 내 지역 날씨 한마디를 앞에 끼워 넣는다 (AI가 쓴 날씨 한마디는 뒤로)
+  // 목록 순서: 오늘의 한마디 → 내 지역 날씨 → 나머지(관심 우선) → AI가 쓴 날씨
   function withLocalWeather(list) {
-    var w = weatherOpener(); if (!w) return list;
-    var rest = list.filter(function (o) { return fieldOf(o) !== "날씨·생활"; });
-    var ai = list.filter(function (o) { return fieldOf(o) === "날씨·생활"; });
-    return [w].concat(rest, ai);
+    var w = weatherOpener();
+    var today = pickToday(list);
+    var rest = list.filter(function (o) { return o !== today && !isWeather(o); });
+    var ai = list.filter(function (o) { return o !== today && isWeather(o); });
+    return (today ? [today] : []).concat(w ? [w] : [], rankByInterest(rest), ai);
   }
 
   // ---------- 아이콘 ----------
@@ -210,7 +240,7 @@
   views.home = function () {
     if (!data) return noData("home");
     var sit = primarySituation();
-    var pool = withLocalWeather((data.openers && data.openers[sit]) || []);
+    var pool = (data.openers && data.openers[sit]) || [];
     var opener = pickToday(pool);
     var fresh = pickFresh(pool);
     var line = opener ? { text: opener.text, why: fieldOf(opener) + (opener.safety ? " · " + opener.safety : ""), explain: opener.explain, situation: sit } : data.today;
@@ -254,7 +284,7 @@
     if (!data) return noData("quick");
     var sits = state.situations.length ? state.situations : SITUATIONS;
     if (!quickSit || sits.indexOf(quickSit) < 0) quickSit = sits[0];
-    var list = rankByInterest(withLocalWeather((data.openers && data.openers[quickSit]) || []));
+    var list = withLocalWeather((data.openers && data.openers[quickSit]) || []);
     if (quickPick >= list.length) quickPick = 0;
     var fq = data.fallback_question || { text: "요즘 뭐가 제일 재밌어?", why: "질문을 받으면 사람은 대부분 이야기를 시작해요." };
 
