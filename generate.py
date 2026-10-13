@@ -274,47 +274,21 @@ def _validate(p: dict) -> list[str]:
 
 
 def call_claude(system: str, user: str) -> str:
+    """텍스트로 JSON을 받는다. (도구 호출은 한글을 \\u 이스케이프로 써서 토큰이 6배로 늘어 실패했음)"""
     import anthropic
 
     client = anthropic.Anthropic()
-    # 도구 호출로 JSON을 강제한다: 응답은 항상 tool_use.input(dict)으로 온다
-    tool = {
-        "name": "write_malmun",
-        "description": "오늘의 말문 콘텐츠를 저장한다. 시스템 프롬프트에 적힌 JSON 구조 그대로 채운다.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "lede": {"type": "string"},
-                "today": {"type": "object", "properties": {"situation": {"type": "string"}, "text": {"type": "string"}, "why": {"type": "string"}, "explain": {"type": "string"}}, "required": ["situation", "text", "why", "explain"]},
-                "openers": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "object", "properties": {"field": {"type": "string"}, "topic": {"type": "string"}, "safety": {"type": "string"}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["field", "topic", "text", "explain"]}}},
-                "fallback_question": {"type": "object", "properties": {"text": {"type": "string"}, "why": {"type": "string"}}, "required": ["text", "why"]},
-                "scenes": {"type": "array", "items": {"type": "object", "properties": {"title": {"type": "string"}, "topics": {"type": "string"}, "lines": {"type": "array", "items": {"type": "object", "properties": {"who": {"type": "string", "enum": ["a", "b"]}, "text": {"type": "string"}, "humor": {"type": ["object", "null"], "properties": {"type": {"type": "string"}, "why": {"type": "string"}}}}, "required": ["who", "text"]}}}, "required": ["title", "topics", "lines"]}},
-                "drills": {"type": "array", "items": {"type": "object", "properties": {"q": {"type": "string"}, "hints": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "string"}, "note": {"type": "string"}}, "required": ["q", "answer", "note"]}},
-                "news": {"type": "array", "items": {"type": "object", "properties": {"kind": {"type": "string", "enum": ["talk", "know"]}, "tag": {"type": "string"}, "title": {"type": "string"}, "summary": {"type": "string"}, "context": {"type": "string"}, "source": {"type": "string"}, "url": {"type": "string"}}, "required": ["kind", "tag", "title", "summary", "context", "source", "url"]}},
-                "term": {"type": "object", "properties": {"word": {"type": "string"}, "meaning": {"type": "string"}, "example": {"type": "string"}}, "required": ["word", "meaning"]},
-                "weather_templates": {"type": "array", "items": {"type": "object", "properties": {"cond": {"type": "string", "enum": ["rain", "swing", "hot", "cold", "mild"]}, "text": {"type": "string"}, "explain": {"type": "string"}}, "required": ["cond", "text", "explain"]}},
-                "types": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "desc": {"type": "string"}}, "required": ["name", "desc"]}},
-            },
-            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "term", "weather_templates", "types"],
-        },
-    }
-    # 긴 출력은 스트리밍이 필요하다 (SDK 규칙)
+    guard = ("\n\n출력 규칙: 설명 없이 JSON 객체 하나만 출력하세요. 코드펜스(```)도 쓰지 마세요. "
+             "JSON 문자열 안의 한글은 \\u 이스케이프 없이 한글 그대로 씁니다. 첫 글자는 { 입니다.")
     with client.messages.stream(
-        model=MODEL, max_tokens=48000, system=system,
-        messages=[{"role": "user", "content": user + "\n\n반드시 write_malmun 도구를 호출해서 결과를 전달하세요. 다른 텍스트는 쓰지 마세요."}],
-        tools=[tool], tool_choice={"type": "auto"},
+        model=MODEL, max_tokens=32000, system=system,
+        messages=[{"role": "user", "content": user + guard}],
     ) as stream:
         resp = stream.get_final_message()
-    if resp.stop_reason == "max_tokens":
-        raise RuntimeError("출력이 max_tokens에서 잘렸습니다")
-    for b in resp.content:
-        if getattr(b, "type", "") == "tool_use":
-            return json.dumps(b.input, ensure_ascii=False)
-    # 도구를 안 썼으면 텍스트에서 JSON을 찾는다
     text = "".join(getattr(b, "text", "") for b in resp.content)
-    if "{" in text:
-        return text
-    raise RuntimeError(f"도구도 JSON도 없음. stop={resp.stop_reason} blocks={[getattr(b, 'type', '?') for b in resp.content]} text={text[:300]!r}")
+    if resp.stop_reason == "max_tokens":
+        raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) 앞={text[:200]!r} 뒤={text[-200:]!r}")
+    return text
 
 
 def generate_variant(today: datetime, items: list[dict[str, Any]], tone: str, strength: str, prev: dict | None) -> dict:
