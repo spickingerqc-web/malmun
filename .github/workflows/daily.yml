@@ -54,7 +54,12 @@ jobs:
           git add docs/data
           if git diff --cached --quiet; then
             echo "변경 없음"
-          else
-            git commit -m "data: $(TZ=Asia/Seoul date +%Y-%m-%d) 오늘의 말문"
-            git push
+            exit 0
           fi
+          git commit -m "data: $(TZ=Asia/Seoul date +%Y-%m-%d) 오늘의 말문"
+          # 생성 중에 main이 바뀌었을 수 있으니 받아 와서 다시 올린다 (최대 3번)
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1
