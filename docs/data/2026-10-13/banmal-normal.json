@@ -1,0 +1,398 @@
+{
+ "lede": "어제는 서울이 30도를 넘겼고 내일 아침은 9도라서, 오늘은 날씨 얘기만 꺼내도 말문이 열리는 날이에요.",
+ "today": {
+  "situation": "비 오는 날 누구를 만나든 첫마디",
+  "text": "어제 서울이 30도 넘었다더라. 근데 내일 아침엔 9도래. 옷을 하루 만에 두 계절치 챙겨야 해.",
+  "why": "숫자 두 개가 들어 있어서 상대가 몰라도 바로 알아듣고, 누구나 한마디 보탤 수 있어요.",
+  "explain": "어제(10월 12일) 서울 낮 기온이 30.1도였는데, 오늘 비가 내린 뒤 내일(14일) 아침 서울은 9도까지 떨어진대."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "어제 서울이 30도 넘었다더라. 근데 내일 아침엔 9도래.",
+    "explain": "어제 낮에 서울이 30.1도였는데, 오늘 비 오고 나서 기온이 확 떨어진대."
+   },
+   {
+    "topic": "생활·화제",
+    "safety": "가벼움",
+    "text": "민속촌에서 귀신이 애들을 혼냈더니 떼쓰기랑 편식이 줄었대.",
+    "explain": "한국민속촌 귀신 체험에서 귀신이 아이들을 타이르니까 애들이 말을 잘 듣게 됐다는 얘기야."
+   },
+   {
+    "topic": "과자·굿즈",
+    "safety": "상대가 관심 있을 때",
+    "text": "롯데웰푸드가 빼빼로를 책갈피로 만들었대. 가나는 키링이고.",
+    "explain": "과자 브랜드를 활용한 굿즈를 16종 새로 냈다는 소식이야."
+   }
+  ],
+  "어른·선배": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "어제 서울이 30도를 넘었다는데, 내일 아침은 9도래요. 옷 입기 참 애매한 때예요.",
+    "explain": "어제 낮 서울이 30.1도였고, 오늘 가을비가 지나고 나면 내일 아침은 9도까지 내려간다고 해요."
+   },
+   {
+    "topic": "산책",
+    "safety": "가벼움",
+    "text": "이번 17일부터 북악산이 전면 개방된다고 하더라고요. 59년 만이래요.",
+    "explain": "청와대 뒤쪽 북악산에서 마지막까지 막혀 있던 탐방로가 17일부터 열린대요."
+   },
+   {
+    "topic": "프로야구",
+    "safety": "상대가 관심 있을 때",
+    "text": "올해 프로야구 관중이 1,277만 명으로 역대 최다라고 하더라고요.",
+    "explain": "작년에도 1,200만 명이 넘었는데, 1년 만에 그 기록을 다시 넘었대요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "오늘 비 오네. 어제는 30도였는데 갑자기 쌀쌀하다.",
+    "explain": "어제 서울 낮 기온이 30.1도였대. 하루 만에 많이 달라졌지."
+   },
+   {
+    "topic": "요즘 화제",
+    "safety": "가벼움",
+    "text": "뉴스를 AI로 보는 사람이 7명 중 1명이래. 1년 새 두 배로 늘었대.",
+    "explain": "AI를 통해 뉴스를 보는 사람이 1년 전보다 두 배 늘었다는 얘기야."
+   },
+   {
+    "topic": "프로야구",
+    "safety": "상대가 관심 있을 때",
+    "text": "야구 좋아해? 올해 프로야구 관중이 1,277만 명으로 역대 최다래.",
+    "explain": "2년 연속 1,200만 명을 넘겼고 올해 기록을 또 새로 썼대."
+   }
+  ],
+  "직장·학교": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "내일 아침 서울이 9도래. 어제는 30도였는데.",
+    "explain": "오늘 비 오고 나면 기온이 크게 떨어진대. 어제 낮 서울이 30.1도였거든."
+   },
+   {
+    "topic": "생활·화제",
+    "safety": "가벼움",
+    "text": "민속촌 귀신 체험에서 애들 떼쓰기랑 편식이 줄었대.",
+    "explain": "한국민속촌에서 귀신이 아이들을 타이르니까 말을 잘 듣게 됐다는 얘기가 화제야."
+   },
+   {
+    "topic": "주말 계획",
+    "safety": "상대가 관심 있을 때",
+    "text": "이번 토요일부터 북악산 마지막 막힌 구간이 열린대. 59년 만이래.",
+    "explain": "청와대 뒤 북악산 탐방로 중 마지막까지 출입이 제한됐던 곳이 17일부터 열린대."
+   }
+  ],
+  "손님·고객": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "내일 아침 서울이 9도까지 내려간대요. 어제는 30도였는데 많이 다르죠?",
+    "explain": "어제 낮 서울이 30.1도였고, 오늘 비가 그친 뒤 기온이 뚝 떨어진다고 해요."
+   },
+   {
+    "topic": "산책·가을",
+    "safety": "가벼움",
+    "text": "17일부터 북악산이 전면 개방된대요. 걷기 좋은 계절에 맞춰 열리네요.",
+    "explain": "청와대 뒤쪽 북악산에서 마지막까지 막혀 있던 구간이 59년 만에 열린다고 해요."
+   },
+   {
+    "topic": "과자·굿즈",
+    "safety": "상대가 관심 있을 때",
+    "text": "롯데웰푸드에서 빼빼로 책갈피 같은 굿즈 16종이 나왔대요.",
+    "explain": "빼빼로는 책갈피로, 가나는 키링으로 나오는 식으로 과자 브랜드 굿즈를 새로 냈다고 해요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "갑자기 추워졌는데, 이럴 때 제일 먼저 꺼내 입는 옷이 뭐야?",
+  "why": "정답이 없고 한 단어로 답할 수 있어서 부담이 없어요. 답에 따라 옷이나 계절 이야기로 이어가기도 쉬워요."
+ },
+ "scenes": [
+  {
+   "title": "친구 모임 – 갑자기 추워진 날",
+   "topics": "날씨, 빼빼로 굿즈",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 서울이 30도 넘었다더라. 근데 내일 아침엔 9도래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "진짜? 어제 반팔 입었는데 내일은 뭘 입어야 해?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "내 옷장이 하루 만에 두 계절을 소화하게 생겼어. 야근 수당 줘야 할 듯.",
+     "humor": {
+      "type": "의인화",
+      "why": "옷장을 일하는 직원처럼 말해서, 하루에 계절이 바뀌는 번거로움을 부드럽게 웃어넘겨요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 우리 집 옷장도 파업 직전이야.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러고 보니 롯데웰푸드에서 빼빼로는 책갈피로, 가나는 키링으로 만들었대. 굿즈가 16종이래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "책갈피? 먹는 거 아니었어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "응, 이번엔 먹는 게 아니라 꽂아 두는 빼빼로야.",
+     "humor": {
+      "type": "반전",
+      "why": "빼빼로는 먹는 것이라는 기대를 뒤집어서, '꽂아 두는 빼빼로'라는 뜻밖의 표현이 웃음을 만들어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그래도 손이 먼저 갈 것 같은데.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "책갈피 하나 사 놓고 내 자제력을 시험해 봐야겠다.",
+     "humor": {
+      "type": "자조",
+      "why": "가볍게 자기 약점을 드러내는 정도라 부담 없이 웃을 수 있어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그 시험은 내가 먼저 떨어질 것 같아.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "직장 점심시간 – 썰렁했을 때 수습",
+   "topics": "민속촌 귀신 체험",
+   "lines": [
+    {
+     "who": "a",
+     "text": "한국민속촌 귀신이 애들을 참교육해서 떼쓰기랑 편식이 줄었대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "귀신이 참교육? 그게 무슨 말이야?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "민속촌 귀신 체험에서 귀신이 아이들을 타이르니까, 말 안 듣던 애가 울면서 약속까지 했대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "엄마 말보다 귀신 말이 더 잘 통하나 보네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 우리 팀에도 귀신 한 분 모실까? 회의 시간 칼같이 지킬 텐데.",
+     "humor": {
+      "type": "과장",
+      "why": "귀신을 회의 시간 관리자로 끌어들인 과장인데, 이번에는 반응이 없는 썰렁한 시도예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "음… 그러게.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 건 귀신이 나타나기 전에 내가 먼저 얼어붙었네. 아무튼 너는 어릴 때 편식했어?",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁한 순간을 인정하고 가볍게 웃어넘긴 뒤 곧바로 질문으로 화제를 돌려서 수습해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "당근이랑 가지를 못 먹었어. 지금도 가지는 좀 어려워.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "가지는 귀신이 와도 협상부터 해야겠다.",
+     "humor": {
+      "type": "능청",
+      "why": "진지한 얼굴로 가지와 귀신의 협상을 말해서, 담백하게 한 번 더 웃음을 얻어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "귀신이 먼저 포기할걸.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "비 오는 아침, 엘리베이터에서 옆 팀 동료와 마주쳤어요. 기온 변화를 사실로 넣어서 한마디 해 보세요.",
+   "hints": [
+    "어제 기온",
+    "내일 기온"
+   ],
+   "answer": "어제 서울 30도였는데 내일 아침엔 9도래.",
+   "note": "사실형 – 숫자 두 개만 넣어도 상대가 모르는 소식으로 대화를 열 수 있어요."
+  },
+  {
+   "q": "어른과 함께 있는 자리에서 존댓말로, 이번 주말에 갈 만한 곳 소식을 꺼내 보세요.",
+   "hints": [
+    "날짜",
+    "59년 만이라는 점"
+   ],
+   "answer": "이번 17일부터 북악산이 전면 개방된대요. 59년 만이래요.",
+   "note": "사실형 – 날짜와 숫자를 넣으면 '그게 뭔데요?'에도 한 줄로 설명할 수 있어요."
+  },
+  {
+   "q": "던진 농담에 정적이 흘렀어요. 어색함을 풀고 대화를 이어 가는 한마디를 해 보세요.",
+   "hints": [
+    "상황 인정하기",
+    "질문으로 돌리기"
+   ],
+   "answer": "방금 건 내가 먼저 얼어붙었네. 다시 갈게, 너는 요즘 뭐가 제일 맛있어?",
+   "note": "수습형 – 썰렁함을 가볍게 인정하고 바로 질문으로 화제를 바꿔요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨",
+   "title": "서울 30도 찍더니 비 그치면 9도, 롤러코스터 날씨",
+   "summary": "어제 서울은 30도를 넘겼는데, 가을비가 지나가고 나면 기온이 크게 떨어진다는 소식이에요. 널뛰는 이유도 함께 다뤘어요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2b1d3dTh5NFc0enFIS2xzd0h0NXBONkxsWjR5Y1AxN0NRNF9TZXBWUkJiMXZNUUlHYWpfQXdiYmhqZHgtNHNqclZFbmlsQTRIWHZoNVlUN3ozeGdpREE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "생활",
+   "title": "북악산 마지막 막힌 길, 17일부터 열려요",
+   "summary": "청와대 뒤 북악산에서 마지막까지 출입이 제한됐던 탐방로가 59년 만에 전면 개방돼요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wOGdFb01xWDFlR0ZldS1YTkVTVGVTU1piOFRqaVBUMTVocjNzcU1QVEREZEc4THN0ZXhhTEtWR3dSN05GV1F1a3lyaFZkdEhjd1IyaUJ2alVqcTU0YWc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "생활",
+   "title": "민속촌 귀신이 아이들을 타이르니 떼쓰기와 편식이 줄었대요",
+   "summary": "한국민속촌의 귀신 체험에서 아이들이 말을 잘 듣게 되는 뜻밖의 효과가 화제예요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zanhiRW9oODhUUV9JRE1OUE9fbnpNaVlaRTRkZ3d6VXhzcUVQYnlmYkVJNkVnMnpTODJlRHVGSkRLTjRZUWd5SjRLM3lnVHVXeE9SMWFpM1k5TGtpbmZneUJBQzFVeUZPUk9LSS11RTZGM1RUcWfSAWZBVV95cUxQOGlvUjQ1cnJiTk4wY1BtZlo4b3Y3QlpseV9mNmotVUliM3FDSGVxTzlaVW5SRGdHalNzMWVLcmlQYS1qTGQ5OV9KR3ltOFU2cGZEU1ptT212NHhFVkdGWGNBSktteHc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 관중 1,277만 명, 역대 최다",
+   "summary": "올해 프로야구 관중이 지난해 기록을 넘어 역대 가장 많았어요. 2년 연속 1,200만 명을 넘겼어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92QjVWemdrV3IyOUt4MWc0bTRyUDBMbG53aUpLYkxSa1ZCX0RGb2NGVmxxREloZWRvXzNfMU5sMGt4SXBMN0ZlTVVMTVR2bjRPX2tQR1hBWHhwVDDSAWBBVV95cUxQMXdoUUsyTUhsMUNMMUZ1LXU3QWlWcENRckdjcUR5cjZ0YUNVcWh5d3dhTWRQMjRSUWJ2b0ZiTFY1U3FBS1dyUV9KUWl1UHdJN0thZDROc2thTEpSR0F0dno?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "빼빼로는 책갈피, 가나는 키링으로 나왔대요",
+   "summary": "롯데웰푸드가 과자 브랜드를 활용한 이색 굿즈 16종을 새로 냈어요.",
+   "source": "매일일보",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOamllc0pDbmFueTItSVF4enNkYVZ4U3dKUWlVdi1SLWhWYU1tSWxyaUxlXzZVa0tSSXJSdmV1VDE5WGhnZ0JQenB4ano2eHppM2prc2VHNWdzbGRxeHdYcU5VN2c?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "생활·기술",
+   "title": "AI로 뉴스 보는 한국인 7명 중 1명, 1년 새 두 배",
+   "summary": "AI를 통해 뉴스를 접하는 사람이 1년 전보다 두 배로 늘어, 7명 중 1명꼴이 됐다는 소식이에요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtbm1zSTloWGlMemh5OGZMdmhRZWNLZ1l6YXhvQmxzeDZBaWdpQkxWV2k0dGo4SzBoSGZBWkRYLXp4eTRMeDhYcUdyVXVtZFlFTEZvbVYxclkzVkpwRWRWaFgzZTN0WDQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "새치기에 밀려 눈물 난 꼬마 팬을 달래 준 손흥민",
+   "summary": "줄에서 밀려 눈물이 터진 어린 팬을 손흥민 선수가 따뜻하게 달래 줘 화제가 됐어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2YkMwUHlPRmRYZXlwLWkzRUJBckh0Qk04cmZmUlIwWFV5R0wtbGxyc0ZURjQyQ1RWbl9BT1Z2bTMwM2VVZGhPcGJrTDZ2MnZfN25fc3ppdl9LdXM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "생활",
+   "title": "식당에서 쓰러진 손님을 옆자리 경찰관들이 도왔어요",
+   "summary": "짬뽕집에서 손님이 쓰러지자 옆자리에 있던 경찰관 네 명이 함께 나서 생명을 구했다는 소식이에요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GcEQtTEtobUxXUGZfZ3FtaHh3TVpEZWF3MTd4azVxZC0wUmg2dFgzWklwTXRjNlo2OERwalR6eEdIcTFvaWk1YkpTdXFmcHhOSVJzNmw4YUxXYVF5RzlsUEYyaHl6Zzg0bndVVkpKYmlxR3ZDN2JN0gF3QVVfeXFMTVBUZ1Q4UWE4aDZmcm84V09rMHNicWpFM3JCX2owMEduQnE4VHlWaU5yTzNzLU5WWS12QnFMVHAwZmVOeUF0bzlIa2swOUQwVWRYYklVRHdCNTBfT0NCVkpVQUxBckNKRjRzQmw3LWp6djZPNGlCVlk?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "교육·기술",
+   "title": "연세대 수시 시험장에서 AI 안경이 적발됐어요",
+   "summary": "대입 시험에서 AI 안경이 적발된 것은 이번이 처음이라고 해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0LUdSbzN5anJtS2tLdTE0RUZSRWxkaTU5bWMxUVp2SjBRclpseVpEM053S0hBbm9wbnpacm9kUEpLSmJ6ZHlZRkNMYVVrWkl3d09sSFRibUJqNjE5NzFXX0RNZ2NXTnVUekE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "건강",
+   "title": "쌀쌀해지는 날씨, 코로나19 국가예방접종 챙기라는 안내",
+   "summary": "기온이 내려가는 때에 맞춰 코로나19 국가예방접종을 챙기라는 정부 안내예요.",
+   "source": "정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMEZscy1UNGxEekNhWTluRF9wQWlTSlV0b1NqWUNvV0VYbG9fYm1yWFZzUG5CRXd4SlNQTlBWLWxQTEx5eldIbldVblRqdFQzRVUzRDVoT0RKb0J1bEUxMk5pYXJtWG53SGc?oc=5"
+  }
+ ],
+ "types": [
+  {
+   "name": "사실형",
+   "desc": "숫자나 날짜 같은 사실 하나로 시작해서, 상대가 몰라도 바로 알아듣게 해요."
+  },
+  {
+   "name": "질문형",
+   "desc": "답하기 쉬운 질문 하나로 상대에게 말할 차례를 넘겨요."
+  },
+  {
+   "name": "수습형",
+   "desc": "썰렁함을 가볍게 인정하고 질문으로 화제를 돌려요."
+  },
+  {
+   "name": "의인화",
+   "desc": "물건에 사람 역할을 줘서 일상 불편을 부드럽게 웃어넘겨요."
+  },
+  {
+   "name": "반전",
+   "desc": "예상하던 쓰임을 살짝 뒤집어서 웃음을 만들어요."
+  },
+  {
+   "name": "과장",
+   "desc": "상황을 조금 크게 말해서 가볍게 웃어요."
+  },
+  {
+   "name": "자조",
+   "desc": "내 약점을 가볍게 꺼내서 어색함을 풀어요."
+  },
+  {
+   "name": "능청",
+   "desc": "진지한 표정으로 엉뚱한 말을 해서 웃음을 줘요."
+  }
+ ],
+ "date": "2026-10-13",
+ "weekday": "화요일",
+ "tone": "banmal",
+ "strength": "normal",
+ "generated_at": "2026-10-13 15:40",
+ "model": "claude-sonnet-5-5"
+}
