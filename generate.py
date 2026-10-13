@@ -272,7 +272,8 @@ def main(argv: list[str]) -> int:
         only = argv[argv.index("--only") + 1]
 
     combos = [(t, s) for t in TONES for s in STRENGTHS]
-    failures = 0
+    log: list[str] = [f"run {datetime.now(KST).strftime('%Y-%m-%d %H:%M')} model={MODEL} items={len(items)}"]
+    attempted = failures = 0
     for tone, strength in combos:
         name = f"{tone}-{strength}"
         if only and name != only:
@@ -280,16 +281,26 @@ def main(argv: list[str]) -> int:
         target = out_dir / f"{name}.json"
         if target.exists() and "--force" not in argv:
             print(f"[skip] {name} 이미 있음")
+            log.append(f"skip {name}")
             continue
+        attempted += 1
         try:
             payload = generate_variant(today, items, tone, strength, prev)
             target.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"[ok] {name}")
+            log.append(f"ok {name}")
         except Exception as e:  # noqa: BLE001
             failures += 1
-            print(f"[fail] {name}: {e!r}", file=sys.stderr)
+            import traceback
+
+            msg = f"fail {name}: {e!r}\n{traceback.format_exc()[-1500:]}"
+            print("[" + msg, file=sys.stderr)
+            log.append(msg)
     write_index()
-    return 1 if failures == len(combos) else 0
+    runs_dir = DATA_DIR / "_runs"
+    runs_dir.mkdir(exist_ok=True)
+    (runs_dir / f"{date}.txt").write_text("\n".join(log) + "\n", encoding="utf-8")
+    return 1 if attempted and failures == attempted else 0
 
 
 if __name__ == "__main__":

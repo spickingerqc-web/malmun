@@ -10,6 +10,10 @@ on:
         description: "이미 있어도 다시 생성"
         type: boolean
         default: false
+      only:
+        description: "한 조합만 (예: banmal-normal)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -37,11 +41,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5-5' }}
         run: |
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            python generate.py --force
-          else
-            python generate.py
-          fi
+          ARGS=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
+          python generate.py $ARGS
 
       - name: 커밋
         run: |
