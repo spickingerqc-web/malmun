@@ -29,6 +29,7 @@ MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-5-5")
 DATA_DIR = Path(__file__).parent / "docs" / "data"
 WEEKDAYS = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]
 
+FIELDS = ["날씨·생활", "스포츠", "음악·K팝", "영화·드라마", "IT·과학", "음식", "경제·돈", "동물·신기한 이야기"]
 TONES = {"banmal": "반말", "jondae": "존댓말"}
 STRENGTHS = {"safe": "안전하게", "normal": "보통", "bold": "조금 과감하게"}
 SITUATIONS = ["친구 모임", "어른·선배", "처음 만난 사람", "직장·학교", "손님·고객"]
@@ -101,11 +102,16 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
 - 모든 한마디에는 상대가 "그게 뭔데?"라고 했을 때 10초 안에 말할 설명 한 줄(explain)을 붙입니다.
 - 뉴스는 "이런 게 있었대"로 가볍게 전달합니다. 날씨·계절·음식 같은 생활 소재도 좋지만, 한 소재가 여러 곳에 반복되면 안 됩니다.
 
+분야(field) 규칙
+- 모든 뉴스(news.tag)와 한마디(openers[].field)에는 다음 8개 분야 중 하나를 정확히 그 표기로 씁니다:
+  날씨·생활, 스포츠, 음악·K팝, 영화·드라마, IT·과학, 음식, 경제·돈, 동물·신기한 이야기
+- 사용자는 앱에서 관심 분야를 고르고, 앱이 분야별로 한마디를 골라 보여 줍니다. 그래서 분야가 고르게 섞여야 합니다.
+
 소재 다양성 규칙 (반드시 지킵니다)
-- news의 talk 7개는 서로 다른 분야(tag)여야 합니다. 같은 tag가 2개 이상이면 안 됩니다. 날씨는 최대 1개.
-- openers 5개 자리의 첫 번째 한마디는 서로 다른 소재여야 합니다. 날씨를 첫 번째로 쓰는 자리는 최대 2곳.
+- news의 talk 7개는 서로 다른 분야(tag)여야 합니다. 같은 tag가 2개 이상이면 안 됩니다.
+- openers는 자리마다 4개씩 쓰고, 한 자리 안의 4개는 서로 다른 분야여야 합니다. 5개 자리를 합쳐 8개 분야가 모두 최소 1번은 나와야 합니다.
+- 날씨·생활을 첫 번째로 쓰는 자리는 최대 2곳.
 - today(오늘의 한마디)와 lede(소개 문장)는 같은 소재를 반복하지 않습니다. lede는 오늘 소재 전체를 한 문장으로 훑습니다.
-- 한 자리 안의 3개 한마디도 서로 다른 소재로 씁니다.
 
 절대 규칙
 - 뉴스는 제공된 기사 목록 안에서만 고르고, 제목·요약에 없는 사실을 지어내지 않습니다.
@@ -123,7 +129,7 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
   "lede": "오늘 소개 한 문장",
   "today": {"situation": "상황 이름", "text": "오늘의 한마디", "why": "왜 이 말이 좋은지 한 줄", "explain": "상대가 모르면 이렇게 설명해요 한 줄"},
   "openers": {
-    "친구 모임": [{"topic": "소재", "safety": "가장 안전|가벼움|상대가 관심 있을 때", "text": "꺼낼 말", "explain": "모르면 이렇게"}],
+    "친구 모임": [{"field": "8개 분야 중 하나", "topic": "소재", "safety": "가장 안전|가벼움|상대가 관심 있을 때", "text": "꺼낼 말", "explain": "모르면 이렇게"}],
     "어른·선배": [...], "처음 만난 사람": [...], "직장·학교": [...], "손님·고객": [...]
   },
   "fallback_question": {"text": "말이 끊길 때 던질 질문 하나", "why": "왜 이 질문이 좋은지"},
@@ -133,11 +139,11 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
     ]}
   ],
   "drills": [{"q": "상황과 과제", "hints": ["힌트 유형 1", "힌트 유형 2"], "answer": "예시 한마디", "note": "유형과 설명 한 줄"}],
-  "news": [{"kind": "talk|know", "tag": "분야", "title": "요약형 제목", "summary": "한두 문장", "source": "언론사", "url": "링크"}],
+  "news": [{"kind": "talk|know", "tag": "8개 분야 중 하나 (know는 '알아만 두기')", "title": "요약형 제목", "summary": "한두 문장", "source": "언론사", "url": "링크"}],
   "types": [{"name": "유형", "desc": "한 줄"}]
 }
 
-분량: openers는 상황 5개 각각 3개(총 15). scenes 2개(각 8~10줄, 유머 2~3개, 둘 중 하나는 썰렁 수습 장면 포함).
+분량: openers는 상황 5개 각각 4개(총 20). scenes 2개(각 8~10줄, 유머 2~3개, 둘 중 하나는 썰렁 수습 장면 포함).
 drills 3개. news는 talk 7 + know 3. types는 오늘 쓴 유형만."""
 
 
@@ -199,12 +205,34 @@ def _validate(p: dict) -> list[str]:
     talk = [n for n in p.get("news", []) if n.get("kind") == "talk"]
     if len(talk) < 4:
         problems.append(f"talk 뉴스 {len(talk)}개로 부족(분야 중복 제거 후)")
-    firsts = [v[0].get("topic", "") for v in p.get("openers", {}).values() if v]
-    weather_firsts = sum(1 for t in firsts if "날씨" in t or "비" == t or "기온" in t)
-    if weather_firsts > 2:
-        problems.append(f"자리 첫 한마디 중 날씨가 {weather_firsts}곳 (최대 2)")
-    if len(set(firsts)) < max(1, len(firsts) - 1):
-        problems.append("자리별 첫 한마디 소재가 너무 겹침")
+    # 분야 표기 정규화 + 자리 안 분야 중복 제거
+    def norm_field(s: str) -> str:
+        s = (s or "").strip()
+        if s in FIELDS:
+            return s
+        for f in FIELDS:
+            if f.split("·")[0] in s or s in f:
+                return f
+        return "날씨·생활" if ("날씨" in s or "계절" in s) else "동물·신기한 이야기"
+    for sit, lst in p.get("openers", {}).items():
+        seen_f: set[str] = set()
+        kept = []
+        for o in lst:
+            o["field"] = norm_field(o.get("field") or o.get("topic", ""))
+            if o["field"] in seen_f:
+                continue
+            seen_f.add(o["field"])
+            kept.append(o)
+        p["openers"][sit] = kept
+    for n in p.get("news", []):
+        if n.get("kind") == "talk":
+            n["tag"] = norm_field(n.get("tag", ""))
+    all_fields = {o["field"] for lst in p.get("openers", {}).values() for o in lst}
+    if len(all_fields) < 6:
+        problems.append(f"분야가 {len(all_fields)}개뿐 (8개 중 최소 6개)")
+    firsts = [v[0].get("field", "") for v in p.get("openers", {}).values() if v]
+    if sum(1 for f in firsts if f == "날씨·생활") > 2:
+        problems.append("자리 첫 한마디 중 날씨·생활이 3곳 이상 (최대 2)")
     if len(p.get("scenes", [])) < 1:
         problems.append("scenes 없음")
     for s in p.get("scenes", []):

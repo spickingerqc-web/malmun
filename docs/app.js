@@ -3,6 +3,7 @@
   "use strict";
 
   var SITUATIONS = ["친구 모임", "어른·선배", "처음 만난 사람", "직장·학교", "손님·고객"];
+  var FIELDS = ["날씨·생활", "스포츠", "음악·K팝", "영화·드라마", "IT·과학", "음식", "경제·돈", "동물·신기한 이야기"];
   var REACTIONS = { good: "웃었다", ok: "그냥", bad: "썰렁" };
   var STORE_KEY = "malmun:v1";
   var $app = document.getElementById("app");
@@ -11,7 +12,7 @@
   // ---------- 저장소 ----------
   var state = load();
   function load() {
-    var base = { onboarded: false, situations: ["친구 모임", "처음 만난 사람"], tone: "banmal", strength: "safe",
+    var base = { onboarded: false, situations: ["친구 모임", "처음 만난 사람"], interests: [], tone: "banmal", strength: "safe",
       notify: false, notifyTime: "07:00", logs: [], done: {}, drafts: {}, lastData: null };
     try { var raw = localStorage.getItem(STORE_KEY); if (raw) return Object.assign(base, JSON.parse(raw)); } catch (e) {}
     return base;
@@ -29,6 +30,22 @@
   function weekStart(d) { d = new Date(d); var day = (d.getDay() + 6) % 7; d.setDate(d.getDate() - day); d.setHours(0, 0, 0, 0); return d; }
   function countInRange(from, to) { return state.logs.filter(function (l) { var t = new Date(l.ts); return t >= from && t < to; }).length; }
   function primarySituation() { return state.situations[0] || SITUATIONS[0]; }
+  function fieldOf(o) { return o.field || o.tag || o.topic || ""; }
+  function isInterest(o) { return state.interests.indexOf(fieldOf(o)) >= 0; }
+  // 관심 분야를 앞으로, 그 뒤에 나머지. 원래 순서는 유지.
+  function rankByInterest(list) {
+    if (!state.interests.length) return list.slice();
+    return list.filter(isInterest).concat(list.filter(function (o) { return !isInterest(o); }));
+  }
+  // 오늘의 한마디: 관심 분야 중 첫 번째. 관심 분야가 없는 날은 그냥 첫 번째.
+  function pickToday(list) { var r = rankByInterest(list); return r[0] || null; }
+  // 오늘의 새 소재: 관심 밖 분야 하나 (날짜로 돌아가며 고름)
+  function pickFresh(list) {
+    var out = list.filter(function (o) { return !isInterest(o); });
+    if (!out.length) return null;
+    var seed = parseInt((dataDate || "").replace(/-/g, ""), 10) || 0;
+    return out[seed % out.length];
+  }
 
   // ---------- 데이터 ----------
   var data = null, dataDate = null, dataWarning = "";
@@ -82,36 +99,50 @@
   function el(html) { var t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; }
 
   // ---------- 온보딩 ----------
+  var obStep = 1;
   views.onboarding = function () {
     var picked = state.situations.slice();
+    var pickedF = state.interests.slice();
+    var step1 = obStep === 1;
     var v = el('<div class="view dark">' +
       '<div class="row" style="gap:10px"><div style="width:34px;height:34px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center">' + I.logo.replace('viewBox', 'width="20" height="20" viewBox') + '</div><div class="display" style="font-size:1.25rem">말문</div></div>' +
       '<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:24px 0">' +
-        '<div class="eyebrow" style="color:var(--card-dark-accent)">시작하기</div>' +
-        '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">사람을 만나면<br>무슨 말을 해야 할지<br>막막한가요?</h1>' +
-        '<p style="color:var(--card-dark-muted);line-height:1.7">말문은 매일 아침, 그날 쓸 수 있는 한마디를 준비해 둬요. 외우는 게 아니라 꺼내 보는 연습이에요.<br>하루에 할 일은 딱 하나. 점수도, 틀린 답도 없어요.</p>' +
+        '<div class="eyebrow" style="color:var(--card-dark-accent)">' + (step1 ? "1 / 2" : "2 / 2") + '</div>' +
+        (step1
+          ? '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">사람을 만나면<br>무슨 말을 해야 할지<br>막막한가요?</h1>' +
+            '<p style="color:var(--card-dark-muted);line-height:1.7">말문은 매일 아침, 그날 쓸 수 있는 한마디를 준비해 둬요. 외우는 게 아니라 꺼내 보는 연습이에요.<br>하루에 할 일은 딱 하나. 점수도, 틀린 답도 없어요.</p>'
+          : '<h1 class="display" style="font-size:2rem;line-height:1.35;font-weight:400">어떤 이야기가<br>조금이라도<br>편한가요?</h1>' +
+            '<p style="color:var(--card-dark-muted);line-height:1.7">고른 분야의 한마디를 먼저 보여 드려요. 매일 하나씩은 다른 분야도 슬쩍 끼워 넣을게요. 화제가 넓어지는 건 그렇게 시작돼요.</p>') +
       '</div>' +
       '<div style="display:flex;flex-direction:column;gap:12px">' +
-        '<div class="small" style="color:#AAB4C3">주로 어떤 자리에서 어려우세요? (여러 개 가능)</div>' +
+        '<div class="small" style="color:#AAB4C3">' + (step1 ? "주로 어떤 자리에서 어려우세요? (여러 개 가능)" : "관심 분야 2~3개를 골라 주세요. 없으면 건너뛰어도 돼요.") + '</div>' +
         '<div class="chips" id="ob-chips"></div>' +
-        '<button class="btn big light" id="ob-start" style="margin-top:6px">시작하기</button>' +
+        '<div class="row" style="flex-wrap:nowrap;margin-top:6px">' + (step1 ? "" : '<button class="btn ghost onDark" id="ob-back" style="white-space:nowrap;min-width:72px">이전</button>') + '<button class="btn big light grow" id="ob-start">' + (step1 ? "다음" : "시작하기") + '</button></div>' +
         '<div class="xs" style="text-align:center;color:#8E99AB">회원가입 없이 바로 시작해요. 기록은 이 기기에만 저장돼요. <a href="#privacy" style="color:#C6CEDB">개인정보 처리방침</a></div>' +
       '</div></div>');
     var chips = v.querySelector("#ob-chips");
+    var items = step1 ? SITUATIONS : FIELDS, sel = step1 ? picked : pickedF;
     function draw() {
-      chips.innerHTML = SITUATIONS.map(function (s) { return '<button class="chip' + (picked.indexOf(s) >= 0 ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + "</button>"; }).join("");
+      chips.innerHTML = items.map(function (s) { return '<button class="chip' + (sel.indexOf(s) >= 0 ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + "</button>"; }).join("");
     }
     draw();
     chips.addEventListener("click", function (e) {
       var b = e.target.closest("button"); if (!b) return;
-      var s = b.dataset.s, i = picked.indexOf(s);
-      if (i >= 0) picked.splice(i, 1); else picked.push(s);
+      var s = b.dataset.s, i = sel.indexOf(s);
+      if (i >= 0) sel.splice(i, 1); else sel.push(s);
       draw();
     });
+    var back = v.querySelector("#ob-back");
+    if (back) back.addEventListener("click", function () { state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; }); obStep = 1; route(); });
     v.querySelector("#ob-start").addEventListener("click", function () {
-      if (!picked.length) { toast("하나만 골라 주세요"); return; }
-      state.situations = SITUATIONS.filter(function (s) { return picked.indexOf(s) >= 0; });
+      if (step1) {
+        if (!picked.length) { toast("하나만 골라 주세요"); return; }
+        state.situations = SITUATIONS.filter(function (s) { return picked.indexOf(s) >= 0; }); save();
+        obStep = 2; route(); return;
+      }
+      state.interests = FIELDS.filter(function (f) { return pickedF.indexOf(f) >= 0; });
       state.onboarded = true; save();
+      obStep = 1;
       location.hash = "#home";
     });
     return v;
@@ -121,8 +152,10 @@
   views.home = function () {
     if (!data) return noData("home");
     var sit = primarySituation();
-    var opener = (data.openers && data.openers[sit] && data.openers[sit][0]) || null;
-    var line = opener ? { text: opener.text, why: opener.safety ? opener.topic + " · " + opener.safety : opener.topic, explain: opener.explain, situation: sit } : data.today;
+    var pool = (data.openers && data.openers[sit]) || [];
+    var opener = pickToday(pool);
+    var fresh = pickFresh(pool);
+    var line = opener ? { text: opener.text, why: fieldOf(opener) + (opener.safety ? " · " + opener.safety : ""), explain: opener.explain, situation: sit } : data.today;
     var td = todayStr();
     var monthStart = new Date(); monthStart.setDate(1); monthStart.setHours(0, 0, 0, 0);
     var monthCount = countInRange(monthStart, new Date(8640000000000000));
@@ -146,6 +179,7 @@
         '<button class="check' + (done ? " on" : "") + '" id="home-done" aria-pressed="' + done + '" aria-label="오늘 할 것 완료 표시">' + (done ? I.check : "") + '</button>' +
         '<div style="min-width:0"><div style="font-weight:600">오늘 할 것은 하나예요</div><div class="small muted">' + (done ? "오늘은 꺼냈어요. 그걸로 충분해요." : "한 사람에게 저 한마디를 꺼내 보기. 반응은 중요하지 않아요.") + '</div></div>' +
       '</div>' +
+      (fresh && fresh !== opener ? '<div class="card" style="display:flex;flex-direction:column;gap:4px"><div class="row" style="justify-content:space-between"><span class="eyebrow">오늘의 새 소재</span><span class="tag">' + esc(fieldOf(fresh)) + '</span></div><div style="font-size:0.95rem">"' + esc(fresh.text) + '"</div><div class="xs muted">관심 분야 밖에서 하나. 안 써도 괜찮아요. 알아만 두세요.</div></div>' : "") +
       '<a class="small muted" href="#quick" style="text-align:center;font-weight:500">다른 자리, 다른 한마디 보기</a>' +
       '<div style="flex:1 1 auto"></div>' + tabbar("home") + '</div>');
     v.querySelector("#home-done").addEventListener("click", function () {
@@ -161,7 +195,7 @@
     if (!data) return noData("quick");
     var sits = state.situations.length ? state.situations : SITUATIONS;
     if (!quickSit || sits.indexOf(quickSit) < 0) quickSit = sits[0];
-    var list = (data.openers && data.openers[quickSit]) || [];
+    var list = rankByInterest((data.openers && data.openers[quickSit]) || []);
     if (quickPick >= list.length) quickPick = 0;
     var fq = data.fallback_question || { text: "요즘 뭐가 제일 재밌어?", why: "질문을 받으면 사람은 대부분 이야기를 시작해요." };
 
@@ -171,7 +205,7 @@
       '<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">꺼낼 말 하나</div><div class="list" id="q-list">' +
         list.map(function (o, i) {
           return '<button class="opener' + (i === quickPick ? " on" : "") + '" data-i="' + i + '" aria-pressed="' + (i === quickPick) + '">' +
-            '<span class="head"><span>' + esc(o.topic) + (o.safety ? " · " + esc(o.safety) : "") + '</span>' + (i === quickPick ? I.check.replace('viewBox', 'width="18" height="18" style="color:var(--accent)" viewBox') : "") + '</span>' +
+            '<span class="head"><span>' + esc(fieldOf(o)) + (o.safety ? " · " + esc(o.safety) : "") + (isInterest(o) ? " · 관심" : "") + '</span>' + (i === quickPick ? I.check.replace('viewBox', 'width="18" height="18" style="color:var(--accent)" viewBox') : "") + '</span>' +
             '<span class="text">"' + esc(o.text) + '"</span>' +
             (o.explain ? '<span class="explain"><b>모르면</b> ' + esc(o.explain) + '</span>' : "") + '</button>';
         }).join("") +
@@ -333,6 +367,7 @@
       '<div class="topbar"><a class="iconbtn" href="#log" aria-label="뒤로">' + I.back + '</a><div class="title">설정</div></div>' +
       '<div><div class="eyebrow" style="margin-bottom:8px">나에게 맞추기</div><div class="group">' +
         '<div class="grow-row"><div class="h">자주 있는 자리</div><div class="chips" id="s-sits">' + SITUATIONS.map(function (s) { return '<button class="chip' + (state.situations.indexOf(s) >= 0 ? " on" : "") + '" data-s="' + esc(s) + '">' + esc(s) + '</button>'; }).join("") + '</div><div class="d">첫 번째로 고른 자리가 홈의 "오늘의 한마디"에 쓰여요.</div></div>' +
+        '<div class="grow-row"><div class="h">관심 분야</div><div class="chips" id="s-fields">' + FIELDS.map(function (f) { return '<button class="chip' + (state.interests.indexOf(f) >= 0 ? " on" : "") + '" data-f="' + esc(f) + '">' + esc(f) + '</button>'; }).join("") + '</div><div class="d">고른 분야의 한마디를 먼저 보여 줘요. 하나도 안 고르면 골고루 보여요.</div></div>' +
         '<div class="grow-row"><div class="between"><div class="h">유머 강도</div></div><div class="seg" id="s-str"><button data-v="safe"' + (state.strength === "safe" ? ' class="on"' : "") + '>안전하게</button><button data-v="normal"' + (state.strength === "normal" ? ' class="on"' : "") + '>보통</button><button data-v="bold"' + (state.strength === "bold" ? ' class="on"' : "") + '>조금 과감하게</button></div><div class="d">안전하게: 날씨·계절·나를 낮추는 농담 위주. 상대를 소재로 삼지 않아요.</div></div>' +
         '<div class="grow-row"><div class="between"><div><div class="h">말투</div><div class="d">예시 대사를 어떤 말투로 볼지</div></div><div class="toggle2" id="s-tone"><button data-v="banmal"' + (state.tone === "banmal" ? ' class="on"' : "") + '>반말</button><button data-v="jondae"' + (state.tone === "jondae" ? ' class="on"' : "") + '>존댓말</button></div></div></div>' +
       '</div></div>' +
@@ -350,6 +385,11 @@
       var b = e.target.closest("button"); if (!b) return; var s = b.dataset.s, i = state.situations.indexOf(s);
       if (i >= 0) { if (state.situations.length === 1) { toast("하나는 남겨 두세요"); return; } state.situations.splice(i, 1); } else state.situations.push(s);
       state.situations = SITUATIONS.filter(function (x) { return state.situations.indexOf(x) >= 0; }); save(); route();
+    });
+    v.querySelector("#s-fields").addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return; var f = b.dataset.f, i = state.interests.indexOf(f);
+      if (i >= 0) state.interests.splice(i, 1); else state.interests.push(f);
+      state.interests = FIELDS.filter(function (x) { return state.interests.indexOf(x) >= 0; }); save(); route();
     });
     v.querySelector("#s-str").addEventListener("click", function (e) { var b = e.target.closest("button"); if (!b) return; state.strength = b.dataset.v; save(); loadData().then(route); });
     v.querySelector("#s-tone").addEventListener("click", function (e) { var b = e.target.closest("button"); if (!b) return; state.tone = b.dataset.v; save(); loadData().then(route); });
@@ -378,7 +418,7 @@
     return el('<div class="view"><div class="topbar"><a class="iconbtn" href="' + (state.onboarded ? "#settings" : "#onboarding") + '" aria-label="뒤로">' + I.back + '</a><div class="title">개인정보 처리방침</div></div>' +
       '<div class="card" style="display:flex;flex-direction:column;gap:10px;font-size:0.93rem">' +
       '<p><b>수집하는 정보</b><br>말문은 회원가입이 없고, 이름·이메일·연락처를 수집하지 않아요.</p>' +
-      '<p><b>기기에만 저장되는 정보</b><br>내가 고른 자리, 말투, 유머 강도, 내 기록(한마디·반응·날짜)은 이 기기의 브라우저 저장소에만 저장돼요. 서버로 보내지 않아요. 앱 데이터를 지우거나 "모든 기록 지우기"를 누르면 사라져요.</p>' +
+      '<p><b>기기에만 저장되는 정보</b><br>내가 고른 자리, 관심 분야, 말투, 유머 강도, 내 기록(한마디·반응·날짜)은 이 기기의 브라우저 저장소에만 저장돼요. 서버로 보내지 않아요. 앱 데이터를 지우거나 "모든 기록 지우기"를 누르면 사라져요.</p>' +
       '<p><b>서버에서 받는 정보</b><br>매일 생성되는 뉴스 요약과 대화 예시 파일을 내려받기만 해요. 이때 일반적인 웹 접속 기록(접속 시각, IP) 외에 개인을 식별하는 정보는 전송되지 않아요.</p>' +
       '<p><b>제3자</b><br>글꼴은 Google Fonts에서 불러와요. 내용 생성에는 Anthropic Claude API가 쓰이지만, 사용자의 기록은 전달되지 않아요.</p>' +
       '<p><b>이 앱은 치료 도구가 아니에요</b><br>말문은 대화 소재와 연습을 돕는 앱이에요. 마음이 많이 힘들다면 전문가의 도움을 받는 것이 좋아요.</p>' +
