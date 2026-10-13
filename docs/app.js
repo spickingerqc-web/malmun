@@ -68,6 +68,7 @@
     home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>',
     talk: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>',
     pen: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
+    globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>',
     log: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h14v16H5z"/><path d="M9 9h6M9 13h6M9 17h3"/></svg>',
     back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',
     gear: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>',
@@ -78,8 +79,8 @@
   };
 
   function tabbar(active) {
-    var tabs = [["home", "홈", I.home], ["talk", "대화", I.talk], ["practice", "연습", I.pen], ["log", "기록", I.log]];
-    return '<nav class="tabbar" aria-label="주 메뉴">' + tabs.map(function (t) {
+    var tabs = [["home", "홈", I.home], ["world", "세상", I.globe], ["talk", "대화", I.talk], ["practice", "연습", I.pen], ["log", "기록", I.log]];
+    return '<nav class="tabbar five" aria-label="주 메뉴">' + tabs.map(function (t) {
       return '<a href="#' + t[0] + '"' + (active === t[0] ? ' class="on" aria-current="page"' : "") + ">" + t[2] + t[1] + "</a>";
     }).join("") + "</nav>";
   }
@@ -262,10 +263,8 @@
     var scenes = data.scenes || [];
     if (talkIdx >= scenes.length) talkIdx = 0;
     var s = scenes[talkIdx];
-    var knowCount = (data.news || []).filter(function (n) { return n.kind === "know"; }).length;
     var v = el('<div class="view">' +
       '<div><div class="topbar"><div><div class="title">이렇게 흘러가요</div><div class="sub">주황 테두리가 웃음 포인트예요. 외우지 말고 "왜"만 가져가세요.</div></div></div></div>' +
-      (data.lede ? '<p class="small muted">' + esc(data.lede) + '</p>' : "") +
       '<div class="chips scroll" id="t-tabs">' + scenes.map(function (sc, i) { return '<button class="chip' + (i === talkIdx ? " on" : "") + '" data-i="' + i + '">' + esc(sc.title) + '</button>'; }).join("") + '</div>' +
       (s ? '<div class="talk" id="t-lines">' + s.lines.map(function (ln, i) {
         var h = ln.humor, key = talkIdx + ":" + i;
@@ -276,11 +275,7 @@
         '</div>';
       }).join("") + '</div>' : '<div class="empty">오늘 대화 예시가 없어요.</div>') +
       (s ? '<div class="card" style="display:flex;justify-content:space-between;align-items:center;gap:10px;border-style:dashed"><div class="small muted" style="min-width:0">이 대화의 소재: ' + esc(s.topics) + '</div><a class="btn tiny" href="#practice" style="background:var(--teal-soft);color:var(--teal-ink)">내 말로 해 보기</a></div>' : "") +
-      '<details class="fold"><summary>오늘의 뉴스 <small>' + (data.news || []).length + '개 · 알아만 두기 ' + knowCount + '</small></summary><div class="list" style="margin-top:12px">' +
-        (data.news || []).map(function (n) {
-          var know = n.kind === "know";
-          return '<div class="entry"><div class="row" style="gap:6px"><span class="tag' + (know ? " know" : "") + '">' + (know ? "알아만 두기" : esc(n.tag)) + '</span><strong style="font-size:0.93rem">' + esc(n.title) + '</strong></div><div class="small">' + esc(n.summary) + '</div>' + (n.url ? '<a class="xs" href="' + esc(n.url) + '" target="_blank" rel="noopener">출처: ' + esc(n.source || "기사") + '</a>' : "") + '</div>';
-        }).join("") + '</div><div class="note" style="margin-top:10px">"알아만 두기"는 알고는 있되 유머 소재로는 쓰지 않는 소식이에요.</div></details>' +
+      '<a class="small muted" href="#world" style="text-align:center;font-weight:500">오늘 소식 전체는 세상 탭에서</a>' +
       '<div style="flex:1 1 auto"></div>' + tabbar("talk") + '</div>');
     v.querySelector("#t-tabs").addEventListener("click", function (e) { var b = e.target.closest("button"); if (!b) return; talkIdx = +b.dataset.i; route(); });
     var lines = v.querySelector("#t-lines");
@@ -289,6 +284,38 @@
       if (b.dataset.why) { whyOpen[b.dataset.why] = !whyOpen[b.dataset.why]; route(); }
       if (b.dataset.save) { addLog(b.dataset.save, b.dataset.sit, "", false); toast("기록에 저장했어요"); }
     });
+    return v;
+  };
+
+  // ---------- 세상 ----------
+  var worldOpen = {};
+  views.world = function () {
+    if (!data) return noData("world");
+    var news = data.news || [];
+    var know = news.filter(function (n) { return n.kind === "know"; });
+    var talk = rankByInterest(news.filter(function (n) { return n.kind !== "know"; }));
+    var term = data.term;
+    function item(n, i) {
+      var key = n.kind + i, open = !!worldOpen[key], know = n.kind === "know";
+      return '<div class="entry">' +
+        '<div class="row" style="gap:6px"><span class="tag' + (know ? " know" : "") + '">' + (know ? "알아 두기" : esc(n.tag)) + '</span><strong style="font-size:0.95rem;min-width:0">' + esc(n.title) + '</strong></div>' +
+        '<div class="small">' + esc(n.summary) + '</div>' +
+        (n.context ? (open ? '<div class="small" style="background:var(--bg);border-radius:10px;padding:10px 12px;line-height:1.6"><b style="font-weight:600">배경</b> · ' + esc(n.context) + '</div>' : "") +
+          '<div class="row"><button class="linkbtn" data-w="' + key + '">' + (open ? "접기" : "왜 중요한지 보기") + '</button>' + (n.url ? '<a class="xs" href="' + esc(n.url) + '" target="_blank" rel="noopener">출처: ' + esc(n.source || "기사") + '</a>' : "") + '</div>'
+          : (n.url ? '<a class="xs" href="' + esc(n.url) + '" target="_blank" rel="noopener">출처: ' + esc(n.source || "기사") + '</a>' : "")) +
+      '</div>';
+    }
+    var v = el('<div class="view">' +
+      '<div class="topbar"><div><div class="title">오늘의 세상</div><div class="sub">5분이면 돼요. 다 몰라도 괜찮고, 하나만 건져도 충분해요.</div></div></div>' +
+      (data.lede ? '<p class="small muted">' + esc(data.lede) + '</p>' : "") +
+      (term ? '<div class="card hero" style="box-shadow:none;gap:8px"><div class="eyebrow">오늘의 용어</div><div class="display" style="font-size:1.3rem">' + esc(term.word) + '</div><div class="small" style="color:var(--card-dark-muted)">' + esc(term.meaning) + '</div>' + (term.example ? '<div class="small"><b style="color:var(--card-dark-accent);font-weight:600">이렇게 써요</b> · ' + esc(term.example) + '</div>' : "") + '</div>' : "") +
+      '<div class="sechead"><h2>알아 두면 좋은 소식</h2><p>중요한 소식. 유머 없이 사실만</p></div>' +
+      '<div class="list" id="w-know">' + (know.length ? know.map(item).join("") : '<div class="empty">오늘은 없어요.</div>') + '</div>' +
+      '<div class="sechead"><h2>꺼내도 되는 소식</h2><p>가볍게 말해도 괜찮은 것</p></div>' +
+      '<div class="list" id="w-talk">' + talk.map(item).join("") + '</div>' +
+      '<div class="note">AI가 뉴스 RSS로 모은 기사를 요약·설명한 거예요. 중요한 내용은 출처에서 확인하세요.</div>' +
+      '<div style="flex:1 1 auto"></div>' + tabbar("world") + '</div>');
+    v.addEventListener("click", function (e) { var b = e.target.closest("button[data-w]"); if (!b) return; worldOpen[b.dataset.w] = !worldOpen[b.dataset.w]; route(); });
     return v;
   };
 

@@ -199,6 +199,7 @@ details.fold > summary small { font-weight: 400; color: var(--muted); font-size:
   position: sticky; bottom: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
   background: var(--surface); border-top: 1px solid var(--line); padding: 8px 8px calc(10px + env(safe-area-inset-bottom, 0px));
 }
+.tabbar.five { grid-template-columns: repeat(5, minmax(0, 1fr)); padding-inline: 4px; }
 .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 3px; min-height: 48px; font-size: 0.7rem; font-weight: 500; color: var(--muted); }
 .tabbar a.on { color: var(--accent); font-weight: 600; }
 .tabbar svg { width: 24px; height: 24px; }

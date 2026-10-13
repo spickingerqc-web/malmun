@@ -139,12 +139,19 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
     ]}
   ],
   "drills": [{"q": "상황과 과제", "hints": ["힌트 유형 1", "힌트 유형 2"], "answer": "예시 한마디", "note": "유형과 설명 한 줄"}],
-  "news": [{"kind": "talk|know", "tag": "8개 분야 중 하나 (know는 '알아만 두기')", "title": "요약형 제목", "summary": "한두 문장", "source": "언론사", "url": "링크"}],
+  "news": [{"kind": "talk|know", "tag": "8개 분야 중 하나 (know는 '알아만 두기')", "title": "요약형 제목", "summary": "한두 문장", "context": "배경과 왜 중요한지 2~3문장. 세상 돌아가는 걸 모르는 사람에게 설명하듯, 중립적으로", "source": "언론사", "url": "링크"}],
+  "term": {"word": "오늘 뉴스에 나온 용어 하나", "meaning": "쉬운 말로 한두 문장", "example": "대화에서 쓰는 예 한 문장"},
   "types": [{"name": "유형", "desc": "한 줄"}]
 }
 
+"세상" 탭 규칙 (news와 term)
+- 사용자는 세상 돌아가는 걸 잘 모르는 사람입니다. context는 전제 지식 없이 읽히게, 고유명사엔 짧은 설명을 붙입니다.
+- know(알아만 두기)는 5개: 정치·경제·사회에서 오늘 가장 중요한 소식. 유머 없이, 한쪽 편을 들지 않고, 사실과 쟁점만 씁니다.
+  정치 소식은 "누가 무엇을 했고, 찬성 쪽과 반대 쪽은 각각 뭐라 하는지"로 씁니다.
+- term은 오늘 뉴스에 실제로 나온 말에서 고릅니다. 너무 쉬운 말(예: 날씨)은 피합니다.
+
 분량: openers는 상황 5개 각각 4개(총 20). scenes 2개(각 8~10줄, 유머 2~3개, 둘 중 하나는 썰렁 수습 장면 포함).
-drills 3개. news는 talk 7 + know 3. types는 오늘 쓴 유형만."""
+drills 3개. news는 talk 7 + know 5 (모두 context 포함). term 1개. types는 오늘 쓴 유형만."""
 
 
 def tone_instruction(tone: str, strength: str) -> str:
@@ -205,6 +212,11 @@ def _validate(p: dict) -> list[str]:
     talk = [n for n in p.get("news", []) if n.get("kind") == "talk"]
     if len(talk) < 4:
         problems.append(f"talk 뉴스 {len(talk)}개로 부족(분야 중복 제거 후)")
+    know = [n for n in p.get("news", []) if n.get("kind") == "know"]
+    if len(know) < 3:
+        problems.append(f"알아만 두기 {len(know)}개로 부족(최소 3)")
+    if sum(1 for n in p.get("news", []) if not n.get("context")) > 2:
+        problems.append("context 없는 뉴스가 3개 이상")
     # 분야 표기 정규화 + 자리 안 분야 중복 제거
     def norm_field(s: str) -> str:
         s = (s or "").strip()
@@ -264,10 +276,11 @@ def call_claude(system: str, user: str) -> str:
                 "fallback_question": {"type": "object", "properties": {"text": {"type": "string"}, "why": {"type": "string"}}, "required": ["text", "why"]},
                 "scenes": {"type": "array", "items": {"type": "object", "properties": {"title": {"type": "string"}, "topics": {"type": "string"}, "lines": {"type": "array", "items": {"type": "object", "properties": {"who": {"type": "string", "enum": ["a", "b"]}, "text": {"type": "string"}, "humor": {"type": ["object", "null"], "properties": {"type": {"type": "string"}, "why": {"type": "string"}}}}, "required": ["who", "text"]}}}, "required": ["title", "topics", "lines"]}},
                 "drills": {"type": "array", "items": {"type": "object", "properties": {"q": {"type": "string"}, "hints": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "string"}, "note": {"type": "string"}}, "required": ["q", "answer", "note"]}},
-                "news": {"type": "array", "items": {"type": "object", "properties": {"kind": {"type": "string", "enum": ["talk", "know"]}, "tag": {"type": "string"}, "title": {"type": "string"}, "summary": {"type": "string"}, "source": {"type": "string"}, "url": {"type": "string"}}, "required": ["kind", "tag", "title", "summary", "source", "url"]}},
+                "news": {"type": "array", "items": {"type": "object", "properties": {"kind": {"type": "string", "enum": ["talk", "know"]}, "tag": {"type": "string"}, "title": {"type": "string"}, "summary": {"type": "string"}, "context": {"type": "string"}, "source": {"type": "string"}, "url": {"type": "string"}}, "required": ["kind", "tag", "title", "summary", "context", "source", "url"]}},
+                "term": {"type": "object", "properties": {"word": {"type": "string"}, "meaning": {"type": "string"}, "example": {"type": "string"}}, "required": ["word", "meaning"]},
                 "types": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "desc": {"type": "string"}}, "required": ["name", "desc"]}},
             },
-            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "types"],
+            "required": ["lede", "today", "openers", "fallback_question", "scenes", "drills", "news", "term", "types"],
         },
     }
     # 긴 출력은 스트리밍이 필요하다 (SDK 규칙)
