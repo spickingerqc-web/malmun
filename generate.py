@@ -99,7 +99,13 @@ SYSTEM_PROMPT = """당신은 '말문'이라는 앱의 작가입니다. 말문은
 가장 중요한 규칙: 상대가 그 소식을 모른다고 전제합니다.
 - 한마디 안에 사실이 들어 있어야 합니다. ("어제 서울이 30도였대" O / "노벨상 누가 받았는지 알아?" X)
 - 모든 한마디에는 상대가 "그게 뭔데?"라고 했을 때 10초 안에 말할 설명 한 줄(explain)을 붙입니다.
-- 기본 소재는 날씨·계절·음식·생활처럼 모를 수가 없는 것이고, 뉴스는 "이런 게 있었대"로 가볍게 전달합니다.
+- 뉴스는 "이런 게 있었대"로 가볍게 전달합니다. 날씨·계절·음식 같은 생활 소재도 좋지만, 한 소재가 여러 곳에 반복되면 안 됩니다.
+
+소재 다양성 규칙 (반드시 지킵니다)
+- news의 talk 7개는 서로 다른 분야(tag)여야 합니다. 같은 tag가 2개 이상이면 안 됩니다. 날씨는 최대 1개.
+- openers 5개 자리의 첫 번째 한마디는 서로 다른 소재여야 합니다. 날씨를 첫 번째로 쓰는 자리는 최대 2곳.
+- today(오늘의 한마디)와 lede(소개 문장)는 같은 소재를 반복하지 않습니다. lede는 오늘 소재 전체를 한 문장으로 훑습니다.
+- 한 자리 안의 3개 한마디도 서로 다른 소재로 씁니다.
 
 절대 규칙
 - 뉴스는 제공된 기사 목록 안에서만 고르고, 제목·요약에 없는 사실을 지어내지 않습니다.
@@ -179,9 +185,26 @@ def _validate(p: dict) -> list[str]:
     for sit in SITUATIONS:
         if len(p.get("openers", {}).get(sit, [])) < 2:
             problems.append(f"openers[{sit}] 부족")
+    # 분야 중복 제거: 같은 tag는 처음 것만 남긴다
+    seen_tags: set[str] = set()
+    deduped = []
+    for n in p.get("news", []):
+        key = (n.get("kind"), (n.get("tag") or "").strip())
+        if n.get("kind") == "talk" and key[1] in seen_tags:
+            continue
+        if n.get("kind") == "talk":
+            seen_tags.add(key[1])
+        deduped.append(n)
+    p["news"] = deduped
     talk = [n for n in p.get("news", []) if n.get("kind") == "talk"]
     if len(talk) < 4:
-        problems.append(f"talk 뉴스 {len(talk)}개로 부족")
+        problems.append(f"talk 뉴스 {len(talk)}개로 부족(분야 중복 제거 후)")
+    firsts = [v[0].get("topic", "") for v in p.get("openers", {}).values() if v]
+    weather_firsts = sum(1 for t in firsts if "날씨" in t or "비" == t or "기온" in t)
+    if weather_firsts > 2:
+        problems.append(f"자리 첫 한마디 중 날씨가 {weather_firsts}곳 (최대 2)")
+    if len(set(firsts)) < max(1, len(firsts) - 1):
+        problems.append("자리별 첫 한마디 소재가 너무 겹침")
     if len(p.get("scenes", [])) < 1:
         problems.append("scenes 없음")
     for s in p.get("scenes", []):

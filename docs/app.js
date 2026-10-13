@@ -127,7 +127,6 @@
     var monthStart = new Date(); monthStart.setDate(1); monthStart.setHours(0, 0, 0, 0);
     var monthCount = countInRange(monthStart, new Date(8640000000000000));
     var done = !!state.done[td];
-    var talkNews = (data.news || []).filter(function (n) { return n.kind !== "know"; }).slice(0, 3);
 
     var v = el('<div class="view">' +
       '<div class="between" style="align-items:flex-end">' +
@@ -136,7 +135,6 @@
       '</div>' +
       (dataWarning ? '<div class="note">' + esc(dataWarning) + '</div>' : "") +
       (dataDate !== td ? '<div class="note">오늘 내용이 아직 준비되지 않아 ' + esc(fmtShort(dataDate)) + ' 내용을 보여 드려요.</div>' : "") +
-      (data.lede ? '<p class="small muted">' + esc(data.lede) + '</p>' : "") +
       '<div class="card hero">' +
         '<div class="meta"><span class="eyebrow">오늘의 한마디</span><span>' + esc(line.situation || sit) + '</span></div>' +
         '<div class="line">"' + esc(line.text) + '"</div>' +
@@ -148,10 +146,7 @@
         '<button class="check' + (done ? " on" : "") + '" id="home-done" aria-pressed="' + done + '" aria-label="오늘 할 것 완료 표시">' + (done ? I.check : "") + '</button>' +
         '<div style="min-width:0"><div style="font-weight:600">오늘 할 것은 하나예요</div><div class="small muted">' + (done ? "오늘은 꺼냈어요. 그걸로 충분해요." : "한 사람에게 저 한마디를 꺼내 보기. 반응은 중요하지 않아요.") + '</div></div>' +
       '</div>' +
-      '<div style="display:flex;flex-direction:column;gap:10px">' +
-        '<div class="sechead"><h2>오늘 알아두면 좋은 소재</h2><a class="small" href="#talk" style="font-weight:500">전체 보기</a></div>' +
-        '<div class="list">' + talkNews.map(function (n) { return '<div class="item"><span class="tag">' + esc(n.tag) + '</span><div class="t">' + esc(n.title) + '</div></div>'; }).join("") + '</div>' +
-      '</div>' +
+      '<a class="small muted" href="#quick" style="text-align:center;font-weight:500">다른 자리, 다른 한마디 보기</a>' +
       '<div style="flex:1 1 auto"></div>' + tabbar("home") + '</div>');
     v.querySelector("#home-done").addEventListener("click", function () {
       if (state.done[td]) { delete state.done[td]; save(); route(); return; }
@@ -236,6 +231,7 @@
     var knowCount = (data.news || []).filter(function (n) { return n.kind === "know"; }).length;
     var v = el('<div class="view">' +
       '<div><div class="topbar"><div><div class="title">이렇게 흘러가요</div><div class="sub">주황 테두리가 웃음 포인트예요. 외우지 말고 "왜"만 가져가세요.</div></div></div></div>' +
+      (data.lede ? '<p class="small muted">' + esc(data.lede) + '</p>' : "") +
       '<div class="chips scroll" id="t-tabs">' + scenes.map(function (sc, i) { return '<button class="chip' + (i === talkIdx ? " on" : "") + '" data-i="' + i + '">' + esc(sc.title) + '</button>'; }).join("") + '</div>' +
       (s ? '<div class="talk" id="t-lines">' + s.lines.map(function (ln, i) {
         var h = ln.humor, key = talkIdx + ":" + i;
