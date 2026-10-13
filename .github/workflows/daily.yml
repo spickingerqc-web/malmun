@@ -1,0 +1,56 @@
+name: 오늘의 말문 생성
+
+on:
+  schedule:
+    # 매일 06:30 KST = 21:30 UTC (전날)
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "이미 있어도 다시 생성"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 생성
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5-5' }}
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python generate.py --force
+          else
+            python generate.py
+          fi
+
+      - name: 커밋
+        run: |
+          git config user.name "malmun-bot"
+          git config user.email "malmun-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: $(TZ=Asia/Seoul date +%Y-%m-%d) 오늘의 말문"
+            git push
+          fi
