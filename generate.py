@@ -284,7 +284,7 @@ def call_claude(system: str, user: str) -> str:
     with client.messages.stream(
         model=MODEL, max_tokens=int(os.getenv("MAX_TOKENS", "32000")), system=system,
         messages=[{"role": "user", "content": user + guard}],
-        thinking={"type": "disabled"},
+        thinking={"type": "between_tools"},
         output_config={"effort": "medium"},
     ) as stream:
         resp = stream.get_final_message()
