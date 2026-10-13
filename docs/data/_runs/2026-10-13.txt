@@ -1,4 +1,4 @@
-run 2026-10-13 15:26 model=claude-sonnet-5-5 items=72
+run 2026-10-13 15:33 model=claude-sonnet-5-5 items=72
 fail banmal-normal: ValueError('Streaming is required for operations that may take longer than 10 minutes. See https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python#long-requests for more details')
 Traceback (most recent call last):
   File "/home/runner/work/malmun/malmun/generate.py", line 320, in main
