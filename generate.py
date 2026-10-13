@@ -281,13 +281,16 @@ def call_claude(system: str, user: str) -> str:
     guard = ("\n\n출력 규칙: 설명 없이 JSON 객체 하나만 출력하세요. 코드펜스(```)도 쓰지 마세요. "
              "JSON 문자열 안의 한글은 \\u 이스케이프 없이 한글 그대로 씁니다. 첫 글자는 { 입니다.")
     with client.messages.stream(
-        model=MODEL, max_tokens=32000, system=system,
+        model=MODEL, max_tokens=int(os.getenv("MAX_TOKENS", "32000")), system=system,
         messages=[{"role": "user", "content": user + guard}],
     ) as stream:
         resp = stream.get_final_message()
     text = "".join(getattr(b, "text", "") for b in resp.content)
+    kinds = [(getattr(b, "type", "?"), len(getattr(b, "text", "") or getattr(b, "thinking", "") or "")) for b in resp.content]
+    usage = getattr(resp, "usage", None)
     if resp.stop_reason == "max_tokens":
-        raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) 앞={text[:200]!r} 뒤={text[-200:]!r}")
+        raise RuntimeError(f"출력이 max_tokens에서 잘렸습니다 (len={len(text)}) blocks={kinds} usage={usage} 앞={text[:200]!r} 뒤={text[-200:]!r}")
+    print(f"[claude] blocks={kinds} usage={usage}")
     return text
 
 
