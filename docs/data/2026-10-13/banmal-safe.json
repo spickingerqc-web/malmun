@@ -1,83 +1,373 @@
 {
+ "lede": "어제 서울은 30도였는데 내일 아침은 9도래요. 오늘은 이 널뛰는 날씨 얘기로 말문을 열어 봐요.",
+ "today": {
+  "situation": "누구를 만나든 첫마디",
+  "text": "어제 서울이 30도였대. 근데 내일 아침엔 9도래. 내 옷장이 아직 계절을 못 정했어.",
+  "why": "누구나 겪는 날씨에 숫자만 얹으면, 상대가 몰랐어도 바로 이해하고 한마디 받아주기 쉬워.",
+  "explain": "어제(10월 12일) 서울 낮 기온이 30.1도였는데, 오늘 가을비가 오고 내일(10월 14일) 아침엔 서울이 9도까지 내려간대."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "어제 서울이 30도가 넘었대. 근데 내일 아침엔 9도래.",
+    "explain": "어제 서울 낮 기온이 30.1도였는데, 오늘 비 오고 나면 내일 아침은 9도까지 떨어진대."
+   },
+   {
+    "topic": "과자 굿즈",
+    "safety": "가벼움",
+    "text": "빼빼로가 책갈피로도 나온대. 먹는 건 줄만 알았는데 이제 읽는 데도 쓰이나 봐.",
+    "explain": "롯데웰푸드가 빼빼로 책갈피, 가나 키링 같은 이색 굿즈를 16종 냈대."
+   },
+   {
+    "topic": "민속촌 귀신",
+    "safety": "상대가 관심 있을 때",
+    "text": "민속촌에서 귀신이 타이르면 애들 떼쓰기랑 편식이 줄어든대. 효과가 엄청난가 봐.",
+    "explain": "한국민속촌의 '귀신 참교육'이 화제인데, 귀신이 타이르면 아이들이 떼쓰기나 편식을 덜 한다는 반응이 나왔대."
+   }
+  ],
+  "어른·선배": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "선배님, 내일 아침엔 서울이 9도까지 내려간대요. 어제는 30도가 넘었는데 말이에요.",
+    "explain": "어제 서울 낮 기온이 30.1도였고, 오늘 가을비가 온 뒤 내일 아침 기온이 9도로 뚝 떨어진다고 해요."
+   },
+   {
+    "topic": "프로야구",
+    "safety": "상대가 관심 있을 때",
+    "text": "올해 프로야구 관중이 1,277만 명으로 역대 최다래요. 야구장이 정말 북적였나 봐요.",
+    "explain": "올해 프로야구 총관중이 1천277만 명으로 역대 가장 많은 기록을 세웠다고 해요."
+   },
+   {
+    "topic": "AI 서비스",
+    "safety": "가벼움",
+    "text": "카카오톡에 말로 주문이랑 예약까지 해 주는 AI가 들어온다고 하더라고요.",
+    "explain": "카톡에 한국형 AI 에이전트가 도입돼서, 말로 주문이나 예약을 할 수 있게 된다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "topic": "비 오는 날",
+    "safety": "가장 안전",
+    "text": "오늘 비 오고 바람도 불어서 많이 쌀쌀하대. 이런 날엔 따뜻한 국물이 생각나더라.",
+    "explain": "오늘 전국에 가을비가 내리고 찬 바람이 불어서 쌀쌀하다고 해."
+   },
+   {
+    "topic": "훈훈한 소식",
+    "safety": "가벼움",
+    "text": "손흥민 선수가 새치기에 밀려서 울던 꼬마 팬을 달래줬대. 그 얘기 듣고 마음이 좀 훈훈해지더라.",
+    "explain": "새치기에 밀려 울음이 터진 어린 팬을 손흥민 선수가 달래줬다는 짧은 소식이야."
+   },
+   {
+    "topic": "프로야구",
+    "safety": "상대가 관심 있을 때",
+    "text": "올해 프로야구 관중이 1,277만 명이래. 역대 최다라는데, 혹시 야구장 가 본 적 있어?",
+    "explain": "올해 프로야구 총관중이 1천277만 명으로 역대 최다 기록을 새로 썼대."
+   }
+  ],
+  "직장·학교": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "어제는 서울이 30도였는데 오늘은 비 오고 쌀쌀하다. 내일 아침엔 9도래.",
+    "explain": "어제 서울 낮 기온이 30.1도였고, 오늘 가을비가 온 뒤 내일(10월 14일) 아침엔 서울이 9도까지 내려간대."
+   },
+   {
+    "topic": "AI 서비스",
+    "safety": "가벼움",
+    "text": "카톡에서 말로 주문이랑 예약까지 해 주는 AI가 생긴대. 점심 주문할 때 편해지려나?",
+    "explain": "카카오톡에 한국형 AI 에이전트가 도입돼서 말로 주문이나 예약을 할 수 있다는 소식이야."
+   },
+   {
+    "topic": "과자 굿즈",
+    "safety": "상대가 관심 있을 때",
+    "text": "빼빼로가 책갈피로도 나오고 가나는 키링으로도 나온대. 과자가 이제 책상 위로 올라오나 봐.",
+    "explain": "롯데웰푸드가 빼빼로 책갈피, 가나 키링 같은 이색 굿즈 16종을 냈다는 소식이야."
+   }
+  ],
+  "손님·고객": [
+   {
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "오늘 비가 와서 많이 쌀쌀하죠? 내일 아침엔 서울이 9도까지 내려간대요.",
+    "explain": "오늘 전국에 가을비가 내리고 찬 바람이 불었고, 내일 서울 아침 기온이 9도라고 해요."
+   },
+   {
+    "topic": "계절",
+    "safety": "가벼움",
+    "text": "어제는 서울이 30도가 넘었다는데, 오늘은 겉옷이 꼭 필요하네요.",
+    "explain": "어제 서울 낮 기온이 30.1도였는데 오늘은 가을비가 와서 기온이 뚝 떨어졌대요."
+   },
+   {
+    "topic": "AI 서비스",
+    "safety": "상대가 관심 있을 때",
+    "text": "카카오톡에 말로 주문이랑 예약까지 되는 AI가 들어온다고 하던데, 혹시 들어 보셨어요?",
+    "explain": "카톡에 한국형 AI 에이전트가 도입돼서 말로 주문이나 예약을 할 수 있게 된다는 소식이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날씨가 오락가락한데, 이런 날엔 뭐 먹으면 기분 좋아져?",
+  "why": "정답이 없고 누구나 한마디 할 수 있는 질문이라 부담이 없어. 대답을 들으면 '나도 그래'로 이어가기도 쉬워."
+ },
+ "scenes": [
+  {
+   "title": "친구 모임: 옷장과 빼빼로",
+   "topics": "날씨, 과자 굿즈",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 서울이 30도였대. 근데 내일 아침엔 9도래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "어쩐지 어제 엄청 덥더라. 오늘은 비 와서 춥고.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "내 옷장이 아직 계절을 못 정했어. 오늘 아침에 반팔이랑 코트가 서로 눈치만 보더라.",
+     "humor": {
+      "type": "의인화",
+      "why": "옷장 속 옷들을 눈치 보는 사람처럼 그려서, 날씨 때문에 옷 고르기 힘든 마음을 귀엽게 표현했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "ㅋㅋ 그래서 뭐 입고 나왔어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "가디건. 옷들한테 합의를 구했는데 아직 답이 없어.",
+     "humor": {
+      "type": "능청",
+      "why": "혼자 정한 일을 합의라고 말하는 능청이 웃음 포인트예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "가을엔 책 읽기 좋긴 하지.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞다, 빼빼로가 책갈피로도 나온대. 롯데웰푸드가 이색 굿즈를 16종 냈다더라.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "빼빼로가 책갈피라니, 신기하네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그런데 나는 책 읽다가 출출해져서 덮을 것 같아.",
+     "humor": {
+      "type": "자조",
+      "why": "책 읽기보다 간식이 먼저인 나를 살짝 낮추는 온화한 반전이에요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "선배와 점심 뒤 산책: 썰렁했을 때 수습",
+   "topics": "날씨, 프로야구",
+   "lines": [
+    {
+     "who": "a",
+     "text": "선배님, 어제 서울이 30도였는데 내일 아침엔 9도래요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그래? 요즘 날씨가 정신이 없네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "계절이 환승하다가 정류장을 놓친 것 같아요.",
+     "humor": {
+      "type": "의인화",
+      "why": "계절을 환승하다 길 잃은 사람처럼 그린 비유예요. 이번에는 반응이 조용했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "…음, 그렇네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "죄송해요, 방금 건 옷장에 두고 왔어야 했는데요.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁함을 먼저 인정하고 농담을 내 탓으로 돌려서, 어색함을 가볍게 풀어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 괜찮아. 그래서 오늘은 뭘 입고 왔어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "겉옷을 두 개 챙겼어요. 하나는 날씨용이고 하나는 제 걱정용이에요.",
+     "humor": {
+      "type": "능청",
+      "why": "걱정까지 입고 왔다는 능청스러운 말로 나를 살짝 낮추면서 분위기를 되살려요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "현명하네. 요즘 야구장은 안 추우려나 몰라.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "올해 프로야구 관중이 1,277만 명으로 역대 최다래요. 추워도 가는 분들이 많을 것 같아요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그렇게나 많았어? 한 번 가 봐야겠네.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "친구가 카페에서 \"오늘 왜 이렇게 추워?\"라고 했어. 뉴스 속 숫자 하나를 넣어서 받아 보자.",
+   "hints": [
+    "날씨 숫자 하나 넣기",
+    "내 상태를 한 줄 덧붙이기"
+   ],
+   "answer": "어제 서울이 30도였는데 내일 아침엔 9도래. 내 몸도 아직 적응 중인가 봐.",
+   "note": "날씨+사실+가벼운 자조. 상대가 몰라도 숫자가 설명이 돼요."
+  },
+  {
+   "q": "점심 먹고 동료와 걷는 3분. 어색한데 가벼운 소식을 하나 꺼내 보자.",
+   "hints": [
+    "요즘 나온 소식 한 줄",
+    "질문으로 끝내기"
+   ],
+   "answer": "카톡에서 말로 주문이랑 예약까지 해 주는 AI가 생긴대. 점심 주문할 때 편해지려나?",
+   "note": "소식+질문 꼬리. 질문으로 끝내면 상대가 이어 말하기 쉬워요."
+  },
+  {
+   "q": "선배와 단둘이 있는데 말이 끊겼어. 존댓말로 편하게 던질 질문 하나를 만들어 보자.",
+   "hints": [
+    "내 취향을 먼저 말하기",
+    "상대 취향 묻기"
+   ],
+   "answer": "선배님, 비 오는 날엔 뭐가 드시고 싶으세요? 저는 따뜻한 국물이 생각나더라고요.",
+   "note": "내 이야기를 먼저 열고 묻는 질문 유형. 정답이 없어서 부담이 없어요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨",
+   "title": "어제 서울 30.1도, 가을비 뒤 기온 뚝",
+   "summary": "어제(10월 12일) 서울 낮 기온이 30.1도까지 올라 늦더위가 심했어요. 오늘은 가을비가 내리면서 기온이 크게 내려갔어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBROXY2aWR1X1k0X00yLWtWVHUtdGQ3aDdVRnJxU1NrbXZWQ2FlQzhqQkp0Mzh5ci1LRUQ3aVliN0wtckZ6dmRRWWFzQlpYVDFoUkxrM1hMYXItYWZXTmFTNTNVVERjSUU?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨",
+   "title": "내일 더 쌀쌀, 서울 아침 9도",
+   "summary": "가을비가 지나간 뒤 내일(10월 14일)은 더 쌀쌀해진대요. 서울 아침 기온은 9도 예상이에요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83RkF6RjZ4dGtUbklreXhLb1U3WmUwdFRsUDY2MDNnXzRkTmpkUmc4T1BwTi0tOHZMTkx0N0ZYWDRVQnVsYXVXVEhzVlBXNGxldk9HU2M1TnVCWl9Fb0E?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 역대 최다 1,277만 관중",
+   "summary": "프로야구 관중이 1천277만 명으로 역대 가장 많은 기록을 세웠어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92QjVWemdrV3IyOUt4MWc0bTRyUDBMbG53aUpLYkxSa1ZCX0RGb2NGVmxxREloZWRvXzNfMU5sMGt4SXBMN0ZlTVVMTVR2bjRPX2tQR1hBWHhwVDDSAWBBVV95cUxQMXdoUUsyTUhsMUNMMUZ1LXU3QWlWcENRckdjcUR5cjZ0YUNVcWh5d3dhTWRQMjRSUWJ2b0ZiTFY1U3FBS1dyUV9KUWl1UHdJN0thZDROc2thTEpSR0F0dno?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "생활·문화",
+   "title": "민속촌 '귀신 참교육'이 화제",
+   "summary": "한국민속촌에서 귀신이 아이들을 타이르는 체험이 화제예요. 아이들의 떼쓰기와 편식이 줄었다는 뜻밖의 효과가 전해졌어요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zanhiRW9oODhUUV9JRE1OUE9fbnpNaVlaRTRkZ3d6VXhzcUVQYnlmYkVJNkVnMnpTODJlRHVGSkRLTjRZUWd5SjRLM3lnVHVXeE9SMWFpM1k5TGtpbmZneUJBQzFVeUZPUk9LSS11RTZGM1RUcWfSAWZBVV95cUxQOGlvUjQ1cnJiTk4wY1BtZlo4b3Y3QlpseV9mNmotVUliM3FDSGVxTzlaVW5SRGdHalNzMWVLcmlQYS1qTGQ5OV9KR3ltOFU2cGZEU1ptT212NHhFVkdGWGNBSktteHc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식·유통",
+   "title": "빼빼로는 책갈피로, 이색 굿즈 16종 출시",
+   "summary": "롯데웰푸드가 빼빼로 책갈피, 가나 키링 같은 이색 굿즈 16종을 내놨어요.",
+   "source": "매일일보",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOamllc0pDbmFueTItSVF4enNkYVZ4U3dKUWlVdi1SLWhWYU1tSWxyaUxlXzZVa0tSSXJSdmV1VDE5WGhnZ0JQenB4ano2eHppM2prc2VHNWdzbGRxeHdYcU5VN2c?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT",
+   "title": "카톡에 한국형 AI 에이전트 도입",
+   "summary": "카카오톡에 AI 에이전트가 들어와서 말로 주문이나 예약까지 할 수 있게 된대요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwbEFZcTJzMEsxTkl2ZUw4WkZMTUJjUnFNRUdzdWppNTlvVG9qckRzSjN2SVp2ZTFZY0Jyc3cteEY4dGxNR0NKVmFZQ3FPczB3R3lLU3dKeVhvUkkwV0xIdtIBYEFVX3lxTFAwbEFZcTJzMEsxTkl2ZUw4WkZMTUJjUnFNRUdzdWppNTlvVG9qckRzSjN2SVp2ZTFZY0Jyc3cteEY4dGxNR0NKVmFZQ3FPczB3R3lLU3dKeVhvUkkwV0xIdg?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "훈훈한 소식",
+   "title": "새치기에 울던 꼬마 팬을 달래준 손흥민",
+   "summary": "새치기에 밀려 울음이 터진 어린 팬을 손흥민 선수가 달래줬다는 훈훈한 소식이에요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2YkMwUHlPRmRYZXlwLWkzRUJBckh0Qk04cmZmUlIwWFV5R0wtbGxyc0ZURjQyQ1RWbl9BT1Z2bTMwM2VVZGhPcGJrTDZ2MnZfN25fc3ppdl9LdXM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "교육",
+   "title": "연세대 수시 시험장에서 'AI 안경' 적발",
+   "summary": "연세대 수시 시험장에서 AI 안경이 적발됐어요. 대입에서는 처음 있는 사례라고 해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0LUdSbzN5anJtS2tLdTE0RUZSRWxkaTU5bWMxUVp2SjBRclpseVpEM053S0hBbm9wbnpacm9kUEpLSmJ6ZHlZRkNMYVVrWkl3d09sSFRibUJqNjE5NzFXX0RNZ2NXTnVUekE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "건강",
+   "title": "쌀쌀해진 날씨, 코로나19 예방접종 안내",
+   "summary": "쌀쌀해지는 날씨에 맞춰 코로나19 국가예방접종을 챙겼는지 확인해 보라는 안내가 나왔어요.",
+   "source": "정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMEZscy1UNGxEekNhWTluRF9wQWlTSlV0b1NqWUNvV0VYbG9fYm1yWFZzUG5CRXd4SlNQTlBWLWxQTEx5eldIbldVblRqdFQzRVUzRDVoT0RKb0J1bEUxMk5pYXJtWG53SGc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "AI·정책",
+   "title": "국감에서 AI 챗봇 청소년 보호 허점 지적",
+   "summary": "국정감사에서 AI 캐릭터 챗봇의 청소년 보호 장치가 허술하다는 지적이 나왔어요. 앞으로 규제가 빨라질지 관심이 모이고 있어요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOSjBvZ195aHMydHBoT1AxdWpfOVgyQmdyZFJKcHJGRnppcUphZ1ljd1ZGQmY3VzRiamtQZ1RLWjZuUW10dEFLTWRxRjNHLU5ZYU81VHFDZkJvcW1ya2pkOUNtNWsxRHVxR0E?oc=5"
+  }
+ ],
+ "types": [
+  {
+   "name": "의인화",
+   "desc": "옷장이나 계절을 사람처럼 말해서 부드럽게 웃기는 방법"
+  },
+  {
+   "name": "능청",
+   "desc": "아무렇지 않은 얼굴로 엉뚱한 말을 덧붙이는 방법"
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 분위기를 풀어 주는 방법"
+  }
+ ],
  "date": "2026-10-13",
  "weekday": "화요일",
  "tone": "banmal",
  "strength": "safe",
- "generated_at": "2026-10-13 14:40",
- "model": "sample",
- "lede": "어제 서울 낮 기온이 30.1도로 10월 기록을 새로 썼어요. 오늘은 비가 오고 밤부터 쌀쌀해진다니, 날씨로 말문을 열기 좋은 날이에요.",
- "today": {"situation": "친구 모임", "text": "어제 서울 30도였대. 10월에 여름이 야근하러 돌아온 느낌이야.", "why": "날씨는 누구와도 안전하고, 계절을 사람처럼 말하면 가볍게 웃음이 나요.", "explain": "어제 서울 낮 기온이 30.1도였는데, 10월 기온으로는 관측 이래 가장 높았대."},
- "openers": {
-  "친구 모임": [
-   {"topic": "날씨", "safety": "가장 안전", "text": "어제 서울 30도였다며. 10월에 이게 말이 돼?", "explain": "10월 기온으로는 관측 이래 최고였대. 오늘은 비 오고 밤부터 추워진대."},
-   {"topic": "문화", "safety": "가벼움", "text": "봉은사에서 파는 미니 목탁 들어 봤어? 계속 품절이래.", "explain": "손가락만 한 목탁 누르개인데, 입고될 때마다 줄을 선대."},
-   {"topic": "스포츠", "safety": "상대가 관심 있을 때", "text": "내일 가을야구 시작하던데, 어디 응원해?", "explain": "14일에 와일드카드 1차전이 열려. 4위 팀이 1승을 먼저 안고 시작해."}
-  ],
-  "어른·선배": [
-   {"topic": "날씨", "safety": "가장 안전", "text": "어제 많이 더우셨죠? 서울이 30도였다고 하더라고요.", "explain": "10월 기온으로는 관측 이래 가장 높았다고 해요. 오늘 밤부터는 쌀쌀해진대요."},
-   {"topic": "노벨상", "safety": "가벼움", "text": "이번 노벨문학상은 캐나다 시인이 받았다고 하더라고요.", "explain": "앤 카슨이라는 분인데, 그리스 신화를 지금 이야기처럼 다시 쓰는 작가래요."},
-   {"topic": "단풍", "safety": "가벼움", "text": "올해 단풍은 10월 말이 절정이래요. 어디 가 보실 계획 있으세요?", "explain": "관광공사가 단풍지도를 냈는데 수도권은 10월 말, 남부는 11월 초래요."}
-  ],
-  "처음 만난 사람": [
-   {"topic": "날씨", "safety": "가장 안전", "text": "오늘 비 오고 밤에 춥다던데, 옷 고르기 힘드셨죠?", "explain": "어제는 30도였다가 오늘 밤부터 확 떨어진대요. 하루 만에 계절이 바뀌는 느낌이에요."},
-   {"topic": "노벨상", "safety": "가벼움", "text": "오늘 노벨 경제학상 발표라던데, 노벨상 시즌 마지막 날이래요.", "explain": "이번 주 내내 하루 하나씩 발표했고 오늘이 마지막이에요."},
-   {"topic": "K팝", "safety": "상대가 관심 있을 때", "text": "트와이스 나연이 찰리 푸스 콘서트에 깜짝 나왔다던데, 보셨어요?", "explain": "일요일 고양 공연에서 같이 노래를 불렀대요. 찰리 푸스 첫 스타디움 공연이었다고요."}
-  ],
-  "직장·학교": [
-   {"topic": "날씨", "safety": "가장 안전", "text": "어제 30도였는데 내일 아침은 5도까지 떨어질 수도 있대요.", "explain": "찬 공기가 내려와서 그렇대요. 겉옷 하나 챙기는 게 좋겠어요."},
-   {"topic": "문화", "safety": "가벼움", "text": "요즘 봉은사 미니 목탁이 품절 행진이래요. 누르면 공덕이 쌓인다고요.", "explain": "손가락 크기 목탁 누르개인데 새로 들어올 때마다 줄을 선대요."},
-   {"topic": "스포츠", "safety": "상대가 관심 있을 때", "text": "수요일부터 가을야구예요. 사무실에 야구 보는 분 계세요?", "explain": "14일 와일드카드부터 시작해요. KT가 1위로 한국시리즈 직행이래요."}
-  ],
-  "손님·고객": [
-   {"topic": "날씨", "safety": "가장 안전", "text": "오늘 밤부터 많이 추워진대요. 따뜻하게 가세요.", "explain": "어제는 30도였는데 내일 아침은 한 자릿수까지 떨어진대요."},
-   {"topic": "단풍", "safety": "가벼움", "text": "단풍 보러 가실 계획 있으세요? 올해는 10월 말이 절정이래요.", "explain": "관광공사 단풍지도 기준으로 수도권이 10월 말, 남부가 11월 초래요."},
-   {"topic": "스포츠", "safety": "상대가 관심 있을 때", "text": "내일부터 가을야구 시작이에요. 응원하는 팀 있으세요?", "explain": "14일 와일드카드 1차전부터예요."}
-  ]
- },
- "fallback_question": {"text": "요즘 뭐가 제일 재밌어?", "why": "질문을 받으면 사람은 대부분 이야기를 시작해요. 그 뒤는 듣기만 해도 돼요."},
- "scenes": [
-  {"title": "학교 선배와 복도에서", "topics": "10월 더위, 날씨 급변", "lines": [
-   {"who": "a", "text": "선배, 어제 서울이 30.1도였대요. 10월 기온으로는 관측 이래 가장 높았대요.", "humor": null},
-   {"who": "b", "text": "어제 진짜 덥긴 했지. 나도 땀 났어.", "humor": null},
-   {"who": "a", "text": "여름이 퇴사한 줄 알았는데 어제 야근하러 돌아왔나 봐요.", "humor": {"type": "의인화", "why": "계절을 회사원처럼 말해서 '또 나왔네' 하는 피로감이 전해져요. 담담하게 말할수록 좋아요."}},
-   {"who": "b", "text": "오늘은 비 오고 밤부터 춥다던데?", "humor": null},
-   {"who": "a", "text": "어제는 반팔, 오늘은 우산, 내일 아침엔 겉옷이에요. 제 옷장이 하루 만에 사계절 출장 다녀왔어요.", "humor": {"type": "과장", "why": "며칠에 걸친 변화를 '하루 만에 사계절'로 부풀렸어요. 사실에서 살짝만 벗어난 과장이라 바로 알아채고 웃어요."}},
-   {"who": "b", "text": "그러게, 옷 고르기 힘들다.", "humor": null},
-   {"who": "a", "text": "선배는 이런 날 뭐 입고 나와요?", "humor": null}
-  ]},
-  {"title": "모임 첫 만남", "topics": "노벨 경제학상, 가을야구, 썰렁했을 때 수습", "lines": [
-   {"who": "a", "text": "처음 뵙겠습니다. 오늘 노벨 경제학상 발표래요. 노벨상 시즌 마지막 날이라고 하더라고요.", "humor": null},
-   {"who": "b", "text": "아 그래요? 몰랐네요.", "humor": null},
-   {"who": "a", "text": "저도 어제 알았어요. 이번 주 내내 하루에 하나씩 발표했대요. 저는 상 받을 일이 없어서 그냥 구경만 해요.", "humor": {"type": "자조", "why": "상대가 몰라도 괜찮다고 먼저 말해 주고, 나를 살짝 낮춰서 분위기를 풀었어요. 첫 만남에서 가장 안전한 유형이에요."}},
-   {"who": "b", "text": "ㅎㅎ 저도요.", "humor": null},
-   {"who": "a", "text": "내일부터 가을야구도 시작이래요. 4위 팀은 1승을 먼저 안고 시작한대요. 저는 그 1승이 제일 부러워요.", "humor": {"type": "능청", "why": "야구 규칙을 내 처지로 슬쩍 끌어왔어요. 반응이 없어도 괜찮은, 부담 없는 농담이에요."}},
-   {"who": "b", "text": "음, 저는 야구를 잘 몰라서요.", "humor": null},
-   {"who": "a", "text": "아, 저도 사실 규칙 반도 몰라요. 그냥 분위기만 좋아해요. 혹시 요즘 재밌게 보는 거 있으세요?", "humor": {"type": "반전", "why": "썰렁했을 때 수습하는 장면이에요. 내 농담이 안 먹히면 바로 같은 편에 서고, 질문으로 상대에게 넘겨요. 이게 제일 중요한 기술이에요."}},
-   {"who": "b", "text": "요즘은 드라마를 좀 봐요.", "humor": null}
-  ]}
- ],
- "drills": [
-  {"q": "선배가 \"어제 진짜 덥더라\"고 해요. 어제 서울이 30.1도였다는 걸 살려서 받아 보세요.", "hints": ["과장", "사람처럼 말하기"], "answer": "10월인 줄 알고 가을 옷 입고 나왔다가, 달력이랑 둘이 같이 당황했어요.", "note": "유형: 과장 + 의인화. 달력까지 당황시켜서 상황을 크게 만들었어요."},
-  {"q": "처음 만난 사람이 내 농담에 \"음…\" 하고 조용해요. 수습해 보세요.", "hints": ["같은 편 서기", "질문으로 넘기기"], "answer": "아, 이건 제 친구들한테도 안 먹혔던 거예요. 혹시 요즘 재밌는 거 있으세요?", "note": "유형: 자조 + 되묻기. 썰렁함을 인정하면 오히려 편해지고, 질문이 대화를 넘겨줘요."},
-  {"q": "친구가 \"와일드카드는 4위 팀이 1승을 먼저 안고 시작한대\"라고 해요. 가볍게 받아 보세요.", "hints": ["반전", "내 이야기로 바꾸기"], "answer": "나도 시험 때 1점만 먼저 줬으면 좋겠다. 이름만 써도 1승이면 나는 매번 가을야구 진출이야.", "note": "유형: 반전. 야구 규칙을 내 시험 이야기로 바꿔서 웃음을 만들었어요."}
- ],
- "news": [
-  {"kind": "talk", "tag": "날씨", "title": "서울 낮 30.1도, 10월 기온 관측 기록 경신", "summary": "12일 서울 낮 기온이 10월 관측 사상 가장 높았어요. 대전 31.5도 등 전국 곳곳에서도 10월 최고 기록이 나왔어요.", "source": "한국일보", "url": "https://www.hankookilbo.com/news/article/A2026101219090004713"},
-  {"kind": "talk", "tag": "날씨", "title": "13일 비 그치고 밤부터 쌀쌀", "summary": "북서쪽 찬 공기가 내려와 밤부터 기온이 떨어져요. 14일 아침은 곳에 따라 5도까지 내려갈 수 있어요.", "source": "뉴시스", "url": "https://newsis.com/view/NISX20261012_0003822693"},
-  {"kind": "talk", "tag": "경제학", "title": "노벨 경제학상은 로버트 홀·마이클 우드퍼드", "summary": "경기 변동을 안정시키는 연구가 중앙은행 정책의 이정표가 됐다는 평가예요.", "source": "서울신문", "url": "https://www.seoul.co.kr/news/peoples/2026/10/13/20261013023002"},
-  {"kind": "talk", "tag": "문화", "title": "봉은사 미니 목탁 클리커가 품절 행진", "summary": "손가락 크기 목탁 누르개가 계속 품절돼요. 새로 입고되면 줄을 선대요.", "source": "코리아헤럴드", "url": "https://www.koreaherald.com/article/10898686"},
-  {"kind": "talk", "tag": "K팝", "title": "나연, 찰리 푸스 콘서트에 깜짝 듀엣", "summary": "11일 고양 공연에서 트와이스 나연이 깜짝 등장해 같이 노래했어요. 찰리 푸스의 첫 스타디움 공연이었어요.", "source": "코리아헤럴드", "url": "https://www.koreaherald.com/article/10900005"},
-  {"kind": "talk", "tag": "생활", "title": "2026 단풍지도 공개, 수도권은 10월 말 절정", "summary": "관광공사가 권역별 절정 시기와 명소 36곳을 담은 단풍지도를 냈어요. 경상·전라권은 11월 초중순이에요.", "source": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202610080943468392"},
-  {"kind": "talk", "tag": "스포츠", "title": "KBO 가을야구, 14일 와일드카드로 시작", "summary": "12일 기준 1위 KT, 2위 삼성, 3위 KIA, 4위 LG, 5위 두산. 4위와 5위가 14일 와일드카드 1차전을 해요.", "source": "톱스타뉴스", "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245108"},
-  {"kind": "know", "tag": "국제", "title": "북한, 동해로 탄도미사일 발사", "summary": "12일 발사로 올해 16번째예요. 미 인도태평양사령부는 즉각적인 위협은 아니라고 평가했어요.", "source": "뉴스핌", "url": "https://newspim.com/news/view/20261013000016"},
-  {"kind": "know", "tag": "사회", "title": "서울레이스 하프마라톤 참가자 사망", "summary": "11일 대회에서 쓰러진 20대 참가자가 숨졌어요. 원인은 조사 중이에요.", "source": "코리아헤럴드", "url": "https://www.koreaherald.com/article/10900181"},
-  {"kind": "know", "tag": "경제", "title": "코스피 3.65% 급락", "summary": "12일 코스피가 4거래일 연속 내렸어요. 기술주 매도와 유가 불안이 이유로 꼽혀요.", "source": "코리아헤럴드", "url": "https://www.koreaherald.com/article/10899910"}
- ],
- "types": [
-  {"name": "의인화", "desc": "사물이나 현상을 사람처럼 말해요."},
-  {"name": "과장", "desc": "사실을 살짝만 부풀려서 말해요."},
-  {"name": "자조", "desc": "나를 살짝 낮춰서 분위기를 풀어요."},
-  {"name": "능청", "desc": "진지한 표정으로 엉뚱하게 받아요."},
-  {"name": "반전", "desc": "썰렁하면 같은 편에 서서 질문으로 넘겨요."}
- ]
+ "generated_at": "2026-10-13 15:45",
+ "model": "claude-sonnet-5-5"
 }
