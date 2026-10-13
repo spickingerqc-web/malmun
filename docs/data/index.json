@@ -1,6 +1,15 @@
 {
   "latest": "2026-10-13",
-  "dates": ["2026-10-13"],
-  "tones": ["banmal", "jondae"],
-  "strengths": ["safe", "normal", "bold"]
+  "dates": [
+    "2026-10-13"
+  ],
+  "tones": [
+    "banmal",
+    "jondae"
+  ],
+  "strengths": [
+    "safe",
+    "normal",
+    "bold"
+  ]
 }
