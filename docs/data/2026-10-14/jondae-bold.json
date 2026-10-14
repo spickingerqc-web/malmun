@@ -1,0 +1,508 @@
+{
+ "lede": "오늘은 갑자기 쌀쌀해진 날씨부터 프로야구 최다 관중, 냉장고 해킹, 웰시코기 축제까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "처음 만난 사람",
+  "text": "프랑스에서 슈퍼마켓 냉장고가 해킹돼서 온도가 50도까지 올랐대요. 냉장고가 갑자기 사우나 체험을 한 거죠.",
+  "why": "뉴스 한 줄에 능청스러운 한마디를 얹어서, 처음 만난 자리에서도 부담 없이 웃을 수 있어요.",
+  "explain": "프랑스 슈퍼마켓 700곳 정도가 해킹 피해를 봤고, 냉장고 온도가 크게 올라서 식품을 다 버렸대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 역대 최다 관중",
+    "safety": "가벼움",
+    "text": "올해 프로야구 관중이 1,277만 명으로 역대 최다래요. 이 정도면 야구장이 국민 놀이터 아닌가요?",
+    "explain": "올 시즌 프로야구 누적 관중이 1,277만 명이라 역대 최고 기록이래요."
+   },
+   {
+    "field": "음식",
+    "topic": "대전 빵지순례",
+    "safety": "가장 안전",
+    "text": "대전에서 축구 보고 빵집 도는 관광상품이 생겼대요. 골은 못 넣어도 빵은 넣고 오는 코스네요.",
+    "explain": "축구 대회 보러 오는 사람들을 위해 대전시가 빵집 투어를 묶은 상품을 운영한대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가장 안전",
+    "text": "웰시코기 축제에서 식빵 같은 엉덩이들이 잔디밭을 가득 덮었대요. 빵집이 아니라 공원에서 식빵 구경을 한 거죠.",
+    "explain": "웰시코기 수백 마리가 모인 축제가 열려서 엉덩이 사진이 화제가 됐대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "갑작스러운 쌀쌀함",
+    "safety": "가장 안전",
+    "text": "어제까지 반팔이었는데 오늘은 갑자기 가을이 들이닥쳤네요. 옷장이 계절을 못 따라가고 있어요.",
+    "explain": "어제 서울은 30도였는데 오늘 아침엔 9.5도까지 내려갔어요. 올가을 들어 제일 쌀쌀한 아침이래요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "경제·돈",
+    "topic": "한국항공우주 목표가",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 증권가에서 한국항공우주 목표가를 낮췄다는 얘기가 있던데, 혹시 주식 보세요?",
+    "explain": "한국항공우주의 3분기 영업이익이 기대에 못 미칠 거라고 한국투자증권이 봤대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "한화 새 감독",
+    "safety": "가벼움",
+    "text": "한화가 새 감독으로 류지현 감독을 선임했대요. 내년 시즌은 어떨지 궁금해지네요.",
+    "explain": "프로야구 한화 이글스가 오늘 새 사령탑으로 류지현 감독을 발표했어요."
+   },
+   {
+    "field": "음식",
+    "topic": "설기 피자",
+    "safety": "가벼움",
+    "text": "피자헛이 국산 쌀 설기를 도우로 쓴 피자를 냈대요. 떡이랑 피자가 한 판에서 만났네요.",
+    "explain": "피자헛이 국내산 쌀로 만든 설기 위에 피자를 올린 신메뉴를 선보였어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차",
+    "safety": "가장 안전",
+    "text": "요즘 일교차가 커서 아침저녁으로 옷 고르기가 어렵더라고요. 건강 잘 챙기고 계세요?",
+    "explain": "낮과 아침 기온 차가 커서 감기 걸리기 쉬운 때라 안부 인사로 좋아요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가장 안전",
+    "text": "혹시 웰시코기 축제 소식 보셨어요? 식빵 같은 엉덩이들이 잔디밭을 덮은 사진이 화제더라고요.",
+    "explain": "웰시코기가 많이 모인 축제가 열려서 귀여운 사진이 SNS에 많이 올라왔대요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "게임 원작 영화",
+    "safety": "가벼움",
+    "text": "고래한테 잡아먹힌 남자가 나오는 게임이 영화로 나온대요. 이름만 들어도 한번 보고 싶어지지 않으세요?",
+    "explain": "액션 게임이 영화로 만들어져 개봉한대요. 소재가 독특해서 화제예요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "로봇 격투",
+    "safety": "가벼움",
+    "text": "180cm대 로봇들이 무기를 들고 싸우는 대회가 화제래요. 사람 대신 로봇이 격투기를 하는 시대네요.",
+    "explain": "사람만 한 크기의 로봇끼리 겨루는 격투 대회 영상이 인기를 끌었대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "이수만 새 아이돌",
+    "safety": "상대가 관심 있을 때",
+    "text": "이수만 씨가 24명짜리 아이돌 그룹으로 돌아온다던데, 케이팝 좋아하세요?",
+    "explain": "SM 창업자였던 이수만 씨가 유영진 씨와 함께 대규모 새 아이돌 그룹을 준비한다는 소식이에요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "LG와 애플 AI 가전",
+    "safety": "가벼움",
+    "text": "LG전자가 애플이랑 AI 가전 7종을 같이 만든대요. 냉장고가 아이폰이랑 친구가 되는 건가요?",
+    "explain": "LG전자가 애플과 손잡고 AI 홈 기기 7종을 연내에 내놓을 계획이래요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "삼성 협력사 감사 행사",
+    "safety": "가벼움",
+    "text": "삼성전자가 반도체 협력사 직원분들께 커피차랑 영화관람을 지원한대요. 점심 커피 한 잔 같은 선물이네요.",
+    "explain": "삼성전자가 협력사 직원 약 5만 8천 명에게 감사의 뜻으로 커피차와 영화 관람을 지원해요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "출근길 쌀쌀함",
+    "safety": "가장 안전",
+    "text": "오늘 출근길 진짜 쌀쌀했죠? 겉옷 하나 더 챙길 걸 그랬어요.",
+    "explain": "오늘 아침 서울 기온이 올가을 최저인 9.5도까지 내려가서 체감온도가 더 낮았어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "축구 대표팀 루머",
+    "safety": "상대가 관심 있을 때",
+    "text": "축구 대표팀 불화설 영상이 편집된 거라고 협회가 밝혔대요. 온라인 소문은 한 번 더 확인해야겠어요.",
+    "explain": "축구협회가 근거 없는 소문과 악의적 영상 편집에 법적으로 대응하겠다고 밝혔어요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "음식",
+    "topic": "대전 빵지순례",
+    "safety": "가장 안전",
+    "text": "요즘 대전에서는 축구 보고 빵집 도는 투어가 있대요. 혹시 빵 좋아하세요?",
+    "explain": "대전시가 축구 경기 관람과 유명 빵집 방문을 묶은 관광 상품을 운영해요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "웰시코기 축제",
+    "safety": "가장 안전",
+    "text": "웰시코기 축제 사진 보셨어요? 엉덩이가 식빵처럼 동글동글해서 보는 순간 웃음이 나더라고요.",
+    "explain": "웰시코기가 잔뜩 모인 축제가 열려 귀여운 영상이 화제가 됐어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "신인감독 김연경2",
+    "safety": "가벼움",
+    "text": "요즘 '신인감독 김연경2'가 시청률이랑 화제성 1위라던데 보셨어요?",
+    "explain": "배구 선수 출신 김연경 씨가 감독으로 나오는 예능이 이번 주 화제성 1위래요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 추위",
+    "safety": "가장 안전",
+    "text": "오늘은 따뜻한 차 한 잔이 딱 어울리는 날씨네요.",
+    "explain": "오늘 올가을 들어 가장 쌀쌀한 아침이라 따뜻한 음료가 생각나는 날이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 가장 자주 듣는 노래나 즐겨 보는 영상이 있으세요?",
+  "why": "정답이 없는 질문이라 부담이 없고, 취향을 알게 되면 대화가 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "첫 모임에서 어색한 자기소개 후",
+   "topics": "냉장고 해킹, 웰시코기 축제, 프로야구 관중",
+   "lines": [
+    {
+     "who": "a",
+     "text": "처음 뵙는데, 혹시 요즘 뉴스 중에 재미있게 보신 거 있으세요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "음, 글쎄요. 딱히 생각나는 건 없네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 프랑스 슈퍼마켓 냉장고가 해킹돼서 온도가 50도까지 올랐다는 기사가 기억에 남아요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "50도요? 그럼 냉장고가 아니라 찜질방이었겠네요.",
+     "humor": {
+      "type": "반전",
+      "why": "냉장고가 뜨거워졌다는 사실을 찜질방으로 바꿔서, 기능이 거꾸로 된 상황을 재치 있게 표현했어요."
+     }
+    },
+    {
+     "field": "",
+     "who": "a",
+     "text": "맞아요. 아이스크림 입장에서는 갑자기 사우나 체험을 한 셈이죠.",
+     "humor": {
+      "type": "의인화",
+      "why": "아이스크림을 주인공으로 세워서 해킹 사고를 한 장면으로 보여 줬어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 저도 냉장고 문 열기가 조금 무서워지네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그리고 웰시코기 축제 사진도 보셨어요? 식빵 같은 엉덩이들이 잔디밭을 덮었더라고요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "봤어요. 그 정도면 빵집이 아니라 공원에 식빵 박람회를 연 거죠.",
+     "humor": {
+      "type": "능청",
+      "why": "귀여운 장면을 진지하게 박람회로 받아쳐서 장난스러운 분위기를 이어 갔어요."
+     }
+    },
+    {
+     "who": "a",
+     "text": "맞아요, 웃다가 보니까 다음 주에도 가고 싶어졌어요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "직장 점심시간, 야구 얘기로 분위기 풀기",
+   "topics": "프로야구 최다 관중, 갑작스러운 쌀쌀함, 한화 새 감독",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 아침 진짜 춥지 않으셨어요? 어제까지만 해도 덥더니 갑자기 달라졌어요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "맞아요. 어제는 반팔 입고 나왔는데 오늘은 후회했어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "가을이 예고 없이 출근한 것 같아요.",
+     "humor": {
+      "type": "의인화",
+      "why": "계절을 출근하는 사람처럼 표현해서 갑작스러운 날씨 변화를 가볍게 말했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그러게요. 점심은 뜨끈한 국물로 먹어야겠어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그런데 올해 프로야구 관중이 1,277만 명으로 역대 최다래요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그 정도면 야구장이 공연장보다 더 붐비겠어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "한화는 새 감독도 정해서 내년이 기대된다고 하더라고요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "저도 한화 팬이라 은근히 기대돼요. 이번엔 정말 달라지려나요?",
+     "humor": {
+      "type": "자조",
+      "why": "기대와 걱정이 섞인 팬의 마음을 가볍게 드러내서 부담 없이 웃을 수 있어요."
+     }
+    },
+    {
+     "who": "a",
+     "text": "기대는 공짜니까 일단 많이 해 보죠.",
+     "humor": {
+      "type": "능청",
+      "why": "기대에는 비용이 안 든다는 말로 걱정을 가볍게 넘기는 능청스러운 마무리예요."
+     }
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람과 엘리베이터에서 5초간 단둘이 있어요. 오늘 날씨 이야기를 꺼내 보세요.",
+   "hints": [
+    "어제와 오늘의 차이를 말하기",
+    "상대의 옷차림이나 상황과 연결하기"
+   ],
+   "answer": "어제까지만 해도 더웠는데 오늘은 갑자기 쌀쌀하네요.",
+   "note": "비교형: 어제와 오늘을 비교하면 누구나 공감하기 쉬워요."
+  },
+  {
+   "q": "회식 자리에서 대화가 끊겼어요. 가벼운 뉴스로 분위기를 바꿔 보세요.",
+   "hints": [
+    "오늘 본 짧은 뉴스 한 줄",
+    "상대에게 되묻는 질문 붙이기"
+   ],
+   "answer": "프로야구 관중이 올해 역대 최다래요. 혹시 야구 좋아하세요?",
+   "note": "소식+질문형: 사실을 먼저 말하고 질문으로 상대를 초대해요."
+  },
+  {
+   "q": "친구 모임에서 최근 본 귀여운 이야기를 하나 꺼내 보세요.",
+   "hints": [
+    "본 것을 장면처럼 묘사하기",
+    "상대가 직접 상상할 수 있게 말하기"
+   ],
+   "answer": "웰시코기 축제에서 식빵 같은 엉덩이들이 잔디밭을 가득 채웠대요.",
+   "note": "묘사형: 장면이 떠오르게 말하면 상대도 웃으면서 이어 가기 쉬워요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 역대 최다 관중 1,277만 명",
+   "summary": "올해 프로야구 누적 관중이 역대 최고 기록인 1,277만 명을 넘었어요.",
+   "context": "프로야구는 해마다 관중 수가 늘고 있는데, 올해는 그 기록을 다시 깼어요. 야구장이 가족과 친구들이 함께 가는 나들이 장소로 자리 잡고 있다는 뜻이기도 해요. 이야기를 꺼내기 좋은 가벼운 소식이에요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MSGhRNVlHR2M0OFVHQ0JhRU5na1NQVnpqOWJFTDhlbEllLVNEQlRmN3RKR2RoMWNSQ3FJQmx3Y1FVOUdpazJPb2hFYXI1YVB0QUFLdDF2QXA3ZUo4cVZWRWpEcGgzM3M?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "프랑스 슈퍼마켓 냉장고 해킹 피해",
+   "summary": "프랑스 슈퍼마켓 700곳의 냉장고가 해킹돼 온도가 크게 올라 식품을 버렸어요.",
+   "context": "요즘은 냉장고나 가전도 인터넷에 연결돼 있어서 해킹의 대상이 될 수 있어요. 이번 사건은 온도가 올라가 음식이 상하게 되면서 식량 안전 문제로까지 번졌어요. 기기가 편리해질수록 보안도 함께 신경 써야 한다는 이야기예요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VemdGcUxiaE9yMGZ0STFwTkE5QVJFNzBsRjBONkJiWUdBSzBVX3BPQ2xmLURGUVp5YjM4emFPQzhVcVlwMV82eW5QTk9ONmc5dGQxd19qY2VocWlobzVUN2FoTzFJQnM?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "올가을 가장 쌀쌀한 아침",
+   "summary": "서울 아침 기온이 9.5도로 올가을 최저를 기록하고 찬바람에 체감온도가 더 낮았어요.",
+   "context": "어제까지 한낮 기온이 30도 넘게 올랐다가 갑자기 내려가서 몸이 더 춥게 느껴지는 날이에요. 이렇게 하루 만에 기온이 크게 바뀌면 감기에 걸리기 쉬워서 옷차림에 신경을 써야 해요. 이야기 시작하기에 가장 부담 없는 소재예요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80ZDNlYVNZdGtYaTZna0VaaTVtMjJLUVBzTXdoUjVYVWNVd1pFMlJWT1RoWjdEekliM3Z0TGZUdlBwSkxKY2czR2paMWVhQjBNY3lHdV96M0xld9IBX0FVX3lxTE4tTURxbnkzLTRMeXlsQXQtUXRSbWRTSDlXczBQakFXVHJfblQ0TXdtZWFJbGFTM1dUdUhLLWNUOHZKcktUSERzVUxrdWhmTG02Vkp6TnpnTkVxM0ViRnZn?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "웰시코기 축제, 식빵 엉덩이 화제",
+   "summary": "웰시코기가 잔뜩 모인 축제에서 동글동글한 엉덩이 사진이 인기를 끌었어요.",
+   "context": "웰시코기는 다리가 짧고 엉덩이가 동그래서 식빵 같다는 별명이 있는 강아지예요. 축제에 많은 웰시코기가 한자리에 모여 귀여운 사진과 영상이 SNS에 퍼졌어요. 반려동물 이야기라 처음 만난 사람과도 편하게 나눌 수 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aTmNJcHNlZTIzZGs3WWJiQXduSzJjUE55WkZOeHNRV1RHLVhHTDB1cmFub3c3WU9pSE1RcUlOZmItY0FFQVNnelJsaTJuSjJKZEJZWEEyMElFTXc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "대전 축구·빵지순례 관광상품",
+   "summary": "대전시가 축구 관람과 유명 빵집 방문을 묶은 관광상품을 운영해요.",
+   "context": "대전은 성심당 등 유명한 빵집이 많아 빵을 찾아 다니는 빵지순례로 알려진 도시예요. 축구 경기를 보러 온 관람객이 빵집도 함께 들르도록 철도여행과 연계한 상품을 만들었어요. 지역 특색을 살린 관광 아이디어를 보여 주는 소식이에요.",
+   "source": "아시아투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93OW42ZFRCekJHMlQzUzV3bWtiYVRsOHVlNUtfZ2h3QlJPOFJqUURuNjNNRnZMYjlkMUxpc3Zld21GYU85M1hDRU1QR05OcEFFdDJBT3BNb2tZeVNTWTFJalItb3N2WVo2V2xPZFlB?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "이수만, 24명 아이돌 그룹으로 복귀",
+   "summary": "이수만 씨가 유영진 씨와 함께 24명 규모의 새 아이돌 그룹을 준비한다는 소식이에요.",
+   "context": "이수만 씨는 SM엔터테인먼트를 만든 사람으로 많은 케이팝 그룹을 키워 낸 제작자예요. 이번에는 24명이라는 큰 규모의 그룹으로 돌아온다고 해서 업계 관심이 커졌어요. 케이팝 팬이라면 흥미를 가질 만한 이야기예요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXcUVvN1pUZUdid0RlX2wwQ0NYVXoyQk9QRVRtdVRDc1A0d0RvcU5jTDdBZ3RzbUZIblZDa2lZMFdodHRha2RrNTRjR2pBN1ZyRVFDeGJzR0lad19RcDRwcy1UOUM?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "고래에 잡아먹힌 남자, 영화로 귀환",
+   "summary": "액션 게임이 영화로 만들어져 개봉하고, 독특한 설정이 화제예요.",
+   "context": "게임에서 인기를 끈 이야기가 영화로 만들어지는 일은 요즘 자주 있어요. 이번 작품은 고래에게 먹히는 장면처럼 설정이 독특해서 눈길을 끌었어요. 영화나 게임을 좋아하는 사람과 이야기를 이어 가기 좋은 소재예요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByckxCOXRQRWFXd1BybmlLZUl5NzR2TXp5djJfQll3aEJfTVVqOHU4S2psZnRVVXVoaHFZVVh0dDVOcU5VejBNaExDd3hBUVBXd0NNWklldVY4djRCV3BnY0w3akV2RlBEOHVGczd4b01DSzNMNHozaEp30gF6QVVfeXFMTlptdGQybnlJdEZIM2FieTdna0steVQ5Y0xGa2NjQndlWkxkZmE1cWZSbkU1UFBkWV9VSW9NYkdkdDgtOWc5YXdOTDNBckxpeWJkaENzTGQxRE1CWk13ME5ROUxad0VjcktacGhfc3JleWM1OEtDQU5LRkE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "전자발찌 착용자 흉기 난동, 시민들이 제압",
+   "summary": "인천에서 전자발찌를 찬 50대가 흉기를 휘둘렀고, 시민들이 의자 등으로 막아 제압했어요.",
+   "context": "전자발찌는 재범 위험이 있는 사람의 위치를 확인하는 장치예요. 이번 사건 뒤 대통령이 엄정 수사와 전자발찌 관리 대책 마련을 지시했어요. 관리 체계가 충분했는지가 앞으로의 쟁점이에요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EY1NxQTlzNFNscDQwNmVFUF9QU0FuRUJ0Uk9DdmFhVngyc2xyMTNJU0xiVU05RGNDNVRNTVJCRmhoN2dhUlRhZUFzeUJzSDRyNWlSanR0WU5LUDRHNnhXcjRqVQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "윤석열 선거법 2심, 특검 당선무효형 구형",
+   "summary": "특검이 윤석열 전 대통령의 선거법 위반 항소심에서도 징역형을 요청했고, 판결에 따라 국민의힘의 선거비용 397억 원 반환 여부가 달려 있어요.",
+   "context": "선거법 위반으로 일정 형이 확정되면 당선이 무효가 되고, 정당이 받은 선거비용 보전금을 돌려줘야 할 수 있어요. 특검은 중형이 필요하다고 보고, 윤 전 대통령 측은 이런 식이면 선거를 왜 하느냐며 반발했어요. 최종 판단은 재판부의 몫이에요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeThHd2J5S0RFZVcwSno5V3JvUGNSMHBLc1F3MWZUSVYwb2xydTBxa0luTV9sMXJfcW9QZW1DWGVta2lIeF9VMnlWSWxldUJpcU5rcU91VmN1TTZIOGxTcWpvR2REMEFHLVhzc0F2T0EyMkpPSE1qeUtEQXZCU1lwU29HSkx1M28?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "유엔 국감, 북한 지뢰 대응 공방",
+   "summary": "북한 지뢰 사고를 두고 유엔 국정감사에서 정부 대응이 적절한지 여야가 공방을 벌였어요.",
+   "context": "북한 지뢰로 인한 사고에 정부가 어떻게 대응해야 하는지를 두고 의견이 갈렸어요. 한쪽은 강경한 메시지가 필요하다고, 다른 쪽은 신중한 접근이 필요하다고 봐요. 유엔대사는 안보리 대응 방식이 아직 정해지지 않았다고 밝혔어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDT3ZpUWRqXzJ1VGUxeGRHbEhwak11NVBmZktjdm5yb0RtMlMxLTQ0bEdUMG9abC1BQ0k0ai0tZDlwZk14d3lZSFNxODI5UWliaS0zbmdkTjJvZDNRYUVvZmJ1Ylh5ZlE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "수도권 44개 행정기관 세종 이전",
+   "summary": "금융위원회와 법무부 등 44개 기관, 약 9,900명이 내년부터 세종으로 순차 이전해요.",
+   "context": "수도권에 있던 중앙 행정기관을 세종시로 옮겨 수도권 집중을 줄이려는 계획이에요. 찬성하는 쪽은 균형 발전에 도움이 된다고 하고, 반대하는 쪽은 외교·안보 부처까지 옮기는 건 비효율적이라고 지적해요. 이전은 내년부터 순차적으로 진행돼요.",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qRW5nRHpKT2w4TFVHQkFVTFZUX1N0N3ZWeE00TWxabDVWMDBpSVBWWTBIMVZfR0c1UDZNOXBxNFJaX0VXRG8yT21MQmU3S0k?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이 대통령, 국가 간 관계서 굴종·사대 지양",
+   "summary": "대통령이 국무회의에서 국가 간 관계에서 굴종적·사대적 태도를 지양해야 한다고 말했고, 야당은 한미동맹 수호 요구를 사대로 보는 거냐며 반발했어요.",
+   "context": "한미 정보 공유 문제가 불거진 가운데 나온 발언이에요. 정부 쪽은 국익을 최우선으로 하는 자주 외교를 강조하고, 야당은 동맹 관계를 소홀히 하는 인식이라고 비판해요. 외교 노선을 둘러싼 입장 차이가 쟁점이에요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ILXoyR3VjV0NkT0tyT1djczJ5U1NTTVNsVmt4RWtsTzdhTnRGVUFiN2tuMFFLcGpFbVlSLVhzcDVLdUZOQWp1MWhsRjhtV1JNaUF5S2VjTkJWQdIBX0FVX3lxTE5sU1BaVDYwYnVmR29ycHhJeThHVm5CaWlBdUo5ZzNaNVE3UFV2T1NRTkU4NTBfXzZSWkZkMERIempGOWc4cDY0SDNEOXRLclRSZklBYVJBZUJWSXdlajRN?oc=5"
+  }
+ ],
+ "term": {
+  "word": "체감온도",
+  "meaning": "실제 기온에 바람과 습도를 더해 사람이 느끼는 추위나 더위의 정도예요.",
+  "example": "기온은 9도인데 바람이 세서 체감온도는 훨씬 낮대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고기온은 {최고}도이고, 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 {날씨}라고 하던데, 우산 하나쯤은 챙겨 두는 게 좋겠어요.",
+   "explain": "{지역} 오늘 날씨는 {날씨}이고 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역}은 최고 {최고}도인데 내일은 {내일최고}도래요. 기온 차이가 꽤 크네요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 내일 최고 {내일최고}도로 하루 만에 차이가 커요."
+  },
+  {
+   "cond": "swing",
+   "text": "내일은 {내일최고}도까지 오른다는데, 오늘은 {최고}도에 머무네요. 옷 입기 헷갈리지 않으세요?",
+   "explain": "{지역}은 오늘과 내일 기온 차이가 커서 옷차림에 신경 써야 해요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 최고 {최고}도까지 오른대요. 가을인데도 꽤 덥네요.",
+   "explain": "{지역} 오늘 최고기온은 {최고}도이고 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}이 {최고}도까지 간다는데, 가을 날씨가 맞나 싶어요.",
+   "explain": "{지역} 낮 최고기온이 {최고}도로 평년보다 높은 편이에요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침 {지역}은 {최저}도까지 내려갔대요. 겉옷이 꼭 필요한 날이에요.",
+   "explain": "{지역} 오늘 아침 최저기온은 {최저}도이고 낮 최고는 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침에 {최저}도라니, 가을이 제대로 온 것 같아요. 따뜻하게 입으셨어요?",
+   "explain": "{지역} 아침 최저기온 {최저}도로 쌀쌀하고 낮에는 {최고}도까지 올라요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {최저}도에서 {최고}도 사이래요. 지내기 무난한 날씨네요.",
+   "explain": "{지역}은 오늘 최저 {최저}도, 최고 {최고}도이고 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨가 {날씨}라서, 산책하기 괜찮은 날 같아요.",
+   "explain": "{지역} 오늘 최고기온은 {최고}도이고 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "반전",
+   "desc": "예상하지 못한 방향으로 뒤집어 웃음을 주는 유머"
+  },
+  {
+   "name": "의인화",
+   "desc": "사물이나 현상을 사람처럼 말해서 웃음을 주는 유머"
+  },
+  {
+   "name": "능청",
+   "desc": "진지한 표정으로 엉뚱한 말을 이어 가는 유머"
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 분위기를 부드럽게 하는 유머"
+  }
+ ],
+ "date": "2026-10-14",
+ "weekday": "수요일",
+ "tone": "jondae",
+ "strength": "bold",
+ "generated_at": "2026-10-14 09:40",
+ "model": "claude-sonnet-5-5"
+}
