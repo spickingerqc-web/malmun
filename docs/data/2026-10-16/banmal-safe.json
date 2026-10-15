@@ -1,0 +1,507 @@
+{
+ "lede": "오늘은 손흥민의 1골 2도움, 이수만 걸그룹 데뷔, 일교차 큰 포근한 가을 날씨, 김천김밥축제 소식까지 가볍게 꺼내 볼 만한 소재가 골고루 있어요.",
+ "today": {
+  "situation": "친구 모임",
+  "text": "손흥민이 어제 1골 2도움 했대. 메시 제치고 도움 1위래.",
+  "why": "뉴스 한 줄에 반응하기 쉬운 이름이 들어 있어서, 상대가 아는 만큼만 이어 가면 돼요.",
+  "explain": "미국 프로축구 LAFC에서 뛰는 손흥민이 어제 경기에서 1골 2도움을 해서 리그 도움 순위 1위가 됐대."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "손흥민 1골 2도움",
+    "safety": "가장 안전",
+    "text": "손흥민이 어제 1골 2도움 했대. 메시 제치고 도움 1위래.",
+    "explain": "미국 프로축구에서 뛰는 손흥민이 5경기 만에 팀 승리를 이끌었대."
+   },
+   {
+    "field": "음식",
+    "topic": "김천김밥축제",
+    "safety": "가벼움",
+    "text": "김천에서 김밥축제 한대. 김밥 모양 빵도 나왔다는데 나는 김밥이랑 빵 중에 하나만 고르고 싶어.",
+    "explain": "경북 김천에서 김밥축제가 열리는데, 김밥처럼 생긴 빵이 화제래."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "이수만 걸그룹 데뷔",
+    "safety": "상대가 관심 있을 때",
+    "text": "이수만이 만든 걸그룹이 데뷔했는데 하루 만에 멜론 1위 했대.",
+    "explain": "K팝 초창기를 만든 프로듀서 이수만이 새 걸그룹을 내놨고, 음원 사이트 멜론 1위를 했대."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차",
+    "safety": "가장 안전",
+    "text": "요즘 일교차가 10도 넘게 난대. 나는 아침마다 옷 고르다가 하루 에너지를 다 써.",
+    "explain": "아침엔 쌀쌀하고 낮엔 포근해서 하루 기온 차이가 10~15도쯤 난다는 예보야."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "음식",
+    "topic": "김천김밥축제",
+    "safety": "가벼움",
+    "text": "김천에서 김밥축제를 한다고 하더라고요. 김밥 모양 빵도 나왔대요.",
+    "explain": "경북 김천에서 열리는 축제인데, 김밥처럼 생긴 빵이 화제라고 해요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 1골 2도움",
+    "safety": "가장 안전",
+    "text": "어제 손흥민 선수가 1골 2도움을 했다고 하더라고요. 도움 부문 1위가 됐대요.",
+    "explain": "미국 프로축구 LAFC 경기에서 활약해서 도움 순위 선두가 됐다고 해요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "서울역 유인원 전시 반대 퍼포먼스",
+    "safety": "상대가 관심 있을 때",
+    "text": "서울역에 유인원 전시를 끝내자는 철창 퍼포먼스가 있었대요. 신기해서 사진을 한참 봤어요.",
+    "explain": "동물을 전시하는 방식을 바꾸자는 취지로 서울역에 철창을 설치한 행사였대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 날씨",
+    "safety": "가장 안전",
+    "text": "요즘 아침저녁은 쌀쌀한데 낮엔 포근하더라고요. 일요일엔 전국에 비가 온다니까 우산 챙기셔야겠어요.",
+    "explain": "낮 최고 26도 안팎으로 포근하지만 일요일에 전국에 많은 비가 예보돼 있어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "영화·드라마",
+    "topic": "놀면 뭐하니 가요제",
+    "safety": "가벼움",
+    "text": "놀면 뭐하니 가요제가 올해 자체 최고 화제성이래. 혹시 봤어?",
+    "explain": "예능 놀면 뭐하니의 가요제 편이 올해 그 프로그램 중 가장 화제가 됐대."
+   },
+   {
+    "field": "음식",
+    "topic": "김천김밥축제",
+    "safety": "가장 안전",
+    "text": "김천에서 김밥축제 한대. 김밥 좋아해?",
+    "explain": "경북 김천에서 열리는 축제고, 김밥 모양 빵도 나와서 화제야."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 수학 능력",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 AI가 수학을 엄청 잘하게 됐대. 나는 아직 계산기도 두 번 눌러야 해.",
+    "explain": "AI의 수학 실력이 빠르게 늘어서 과학 연구나 보안에까지 영향이 있다는 기사가 나왔어."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 1골 2도움",
+    "safety": "가장 안전",
+    "text": "어제 손흥민 경기 봤어? 1골 2도움이라는데 난 하이라이트만 봤어.",
+    "explain": "미국 프로축구에서 뛰는 손흥민이 어제 1골 2도움을 했어."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "아이폰 사전예약",
+    "safety": "가벼움",
+    "text": "아이폰 새 모델 사전예약 시작했대. 나는 내 폰 배터리랑 아직 헤어질 준비가 안 됐어.",
+    "explain": "통신사들이 새 아이폰 사전예약을 시작하면서 할인과 경품을 내걸고 있대."
+   },
+   {
+    "field": "음식",
+    "topic": "김밥 매출",
+    "safety": "가장 안전",
+    "text": "편의점에서 이번 달 김밥 매출이 36%나 늘었대. 가을 소풍 철이라 그런가 봐.",
+    "explain": "한 편의점이 협업 김밥을 내놓았는데 이달 김밥 매출이 36.2% 늘었다고 해."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "코스피 하락",
+    "safety": "상대가 관심 있을 때",
+    "text": "어제 코스피가 5500선까지 내려갔대. 나는 내 통장 잔고 보는 것도 겁나는데.",
+    "explain": "미국 물가 소식과 AI 수익 우려로 한국 주가지수가 크게 내려갔대."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차",
+    "safety": "가장 안전",
+    "text": "오늘 아침 춥지 않았어? 낮엔 26도까지 오른다는데 나는 옷을 한 겹씩 벗는 중이야.",
+    "explain": "아침저녁과 낮의 기온 차가 10~15도쯤 크게 나는 날이야."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "음식",
+    "topic": "김천김밥축제",
+    "safety": "가장 안전",
+    "text": "김천에서 김밥축제를 한다고 하더라고요. 김밥 모양 빵도 나왔대요.",
+    "explain": "경북 김천 축제 소식인데, 김밥처럼 생긴 빵이 화제라고 해요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "포근한 가을",
+    "safety": "가장 안전",
+    "text": "오늘 아침은 쌀쌀한데 낮엔 포근하대요. 일교차가 커서 겉옷 챙기시는 분이 많으시더라고요.",
+    "explain": "낮 최고기온은 26도 안팎이고 아침저녁은 쌀쌀한 날씨예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 1골 2도움",
+    "safety": "가벼움",
+    "text": "어제 손흥민 선수가 1골 2도움을 했다고 하더라고요. 기분 좋은 소식이에요.",
+    "explain": "미국 프로축구 경기에서 활약해서 도움 순위 1위가 됐다고 해요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "이수만 걸그룹",
+    "safety": "상대가 관심 있을 때",
+    "text": "이수만 씨가 만든 걸그룹이 데뷔하자마자 멜론 1위를 했다고 하더라고요.",
+    "explain": "K팝 초창기를 이끈 프로듀서가 새로 내놓은 걸그룹이 음원 차트 1위를 했대요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 아침에 일어나면 제일 먼저 하는 일이 뭐야?",
+  "why": "정답이 없는 일상 질문이라 누구나 부담 없이 대답할 수 있고, 거기서 이야기가 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "친구 모임에서 김밥축제 이야기",
+   "topics": "김천김밥축제, 일교차, 손흥민",
+   "lines": [
+    {
+     "who": "a",
+     "text": "김천에서 김밥축제 한대. 김밥 모양 빵도 나왔다더라.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "김밥 모양 빵? 그럼 김밥이야 빵이야?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나도 그게 제일 궁금해. 먹다가 정체성 혼란 올 것 같아.",
+     "humor": {
+      "type": "의인화",
+      "why": "음식이 자기 정체를 고민하는 것처럼 말해서 온화하게 웃기는 방식이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "ㅋㅋ 근데 요즘 날씨는 소풍 가기 딱 좋긴 하더라.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아, 낮엔 26도라는데 아침엔 추워서 나는 아침마다 옷장 앞에서 회의해.",
+     "humor": {
+      "type": "자조",
+      "why": "옷 고르기 어려운 나를 살짝 낮춰서 웃음을 만드는 자조예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그럼 오늘은 어떻게 입고 왔어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "겉옷 하나 들고 왔어. 더우면 팔에 걸고 다니는 용도야.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "어제 손흥민 경기도 봤어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "1골 2도움 한 거 하이라이트로만 봤어. 내 응원은 편집본이 전문이야.",
+     "humor": {
+      "type": "자조",
+      "why": "경기를 끝까지 못 본 나를 가볍게 놀리는 자조라 상대가 불편하지 않아요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "직장에서 점심 이야기 하다가 썰렁해졌을 때",
+   "topics": "편의점 김밥 매출, 아이폰 사전예약, 수습",
+   "lines": [
+    {
+     "who": "a",
+     "text": "편의점 김밥 매출이 이번 달에 36%나 늘었대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "가을이라 소풍 가고 싶은 사람이 많은가 봐.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나는 소풍 대신 책상 앞에서 김밥 소풍 중이야. 자리가 곧 돗자리지.",
+     "humor": {
+      "type": "능청",
+      "why": "책상을 돗자리라고 우겨서 능청스럽게 웃기는 방식이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 그 말은 김밥 옆구리 터지듯 터졌네. 못 들은 걸로 해 줘.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁한 순간을 인정하고 스스로 낮춰서 분위기를 수습하는 방식이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "ㅋㅋ 아니야, 그래도 돗자리는 좀 귀여웠어.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "고마워. 그럼 화제를 바꿔서, 새 아이폰 사전예약 시작했다던데 알아?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "응, 이번에 사려고 하는데 아직 고민 중이야.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나는 내 폰 배터리랑 이별 준비가 아직 안 됐어. 정이 들었나 봐.",
+     "humor": {
+      "type": "의인화",
+      "why": "폰 배터리와 정이 들었다고 해서 사물을 사람처럼 온화하게 표현했어요."
+     }
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "친구가 요즘 뭐 재밌는 일 없냐고 물어요. 어제 있었던 스포츠 소식 하나로 말을 꺼내 보세요.",
+   "hints": [
+    "이름과 숫자를 같이 말하기",
+    "내가 본 정도를 솔직하게 말하기"
+   ],
+   "answer": "어제 손흥민이 1골 2도움 했대. 나는 하이라이트만 봤어.",
+   "note": "사실 + 나의 솔직한 한마디 유형이에요."
+  },
+  {
+   "q": "처음 만난 사람과 어색한 침묵이 흘러요. 계절이나 음식 이야기로 말을 꺼내 보세요.",
+   "hints": [
+    "가볍게 질문으로 끝내기",
+    "내 이야기를 한 줄 먼저 붙이기"
+   ],
+   "answer": "요즘 아침저녁으로 쌀쌀하지 않아? 나는 따뜻한 국물이 계속 생각나더라.",
+   "note": "계절 + 질문 유형이에요."
+  },
+  {
+   "q": "직장 동료에게 새로 나온 제품 소식을 가볍게 꺼내 보세요.",
+   "hints": [
+    "소식을 한 줄로 말하기",
+    "내 상황을 살짝 낮춰 덧붙이기"
+   ],
+   "answer": "새 아이폰 사전예약 시작했대. 나는 내 폰이랑 아직 이별 준비가 안 됐어.",
+   "note": "소식 + 자조 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "손흥민, 1골 2도움으로 팀 5경기 만의 승리 이끌어",
+   "summary": "미국 프로축구 LAFC의 손흥민이 1골 2도움을 기록해 팀이 5경기 만에 이겼고, 메시를 제치고 도움 1위가 됐다.",
+   "context": "손흥민은 영국 프리미어리그를 거쳐 지금은 미국 프로축구 MLS의 LAFC에서 뛰고 있어요. 이번 경기에서 골과 도움을 함께 기록해 팀의 연패를 끊었어요. 같은 리그의 메시보다 도움이 많아져서 도움 부문 선두에 올랐다는 점이 화제가 됐어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SZllvcjM3YjVHbHN5dzEzN3cxcGQ3R1pNUGxNcW8tLWhnZnBBR3dpNzZ1ZzhBRzZOOUdrUWZBNjFhWnZjbFQtVkw4TGVmZEtyUk9adUZPR1NxSjQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "이수만 걸그룹, 데뷔 하루 만에 멜론 1위",
+   "summary": "K팝 초창기를 이끈 이수만이 만든 걸그룹이 데뷔 하루 만에 음원 사이트 멜론에서 1위를 했다.",
+   "context": "이수만은 SM엔터테인먼트를 만들어 K팝 1세대 아이돌 시스템을 세운 프로듀서로 알려져 있어요. 이번에 새로 선보인 걸그룹이 데뷔하자마자 국내 대표 음원 사이트에서 1위를 차지했어요. 예전 K팝 느낌을 다시 살렸다는 평가도 나오고 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMkRaYnZRaDllc09xQjJQUVFsRFVXSGg2OVRfUWtLaktBY04za1l5TTBydXFWNVRhdDFpYWR3ZzE2UWEtaGpNVFd6WEF6U2ZjOHNnWml6RmhGTGE4SEtLdi1yZ0pLQVNKd3dhb0JPS3RUaXBBRnVDb3VfNHFHd0wxaU9NZzY0eE1EZXcwTEVNUzhNSGJF?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "김천김밥축제 앞두고 김밥 모양 빵 화제",
+   "summary": "김천김밥축제를 앞두고 김밥인지 빵인지 헷갈리는 이색 상품이 화제가 되고 있다.",
+   "context": "김천은 경북에 있는 도시로, 김밥을 주제로 한 축제를 열고 있어요. 축제를 앞두고 김밥처럼 생긴 빵 같은 이색 상품이 나와서 온라인에서 화제가 됐어요. 한편 편의점에서도 김밥 신제품이 나오며 이달 김밥 매출이 늘었다는 소식이 있어요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Nb1lycUdJMGktYXc5dVVtRzRQOHhqLWRDLTZDV0xseXBHVWh1WkFJM3FLaXlUb0FqaTg3Z3JVNzFfOUVGeEtPUElhNTZJUldnSE1BTExRM3c1bGt0VEFYV0xtTTNJREJLa2x5MGRYOG9nMVkwRjRqdXJR0gF6QVVfeXFMTk1vWXJxR0kwaS1hdzl1VW1HNFA4eGotZEMtNkNXTGx5cEdVaHVaQUkzcUtpeVRvQWppODdnclU3MV85RUZ4S09QSWE1NklSV2dITUFMTFEzdzVsa3RUQVhXTG1NM0lEQktrbHkwZFg4b2cxWTBGNGp1clE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "평년보다 포근한 가을, 일교차는 10~15도",
+   "summary": "낮 최고 26도 안팎으로 포근하지만 아침저녁은 쌀쌀하고, 일요일에는 전국에 많은 비가 예보됐다.",
+   "context": "가을에는 낮과 밤의 기온 차이인 일교차가 커지기 쉬워요. 이번 주는 낮에는 평년보다 포근하지만 아침과 저녁에는 쌀쌀해서 겉옷이 필요해요. 일요일에는 전국에 많은 비가 오고, 그 뒤에는 기온이 내려가 쌀쌀해질 전망이에요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2VHRZRkdaLXVadnl0alJjNl9VcTdwZzMyVEZ2bUplWFh2ZlZqTXpJT3gxUk5YWEg4Y1F1YThHNEIxaWhrOHpMR1ZLVmwzYnpzQ2xzVHR2dEJ3dDQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI 수학 능력 급발전, 과학 연구와 보안에 파장",
+   "summary": "AI의 수학 실력이 빠르게 늘면서 과학 연구와 인터넷 보안 분야에 영향을 줄 것이라는 분석이 나왔다.",
+   "context": "AI가 복잡한 수학 문제를 푸는 능력이 크게 좋아지고 있어요. 이 능력이 신약이나 소재 같은 과학 연구를 빠르게 해 줄 수 있다는 기대가 있어요. 반대로 암호를 푸는 데 쓰일 수 있어서 인터넷 보안에는 새 과제가 된다는 우려도 함께 나와요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MMVhzM0tLc3AwRm1jNlAwQzUyenFUbXRTYUt0MEhjVVZtY1NWU1RHVjVQc05pM0hMcUk0Tm9LeV9aUXlaaGVpM0xmNGYtNUliM1B4SHdlNUgwMU1fX3l3WmJLYXlCbDZhMkE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "미 물가 충격·AI 수익 우려에 코스피 5500선까지 하락",
+   "summary": "미국 물가 소식과 AI 기업 수익성 우려가 겹치면서 코스피가 5500선까지 내려갔다.",
+   "context": "코스피는 한국 대표 주가지수예요. 미국에서 물가가 예상보다 높게 나오면 금리 인하 기대가 줄어서 주식시장이 흔들리기 쉬워요. 여기에 AI 투자가 실제 수익으로 이어질지에 대한 걱정이 더해져 어제 지수가 크게 내려갔어요.",
+   "source": "JTBC",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NX20wbnVZYjdRZ3prMVhFZVFxWFMwNVFrRUEzejBZa0ZjYTJMTXJQNURBLXNWVm5NNWR6WjVmU3VtWEJxaHlURVZYaFB2cWQzUnU4bw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "서울역에 등장한 철창, 유인원 전시 끝내자는 퍼포먼스",
+   "summary": "동물 전시 방식을 바꾸자는 취지로 서울역에 철창이 설치돼 눈길을 끌었다.",
+   "context": "동물원이나 전시 시설에서 유인원을 가두어 보여 주는 방식에 문제를 제기하는 시민 행동이에요. 서울역이라는 사람 많은 장소에 철창을 세워서 지나가는 사람들이 직접 보고 생각해 보도록 했어요. 동물복지에 대한 관심이 커지면서 이런 퍼포먼스도 늘고 있어요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9veUtVbzZUOVUtUHluM0hlLXU5Z2ZySDVXTTNxcG5TMEVKWERZWEdiZHQtRzFLT2k4QkpLNkVNLTBpNVdRZzFPeGszdFpWMExUOGQxcktNOFhfd9IBX0FVX3lxTE9lS0dCclhuNEZpVHRIWHpFdi1EWmxXYUtzdTdmRWF3UUtXa2tvY2RXMzJGNXVGelRRN3FHVTltdDhOWnZITUItMUVKR1A4MXN6LWxfMG5vR0hlTkhpQ2FR?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "전작권 전환 두고 미국 새 기준 언급, 한국 정부 반발",
+   "summary": "주한미군사령관이 전시작전통제권 전환 기준을 언급하자 국방부는 기준을 계속 바꾸면 전환이 불가능하다는 입장을 밝혔다.",
+   "context": "전시작전통제권은 전쟁이 났을 때 군대를 지휘하는 권한이에요. 현재는 한미 연합사령관이 갖고 있고, 한국은 이를 넘겨받기를 원해요. 미국이 전환 조건을 새로 이야기하자 한국 국방부는 기준을 자꾸 바꾸면 영영 못 한다고 말했고, 여권 일부는 반발했어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TMXdBbTI3bkhxQjFmaE45Y1BDWmx3N2phSmZyTzljckU5d0tuT3BPSHZUWEhoS0NuNnBQYXk0Z05faFNNZkJWbWFhWUtEdXdXRzVoS3gtVzdfNW0weGd1YTVmNFoyQTlT?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "서울시 국감, 오세훈 서울시장 사법리스크와 부동산 정책 공방 전망",
+   "summary": "오세훈 서울시장의 항소심 선고를 앞두고 서울시 국정감사가 열려 사법리스크와 부동산 정책을 두고 공방이 예상된다.",
+   "context": "국정감사는 국회가 정부 기관이 일을 잘했는지 점검하는 제도예요. 오세훈 시장은 재판을 받고 있어서 야당이 이 문제를 따질 것으로 보여요. 오 시장은 실거주 규제가 전세난과 집값 상승을 키웠다며 정부 정책을 비판했고, 한강버스 관련 의혹은 자체 감사 중이라고 밝혔어요.",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80WU1xOWFwb2ZvMDJhWHBTZ3lXbGlSMGY3WnB5YkdzcFk2SDZxYU9USnpxNnZrVHNKbzhJenpEM0ZGV0RZSW5BaDBLYU5sZU85dDR4N0Mxa3pZUQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국, 북핵 정보 공유 조건으로 쿠팡 문제 해결 요구했다는 보도",
+   "summary": "미국이 한국에 북핵 정보를 공유받으려면 쿠팡 관련 문제도 풀라고 요구했다는 보도가 나왔다.",
+   "context": "한미는 북한 핵 관련 정보를 서로 나누고 있는데, 최근 이 정보 공유가 제한됐다는 보도가 이어지고 있어요. 한 매체는 미국이 그 조건으로 쿠팡 관련 현안 해결을 요구했다고 전했어요. 확인된 공식 입장이 아니라 보도 내용이라는 점을 감안해야 해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oZEhLWGVodU5rUTUybUduNEtuXzYxSGp1dHBXLUNSbUNDWnYxZE5fUWhJZzcxYjZreElxUFNVZXVZTF9XVU0wOUxoVi11WWZaT1ZZeURrSTdabWVYMUtFTmlvaWxOVENyMUF3?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "북한, 신압록강대교 개통 보도",
+   "summary": "북한 매체가 중국과 연결되는 신압록강대교 개통을 보도하며 경제 연계를 강화한다고 밝혔다.",
+   "context": "압록강은 북한과 중국의 국경을 이루는 강이에요. 새 다리가 열리면 두 나라 사이 물류 이동이 쉬워져서 교역이 늘 수 있어요. 일부에서는 대북 제재가 사실상 약해질 수 있다고 우려하고, 북한과 중국은 경제 협력 강화라는 점을 강조해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42c0NXZ3RZVjBVQXhxbjJ6Tm9EZkVwVWNGSEN2QUlsYWlkYWhKYzhkY01qXzRta2tKUkJYMjdBdWFNVTh4MmN5eDIwY2MtRDRxQV9Ta1lseVZjZmvSAWBBVV95cUxPWGxIT2N6QThVUjV0QUw3RGFyNW5YYURxcEpfN1duMmJQRmRzM0NTbEkyNEgweUZrLXNFNkpCSlFlbEhYR3REaVRuZjFfSzB6aWE0UWJRNXliSHA2ZlEwZDA?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "우크라이나, 북한군 포로 송환 공개로 한국과 외교 갈등",
+   "summary": "우크라이나가 북한 포로 송환 문제를 공개하면서 한국과 외교적 갈등이 생겼다는 분석이 나왔다.",
+   "context": "우크라이나 전쟁에는 북한군이 러시아 쪽으로 참전했다는 보도가 있었고, 일부는 포로로 잡혔다고 알려졌어요. 이 포로를 어떻게 처리할지 한국과 우크라이나가 조율 중이었는데, 우크라이나가 이를 공개하면서 한국 정부의 대북·대러 접근에 부담이 됐다는 평가가 나와요. 유럽 국가들은 한국의 우크라이나 지원이 유지되길 바란다고 했어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uY0J5YUNrS25fTFdzV0N6cEI4Wno0YlVtZUtoTzU5RzlUUEZINm5JNTY1MmhZUHE2b1FYaERsTmNLbUNZN2ZaSWxPMUN2TU51Rkdia2tIQ0M3djFsNkx1d21DcFdtZG8?oc=5"
+  }
+ ],
+ "term": {
+  "word": "일교차",
+  "meaning": "하루 중 가장 높은 기온과 가장 낮은 기온의 차이를 말해요. 가을에는 아침엔 춥고 낮엔 따뜻해서 이 차이가 크게 나요.",
+  "example": "요즘 일교차가 커서 아침엔 패딩, 낮엔 반팔이 되더라."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "오늘 {지역}에 비 소식 있더라. 가을비라 그런지 괜히 따뜻한 국물이 당겨.",
+   "explain": "비 올 확률이 {비확률}%라서 우산을 챙기는 게 좋대."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 아침엔 {최저}도인데 낮엔 {최고}도까지 오른대. 옷 고르기 어려운 날이야.",
+   "explain": "오늘 {지역}은 최저 {최저}도, 최고 {최고}도로 기온 차이가 커."
+  },
+  {
+   "cond": "swing",
+   "text": "내일 {지역} 최고기온이 {내일최고}도래. 오늘이랑 차이가 꽤 나서 겉옷이 고민돼.",
+   "explain": "오늘 최고 {최고}도, 내일 최고 {내일최고}도로 기온이 꽤 달라."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}이 {최고}도까지 오른대. 가을인데 여름 옷이 아직 쉬질 못해.",
+   "explain": "오늘 {지역} 낮 최고기온이 {최고}도로 예보돼 있어."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} {최고}도래. 가을 날씨라기엔 낮엔 꽤 포근하지 않아?",
+   "explain": "오늘 {지역} 최고 {최고}도, 아침엔 {최저}도라서 하루 차이가 있어."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 기온이 {최저}도래. 이불 밖으로 나오기가 점점 힘들어져.",
+   "explain": "오늘 {지역} 최저 {최저}도, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침 {최저}도라는데 벌써 쌀쌀해졌지? 따뜻한 커피가 생각나는 날씨야.",
+   "explain": "아침 최저기온이 {최저}도라 겉옷이 필요한 날씨야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨 {날씨}에 최고 {최고}도래. 산책하기 딱 좋은 가을 날씨 같아.",
+   "explain": "오늘 {지역}은 {날씨}이고 최고 {최고}도, 최저 {최저}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역} 오늘 {최저}도에서 {최고}도 사이래. 무난한 가을날이라 점심 먹고 잠깐 걸어도 좋겠어.",
+   "explain": "오늘 {지역} 기온은 {최저}도에서 {최고}도이고 날씨는 {날씨}야."
+  }
+ ],
+ "types": [
+  {
+   "name": "뉴스 한 줄 전달형",
+   "desc": "사실 한 줄을 먼저 말하고 상대 반응을 기다리는 방식"
+  },
+  {
+   "name": "자조형",
+   "desc": "나를 살짝 낮춰서 부담 없이 웃기는 방식"
+  },
+  {
+   "name": "의인화형",
+   "desc": "사물이나 음식을 사람처럼 말해서 온화하게 웃기는 방식"
+  },
+  {
+   "name": "능청형",
+   "desc": "뻔한 상황을 진지한 척 돌려 말하는 방식"
+  }
+ ],
+ "date": "2026-10-16",
+ "weekday": "금요일",
+ "tone": "banmal",
+ "strength": "safe",
+ "generated_at": "2026-10-16 08:46",
+ "model": "claude-sonnet-5-5"
+}
