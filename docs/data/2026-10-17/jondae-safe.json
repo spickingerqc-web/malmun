@@ -1,0 +1,494 @@
+{
+ "lede": "오늘은 단풍 절정인 토요일 날씨부터 한국 시리즈 이야기, 전국체전 개막, 손흥민 소식, 삼겹살 굽기 자격시험까지 가볍게 꺼낼 소재를 골랐어요.",
+ "today": {
+  "situation": "처음 만난 사람",
+  "text": "요즘 설악산 단풍이 절정이라는데, 단풍 구경 가 보셨어요?",
+  "why": "계절 이야기는 누구에게나 열려 있어서 대답하기 쉽고, 상대의 주말 계획으로 자연스럽게 이어져요.",
+  "explain": "기상 소식에서 설악산 단풍이 절정이라고 했고, 내일은 전국에 비가 온다고 해서 오늘이 단풍 보기 좋은 날이래요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음식",
+    "topic": "삼겹살 굽기 자격시험",
+    "safety": "가벼움",
+    "text": "삼겹살을 누가 더 맛있게 굽는지 겨루는 자격 시험이 생겼대요. 저는 불판 앞에서 고기보다 제가 더 먼저 익을 것 같아요.",
+    "explain": "'그릴링 마이스터'라는 이름의 시험이 화제라는 보도가 있었어요. 고기 굽는 실력을 평가한대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "전국체전 개막",
+    "safety": "가장 안전",
+    "text": "전국체전이 제주에서 개막했대요. 12년 만에 제주에서 열린다고 하더라고요.",
+    "explain": "제107회 전국체전이 제주에서 열렸고, 개막식에서 불꽃도 터졌대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "방탄소년단 도쿄돔 방송",
+    "safety": "상대가 관심 있을 때",
+    "text": "방탄소년단 도쿄돔 공연을 일본 방송사에서 11월 28일에 독점으로 방송한대요. 혹시 보실 계획 있으세요?",
+    "explain": "일본 TBS가 11월 28일에 공연 실황을 독점 방송한다는 소식이에요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "이색 스포츠 바나나스",
+    "safety": "가벼움",
+    "text": "관중이 공을 잡으면 아웃이 되는 야구가 있대요. 저는 구경하다가 공이 날아오면 먼저 도망갈 것 같아요.",
+    "explain": "'바나나스'라는 이색 야구 방식인데, 관중이 공을 잡으면 아웃이고 번트를 대면 퇴장이래요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "단풍과 내일 비",
+    "safety": "가장 안전",
+    "text": "설악산 단풍이 한창이라는데, 내일은 전국에 비가 온대요. 단풍 구경은 오늘이 좋을 것 같아요.",
+    "explain": "토요일은 맑고 일교차가 크며, 일요일에는 전국에 비가 온다는 예보가 있었어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 아시안컵",
+    "safety": "가장 안전",
+    "text": "사우디에서 내년 1월 아시안컵을 예정대로 연다고 공식 발표했대요. 손흥민 선수가 또 큰 대회에 나가겠네요.",
+    "explain": "사우디아라비아가 아시안컵을 예정대로 준비한다고 밝혔고, 손흥민 선수가 마지막 메이저 대회에 뛸 수 있게 됐다는 기사가 나왔어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "김혜자 영화 복귀",
+    "safety": "가벼움",
+    "text": "김혜자 선생님이 9년 만에 영화로 돌아오신대요. 오랜만이라 반가운 소식이에요.",
+    "explain": "배우 김혜자 씨가 9년 만에 영화에 복귀한다는 기사가 나왔어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "시니어 AI 활용",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘은 어르신들이 AI를 잘 쓰신다는 기사가 있더라고요. 저보다 훨씬 잘 쓰실지도 몰라요.",
+    "explain": "YTN이 '디지털 약자는 옛말'이라며 시니어의 AI 활용법을 소개했어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음악·K팝",
+    "topic": "신장미 불후의 명곡",
+    "safety": "가벼움",
+    "text": "'불후의 명곡' 고음으로 화제가 된 신장미 씨가 파격 변신을 한대요. 혹시 방송 보셨어요?",
+    "explain": "신장미 씨가 고음으로 화제가 된 뒤 새 무대에서 이미지를 확 바꿨다는 기사예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "큰 일교차",
+    "safety": "가장 안전",
+    "text": "요즘 아침저녁은 쌀쌀한데 낮은 따뜻해서, 옷을 어떻게 입을지 매일 고민돼요. 오늘은 뭐 입고 오셨어요?",
+    "explain": "기상 소식에서 아침은 선선하고 낮은 온화해서 일교차가 크다고 했어요."
+   },
+   {
+    "field": "음식",
+    "topic": "항염 식품",
+    "safety": "가장 안전",
+    "text": "만성 염증을 줄이는 음식 여섯 가지를 전문가들이 꼽았다는 기사를 봤어요. 평소에 챙겨 드시는 음식 있으세요?",
+    "explain": "하이닥에 전문가가 꼽은 항염 식품 6가지를 소개하는 기사가 나왔어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "서울 야시장",
+    "safety": "가벼움",
+    "text": "서울 동네마다 야시장이 열린대요. 엽전으로 할인도 받을 수 있다고 하던데, 좋아하세요?",
+    "explain": "서울시가 엽전 할인과 야외공연이 있는 동네 야시장 소식을 알렸어요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI와 인간의 글",
+    "safety": "가벼움",
+    "text": "요즘 AI 회사들이 헌책방까지 뒤진대요. 사람이 쓴 글이 귀해졌다니, 괜히 제 메모도 소중해 보여요.",
+    "explain": "AI가 학습할 사람의 글이 부족해지면서 빅테크가 헌책방에서 책을 찾고 있다는 기사예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "전국체전과 손흥민",
+    "safety": "가장 안전",
+    "text": "전국체전이 제주에서 시작됐다는 소식 보셨어요? 주말에 경기 보실 계획 있으세요?",
+    "explain": "제107회 전국체전이 12년 만에 제주에서 열렸어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "티빙 촬영지",
+    "safety": "상대가 관심 있을 때",
+    "text": "티빙 드라마에 나온 이색 매장이 잠실에 실제로 있는 곳이래요. 한번 가 보고 싶더라고요.",
+    "explain": "'내가 떨릴 수 있게'에 나온 매장의 촬영지가 잠실의 '다락'이라는 기사가 있었어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "주말 비 예보",
+    "safety": "가장 안전",
+    "text": "일요일에 전국에 비가 온다니까, 오늘 하고 싶은 일은 미리 해 두려고요. 주말 계획 있으세요?",
+    "explain": "토요일은 가을 날씨가 좋고, 일요일은 전국에 요란한 비가 온다는 예보예요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "음식",
+    "topic": "삼겹살 굽기 자격시험",
+    "safety": "가벼움",
+    "text": "삼겹살을 맛있게 굽는 자격 시험도 있다더라고요. 고객님은 고기 구울 때 어떤 편이세요?",
+    "explain": "'그릴링 마이스터'라는 시험이 화제가 됐다는 보도가 있었어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 나들이 날씨",
+    "safety": "가장 안전",
+    "text": "오늘은 날씨가 정말 좋네요. 내일은 비가 온다니, 나들이는 오늘이 딱이에요.",
+    "explain": "토요일은 완연한 가을 날씨이고 일요일에는 전국에 비가 온다고 했어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "매장 음악 AI",
+    "safety": "상대가 관심 있을 때",
+    "text": "KT가 AI로 매장 음악을 틀어 주는 서비스를 냈대요. 가게에서 나오는 음악도 이제 AI가 고르나 봐요.",
+    "explain": "KT가 'AI 매장음악 서비스 래디오비즈'를 출시했다는 소식이에요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "숏폼 드라마 결혼식",
+    "safety": "가벼움",
+    "text": "중국에서는 결혼식을 숏폼 드라마로 만들어 준대요. 저라면 주인공 연기하다가 대사부터 잊어버릴 것 같아요.",
+    "explain": "결혼식을 짧은 드라마 형식으로 제작해 주는 이색 결혼식이 중국에서 주목받는다는 기사예요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 가을 가기 전에 꼭 해 보고 싶은 게 있으세요?",
+  "why": "계절 이야기라 부담이 없고, 상대의 취향과 계획을 자연스럽게 들을 수 있어요."
+ },
+ "scenes": [
+  {
+   "title": "처음 만난 사람과 단풍 이야기",
+   "topics": "설악산 단풍, 일교차, 내일 비 예보",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕하세요. 오늘 날씨가 정말 좋네요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그러게요. 완전 가을이에요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "설악산 단풍이 절정이라는데, 내일은 전국에 비가 온대요. 구경은 오늘이 딱이래요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그렇군요. 단풍 구경 가고 싶네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 단풍을 보러 가자고 생각만 하다가 비 소식에 또 미룰 것 같아요. 제 계획은 늘 낙엽처럼 떨어져요.",
+     "humor": {
+      "type": "자조",
+      "why": "나를 살짝 낮추면서 계절 소재에 빗대어, 상대를 건드리지 않고 온화하게 웃게 해 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 저도 비슷해요. 그래서 오늘 나왔어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "잘하셨어요. 오늘 나오신 게 올가을 가장 잘한 선택일지도 몰라요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그런가요? 그럼 점심도 맛있는 거 먹어야겠네요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기",
+   "topics": "삼겹살 굽기 자격시험, 이색 야구",
+   "lines": [
+    {
+     "who": "a",
+     "text": "삼겹살 맛있게 굽는 자격 시험이 생겼대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그렇군요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 고기를 구우면 항상 탄 부분이 제 몫이라서, 시험은 구경만 해야겠어요.",
+     "humor": {
+      "type": "자조",
+      "why": "자신의 서툰 모습을 살짝 드러내 가볍게 웃기고, 상대를 소재로 삼지 않아 안전해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 갑자기 고기 이야기만 해서 조금 썰렁했죠? 제가 배가 고팠나 봐요.",
+     "humor": {
+      "type": "능청",
+      "why": "썰렁함을 스스로 인정하고 이유를 가볍게 돌리면, 분위기가 오히려 편안해져요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 저도 배고파요. 뭐 드실래요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "좋아요. 단풍 구경 갈 때 먹을 만한 음식도 같이 정해요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그거 좋네요. 얼른 정해요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 맛있는 걸로 고르면 오늘 대화는 성공이에요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람에게 단풍 이야기로 대화를 시작해 보세요.",
+   "hints": [
+    "오늘 날씨 언급하기",
+    "질문으로 끝내기"
+   ],
+   "answer": "오늘 날씨가 정말 좋네요. 단풍 구경 가 보셨어요?",
+   "note": "날씨로 시작해 질문으로 마무리하는 가장 안전한 유형이에요."
+  },
+  {
+   "q": "직장 동료에게 주말 비 소식으로 가볍게 말을 걸어 보세요.",
+   "hints": [
+    "내일 날씨 알려 주기",
+    "상대 계획 묻기"
+   ],
+   "answer": "일요일에 전국에 비가 온대요. 주말 계획 있으세요?",
+   "note": "소식을 전하고 질문으로 이어가는 유형이에요."
+  },
+  {
+   "q": "썰렁해진 분위기를 부드럽게 수습해 보세요.",
+   "hints": [
+    "자조로 인정하기",
+    "화제 바꾸기"
+   ],
+   "answer": "제가 갑자기 고기 이야기만 했네요. 혹시 요즘 가 보고 싶은 곳 있으세요?",
+   "note": "자조로 인정한 뒤 질문으로 화제를 돌리는 수습 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "토요일은 단풍 나들이, 일요일은 전국에 비",
+   "summary": "토요일은 맑고 일교차가 크며, 일요일은 전국에 비가 온다는 예보가 나왔어요.",
+   "context": "기상청 예보를 전한 소식이에요. 아침은 선선하고 낮은 온화해 일교차가 크고, 설악산 단풍은 절정이에요. 일요일에는 전국에 요란한 비가 온다고 해서 나들이는 토요일이 좋대요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxaHFKaURqNF8tOVNBSEV1eWl3dlFfQzF0YlNiZ01MU3NHYk50ZTVydFRnY3ZOYVhtVEZrdUlYWWVpLWIxMEhNbXl5cnlBMVg5NzhMeHpEMzVDeVZmTU9UYdIBYEFVX3lxTFBxaHFKaURqNF8tOVNBSEV1eWl3dlFfQzF0YlNiZ01MU3NHYk50ZTVydFRnY3ZOYVhtVEZrdUlYWWVpLWIxMEhNbXl5cnlBMVg5NzhMeHpEMzVDeVZmTU9UYQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "제107회 전국체전, 제주에서 개막",
+   "summary": "12년 만에 제주에서 열리는 전국체전이 불꽃과 함께 개막했어요.",
+   "context": "전국체전은 전국 시도 선수단이 겨루는 종합 체육대회예요. 이번에는 제주에서 12년 만에 열렸고, 성화 봉송과 개막식이 진행됐어요. 첫날 부상 소식도 있었지만 대회는 이어지고 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91MjRQYnlPb3lybTZUTlE4NWw2S2R3TkI4WWRMSlNCZ3lGWTFvNjJQR1Rmcm1xRm9BaXV5Ti1tdWZIWTFwN0hWTFA1YnFIak1IS0lDSkZrelRsbnc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "방탄소년단 도쿄돔 공연, 일본에서 독점 방송",
+   "summary": "11월 28일 일본 TBS에서 방탄소년단 도쿄돔 공연이 방송돼요.",
+   "context": "도쿄돔은 일본 도쿄의 대형 공연장이에요. 일본 방송사 TBS가 공연 실황을 독점으로 내보낸다는 소식이고, 팬들에게는 반가운 일정이에요.",
+   "source": "스타뉴스",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tV0ctTEYxdU0tMjhCVzVmV0k3WHhCWER4YWtXdDNtMTUyTXZPSzVXbVFldUxsY1paYl95WWVsenZCUDdRVklqOFV5aDUxYVRoM3NxVnFZdC1laF9Td09yM3k4THZPbUdadEM4WUpJSi1ITF9z?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "김혜자, 9년 만에 영화 복귀",
+   "summary": "배우 김혜자 씨가 9년 만에 영화로 돌아온다는 소식이에요.",
+   "context": "김혜자 씨는 '국민 엄마'로 불리는 배우예요. 오랜만의 영화 복귀 소식에 위로와 따뜻함을 전해 줄 작품이라는 기대가 모이고 있어요.",
+   "source": "이투데이",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01VzljM3NRUG43Z200QVRFNnJDT3M5RVRVTkdQalI0YWxoaDRrSzhNZHI5aWxSTWUyT3hjekVwNDJFSWFwM2VmbjFfNEJUdjVNa3pUaXJQODR0Zw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI 시대, 사람이 쓴 글이 귀해졌어요",
+   "summary": "AI에 쓸 인간의 글이 부족해지자 빅테크가 헌책방까지 뒤진대요.",
+   "context": "AI는 사람이 쓴 글로 학습하는데, 쓸 만한 글이 한계에 다다르고 있어요. 그래서 큰 IT 기업들이 헌책방에서 책을 모으는 흐름이 생겼다는 기사예요.",
+   "source": "매일경제 마켓",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3Rlp6RnZkQ2hDSzNoWnhZZWlwT0tTVHNXOUhRYVRTSkJCazM1TWUwZ19YSWUzaXM2MXRhQWRVbjFDQjdKYnluQWEyVk9oNVRXQkE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "삼겹살 굽기 실력을 겨루는 '그릴링 마이스터' 시험",
+   "summary": "삼겹살을 누가 더 맛있게 굽는지 평가하는 자격 시험이 화제예요.",
+   "context": "고기 굽는 기술을 정식으로 평가하는 자격 시험이 나왔다는 소식이에요. 평소 쉽게 생각하던 일을 전문 영역으로 보는 점이 흥미롭다는 반응이에요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxYWJWV29tWmpMZWhjdEtlZG1KbksyeDM3bUtQcDlnendOdjlnRS11OWJfNzFmOFlLOWw1bjcwQ0hLSEp0VW51aEZBUlFhQmg2S1FTQmxsSno3ZmlvZEJiRlVGaFh6SzcwbVR6c1dIRQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "관중이 공을 잡으면 아웃, 이색 야구 '바나나스'",
+   "summary": "관중이 공을 잡으면 아웃이고, 번트를 대면 퇴장인 이색 야구가 인기를 넓히고 있어요.",
+   "context": "바나나스는 규칙이 독특한 야구식 경기예요. 관중이 경기에 참여하는 방식 덕분에 구경하는 재미가 크다는 설명이에요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16U3pKd1BvNGROTFRkT1JiRVd6c1VhanV5MTRUYlFDd0QyejlRWEFqOFpBcDg2eHhlanM5YWNfdGt6X2lkQmVMWTNyMkx0MGFuVm5laTIzU1NRUGwxZmxZS9IBYEFVX3lxTE16U3pKd1BvNGROTFRkT1JiRVd6c1VhanV5MTRUYlFDd0QyejlRWEFqOFpBcDg2eHhlanM5YWNfdGt6X2lkQmVMWTNyMkx0MGFuVm5laTIzU1NRUGwxZmxZSw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "민주당, 조희대 대법원장 탄핵 논의 공식화",
+   "summary": "민주당이 조희대 대법원장 탄핵 논의를 공식적으로 시작했고, 국민의힘은 반발하고 있어요.",
+   "context": "탄핵은 고위 공직자를 국회가 책임 묻는 절차예요. 민주당은 대법원장이 헌법에 어긋났다는 입장이고, 국민의힘은 자신 있으면 해 보라며 맞서고 있어요. 실제 탄핵은 국회 표결과 헌법재판소 심판이 필요해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UeDVUc0xBaTdjS2Y2QVF6S3hBNmpTZ2ZpTzdmMWhQcHlnWV9INDUwVF93dEdweUpoNUN0U0FTamRndjFRR0tuRS1DdTV0WTMtM3IzTjZrakxDaE0tSHJNQ2loUXNJZEVYamRXeWJ4clFXUURF?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "부천 공장 화재, 8명 중경상…합동감식 진행",
+   "summary": "부천 공장 화재로 소방관 포함 8명이 다쳤고, 오늘 합동감식이 진행돼요.",
+   "context": "불이 빠르게 번졌고 인화성 물질이 많아 피해가 컸다고 해요. 공장 안전 관리가 사각지대였는지 점검해야 한다는 지적이 나오고 있어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GdmR0VXhMd3pOUWMzaWp2T0k4cGJ6U1U4YmhLbzZ5QmJUVHlVQkRQT3lBaXRlWWNVV0xlWmlIUmMwSzU1R19KeXZMSHhEYU14TTNFV3FNNEZnU3l6UnBURUdSZEFuNDA?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "서울시 한강버스 적자 지원안에 행안부 제동",
+   "summary": "행정안전부가 한강버스 적자 136억 원 지원안에 제동을 걸었어요.",
+   "context": "한강버스는 서울시가 운영하는 수상 교통수단이에요. 적자를 세금으로 메우는 안에 대해 행안부가 제동을 걸었고, 리베이트 의혹에 대한 수사 의뢰도 이어졌어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53NUZUT3lfeVgySmpkSnQyUHRNaXNVOVFwMy0zUnF4OGZMdldrZ0V1TzdhR3JvREpfbU5PWHhIMWIzVWZsT0t4dWJ1VnhFVzJOV2pIa0NrVlFwREZ3MUktcVhna3RxcWtmcFE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프, 우크라이나에 '에너지 휴전' 압박",
+   "summary": "트럼프 대통령이 에너지 휴전을 압박했지만 우크라이나가 러시아 정유시설 공습을 재개했어요.",
+   "context": "에너지 휴전은 서로의 에너지 시설을 공격하지 않기로 하는 약속이에요. 미국이 압박했지만 우크라이나는 공습을 이어갔고, 러시아는 후원자들에게 멈춰 달라 요청했다고 주장했어요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94ZFp6SlVWbHlYVzRQMDE2dGhyQm5QQmkxY1lSM0FDemhCS2VJLXd0N0pYLTFfZU8tR3NHU0Y4RTQzbjk2clJ3cXRwSlZ6aHh4T3U2NW9acV80QkNmdDlmbWRwMk12RTgtTkJzQjVrQ3E2VUU?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "브라질 룰라 '주말 대중교통 무료' 공약",
+   "summary": "룰라 대통령이 주말 대중교통 무료 공약을 내놨고, 야권은 선거용이라고 비판해요.",
+   "context": "브라질은 대통령 선거를 앞두고 있어요. 약 60조 원 규모라는 공약에 대해 룰라 측은 서민을 위한 정책이라 하고, 보우소나루 측은 표를 사는 선거용이라고 비판해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjMGkwQ1pRRlF6QVBQUkJ3MXJfOUJWOG9JN1czaWNnTHVPNlZXTFF4VWFHM0ZWeF8wVktTVmpPc0NVdEtiYWpXOXZqVnNKbEhQX3RQY3dzd1VOMTDSAWBBVV95cUxOc3lMUUwtTnE5YUhGTnBJSUtPMU5yMjJlN1VBZFVHV2ExUWNLUXpQUmdVVW9pa2dLTXlXZDI3VVYzZEJNZl9SelE4dnN1QkU4LWl6bmZFNmk0Uy1vZk1lMk8?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "중국, AI는 팔되 핵심 기술은 내주지 않겠다",
+   "summary": "중국이 AI 제품은 세계에 팔되 기술은 넘기지 않겠다는 입장을 내놨어요.",
+   "context": "미국과 중국이 AI 기술을 두고 경쟁하고 있어요. 중국은 제품 수출은 하되 핵심 기술 이전은 막겠다는 방침이라, 기술 빗장을 거는 모양새라는 해석이 나와요.",
+   "source": "문화일보",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44WDVTYUVTek42eDJzcVI5Vnh5M1pvVXZCaHZXa1J3NS1QNTVpQ2FOaGJtdWR0ckRYX0hrVzYzS0dSbnc5RHZOMVBzUXBWZmIz?oc=5"
+  }
+ ],
+ "term": {
+  "word": "탄핵",
+  "meaning": "대통령이나 대법원장 같은 고위 공직자가 잘못했을 때, 국회가 책임을 묻고 물러나게 하자고 요구하는 절차예요.",
+  "example": "탄핵은 국회가 먼저 제안하고 헌법재판소가 최종 판단한다고 하더라고요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도이고, 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}에 비가 온다는데, 단풍 구경은 미루셔야겠어요.",
+   "explain": "오늘 {지역} 최고 {최고}도에 비 올 확률 {비확률}%라서 나들이는 어렵대요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 아침 {최저}도인데 낮에는 {최고}도래요. 옷 입기 정말 어렵죠?",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 일교차가 커요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역}은 하루에 계절이 두 번 바뀌는 느낌이에요. 겉옷 챙기셨어요?",
+   "explain": "{지역} 최저 {최저}도와 최고 {최고}도 사이라서 일교차가 커요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 낮에 {최고}도까지 올라간대요. 가을인데도 꽤 따뜻하네요.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도이고 날씨는 {날씨}래요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 낮이 {최고}도라 반팔 입은 분도 계시더라고요. 저는 아직 겉옷이 아쉬워요.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침은 {최저}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 오늘 아침이 {최저}도라 꽤 쌀쌀했어요. 따뜻하게 입고 오셨어요?",
+   "explain": "오늘 {지역} 아침 최저 {최저}도, 낮 최고 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "아침에 {지역}이 {최저}도까지 내려가서 이불 밖으로 나오기 힘들었어요. 오늘은 어떠셨어요?",
+   "explain": "오늘 {지역} 최저 {최저}도로 아침 공기가 차요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {최고}도에 {날씨}라서 나들이하기 딱 좋은 날씨예요.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침 최저 {최저}도로 평범한 가을 날씨예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역} 날씨가 오늘은 포근하네요. 내일은 {내일최고}도래요. 주말 잘 보내세요.",
+   "explain": "오늘 {지역} 최고 {최고}도, 내일 최고 {내일최고}도 예상이에요."
+  }
+ ],
+ "types": [
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰 가볍게 웃게 만드는 방식이에요."
+  },
+  {
+   "name": "능청",
+   "desc": "썰렁함을 스스로 짚으며 태연하게 분위기를 돌리는 방식이에요."
+  }
+ ],
+ "date": "2026-10-17",
+ "weekday": "토요일",
+ "tone": "jondae",
+ "strength": "safe",
+ "generated_at": "2026-10-17 08:52",
+ "model": "claude-sonnet-5-5"
+}
