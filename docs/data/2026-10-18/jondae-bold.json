@@ -1,0 +1,484 @@
+{
+ "lede": "오늘은 가을비 오는 일요일, 부산 북항의 부캉이, 야구 준플레이오프, 손흥민의 도움 선두까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "어른·선배",
+  "text": "요즘 부산 북항에 부캉이라는 상어가 한 달째 머물고 있대요. 사람보다 인기가 많아서 살짝 부럽더라고요.",
+  "why": "가벼운 사실에 담백한 능청을 얹어서, 어른과도 부담 없이 웃을 수 있어요.",
+  "explain": "부캉이는 부산 북항에 전시된 상어 이름인데, 한 달 동안 방문객이 150만 명을 넘었대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 준플레이오프",
+    "safety": "가벼움",
+    "text": "어제 KIA가 LG를 5대 1로 이겼는데, 김도영 선수가 홈런을 두 개나 쳤대요. 혼자 거의 다 했더라고요.",
+    "explain": "프로야구 준플레이오프 1차전이고, 김도영 선수가 홈런 2개에 4타점을 올렸어요."
+   },
+   {
+    "field": "음식",
+    "topic": "야식",
+    "safety": "가장 안전",
+    "text": "야식 먹고 바로 자면 몸에 안 좋다는 연구가 또 나왔대요. 알고는 있는데 야식은 꼭 안 좋은 쪽이 더 맛있는 것 같아요.",
+    "explain": "야식 직후에 바로 잠들면 건강에 좋지 않다는 연구 결과가 오늘 소개됐어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "부캉이",
+    "safety": "가벼움",
+    "text": "부산 북항에 부캉이라는 상어가 한 달째 지내는데 구경 온 사람이 150만 명이래요. 한 달살기 하는 상어를 보러 사람들이 줄을 서는 거죠.",
+    "explain": "부캉이는 부산 북항에 있는 인기 상어 이름이고, 한 달 동안 방문객이 150만 명을 넘었어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "공연 관광",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘은 좋아하는 가수를 보려고 외국에서 한국까지 오는 사람이 많대요. 비행기 값이 아깝지 않은 최애가 있다는 게 좀 부럽더라고요.",
+    "explain": "놀 페스티벌에 최애 가수를 보러 해외에서 온 관광객들이 많다는 현장 기사가 나왔어요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "부캉이",
+    "safety": "가장 안전",
+    "text": "요즘 부산 북항에 부캉이라는 상어가 한 달째 머물고 있대요. 사람보다 인기가 많아서 살짝 부럽더라고요.",
+    "explain": "부산 북항에 전시된 상어 이름이고, 한 달 방문객이 150만 명을 넘었어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을비",
+    "safety": "가장 안전",
+    "text": "오늘 전국에 가을비가 온다는데, 일요일에 비까지 오니까 집에 있으라는 하늘의 허락 같아요.",
+    "explain": "오늘 전국에 비가 오고, 곳에 따라 바람도 강하게 분다고 해요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 MLS",
+    "safety": "가벼움",
+    "text": "손흥민 선수가 미국에서 도움 부문 단독 선두라고 하더라고요. 직접 넣는 것보다 챙겨 주는 쪽으로도 잘하네요.",
+    "explain": "MLS에서 1골 2도움을 기록하고 이번 주 베스트 팀에 뽑혔다는 소식이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "유가",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 국제 유가가 많이 올라서 한 달 만에 다시 100달러를 넘었다고 하더라고요. 주유소 가기 전에 마음의 준비가 필요하겠어요.",
+    "explain": "중동 불안 때문에 국제 유가가 크게 올라서, 뉴욕 WTI가 100달러를 다시 넘었어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "날씨·생활",
+    "topic": "가을비",
+    "safety": "가장 안전",
+    "text": "오늘 전국에 비가 온다는데, 혹시 우산 챙기셨어요? 전 챙기고도 어디 두고 올 것 같아서 걱정이에요.",
+    "explain": "오늘 전국에 가을비가 오고, 곳에 따라 시간당 30mm까지 내려요."
+   },
+   {
+    "field": "음식",
+    "topic": "단 음식",
+    "safety": "가장 안전",
+    "text": "스트레스받은 날엔 단 게 당긴다고 하잖아요. 혹시 그럴 때 찾으시는 음식 있으세요?",
+    "explain": "스트레스받은 날 먹기 좋은 건강한 음식 5가지를 소개한 건강 기사가 나왔어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "태국 왕비",
+    "safety": "가벼움",
+    "text": "태국 왕비가 전투기를 직접 몬다는 소식을 봤어요. 360도 회전까지 한다는데, 저는 놀이기구도 눈 감고 타거든요.",
+    "explain": "태국 왕비가 전투기를 조종하는 영상이 화제가 됐어요. 360도 회전도 능숙하게 한대요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "부산국제영화제",
+    "safety": "가벼움",
+    "text": "부산이 세계적인 영화제 도시가 됐는데 이제는 영화산업의 중심까지 노린대요. 영화 좋아하세요?",
+    "explain": "부산이 영화제를 넘어 영화 산업의 중심지가 되려 한다는 YTN 보도가 나왔어요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 노트북",
+    "safety": "상대가 관심 있을 때",
+    "text": "토큰 걱정 없이 AI를 쓸 수 있는 노트북이 새로 나왔대요. 요즘은 AI가 일을 하면 사람은 결재만 하는 시대가 올 것 같아요.",
+    "explain": "엔비디아 RTX 스파크라는 AI 전용 노트북이 출시돼서 행사가 열렸어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "비 오는 출근길",
+    "safety": "가장 안전",
+    "text": "내일 비가 많이 온다는데 출근길에 다들 우산 하나씩 들면 지하철이 우산 전시장이 될 것 같아요.",
+    "explain": "비가 오는 날씨는 오늘부터 내일까지 이어지고 바람도 강해요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "야구 준플레이오프",
+    "safety": "가벼움",
+    "text": "어제 KIA가 LG를 5대 1로 이겼대요. 김도영 선수가 홈런 두 개를 쳤는데, 월요일 아침 화젯거리로 딱이에요.",
+    "explain": "프로야구 준플레이오프 1차전에서 KIA가 이겼고, 김도영 선수가 홈런 2개를 쳤어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "고물가 집밥",
+    "safety": "상대가 관심 있을 때",
+    "text": "물가가 올라서 집밥도 특별하게 먹는 사람이 늘었다고 해요. 저는 특별하게 먹는 게 라면에 계란 넣는 정도예요.",
+    "explain": "식품업계에서 고물가 때문에 집밥용 새 메뉴와 신제품을 많이 내놓는다는 기사예요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "비 오는 날",
+    "safety": "가장 안전",
+    "text": "오늘 비가 많이 오는데 오시는 길 괜찮으셨어요? 따뜻한 차라도 한잔 드릴까요?",
+    "explain": "오늘 전국에 강한 비가 오고 바람도 불어서 이동이 불편해요."
+   },
+   {
+    "field": "음식",
+    "topic": "단 게 당기는 날",
+    "safety": "가장 안전",
+    "text": "비 오는 날엔 이상하게 달콤한 게 당기더라고요. 혹시 오늘도 그러세요?",
+    "explain": "스트레스받을 때 단 음식이 당긴다는 건강 기사가 나왔어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "전국체전",
+    "safety": "가벼움",
+    "text": "요즘 제주에서 전국체전이 열리고 있대요. 비바람 속에서도 선수들이 메달을 꽤 땄다고 하더라고요.",
+    "explain": "제107회 전국체전이 제주에서 열리고 있고 제주 선수단이 메달을 많이 땄어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "부캉이",
+    "safety": "가벼움",
+    "text": "부산에 부캉이라는 상어가 인기라는데 혹시 들어 보셨어요? 한 달 만에 150만 명이 보러 갔대요.",
+    "explain": "부산 북항에 있는 상어 이름이고 방문객이 150만 명을 넘었어요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제세요?",
+  "why": "정답이 없고 누구나 한 가지는 떠올릴 수 있어서 대화가 이어지기 쉬워요."
+ },
+ "scenes": [
+  {
+   "title": "어른과 엘리베이터에서 가을비 이야기",
+   "topics": "가을비, 부캉이",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 비 정말 많이 오네요. 우산은 챙기셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그래, 챙겼지. 이런 날은 우산이 필수야.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 챙겼는데 어디 두고 올까 봐 벌써부터 걱정이에요.",
+     "humor": {
+      "type": "자조",
+      "why": "우산을 잃어버릴까 봐 미리 걱정하는 모습이 귀엽고 공감돼요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그건 나도 마찬가지야.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그런데 요즘 부산 북항에 부캉이라는 상어가 한 달째 머물고 있대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "상어가 한 달살기를 해? 신기하네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "구경 온 사람이 150만 명이래요. 저보다 인기가 훨씬 많아요.",
+     "humor": {
+      "type": "능청",
+      "why": "상어와 자기를 진지하게 비교해서 웃음이 나요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그 정도면 우산 들고 줄 서야겠네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러게요. 비 오는 날 상어 보러 가는 건 좀 과감한 일정이죠.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기 (직장 동료와)",
+   "topics": "야구, 고물가 집밥",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 KIA가 LG를 5대 1로 이겼대요. 혹시 보셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아니, 난 야구 잘 몰라서.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "김도영 선수가 홈런을 두 개 쳤다는데, 저도 잘은 모르지만 대단하다고 하더라고요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그렇구나.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "…방금 제 말이 좀 썰렁했죠? 홈런 이야기를 꺼냈는데 제가 삼진 당한 것 같네요.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁했다는 걸 스스로 인정하고 야구 용어로 받아쳐서 분위기를 풀어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 삼진은 아니고 볼넷 정도?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "볼넷이라니 감사해요. 그럼 다른 이야기로 가 볼게요. 요즘 집밥 뭐 해 드세요?",
+     "humor": {
+      "type": "능청",
+      "why": "받은 평가를 담담히 수용하고 자연스럽게 화제를 바꿔요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "요즘은 물가가 올라서 간단하게 먹어.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도 그래요. 특별한 건 라면에 계란 넣는 정도예요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 처음 보는 이웃과 단둘이 탔어요. 비 오는 날씨로 한마디를 꺼내 보세요.",
+   "hints": [
+    "상황 말하기 (오늘 비가 많이 오네요)",
+    "질문 붙이기 (우산 챙기셨어요?)"
+   ],
+   "answer": "오늘 비가 정말 많이 오네요. 혹시 우산 챙기셨어요?",
+   "note": "상황 말하기에 질문을 붙이면 대답이 쉬워져요."
+  },
+  {
+   "q": "친구 모임에서 말이 끊겼어요. 부캉이 소식으로 분위기를 다시 열어 보세요.",
+   "hints": [
+    "사실 던지기 (북항에 상어가 있대요)",
+    "의견 묻기 (가 보고 싶지 않아요?)"
+   ],
+   "answer": "부산 북항에 부캉이라는 상어가 한 달째 지낸다는데, 가 보고 싶지 않아요?",
+   "note": "사실로 시작해서 의견을 물으면 모두가 참여할 수 있어요."
+  },
+  {
+   "q": "직장 선배가 야구를 좋아한다고 들었어요. 어제 경기 이야기를 꺼내 보세요.",
+   "hints": [
+    "결과 말하기 (KIA가 이겼대요)",
+    "관심 묻기 (보셨어요?)"
+   ],
+   "answer": "어제 KIA가 LG를 이겼다던데, 혹시 보셨어요?",
+   "note": "결과를 짧게 말하고 질문하면 상대가 설명해 주기 쉬워요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "부산 북항 상어 '부캉이' 방문객 150만 명",
+   "summary": "부산 북항에 전시 중인 상어 부캉이가 한 달 사이 방문객 150만 명을 끌어모았어요.",
+   "context": "부캉이는 부산 북항에서 지내는 상어로, 한 달 동안 큰 인기를 끌었어요. 인기가 높아지면서 상어의 건강과 겨울철 수온 관리를 걱정하는 목소리도 나와, 부산시가 수온 측정 장치 설치와 전문가 건강 점검 대책을 내놨어요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UN29vVGNFZnlFYWVRNHhESUJ2VVY4OUdWcUlQZ3dMa1JyV0hOcHY3a2NMTENQRGd3OURUeUdDR2VtX2F3Rkd4ZkF6QkduZWplZ05sQzVpbjNad9IBX0FVX3lxTE9EUE9IMEZxZ3lHenhpTjN6dU5XZEZSZkEwSmxtejM2cTQ3bmlEMVU3bWpfUEFHMmg3SWRDNVpvUGFaSXRlYjZNQm9SVVI2TlpEb0xvZ2htd3BJeVVITTNF?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "KIA, 준PO 1차전서 LG 제압",
+   "summary": "프로야구 준플레이오프 1차전에서 KIA가 LG를 5대 1로 이겼고, 김도영 선수가 홈런 2개로 4타점을 올렸어요.",
+   "context": "준플레이오프는 포스트시즌 초반 단계로, 이긴 팀이 다음 라운드로 올라가요. 1차전을 잡은 KIA가 시리즈에서 유리한 흐름을 만들었어요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EcWdKRVRoTVV4dXBFUVpHS3ZYSndCUmxIaVhNUEZZNFphTTQ5b25wTVNZR3NIdUZ3SHMyYXRhbzF5TWFXZG56dzR4WWNIRE1MV1B4RjM4T0g1b19VUi15VVhlX0VQNFlBN2Z5UWpPQ1hKVzlPMGfSAXZBVV95cUxOejBKai13T0pFMkhCX2tBZVlOU1FZR3JsTjRGVkdDUXM5OVNQcXRfU3B1UEpBdGVwU3dXNTNJbG0wUk93ZjAtN3NfT3ViLVh5Uzc0QjVqOUZicmRGQ0pRc3l3QTduTkN6VG80QWZTZFlETTBlMG1R?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "일요일 전국 강풍 동반 비",
+   "summary": "오늘 전국에 비가 오고 곳에 따라 시간당 최대 30mm의 강한 비와 강풍이 예상돼요.",
+   "context": "가을비가 많이 내리고 바람도 세서 우산이 뒤집히기 쉬워요. 제주와 남부는 비바람이 더 강하고, 항공기 운항에도 차질이 생길 수 있어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iTWZiMm5fN0JTSWoxb2VfdVFJQzlsRGVzQjhLbllEd3JLZ0xwaW81cGdJZzRpQTYwY2ZqLTFhQkItRU9NRGdZQzRocS1rMmhib2VzWFgwRkdnZGvSAWBBVV95cUxOcjN1NTF1STNCU3FUVXVabjFXb1Z5UlFoaXpmQktyR1MyNDlFcGNxeUNjTnJ3RnJfQUxfSXZWSjFkRERZNWVHTWRzRzBwelFrWEVVQUpCc2RXUDhzZG8yNVA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "야식 먹고 바로 자면 안 되는 이유",
+   "summary": "야식을 먹고 곧바로 잠들면 건강에 좋지 않다는 연구 결과가 소개됐어요.",
+   "context": "먹은 직후 누우면 소화가 잘 안 되고 수면의 질도 떨어질 수 있다는 내용이에요. 야식을 먹더라도 시간을 두고 자는 게 좋다는 취지예요.",
+   "source": "한국경제",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aRUtSTlQtajRFTEk0X3d5THVxMFljZ1JEQWtHZVh6UndWc01NZURwRHhXazVJajFmaVVuY1NsVkdLbzNYWlkxdHBtdVR2YWRIU3lHbHZWRk9Zdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI 노트북 'RTX 스파크' 출시",
+   "summary": "토큰 걱정 없이 AI를 쓸 수 있다는 AI 전용 노트북이 출시돼 행사가 열렸어요.",
+   "context": "보통 AI 서비스는 쓴 만큼 요금이 붙는 구조인데, 기기 안에서 AI를 직접 돌리면 그런 부담이 줄어요. 개인용 컴퓨터에서도 AI를 쓰는 흐름이 커지고 있다는 소식이에요.",
+   "source": "연합인포맥스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mTjh2QzRWeWFDcXdvSGVvem8tMkZtdmgwT0JsOGpqTjFXLUdCUHRxaHRYdWpXLUROVFhlS2xQVkpnTkIwNDBOR2RTY0l6RFVid2xIeE12Z3hnem9qYk51NUk3dTVhSUk2ZzVZR0htS0c?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "놀 페스티벌, 해외 팬 공연 관광",
+   "summary": "좋아하는 가수를 보러 한국을 찾는 해외 팬들이 늘면서 공연 관광이 주목받고 있어요.",
+   "context": "놀 페스티벌 현장에서 해외 팬들이 최애를 보려고 한국에 왔다고 말했어요. 공연을 보러 오는 외국인이 늘면서 공연과 관광이 함께 성장하는 흐름이에요.",
+   "source": "디지털데일리",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrVUVuWGFhaUZHYTdsRXlhbVlRczkzT2IzSFlvNm0wbS13N2FuSTlZUFRNZlVVRmdWay02VldBeFhMNzR5M0p4OUJLb2J2OFUwODNBWUdvT0NybG1JMVpNN1Z4RUY?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "국제 유가 109달러대, 5개월 만에 최고",
+   "summary": "중동 불안이 이어지며 브렌트유가 5개월 만에 최고치를 기록했어요.",
+   "context": "이란과 예멘 후티 반군, 사우디 사이 긴장이 커지면서 원유 공급 불안이 커졌어요. 뉴욕 WTI도 한 달 만에 100달러를 넘었어요. 유가가 오르면 기름값과 물가에도 영향이 갈 수 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXAwRzhqRGtjdkdNc1VpZzZBb0t4SFAxYlFtR2xWcjRZbEZqdUpHX2w3UEtDUFppb29vY3pNZzJOU1puY3RRejNNemluekI1OTNxWGtNUHpIN2pmMm11X0piejZiYUd2dDEzbUVIOW0zS19JbGlxdHo0QnEzTUdjZXltMFRESkhTb1hycGowcGdtUjdBc1Z6WHlxMlA?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프, 러시아 제재·관세 유예",
+   "summary": "트럼프 대통령이 법 발효를 앞두고 러시아 관련 제재와 관세를 유예하는 행정명령을 냈어요.",
+   "context": "경유 가격 부담이 이유로 알려졌어요. 우크라이나 젤렌스키 대통령은 러시아만 돕는 결정이라고 비판했고, 미국 안에서도 여야 양쪽에서 비난이 나왔어요.",
+   "source": "VOA 한국어",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IWmxZbl93Mm94YWg4aTZPMkhoY1FkZTA0ZFlMZjV3ZDlpOFo5QWZCR0oyaExhM2N5XzhxQ2F5bk5abklHZjAwYjVxTTNtZDZU0gFTQVVfeXFMTmR6cEV1ZW1PekhWRVlYS1NyOVp5TmYtT09IT3hfMUVjSGQ3eXY3MzlzaVc3Q210ZFpHTWNDTVpFSktmUmRlRjNlbnBPNjZvdzRTVk0?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "추미애 장관 발언 논란과 사과",
+   "summary": "추미애 장관이 '재정 빨대' 발언에 사과했고, 여당 안팎에서 비판과 사과 요구가 이어져요.",
+   "context": "발언이 부적절하다는 지적이 나오자 본인이 사과했어요. 여당은 부적절한 발언에 조치하겠다고 했고, 야당은 장황한 자기변명이라고 비판했어요. 일부 여당 당원들은 출당을 요구하고 있어요.",
+   "source": "한국경제",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53bjFyWUxmUzhIdVk5Q1FzVEU4U1BsXzV0VjZiY3BzVk9NT0k1bnM2aU9Ib0g2bXF1Q1MwQ253SjNMY0RiRjVhNEZMcURXS293bFRhSTZLTWxKQQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "순직 소방위 조문, 옥조근정훈장 추서",
+   "summary": "순직한 고 김진석 소방위를 이 대통령이 조문했고 옥조근정훈장이 추서됐어요.",
+   "context": "화재 현장에서 순직한 소방관으로, 유증기에 불꽃이 옮겨붙으며 불길이 급격히 번졌다는 분석이 나왔어요. 유족의 슬픔 속에 조문이 이어지고 있어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFV3dVpOb3VEUXBvbElkMTJhQmowaG5wZGZJYWVFXzcxNW03V09xczNBWVlDQUJYcXBCLThGdHFwVFZZNXY4V3UwR1JPM1NTTEtkTGJrRGIyZGNJODl2S3IxU0EwdjEwdEMyRUxsRk5TRXNndw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "백악관 대변인 취임 며칠 만에 경질",
+   "summary": "백악관 새 대변인이 취임한 지 며칠 만에 경질됐어요.",
+   "context": "중국에 대한 인터뷰 발언이 논란이 된 뒤 하루 만에 해임됐다고 해요. 선거를 앞두고 악재를 막으려는 조치라는 해석이 나오고 있어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NM0xvaFU3N2w0aFpacnF4dk10LVV3akJpU2hvZG03b25sVDhzMjd4NVdwQjNna1ZNODJiWi0yTWJnWm5qYzMtOWhfU2U3NXJLZldDT1R3M0xTSmPSAWBBVV95cUxONEpTT0VyNHU4ak1CSGxaRWIyTjdidzRjLTJBeUY3NHRkV3BfMUh5a2FIM1pQQnRJaTJ0ZzFoeXRMSncyQ0pnZXhTQmF5bGROQlVxLWsxMzFCaVNwc3h1RWo?oc=5"
+  }
+ ],
+ "term": {
+  "word": "브렌트유",
+  "meaning": "북해에서 나는 원유 가격의 국제 기준이 되는 값이에요. 전 세계 기름값을 가늠하는 기준으로 쓰여요.",
+  "example": "브렌트유가 5개월 만에 최고라니 기름값이 또 오르겠어요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역}에 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도에 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {비확률}% 확률로 비가 온대요. 외출하실 땐 우산이 필수일 것 같아요.",
+   "explain": "오늘 {지역}은 {날씨}이고 최고기온은 {최고}도예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고 {최고}도인데 내일은 {내일최고}도래요. 기온 차가 커서 옷 고르기 어렵겠어요.",
+   "explain": "오늘은 최저 {최저}도에 최고 {최고}도, 내일 최고는 {내일최고}도예요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 내일 최고 {내일최고}도로 오늘과 차이가 꽤 난대요. 겉옷을 하나 챙기는 게 좋겠어요.",
+   "explain": "오늘 {지역}은 최저 {최저}도에서 최고 {최고}도까지 올라요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 낮에 {최고}도까지 오른대요. 가을인데도 꽤 덥죠?",
+   "explain": "오늘 {지역}은 최저 {최저}도에 최고 {최고}도, 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}이 오늘 {최고}도까지 간대요. 가을 옷을 입기엔 조금 이른 느낌이에요.",
+   "explain": "오늘 {지역} 최고기온은 {최고}도이고 {날씨}한 날씨예요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 기온이 {최저}도래요. 아침엔 겉옷이 꼭 필요하겠어요.",
+   "explain": "오늘 {지역}은 아침 {최저}도에서 낮 최고 {최고}도까지 올라요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 내려간대요. 이제 진짜 가을이 왔나 봐요.",
+   "explain": "오늘 {지역} 최저는 {최저}도, 최고는 {최고}도예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {날씨}하고 최고 {최고}도래요. 산책하기 딱 좋은 날씨 같아요.",
+   "explain": "오늘 {지역}은 최저 {최저}도에 최고 {최고}도예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역} 날씨가 오늘 {최저}도에서 {최고}도 사이래요. 무난해서 반가운 날이에요.",
+   "explain": "오늘 {지역}은 {날씨}이고 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "능청",
+   "desc": "담담한 얼굴로 엉뚱한 비교를 해서 웃음을 만들어요."
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 상대가 편하게 웃게 해요."
+  }
+ ],
+ "date": "2026-10-18",
+ "weekday": "일요일",
+ "tone": "jondae",
+ "strength": "bold",
+ "generated_at": "2026-10-18 08:26",
+ "model": "claude-sonnet-5-5"
+}
