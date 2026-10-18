@@ -1,0 +1,505 @@
+{
+ "lede": "오늘은 비 그친 뒤 쌀쌀해진 아침, 손흥민의 골대 불운, 11년 만에 돌아온 캪틴큐, 와사비 이야기, 윤여정 팔순까지 가볍게 꺼낼 소재를 모았어요.",
+ "today": {
+  "situation": "출근·등교 첫인사",
+  "text": "어제 비 그치고 오늘 아침 확 쌀쌀해졌대. 옷 뭐 입고 나왔어?",
+  "why": "날씨는 누구나 한마디 보탤 수 있어서 대화가 끊기지 않아요. 마지막 질문이 상대에게 말할 차례를 넘겨줘요.",
+  "explain": "어제 전국에 가을비가 왔고 비 그친 뒤 찬 공기가 내려와서 기온이 뚝 떨어졌대."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "손흥민 골대 불운",
+    "safety": "가벼움",
+    "text": "손흥민이 어제 골대를 맞혔대. 공이 골대랑 사이가 엄청 좋은가 봐.",
+    "explain": "미국 리그에서 LAFC가 1대 1로 비겼는데, 손흥민 슛이 골대에 맞고 나왔대."
+   },
+   {
+    "field": "음식",
+    "topic": "캪틴큐",
+    "safety": "가장 안전",
+    "text": "11년 만에 돌아온 과자가 품절 대란이래. 나는 11년 동안 내 인기도 돌아올까 기다리는 중인데.",
+    "explain": "예전에 팔던 과자 캪틴큐가 다시 나왔는데 너무 잘 팔려서 매장에서 구하기 어렵대."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "서울광장 K팝",
+    "safety": "가벼움",
+    "text": "서울광장에서 외국 팬들이 K팝 때문에 하나가 됐대. 나는 회식 건배사 때도 하나 되기 힘든데.",
+    "explain": "국적이 다른 팬들이 서울광장에 모여서 같이 K팝을 즐긴 행사가 열렸대."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "윤여정 팔순",
+    "safety": "상대가 관심 있을 때",
+    "text": "윤여정 배우님이 팔순 파티를 소박하게 하셨대. 나이도 멋있게 먹는 방법이 따로 있나 봐.",
+    "explain": "배우 윤여정 씨가 80세 생일을 지인들과 조촐하게 보냈고, 가수 김수철 씨가 축하 공연을 했대."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "환절기 옷차림",
+    "safety": "가장 안전",
+    "text": "비가 그치고 나니까 아침 공기가 많이 쌀쌀해졌더라고요. 선배님은 오늘 겉옷 챙기셨어요?",
+    "explain": "전국에 가을비가 온 뒤 찬 공기가 내려와서 아침 기온이 크게 떨어졌대요."
+   },
+   {
+    "field": "음식",
+    "topic": "환절기 비타민C",
+    "safety": "가벼움",
+    "text": "환절기에는 비타민C 챙겨 먹는 게 좋다더라고요. 선배님은 따로 드시는 게 있으세요?",
+    "explain": "기사에서 환절기 면역력을 위해 비타민C가 풍부한 음식 다섯 가지를 소개했어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "딥시크 새 모델",
+    "safety": "상대가 관심 있을 때",
+    "text": "딥시크가 더 빠르고 비용도 덜 드는 AI 모델을 새로 냈다고 하더라고요. 일하시면서 AI 쓰실 때 있으세요?",
+    "explain": "딥시크는 중국의 AI 회사인데, 기존 모델보다 빠르고 돈이 덜 드는 새 모델을 공개했대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "FC서울 우승 보류",
+    "safety": "상대가 관심 있을 때",
+    "text": "FC서울이 어제 김천이랑 2대 2로 비겨서 우승이 조금 미뤄졌다고 하더라고요. 혹시 축구 보세요?",
+    "explain": "프로축구에서 FC서울이 김천 상무와 비겨서 우승 확정이 다음으로 미뤄졌대요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음식",
+    "topic": "붕어빵",
+    "safety": "가장 안전",
+    "text": "요즘 붕어빵 생각나는 날씨잖아요. 팥이 좋으세요, 슈크림이 좋으세요?",
+    "explain": "기온이 내려가면서 길거리 붕어빵이 생각나는 계절이 됐다는 뜻이에요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "와사비의 진실",
+    "safety": "가벼움",
+    "text": "우리가 먹는 와사비가 진짜가 아닌 경우가 많다는 얘기 들어보셨어요? 저도 얼마 전에 알았어요.",
+    "explain": "일반 가게의 와사비는 서양고추냉이를 섞은 경우가 많다는 내용이 온라인에서 화제가 됐어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 나들이",
+    "safety": "가장 안전",
+    "text": "요즘 날씨가 걷기 딱 좋은 것 같아요. 주말에 보통 어디 가세요?",
+    "explain": "비가 그치고 선선해져서 가을 산책하기 좋은 날씨라는 얘기예요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "붕은우",
+    "safety": "상대가 관심 있을 때",
+    "text": "광명에 차은우 닮은 붕어빵 아저씨가 있다던데 들어보셨어요? 붕어빵 맛보다 얼굴이 먼저 화제래요.",
+    "explain": "광명에서 붕어빵을 파는 훈훈한 외모의 사장님이 '붕은우'라는 별명으로 화제가 됐대요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "경제·돈",
+    "topic": "AI 시민포럼",
+    "safety": "가벼움",
+    "text": "AI가 만든 돈이 누구 몫이냐를 따지는 포럼이 이번 주에 생긴대. 우리 월급은 아닌 것 같은데.",
+    "explain": "AI가 만든 부를 어떻게 나눌지 논의하는 시민 모임이 22일에 출범한다는 소식이야."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 게임 만들기",
+    "safety": "가벼움",
+    "text": "갤러그에 마리오를 넣어 달라고 하면 AI가 게임을 만들어 준대. 나도 일 시켜 보고 싶다.",
+    "explain": "AI에게 말로 요청하면 옛날 게임을 섞어 새 게임을 만들어 주는 기술이 나왔대."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "출근길 쌀쌀함",
+    "safety": "가장 안전",
+    "text": "오늘 아침 갑자기 쌀쌀하지 않았어? 어제까지 비 오더니 오늘은 가을이 정신 차렸나 봐.",
+    "explain": "어제 비가 온 뒤 오늘 아침부터 기온이 뚝 떨어졌어."
+   },
+   {
+    "field": "음식",
+    "topic": "환절기 음식",
+    "safety": "가장 안전",
+    "text": "환절기에는 비타민C 챙겨야 한대. 점심에 귤이라도 하나 먹을까?",
+    "explain": "환절기 면역력에 좋은 비타민C 음식 다섯 가지를 소개한 기사가 있었어."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "아침 기온",
+    "safety": "가장 안전",
+    "text": "오늘 아침은 비가 그치고 꽤 쌀쌀하네요. 따뜻한 차 한 잔 드릴까요?",
+    "explain": "어제 가을비가 온 뒤 찬 공기가 내려와서 오늘 아침 기온이 많이 내려갔어요."
+   },
+   {
+    "field": "음식",
+    "topic": "붕어빵",
+    "safety": "가벼움",
+    "text": "요즘 같은 날씨엔 붕어빵이 생각나지 않으세요? 팥 쪽이세요, 슈크림 쪽이세요?",
+    "explain": "쌀쌀해지는 가을이라 길거리 붕어빵이 생각나는 시기라는 이야기예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민",
+    "safety": "상대가 관심 있을 때",
+    "text": "어제 손흥민 선수가 골대를 맞혔다고 하더라고요. 정말 아쉬웠죠?",
+    "explain": "손흥민 선수가 뛴 LAFC 경기에서 슛이 골대에 맞고 나와서 1대 1로 끝났대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "와사비",
+    "safety": "가벼움",
+    "text": "와사비가 대부분 진짜가 아니라는 얘기를 봤는데, 손님은 혹시 들어보셨어요?",
+    "explain": "흔히 먹는 와사비에 서양고추냉이가 섞인 경우가 많다는 내용이 화제가 됐어요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 아침에 일어나면 제일 먼저 하는 일이 뭐야?",
+  "why": "누구나 답할 수 있는 일상 질문이라 부담이 없고, 상대의 생활 얘기로 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "월요일 아침, 직장 탕비실에서",
+   "topics": "쌀쌀해진 날씨, 캪틴큐",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕. 오늘 아침 갑자기 쌀쌀하지 않았어?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "맞아, 어제 비 오더니 확 추워졌더라.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "가을이 월요일 출근에 맞춰서 정확히 도착했나 봐.",
+     "humor": {
+      "type": "능청",
+      "why": "계절을 시간 약속 잘 지키는 사람처럼 말해서 웃음이 나와요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 나만 출근한 게 아니구나.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아. 그런데 11년 만에 나온 과자가 품절 대란이래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "무슨 과자인데?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "캪틴큐래. 옛날에 팔던 건데 다시 나오자마자 다 팔렸대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "11년 만에 컴백했는데 바로 완판이면 성공한 거네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나는 11년째 컴백 준비 중인데, 그 정도 인기면 월요일도 이겨 볼 만할 텐데.",
+     "humor": {
+      "type": "자조",
+      "why": "가볍게 자기를 낮추면서 월요일 얘기로 돌아와서 부담 없이 웃겨요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "처음 만난 모임에서 어색할 때, 썰렁 수습",
+   "topics": "붕어빵, 와사비",
+   "lines": [
+    {
+     "who": "a",
+     "text": "요즘 붕어빵 생각나는 날씨잖아. 팥이 좋아, 슈크림이 좋아?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "나는 팥이 좋아. 너는?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나는 슈크림. 근데 붕어빵은 꼬리부터 먹어야 해, 머리부터 먹어야 해?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "음, 나는 머리부터.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그렇구나. 붕어빵한테는 머리를 먼저 보내는 쪽이 낫다는 거네.",
+     "humor": {
+      "type": "말장난",
+      "why": "붕어빵에게 머리를 보낸다는 엉뚱한 표현이 반전이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...음, 그런가.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 그 말은 못 들은 걸로 해 줘. 와사비 얘기로 갈아타자. 우리가 먹는 와사비가 진짜가 아닌 경우가 많대.",
+     "humor": {
+      "type": "능청",
+      "why": "썰렁한 농담을 인정하고 바로 새 소재로 넘어가서 어색함을 오히려 웃음으로 바꿔요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "진짜? 그럼 우리가 먹은 건 뭐야?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "서양고추냉이를 섞는 경우가 많대. 이름만 와사비인 거지.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "상황: 아침에 회사 엘리베이터에서 동료를 만났어요. 날씨 얘기로 첫마디를 꺼내 보세요.",
+   "hints": [
+    "어제와 오늘의 차이 말하기",
+    "질문으로 끝내기"
+   ],
+   "answer": "어제 비 오더니 오늘 아침 확 쌀쌀해졌네. 너는 겉옷 챙겼어?",
+   "note": "변화 말하기 + 질문 유형. 어제와 오늘을 비교하면 쉽게 시작돼요."
+  },
+  {
+   "q": "상황: 점심시간에 친구와 걷다가 말이 끊겼어요. 음식 소재로 다시 시작해 보세요.",
+   "hints": [
+    "요즘 계절 음식 꺼내기",
+    "취향 묻기"
+   ],
+   "answer": "요즘 붕어빵 먹을 때가 됐잖아. 너는 팥파야, 슈크림파야?",
+   "note": "취향 선택 질문 유형. 두 개 중 고르게 하면 대답하기 쉬워요."
+  },
+  {
+   "q": "상황: 스포츠를 좋아하는 직장 동료에게 어제 경기 얘기를 꺼내 보세요.",
+   "hints": [
+    "사실 한 줄",
+    "아쉬움 공감"
+   ],
+   "answer": "어제 손흥민이 골대를 맞혔대. 아깝다, 그치?",
+   "note": "사실 + 공감 유형. 결과보다 아쉬운 장면을 말하면 대화가 이어져요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "비 그친 뒤 아침 기온 뚝",
+   "summary": "일요일 전국에 가을비와 강풍이 지나간 뒤 찬 공기가 내려와 오늘 아침 쌀쌀해졌대요.",
+   "context": "가을에는 비구름이 지나가면서 차가운 공기가 따라 내려오는 경우가 많아요. 그래서 비 온 다음 날 아침에 갑자기 추워질 수 있어서, 겉옷을 챙기라는 안내가 나왔어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nckh1LVM2eG5GVFpzSkw5d0RtZVBfMFdMQ2pQWEpoZkFDQWFVbndXeUc0TnJMeHN0ckgwV2FyTmNTWXpKMFF5ZXRCeHhZQ3BPR0x2U05ESDJWTU9jWEhfYtIBYEFVX3lxTE9nckh1LVM2eG5GVFpzSkw5d0RtZVBfMFdMQ2pQWEpoZkFDQWFVbndXeUc0TnJMeHN0ckgwV2FyTmNTWXpKMFF5ZXRCeHhZQ3BPR0x2U05ESDJWTU9jWEhfYg?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "손흥민 골대 불운, LAFC 1대 1 무승부",
+   "summary": "LAFC가 뉴욕 시티와 1대 1로 비겼고, 손흥민의 슛이 골대를 맞고 나왔대요.",
+   "context": "손흥민 선수는 현재 미국 프로축구(MLS)의 LAFC에서 뛰고 있어요. 마지막에 골을 노렸지만 아쉽게 득점하지 못하고 경기가 끝났어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lbDd4VktXNW8xdzBzRTZuWmF3VFdVWGFKLVI2V0xIcEJZNFNVZXFjZlAxS3lfaXdJVEdBSmtpWDBNcHR4Mk5wRmtCWUJNTnpIbE03ME5hSTB1Qkw5Z3FNSjNPT191cGs?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "11년 만에 돌아온 캪틴큐 품절 대란",
+   "summary": "오래전 판매되던 과자가 다시 나와 품절될 만큼 인기를 끌고 있대요.",
+   "context": "옛날 제품이 다시 나오는 걸 '복각'이라고 불러요. 어릴 때 먹던 추억의 맛을 찾는 사람들이 많아서 매장에서 구하기 어렵다는 얘기가 나왔어요.",
+   "source": "중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lSkhFU0JoR3dCbVl0MWJvM3h6Umc3VHNvdWYtWjdUR0pIRW9jekJURzYwY1F0V3NnYTRwWVNncVdDVUdaWW1RRlJyeXZfSF9HSVlWcml3?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "서울광장에 모인 K팝 팬들",
+   "summary": "국적과 언어가 다른 팬들이 서울광장에서 K팝으로 하나가 됐대요.",
+   "context": "K팝은 한국 대중음악으로, 지금은 전 세계에 팬이 많아요. 이번 행사에는 여러 나라에서 온 팬들이 함께 노래하고 춤추며 즐겼어요.",
+   "source": "서울신문",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uR19laW9iWWh3ZGJQcGo0cWZHMlMxMW16UktISjF4U2U5YXJwVWpnbTIwSk5pUGtoUVVkc1ptU1dlUnBtOVJkSTB5UDB4UjF1QUJ1M0Rha0g2RUpnb1hOR3dZNEZBeGNBS3M4?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "윤여정, 소박한 팔순 파티",
+   "summary": "배우 윤여정 씨가 지인들과 조촐하게 팔순을 보냈고, 김수철 씨가 축하 공연을 했대요.",
+   "context": "윤여정 씨는 영화 '미나리'로 아카데미 여우조연상을 받은 한국 배우예요. 큰 행사 대신 가까운 사람들과 편하게 보낸 점이 눈길을 끌었어요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WdXU2bkN5dlQ1ZVE0dVhSeFptejRLZ3Y4YTNlQ216dlBDZDZUYUYzOC1HcTROVU55XzFkNS12Z2owclJ3Q0ZCN0QyMDFLb2JlSHA5ZUdLMlFpS0dy?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "딥시크, 더 빠르고 저렴한 AI 모델 공개",
+   "summary": "딥시크가 기존보다 빠르고 비용이 덜 드는 새 AI 모델을 내놨대요.",
+   "context": "딥시크는 중국의 AI 기업이에요. AI를 돌리는 데 드는 비용이 줄면 더 많은 사람과 회사가 AI를 쓰기 쉬워져서 업계가 주목해요.",
+   "source": "연합인포맥스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rQUs1UTFNWTFoVmVqQVhoUlpaSHIwM1hqT0RPRThFTWJoZENpYms5ZXZ1UG5yMXpNMWZfNzVVa3p1d042VnFjdXBDSzQ2OWdnc1FnT0I3MUNnOGNHektEZVhDME9oZnZBRjhUUmQ0Xzk?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "잘못 알고 있던 와사비의 진실",
+   "summary": "우리가 흔히 먹는 와사비에 대해 몰랐던 사실이 온라인에서 화제가 됐대요.",
+   "context": "진짜 와사비는 재배가 까다로워 값이 비싼 편이에요. 그래서 많은 곳에서 서양고추냉이 등을 섞어 쓴다는 이야기가 퍼졌어요.",
+   "source": "시사매거진",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RUE00TFQ4NG42ejBvbWt3X09SRnNRWUtIQXZybU1pZjZrRTFaeEZLcUxyZVRNZkI1LUVlWHJoTFBLemNVdXQtT3dZNlo4RzJlZEdpYjlXcGVtN2xPdDB1WmU3ZllnR0NITWVBNmZWaWVWQkotS3RXenl2Zw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "백악관 대변인 닷새 만에 경질",
+   "summary": "미국 백악관 새 대변인이 취임 며칠 만에 물러났고, 내부 갈등설이 나왔대요.",
+   "context": "백악관 대변인은 미국 대통령을 대신해 정부 입장을 알리는 자리예요. 미국 중간선거를 앞두고 내부 사정이 불안하다는 해석이 나오지만, 정확한 경위는 보도마다 차이가 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOanpUbl9SVTJMVzJ3YjIta2RxZF9Ob2dZTDFZdmVGdGd2Y2ZfR2VENm9IeDBzT3dnSWtRSWFVUm5JOHM5OGxNTnM4dndsbXVtT21KUFhUcThaZXo2cW1LaXJKMUxjXzlGUVo2SDlDcEh4NUxqaUJGTTlRTTBfUnNydzhrNmdCWHFILUVLeXJ2cXFCb0lGNlFyb1dZTzFzQQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프 러시아 에너지 유화책에 공화당 내 반발",
+   "summary": "러시아 에너지 관련 제재를 완화하려는 트럼프 정부 방침에 같은 공화당에서도 반대 목소리가 나온대요.",
+   "context": "미국은 우크라이나 전쟁과 관련해 러시아를 제재해 왔어요. 이를 완화하면 평화협상에 도움이 된다는 쪽과 러시아를 이롭게 한다는 쪽이 갈려요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rd3VEX0lubEMxdEZmLUFyUjN1WHI0M05vaS1PUFVzbVNocjlGTWUzSmp6enpmQlEyV3dSWkZzUzlvM3JiS1k5SHdnZmp6SUZSdUFDOEREbHZhbzQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "한미관계 '재설정 중', 미 상원의원 발언",
+   "summary": "트럼프 측근인 미국 상원의원이 한미 관계를 '이혼이 아니라 부부상담'에 비유했대요.",
+   "context": "미국 정부가 동맹국과의 관계와 비용 분담을 다시 조정하고 있다는 뜻으로 해석돼요. 한미동맹이 끝난다는 의미는 아니라는 설명이에요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVkVSRTIyY2oydVM4dm9Xa3YyQUQwUGRpaWUweWgwdU11WFFTa1FuSzhoQ0k0Um42X2Q4cnpGYjUtSlZwS251eVZXaHNuN3JmQnpuY3ZhRHNneU0?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "주한미군사령관 'DMZ 이남부터 한국' 발언 논란",
+   "summary": "브런슨 사령관의 영토 관련 발언이 논란이 됐고 국방부는 개인 견해라고 밝혔대요.",
+   "context": "주한미군사령관은 한국에 주둔한 미군을 이끄는 책임자예요. 유엔사는 한국의 주권에는 의문의 여지가 없다고 밝혔고, 미국 측이 주의를 줬다는 보도도 나왔어요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MTElkVmtyWW1UbWNVbDRTbHUzUkxYb21nWGp3UEVFdmJ4eG15MldCMGt4WHlLRUlkRlUzcTNMVnlJUUU1UVBaaFNLb29iSE1TVVpTcWtzbnZ4aGhlYVVpMVRac3dNWU1WR0NueXJIcUJLbkFjZjByVNIBeEFVX3lxTFBXZm5LX2hhb18ycEdRd0Rzc05YVkdybi1BUGRuOS1sU1Z3SVlILXJYU2FESmh1cXhtYjlUQTBkd3N6SUNnQk0yZHp6S0oyU1FMN3hTM1dPV2xkZGlrejREb21kWkI1Rk9qWFhHaFJmS3VZT3pHRWNYZQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "순직 소방관 영결식, 부천 공장 화재 수사",
+   "summary": "부천 공장 화재로 순직한 소방관의 영결식이 오늘 열리고, 책임을 가리는 수사가 진행 중이래요.",
+   "context": "영결식은 고인을 보내는 마지막 공식 의식이에요. 경찰은 공장 대표를 입건하고 화재 당시 안전 관리에 문제가 없었는지 조사하고 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OcGIyd0RXVEtjajJHekhzNEJaOTdmeFJYT2NGSDNxbzIxcGhfem4xQlYySF9sS1B2dnU1THlnVGVfLUJidUZRM3laR1RYZ0lxRGVkdUVKbVRZQWM?oc=5"
+  }
+ ],
+ "term": {
+  "word": "복각",
+  "meaning": "예전에 팔던 제품을 거의 그대로 다시 만들어 내놓는 것을 말해요.",
+  "example": "11년 만에 복각된 과자가 나오자마자 품절됐대."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 비 소식이 있대. 비 오는 날엔 뭐 먹고 싶어?",
+   "explain": "{지역}의 오늘 비 올 확률은 {비확률}%고 낮 최고기온은 {최고}도야."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고 {최고}도, 내일은 {내일최고}도래. 하루 만에 이렇게 달라지네.",
+   "explain": "오늘 {지역}은 낮 {최고}도, 내일은 {내일최고}도로 예상돼서 기온 차가 커."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역} 내일은 {내일최고}도라는데 오늘이랑 꽤 다르대. 옷 어떻게 입을지 고민이야.",
+   "explain": "오늘 최고 {최고}도, 내일 최고 {내일최고}도라서 옷차림에 신경 써야 해."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮에 {최고}도까지 오른대. 벌써 이렇게 따뜻하다니.",
+   "explain": "{지역}의 오늘 최고기온은 {최고}도, 날씨는 {날씨}래."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 {최고}도래. 가을인데 아직 덥다고 느껴지지 않아?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침 최저는 {최저}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침이 {최저}도래. 이 정도면 겉옷 필수 아냐?",
+   "explain": "{지역}의 오늘 아침 최저기온은 {최저}도, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침 기온이 {최저}도까지 내려간대. 따뜻한 커피가 생각나네.",
+   "explain": "오늘 {지역}은 아침 {최저}도에서 낮 {최고}도까지 오르고 날씨는 {날씨}래."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨 {날씨}에 낮 {최고}도래. 산책하기 딱 좋겠다.",
+   "explain": "{지역}의 오늘 아침 최저는 {최저}도, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 큰 변화 없이 무난하대. 이런 날 뭐 하고 싶어?",
+   "explain": "오늘 {지역} 날씨는 {날씨}고, 기온은 {최저}도에서 {최고}도 사이야."
+  }
+ ],
+ "types": [
+  {
+   "name": "변화 말하기",
+   "desc": "어제와 오늘의 차이를 한 줄로 던져요."
+  },
+  {
+   "name": "취향 선택 질문",
+   "desc": "두 가지 중 고르게 해서 대답하기 쉽게 만들어요."
+  },
+  {
+   "name": "사실 + 공감",
+   "desc": "소식 한 줄에 아쉬움이나 놀람을 붙여요."
+  },
+  {
+   "name": "능청",
+   "desc": "담담한 말투로 엉뚱한 말을 해서 웃겨요."
+  },
+  {
+   "name": "자조",
+   "desc": "가볍게 나를 낮추어 분위기를 풀어요."
+  }
+ ],
+ "date": "2026-10-19",
+ "weekday": "월요일",
+ "tone": "banmal",
+ "strength": "bold",
+ "generated_at": "2026-10-19 08:30",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,488 @@
+{
+ "lede": "오늘은 비가 그친 뒤 갑자기 쌀쌀해진 날씨, 다음 주 태풍 소식, 손흥민 경기, 11년 만에 돌아온 술 품절 소식까지 가볍게 꺼낼 거리가 있어요.",
+ "today": {
+  "situation": "월요일 아침 출근길",
+  "text": "주말에 비가 많이 왔는데, 비 그치고 나니까 갑자기 쌀쌀해졌더라고요. 저는 아직 가을 옷 준비가 안 됐나 봐요.",
+  "why": "계절 변화는 누구나 공감하는 소재이고, 나를 살짝 낮추는 마무리라 부담 없이 웃을 수 있어요.",
+  "explain": "일요일에 전국에 비가 왔고, 비가 그친 뒤 찬 공기가 내려와서 오늘 아침 기온이 뚝 떨어졌대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "손흥민 경기",
+    "safety": "가벼움",
+    "text": "손흥민 선수가 어제 골대를 맞혔대요. 골대가 너무 열심히 막은 것 같아요.",
+    "explain": "LA FC 경기에서 손흥민 선수의 슛이 골대에 맞았고, 경기는 1 대 1 무승부로 끝났대요."
+   },
+   {
+    "field": "음식",
+    "topic": "추억의 술 재출시",
+    "safety": "가벼움",
+    "text": "11년 만에 돌아온 술이 있는데 너무 인기라서 품절이래요. 오래 쉬고 돌아왔더니 다들 반가워하나 봐요.",
+    "explain": "예전에 팔다 단종됐던 '캪틴큐'라는 술이 11년 만에 다시 나왔는데 사려는 사람이 많아 품절이 됐대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "서울광장 K팝 열기",
+    "safety": "가장 안전",
+    "text": "서울광장에서 K팝 행사가 열렸는데 외국 분들도 같이 노래를 따라 불렀대요. 저는 노래방에서 혼자 따라 부르기도 벅찬데요.",
+    "explain": "국적과 언어가 다른 팬들이 서울광장에 모여서 K팝 무대를 함께 즐겼다는 소식이에요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "비 온 뒤 쌀쌀함",
+    "safety": "가장 안전",
+    "text": "비 그치고 나서 갑자기 쌀쌀해졌더라고요. 가을이 오는 속도가 저보다 빠른 것 같아요.",
+    "explain": "어제 전국에 가을비가 내린 뒤 찬 공기가 내려와서 오늘 아침 기온이 많이 떨어졌어요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "음식",
+    "topic": "환절기 비타민C",
+    "safety": "가장 안전",
+    "text": "환절기에는 비타민C가 좋다고 하더라고요. 요즘 귤이 맛있을 때라 저는 귤부터 챙기려고요.",
+    "explain": "환절기 면역력을 위해 비타민C가 풍부한 음식 다섯 가지를 소개하는 기사가 나왔어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "윤여정 팔순",
+    "safety": "가장 안전",
+    "text": "윤여정 선생님이 팔순을 맞으셨는데 지인분들과 소박하게 파티를 하셨대요. 그런 소박함이 오히려 멋있게 느껴지더라고요.",
+    "explain": "배우 윤여정 씨가 팔순을 맞아 가까운 사람들과 작은 파티를 열었고 가수 김수철 씨가 축하 공연을 했대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "환절기 옷차림",
+    "safety": "가장 안전",
+    "text": "요즘은 아침저녁으로 쌀쌀해서 뭘 입고 나가야 할지 매일 고민돼요. 선배님은 어떤 걸 챙기세요?",
+    "explain": "비가 그친 뒤 기온이 내려가서 아침엔 쌀쌀하고 낮엔 선선한 날씨가 이어지고 있어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI와 일자리",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 AI 이야기가 정말 많은데, 저는 아직 쓰는 법을 배우는 중이에요. 혹시 써 보신 적 있으세요?",
+    "explain": "교실과 일터에서 AI 사용이 빠르게 늘고 있어서 관련 소식이 매일 뉴스에 나와요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "와사비 이야기",
+    "safety": "가장 안전",
+    "text": "우리가 먹는 와사비가 진짜 와사비가 아닌 경우가 많다고 하더라고요. 저는 지금까지 모르고 먹었어요.",
+    "explain": "시중 와사비는 서양고추냉이로 만든 것이 많고 진짜 와사비는 따로 있다는 이야기가 화제가 됐어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "뷔 칠레 팬캠",
+    "safety": "가벼움",
+    "text": "BTS 뷔 씨의 칠레 공연 영상이 화제래요. 흰 옷이 정말 잘 어울렸다고 하더라고요.",
+    "explain": "BTS 뷔 씨가 칠레 공연에서 흰 의상을 입은 팬캠 영상이 화제가 됐어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "주말 가을비",
+    "safety": "가장 안전",
+    "text": "어제 비가 정말 많이 왔죠. 주말 계획이 있으셨으면 아쉬우셨겠어요.",
+    "explain": "일요일에 전국에 강한 가을비와 강풍이 있었고 곳에 따라 비가 80mm까지 왔어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI로 게임 만들기",
+    "safety": "가벼움",
+    "text": "요즘은 AI한테 말로 부탁하면 게임도 만들어 준대요. 저는 말로 부탁하는 것도 아직 서툰데 말이에요.",
+    "explain": "'갤러그에 마리오를 넣어줘'처럼 말로 요청하면 AI가 게임을 바꿔 주는 기술이 나왔다는 기사예요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "딥시크 새 모델",
+    "safety": "가벼움",
+    "text": "딥시크가 더 빠르고 비용이 덜 드는 AI 모델을 새로 냈대요. 저도 일 처리 속도를 좀 올려야 하나 싶어요.",
+    "explain": "중국 AI 회사 딥시크가 기존보다 빠르고 운영 비용이 적게 드는 새 모델을 공개했다는 소식이에요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "FC서울 우승 보류",
+    "safety": "가벼움",
+    "text": "FC서울이 어제 2 대 2로 비겨서 우승 확정이 조금 미뤄졌대요. 샴페인이 하루 더 기다리게 됐네요.",
+    "explain": "프로축구 K리그에서 FC서울이 김천 상무와 비기면서 우승 확정이 다음으로 미뤄졌어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "월요일 출근길",
+    "safety": "가장 안전",
+    "text": "월요일 아침에 이렇게 쌀쌀하니 이불이 더 그리워지네요. 다들 잘 도착하셨죠?",
+    "explain": "비가 그친 뒤 찬 공기가 내려와 오늘 출근길이 쌀쌀하고 곳에 따라 안개도 꼈어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "붕어빵 꽃미남",
+    "safety": "가장 안전",
+    "text": "경기도 광명에서 붕어빵 파는 분이 잘생겼다고 화제래요. 붕어빵 맛이 더 궁금해지더라고요.",
+    "explain": "광명의 붕어빵 가게 사장님이 배우 같다고 해서 '붕은우'라는 별명이 붙으며 화제가 됐어요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "비 온 뒤 쌀쌀함",
+    "safety": "가장 안전",
+    "text": "어제 비가 많이 오더니 오늘은 갑자기 쌀쌀하네요. 따뜻한 차 한 잔 어떠세요?",
+    "explain": "비가 그친 뒤 찬 공기가 내려와 오늘 아침 기온이 뚝 떨어졌어요."
+   },
+   {
+    "field": "음식",
+    "topic": "환절기 먹거리",
+    "safety": "가장 안전",
+    "text": "요즘 같은 환절기엔 따뜻한 국물이 생각나더라고요. 저는 어제 국수를 먹었는데 속이 편안했어요.",
+    "explain": "환절기에는 면역력을 챙기는 음식에 대한 관심이 높아지는 때예요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "와사비 진실",
+    "safety": "가벼움",
+    "text": "와사비가 사실 진짜가 아닌 경우가 많다는 얘기를 봤어요. 혹시 들어 보셨어요?",
+    "explain": "흔히 먹는 와사비는 서양고추냉이로 만든 것이 많다는 내용이 화제가 됐어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "주식 시장 출렁임",
+    "safety": "상대가 관심 있을 때",
+    "text": "어제 미국 기술주가 크게 내렸다고 하더라고요. 저는 경제는 잘 몰라서 그냥 따뜻한 음료로 마음을 달래요.",
+    "explain": "미국 기술주 주가가 급락했지만 월가에서는 AI 성장 흐름이 무너진 건 아니라고 본다는 기사예요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날이 쌀쌀해졌는데, 가을에 꼭 하는 게 있으세요?",
+  "why": "계절 이야기라 누구나 편하게 답할 수 있고, 상대의 취향이 자연스럽게 나와서 대화가 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "월요일 아침 엘리베이터에서 선배와",
+   "topics": "비 온 뒤 쌀쌀함, 손흥민 경기",
+   "lines": [
+    {
+     "who": "a",
+     "text": "선배님, 좋은 아침이에요. 어제 비가 그치더니 갑자기 쌀쌀해졌죠?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그러게요. 아침에 나오다가 깜짝 놀랐어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 아직 여름 이불 덮고 자는데, 이불이 저한테 서운해했을 것 같아요.",
+     "humor": {
+      "type": "의인화",
+      "why": "이불이 서운해한다는 의인화로 내 준비 부족을 가볍게 인정하는 자조 유머예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 이불이 눈치가 빠르네요. 이번 주말에 바꿔 덮어야겠어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아요. 그나저나 어제 손흥민 선수 경기 보셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아니요. 어떻게 됐어요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "골대를 맞혀서 1 대 1 무승부였대요. 골대가 너무 열심히 일한 것 같아요.",
+     "humor": {
+      "type": "의인화",
+      "why": "골대를 일 열심히 하는 존재로 의인화해서 상대 누구도 놀리지 않고 온화하게 웃길 수 있어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "아쉽네요. 다음엔 골대가 좀 쉬었으면 좋겠어요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "점심 후 후배와 대화가 끊겼을 때",
+   "topics": "AI 게임, 추억의 술",
+   "lines": [
+    {
+     "who": "a",
+     "text": "밥 맛있게 드셨어요? 저는 오늘 국수 먹었어요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "네, 맛있게 먹었어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "요즘 AI한테 부탁하면 게임도 만들어 준대요. 저는 점심 메뉴도 못 정하는데 말이에요.",
+     "humor": {
+      "type": "자조",
+      "why": "AI의 능력과 내 결정 장애를 대비시켜 나를 살짝 낮추는 온화한 유머예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그러게요. 신기하네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 갑자기 제가 너무 기술 얘기만 했네요. 말이 길었죠?",
+     "humor": {
+      "type": "자조",
+      "why": "분위기가 가라앉았을 때 스스로 인정하면 상대가 부담을 덜고 오히려 편해져요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "아니에요. 재밌었어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "다행이에요. 그럼 가벼운 걸로 바꿔서, 11년 만에 돌아온 술이 품절됐다는데 들어 보셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그거 저도 봤어요. 어떤 술이에요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "캪틴큐라는 술인데, 오래 쉬고 돌아왔더니 다들 반가워서 한꺼번에 몰렸나 봐요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 선배를 만났어요. 오늘 날씨로 가볍게 인사해 보세요.",
+   "hints": [
+    "어제와 오늘의 차이를 말하기",
+    "상대에게 가볍게 되묻기"
+   ],
+   "answer": "어제 비 오더니 오늘은 갑자기 쌀쌀하네요. 선배님은 따뜻하게 입고 오셨어요?",
+   "note": "변화 말하기 + 되묻기 유형이에요. 날씨 차이를 말하고 질문으로 끝내면 대화가 이어져요."
+  },
+  {
+   "q": "처음 만난 사람과 대화가 끊겼어요. 최근 화제를 꺼내 보세요.",
+   "hints": [
+    "소식 한 줄로 시작하기",
+    "상대 경험 묻기"
+   ],
+   "answer": "요즘 AI로 게임도 만든다더라고요. 혹시 써 보신 적 있으세요?",
+   "note": "소식 + 경험 묻기 유형이에요. 사실을 먼저 던지고 상대 경험을 물으면 부담이 적어요."
+  },
+  {
+   "q": "손님에게 가볍게 말을 건네 보세요. 환절기를 주제로 해 보세요.",
+   "hints": [
+    "계절 이야기 꺼내기",
+    "따뜻한 제안 더하기"
+   ],
+   "answer": "날이 쌀쌀해져서 그런지 따뜻한 차를 찾으시는 분이 많아졌어요. 한 잔 드릴까요?",
+   "note": "계절 + 제안 유형이에요. 공감하는 말 뒤에 작은 제안을 붙이면 자연스러워요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "손흥민, 골대 불운 속 1 대 1 무승부",
+   "summary": "LAFC가 뉴욕 시티와 1 대 1로 비겼고, 손흥민 선수의 슛이 골대에 맞았다는 소식이에요.",
+   "context": "손흥민 선수는 현재 미국 프로축구 MLS의 LAFC에서 뛰고 있어요. 이날 극장골을 노렸지만 골대에 맞아 아쉽게 마무리됐다고 해요. 팬들 사이에서는 아쉬움과 함께 계속 응원하겠다는 반응이 이어졌어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lbDd4VktXNW8xdzBzRTZuWmF3VFdVWGFKLVI2V0xIcEJZNFNVZXFjZlAxS3lfaXdJVEdBSmtpWDBNcHR4Mk5wRmtCWUJNTnpIbE03ME5hSTB1Qkw5Z3FNSjNPT191cGs?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "비 그친 뒤 기온 뚝, 출근길 쌀쌀",
+   "summary": "일요일 전국에 강한 가을비가 내린 뒤 찬 공기가 내려와 오늘 아침 기온이 크게 떨어졌어요.",
+   "context": "어제 전국에 비가 내리면서 곳에 따라 최대 80mm의 비와 강풍이 있었어요. 비가 지나간 뒤 찬 공기가 들어와 오늘 아침 출근길이 쌀쌀하고, 남해안과 제주는 낮까지 약한 비가 이어져요. 환절기라 옷차림에 신경 쓰라는 안내가 나왔어요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ORGM1LVdDbDh5Sm9XTzBhalhtZ3RTRDAtXzZEallmenV6Y1VYTTVGMVZfLUJ4Nmg3RFpCYk81Rm9PVWdXZlpNUExPYS1fMEpPNDdUX2VDYXJzNlJyRXc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "11년 만에 돌아온 '캪틴큐', 품절 대란",
+   "summary": "단종됐던 술 '캪틴큐'가 11년 만에 다시 나왔는데 인기가 많아 품절이 됐다고 해요.",
+   "context": "캪틴큐는 예전에 많이 팔리다가 단종됐던 술이에요. 요즘 옛날 감성이 다시 인기를 끄는 흐름과 맞물려 재출시되자마자 구하기 어려울 만큼 찾는 사람이 많았대요. 복고 트렌드가 식품과 주류 시장에서도 힘을 쓴다는 사례로 소개됐어요.",
+   "source": "중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lSkhFU0JoR3dCbVl0MWJvM3h6Umc3VHNvdWYtWjdUR0pIRW9jekJURzYwY1F0V3NnYTRwWVNncVdDVUdaWW1RRlJyeXZfSF9HSVlWcml3?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "'갤러그에 마리오 넣어줘'…AI로 게임 만드는 시대",
+   "summary": "말로 요청하면 AI가 게임을 바꾸거나 새로 만들어 주는 '만드는 게임' 시대가 열렸다는 기사예요.",
+   "context": "예전에는 게임을 만들려면 코딩을 배워야 했지만, 이제는 AI에게 원하는 내용을 말로 설명하면 게임에 반영해 주는 기술이 나왔어요. 갤러그는 오래된 인기 아케이드 게임이에요. 일반 사람도 창작에 참여할 수 있게 된다는 점이 주목받고 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1hfUWZqYzZsbEVpWi1BWjVTTmc4M1dzTHVOMEtycU5GZ3ZScV93c0hsT05HN3c1N2UwSlM1ejBkRXN2R04xNXExZHhEUk1hc3htY2Z4OF84WGFadzFJd0tPRzFNeXhMYlhQc3JSWG5KSmdlVUZ1NDJLNkFRSkFzYkNFOA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "국적·언어 달라도 하나 된 K팝 열정, 서울광장 달궜다",
+   "summary": "서울광장에서 열린 K팝 행사에 여러 나라 팬들이 모여 함께 즐겼다는 소식이에요.",
+   "context": "K팝은 이제 세계 곳곳의 팬들이 함께 즐기는 문화가 됐어요. 이번 행사에서도 서로 다른 언어를 쓰는 팬들이 한마음으로 노래를 따라 부르며 응원했다고 해요. 한국 대중문화의 영향력을 보여 주는 장면으로 소개됐어요.",
+   "source": "서울신문",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uR19laW9iWWh3ZGJQcGo0cWZHMlMxMW16UktISjF4U2U5YXJwVWpnbTIwSk5pUGtoUVVkc1ptU1dlUnBtOVJkSTB5UDB4UjF1QUJ1M0Rha0g2RUpnb1hOR3dZNEZBeGNBS3M4?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "윤여정, 지인들과 소박한 팔순 파티",
+   "summary": "배우 윤여정 씨가 팔순을 맞아 가까운 사람들과 작은 파티를 열었다는 소식이에요.",
+   "context": "윤여정 씨는 한국을 대표하는 배우로, 세계적으로도 큰 상을 받은 것으로 잘 알려져 있어요. 이번 팔순 파티는 화려한 행사 대신 지인들과 함께한 소박한 자리였고, 가수 김수철 씨가 축하 공연을 했다고 해요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WdXU2bkN5dlQ1ZVE0dVhSeFptejRLZ3Y4YTNlQ216dlBDZDZUYUYzOC1HcTROVU55XzFkNS12Z2owclJ3Q0ZCN0QyMDFLb2JlSHA5ZUdLMlFpS0dy?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "잘못 알고 있던 와사비의 진실",
+   "summary": "우리가 흔히 먹는 와사비가 진짜 와사비가 아닌 경우가 많다는 내용이 화제예요.",
+   "context": "시중에서 흔히 만나는 초록색 양념은 서양고추냉이를 가공한 경우가 많고, 진짜 와사비는 재배가 까다로워 값이 비싸다고 알려져 있어요. 온라인 커뮤니티에서 이 이야기가 화제가 되면서 많은 사람이 놀랐다는 반응을 보였어요.",
+   "source": "시사매거진",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RUE00TFQ4NG42ejBvbWt3X09SRnNRWUtIQXZybU1pZjZrRTFaeEZLcUxyZVRNZkI1LUVlWHJoTFBLemNVdXQtT3dZNlo4RzJlZEdpYjlXcGVtN2xPdDB1WmU3ZllnR0NITWVBNmZWaWVWQkotS3RXenl2Zw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "경기도 소방 예산 삭감 논란, 국정감사 쟁점으로",
+   "summary": "경기도의 소방 예산 삭감을 두고 정치권 공방이 이어지고 있어요.",
+   "context": "경기도가 소방 관련 예산 34.5억 원을 줄인 것이 알려지면서 도지사의 책임과 사과 여부를 두고 논란이 커졌어요. 최근 순직한 소방관 소식과 맞물려 여론이 민감해졌어요. 한쪽은 예산 삭감이 부적절했다고 비판하고, 다른 쪽은 예산 편성의 사정이 있다는 입장이에요. 소방 재정의 국가와 지방 부담 비율이 '1 대 9'라는 점도 함께 지적됐어요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFE1amh1d0Y1RlRIVnJvNDZsQUF0blRDUURxQjV2ZWJVQXEzaHlFM3l1VzNhTGpQa0dmN0Q2ZERzZERNWXNQQVl1bmNzTUJsYUdsVzZ0bk1qVHl0Z9IBX0FVX3lxTE1NbkNKTUdyenozZlVfWlVuczRNTm9xeXBERV9JNXBzdzFaVDhJTVlELXF4R0t2RWtGcDU3LS03S0VsNjFuQU5PczFGaFBldk1aRUNVUm1GSnJIZmVBVmFB?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "주한미군사령관 'DMZ 이남' 발언 논란",
+   "summary": "주한미군사령관의 영토 관련 발언을 두고 논란이 일었고 국방부는 개인 견해라고 밝혔어요.",
+   "context": "브런슨 사령관이 한국의 영토가 비무장지대 남쪽 철책선부터 시작된다는 취지로 말해 논란이 됐어요. 국방부는 개인 견해라고 했고 유엔사는 한국의 주권에 의문의 여지가 없다고 밝혔어요. 비판하는 쪽은 주권을 부정하는 발언이라고 보고, 다른 쪽은 군사 작전상 구분을 말한 것으로 해석하기도 해요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MTElkVmtyWW1UbWNVbDRTbHUzUkxYb21nWGp3UEVFdmJ4eG15MldCMGt4WHlLRUlkRlUzcTNMVnlJUUU1UVBaaFNLb29iSE1TVVpTcWtzbnZ4aGhlYVVpMVRac3dNWU1WR0NueXJIcUJLbkFjZjByVNIBeEFVX3lxTFBXZm5LX2hhb18ycEdRd0Rzc05YVkdybi1BUGRuOS1sU1Z3SVlILXJYU2FESmh1cXhtYjlUQTBkd3N6SUNnQk0yZHp6S0oyU1FMN3hTM1dPV2xkZGlrejREb21kWkI1Rk9qWFhHaFJmS3VZT3pHRWNYZQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프 '러시아 에너지 유화책'에 공화당 내부도 반발",
+   "summary": "미국 대통령의 러시아 에너지 제재 완화 방침에 여당인 공화당 안에서도 비판이 나오고 있어요.",
+   "context": "트럼프 대통령은 러시아를 제재하면 평화협상이 깨진다는 입장이고, 일부 공화당 의원들은 우크라이나 지원과 대러 압박이 약해진다고 반발해요. 중간선거를 앞두고 지지율이 낮은 점도 정치적 부담으로 거론돼요. 협상을 위한 현실적 선택이라는 시각과 러시아에 양보하는 것이라는 시각이 맞서고 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rd3VEX0lubEMxdEZmLUFyUjN1WHI0M05vaS1PUFVzbVNocjlGTWUzSmp6enpmQlEyV3dSWkZzUzlvM3JiS1k5SHdnZmp6SUZSdUFDOEREbHZhbzQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "더불어민주당 안팎서 '조희대 대법원장 탄핵' 거론",
+   "summary": "여당 지도부가 대법원장 탄핵 논의에 나서는 가운데 당내에서도 신중론이 나와요.",
+   "context": "여당 일부에서 조희대 대법원장의 사퇴를 촉구하고 탄핵까지 거론하는 가운데, 당내에서는 시기와 실효성을 두고 고개를 갸웃하는 반응도 있어요. 야권 인사는 탄핵이 오히려 다른 재판에 영향을 줄 수 있다고 주장했어요. 사법부 독립 훼손이라는 비판과 책임을 묻겠다는 입장이 맞서는 상황이에요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXYlB3ZTNxSEVCbi0tTVkzLWZhQThvTVA1SjJzUlcyMG9SaWM3a1VPaVlIRkVrY09SVWhmTGpieWRFV2V0ajFOT0ZpYlJCSXJUSW5YNFgyeG4yZ9IBX0FVX3lxTFA1clhhUlg0dnQyVW9QWVhJbEF1VXA3NmxZc3QzTk1JOExzWDY2YXc5OVZiZDc5a3V4QjA2N0t1MF8wSHpoUVJ4YWNxdktiRmcyeTRzSWJncEp5dE9yZm5n?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "프랑스 대규모 시위, 마크롱 대통령 담화",
+   "summary": "프랑스에서 청년 중심의 대규모 시위가 벌어져 파리에서 약탈과 폭력이 발생했고, 대통령이 대국민 담화를 했어요.",
+   "context": "약 55만 명이 거리로 나선 시위에서 일부 폭력과 약탈이 일어나 명품 거리가 큰 피해를 입었다고 해요. 시위대는 생활이 어렵다며 정부에 항의했고, 마크롱 대통령은 폭력을 용서하지 않겠다고 밝혔어요. 경제 불만을 정당한 목소리로 보는 시각과 폭력은 용납할 수 없다는 시각이 함께 나오고 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDVUtGcXMwNHpfZEw0ZFdEdzN5SGtsTDRNR3g3cE81MXRnaGZQbmNVeURlSVd0dXVvQVVsdzlQNEp0dmFvQ3pyamt0c2htNEVCczEwbnRWTU5IUdIBX0FVX3lxTE94MXhsV0ZIWHFLZWQ2OHphS29tdUFBUmZJTkF5RnMyakl1VWlsVU44RlpoWDZsUWNEWkU3eVEzZWNsdm5DZG5SeXhWTy1QZEpsTnpDZWhzcmFBY00yb01Z?oc=5"
+  }
+ ],
+ "term": {
+  "word": "입건",
+  "meaning": "경찰이나 검찰이 어떤 사람을 범죄 혐의가 있다고 보고 공식적으로 수사 대상에 올리는 것을 말해요. 유죄가 확정됐다는 뜻은 아니에요.",
+  "example": "뉴스에서 공장 대표가 입건됐다고 하던데, 수사 대상이 됐다는 뜻이더라고요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 기온은 {최고}도이고, 비 올 확률이 {비확률}%라고 해요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨} 예보라서 우산이 필요할 것 같아요. 저는 우산을 자꾸 어디다 두고 와서 걱정이에요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도에 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘은 {최고}도인데 내일은 {내일최고}도래요. 옷 입기가 정말 어렵겠어요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 내일 최고 {내일최고}도로 기온 차가 큰 편이에요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 내일 기온이 {내일최고}도까지 달라진대요. 제 옷장도 계절을 따라가느라 바쁠 것 같아요.",
+   "explain": "오늘 {지역} 최고 기온은 {최고}도이고 내일은 {내일최고}도로 예상돼요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 기온이 {최고}도까지 올라간대요. 가을인데 아직 여름이 짐을 못 뺀 것 같아요.",
+   "explain": "오늘 {지역} 낮 최고 기온은 {최고}도, 최저는 {최저}도예요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 낮에 {최고}도까지 오른대요. 겉옷은 가방에 넣어 두면 좋을 것 같아요.",
+   "explain": "오늘 {지역}은 {날씨}이고, 낮 최고 기온은 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침 {지역} 기온이 {최저}도까지 내려갔대요. 아침에 나올 때 많이 쌀쌀하셨죠?",
+   "explain": "오늘 {지역} 최저 기온은 {최저}도이고, 낮에는 {최고}도까지 올라간다고 해요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침 {최저}도라서 쌀쌀하네요. 저는 아침마다 이불이 저를 놓아주질 않아요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 아침저녁으로 쌀쌀해요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨는 {날씨}이고 낮 기온이 {최고}도래요. 산책하기 딱 좋을 것 같아요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 지내기 무난한 날씨예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {최저}도에서 {최고}도 사이라서 무난하대요. 이런 날은 괜히 밖에 나가고 싶어져요.",
+   "explain": "오늘 {지역}은 {날씨}이고, 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "의인화",
+   "desc": "사물을 사람처럼 말해서 온화하게 웃기는 방법"
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 분위기를 부드럽게 만드는 방법"
+  }
+ ],
+ "date": "2026-10-19",
+ "weekday": "월요일",
+ "tone": "jondae",
+ "strength": "safe",
+ "generated_at": "2026-10-19 08:33",
+ "model": "claude-sonnet-5-5"
+}
