@@ -1,0 +1,500 @@
+{
+ "lede": "오늘은 가을비와 모레의 초겨울 추위, 손흥민 동료의 데뷔골, K팝 투어 매출, 구글의 자기개선 AI, 이집트 신생아 사진까지 가볍게 꺼낼 소재가 골고루 모였어요.",
+ "today": {
+  "situation": "처음 만난 사람",
+  "text": "요즘 K팝 팀들이 아시아 투어로 버는 돈이 꽤 크다던데, 혹시 요즘 즐겨 들으시는 노래 있으세요?",
+  "why": "뉴스 한 조각으로 시작해서 상대의 취향을 묻는 질문으로 자연스럽게 넘어가요.",
+  "explain": "아시아 투어 콘서트 매출 상위 10팀 중 6팀이 K팝이라는 기사가 있었어요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음악·K팝",
+    "topic": "K팝 투어 매출",
+    "safety": "가벼움",
+    "text": "아시아 투어 콘서트 매출 상위 열 팀 중에 K팝이 여섯 팀이래요. 신기하지 않으세요?",
+    "explain": "올해 아시아에서 콘서트로 돈을 가장 많이 번 열 팀 중 여섯 팀이 K팝 가수라는 기사였어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "모레 추위",
+    "safety": "가장 안전",
+    "text": "모레부터 올가을 들어 제일 쌀쌀해진대요. 저는 아직 가을 옷도 제대로 못 꺼냈는데 말이죠.",
+    "explain": "비가 지나가고 북서쪽 찬 공기가 내려와서 모레 아침 기온이 뚝 떨어진다고 해요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "이집트 신생아",
+    "safety": "가벼움",
+    "text": "이집트에서 갓 태어난 아기가 세상을 달관한 듯한 포즈로 찍힌 사진이 화제래요.",
+    "explain": "태어나자마자 한쪽 팔을 괴고 누운 듯한 모습이 찍혀서 온라인에서 화제가 됐다는 소식이에요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "구글 AI 자기개선",
+    "safety": "상대가 관심 있을 때",
+    "text": "구글이 AI가 스스로 성능을 높이는 방법을 내놨대요. 저도 저를 좀 스스로 개선하고 싶네요.",
+    "explain": "하네스²라는 이름으로, AI가 자기 작업 방식을 직접 고쳐 가며 성능을 올리는 틀이라고 해요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "음식",
+    "topic": "가을 간식",
+    "safety": "가장 안전",
+    "text": "요즘 같은 날씨엔 따뜻한 국물이 생각나는데, 선배님은 요즘 뭐가 땡기세요?",
+    "explain": "비 오고 쌀쌀한 날엔 국물 음식 얘기가 잘 통해서 무난한 질문이에요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 동료의 데뷔골",
+    "safety": "가벼움",
+    "text": "손흥민 선수 팀 동료가 데뷔골을 넣고 프리킥도 양보받았다고 고마워했대요.",
+    "explain": "MLS 팀에서 새로 합류한 선수가 데뷔골을 넣고, 프리킥을 양보해 준 손흥민에게 고마움을 전했다는 기사예요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "가을 공모주",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 공모주 시장이 붐빈다는데, 혹시 관심 있게 보고 계세요?",
+    "explain": "AI·반도체 기업들이 줄줄이 상장을 준비하면서 가을 공모주 시장이 북적인다는 기사예요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "김연경 예능",
+    "safety": "가벼움",
+    "text": "김연경 감독님 예능이 화제성 1위라던데, 혹시 보셨어요?",
+    "explain": "배구 스타 김연경이 신인 감독으로 나오는 예능이 시청률과 화제성에서 모두 1위를 했다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음악·K팝",
+    "topic": "K팝 투어 매출",
+    "safety": "가벼움",
+    "text": "요즘 어떤 노래 즐겨 들으세요? K팝이 투어 매출로도 세계에서 꽤 잘 나간다던데요.",
+    "explain": "아시아 투어 콘서트 매출 상위 열 팀 중 여섯 팀이 K팝이라는 기사가 있었어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을비",
+    "safety": "가장 안전",
+    "text": "오늘 비 오는데 오시는 길 괜찮으셨어요? 저는 우산을 두고 와서 반쯤 비를 맞았어요.",
+    "explain": "오늘 전국 곳곳에 가을비가 내리고 내일 새벽까지 이어지는 곳도 있어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "꿀벌 보호",
+    "safety": "가벼움",
+    "text": "기후 때문에 꿀벌이 걱정이라 보호 연구를 공유하는 행사가 열렸대요. 벌이 없으면 과일값도 오른다던데요.",
+    "explain": "농촌진흥청과 양봉협회가 나주에서 꿀벌 보호 심포지엄을 열었다는 소식이에요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "넷플릭스 영화 총괄 사임",
+    "safety": "상대가 관심 있을 때",
+    "text": "케이팝 데몬 헌터스를 이끈 넷플릭스 영화 총괄이 물러난대요. 혹시 보셨어요?",
+    "explain": "넷플릭스의 성장세가 둔화되는 가운데, 그 영화를 이끈 총괄이 사임한다는 기사예요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "반도체 공장 시뮬레이션 게임",
+    "safety": "가벼움",
+    "text": "AI로 만든 반도체 공장 시뮬레이션 게임이 화제래요. 공장을 직접 키우는 게임이라니 신기하지 않으세요?",
+    "explain": "반도체 공장을 운영해 보는 시뮬레이션 게임을 AI로 만들었다는 소식이 화제가 됐어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "출근길 비",
+    "safety": "가장 안전",
+    "text": "오늘 출근길에 비 안 맞으셨어요? 저는 우산이 있는데도 신발이 젖었어요.",
+    "explain": "오늘 남부와 제주부터 비가 시작돼 밤에는 수도권과 강원으로 확대돼요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손아섭 방출",
+    "safety": "가벼움",
+    "text": "프로야구 손아섭 선수가 두산에서 방출됐대요. 베테랑 타자라 다음 팀이 어디일지 궁금해요.",
+    "explain": "통산 안타 기록을 쌓아 온 베테랑 타자가 두산에서 방출되면서 다음 행선지가 관심을 끌고 있어요."
+   },
+   {
+    "field": "음식",
+    "topic": "음식 이야기",
+    "safety": "가장 안전",
+    "text": "점심에 뭐 드셨어요? 저는 오늘 메뉴 고르는 데만 이십 분 썼어요.",
+    "explain": "점심 얘기는 누구에게나 부담 없이 꺼낼 수 있는 질문이에요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "비와 쌀쌀한 날씨",
+    "safety": "가장 안전",
+    "text": "오늘 비 와서 쌀쌀한데, 따뜻한 음료 한잔 어떠세요?",
+    "explain": "오늘은 가을비가 내리고 모레는 올가을 들어 가장 쌀쌀하다는 예보예요."
+   },
+   {
+    "field": "음식",
+    "topic": "가을 간식",
+    "safety": "가장 안전",
+    "text": "요즘 날씨엔 따뜻한 게 잘 나가요. 저도 오늘 점심에 국물부터 찾았어요.",
+    "explain": "쌀쌀해지는 날씨에 따뜻한 음식 얘기를 꺼내면 대화가 부드럽게 이어져요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "공연",
+    "safety": "가벼움",
+    "text": "요즘 공연 보러 가시는 분들이 많대요. 혹시 최근에 다녀오신 공연 있으세요?",
+    "explain": "연말에 뮤지컬과 콘서트 일정이 많이 잡혀 있어서 꺼내기 좋은 소재예요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI 반도체 장세",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 AI 관련 주식 얘기가 많은데, 혹시 관심 있으세요?",
+    "explain": "AI·반도체 주식이 오르내리면서 투자 의견이 갈린다는 시황 기사가 많았어요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제세요?",
+  "why": "정답이 없어서 편하게 답할 수 있고, 상대의 일상으로 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "비 오는 날 처음 만난 사람과",
+   "topics": "가을비, 모레 추위, K팝 투어",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕하세요. 오늘 비 오는데 오시는 길 괜찮으셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "네, 우산 쓰고 왔어요. 그래도 좀 쌀쌀하네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아요. 모레는 올가을 중에 제일 춥대요. 저는 아직 겨울 코트 꺼낼 마음의 준비가 안 됐어요.",
+     "humor": {
+      "type": "자조",
+      "why": "나를 살짝 낮추면서 계절 변화에 공감하게 만드는 온화한 유머예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저도요. 아직 가을인 줄 알았는데요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러게요. 가을이 조용히 이사 가는 느낌이에요. 혹시 요즘 즐겨 들으시는 노래 있으세요?",
+     "humor": {
+      "type": "의인화",
+      "why": "계절을 사람처럼 표현해서 쌀쌀함을 부드럽게 웃음으로 바꿔요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "요즘 K팝 많이 들어요. 투어도 다들 대단하더라고요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아요. 아시아 투어 매출 상위 열 팀 중 여섯 팀이 K팝이래요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "와, 정말요? 몰랐어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도 기사 보고 알았어요. 제 플레이리스트만 아직 그 속도를 못 따라가요.",
+     "humor": {
+      "type": "자조",
+      "why": "스스로를 살짝 낮춰서 대화를 가볍게 이어 가는 온화한 자조예요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기 (직장 동료)",
+   "topics": "AI 자기개선, 점심",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕하세요. 구글이 AI가 스스로 성능을 높이는 틀을 내놨대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그래요? 신기하네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "AI는 스스로 개선하는데 저는 월요일의 저와 화요일의 저가 똑같아요.",
+     "humor": {
+      "type": "자조",
+      "why": "AI 소식과 나의 일상을 대비해 살짝 웃게 만드는 자조예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...네? 아, 하하.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 갑자기 너무 썰렁했죠. 제 농담 모듈은 아직 업데이트가 안 됐나 봐요.",
+     "humor": {
+      "type": "의인화",
+      "why": "썰렁함을 업데이트라는 말로 받아 넘기며 분위기를 풀어 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 괜찮아요. 업데이트 기다리고 있을게요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "감사합니다. 그런데 점심은 뭐 드실 거예요? 저는 오늘 메뉴 고르는 데만 이십 분 걸렸어요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "저는 따뜻한 국물이 당기네요. 날씨도 쌀쌀하고요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "좋은 생각이에요. 같이 갈까요?",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람에게 비 오는 날씨를 소재로 말문을 열어 보세요.",
+   "hints": [
+    "상대의 오는 길 안부 묻기",
+    "내 상황을 살짝 낮추는 자조 더하기"
+   ],
+   "answer": "오늘 비 오는데 오시는 길 괜찮으셨어요? 저는 우산을 두고 와서 반쯤 비를 맞았어요.",
+   "note": "안부 질문과 가벼운 자조를 합친 유형이에요."
+  },
+  {
+   "q": "친구에게 K팝 투어 매출 소식을 꺼내 보세요.",
+   "hints": [
+    "사실 한 줄 먼저 말하기",
+    "상대 취향 묻기"
+   ],
+   "answer": "아시아 투어 콘서트 매출 상위 열 팀 중에 K팝이 여섯 팀이래요. 요즘 즐겨 들으시는 노래 있으세요?",
+   "note": "사실 전달 뒤 취향 질문으로 넘기는 유형이에요."
+  },
+  {
+   "q": "말이 썰렁하게 끝났을 때 수습해 보세요.",
+   "hints": [
+    "썰렁함을 솔직히 인정하기",
+    "사물에 빗대어 웃어넘기기"
+   ],
+   "answer": "아, 제 농담 모듈은 아직 업데이트가 안 됐나 봐요.",
+   "note": "인정하고 의인화로 넘기는 수습 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "오늘 내일 가을비, 모레는 올가을 가장 쌀쌀",
+   "summary": "오늘 전국 곳곳에 가을비가 내리고, 모레는 기온이 크게 떨어져 올가을 중 가장 쌀쌀할 전망이에요.",
+   "context": "비가 내리는 동안은 기온이 잠시 오르내리다가, 비가 그친 뒤 북서쪽에서 찬 공기가 내려오면서 체감온도가 크게 낮아지는 패턴이에요. 일교차가 커지니 겉옷을 챙기는 게 좋아요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5OU1JSjNYZ2x1TDBVaGUyOXdFelpEbHNyckwwYlhKc3k5RG5BWUJ0Y0ljQTVISl9lUGttRElVb3k3bGZ0ZElDY0Q1NVBvNlE1Vnc0RjViNXF4TkZGZXE4alZWLW9CZmc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "아시아 투어 콘서트 매출 톱 10 중 K팝이 6팀",
+   "summary": "아시아 투어 콘서트 매출 상위 열 팀 가운데 여섯 팀이 K팝 가수라는 집계가 나왔어요.",
+   "context": "K팝 가수들이 해외 공연에서 큰 수익을 올리는 흐름이 숫자로도 확인된 소식이에요. 음반 판매뿐 아니라 공연이 K팝 산업의 큰 수입원이 됐다는 의미예요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5eTZxR3ZjdlM5SkNTWkhla0RtVnFoYVZKU2pKWkphUmRWZ2Fzd3hQSG45aGpIYkZSWFk3bXk0Z01ULWpZTUdVand6RVhtY3F6N0xxOVZEQmFGZTQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "손흥민 동료 데뷔골, 프리킥 양보에 고마움",
+   "summary": "새로 합류한 동료가 데뷔골을 넣은 뒤, 프리킥을 양보해 준 손흥민에게 고맙다고 전했어요.",
+   "context": "손흥민은 팀 내에서 프리킥을 도맡던 선수로 알려져 있어요. 그런 선수가 기회를 양보했다는 점이 팀워크의 사례로 화제가 됐어요.",
+   "source": "스포츠조선",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiVWxmRUpxYjFnT201MnRsY2lKeW45aFB3ektCVVh3MHNaQU42NlNlUHU5Nm5pOW51YngxTDU1dEZVSFdlUkNsZk0tTVdDNDN0d01qX1FNeWJzZTd6aVp4S09TNjRlMXpTQVQtSVVCazBFTUlVZzdBZktTTVBoQQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "구글, AI가 스스로 성능 높이는 틀 '하네스²' 공개",
+   "summary": "구글이 AI가 스스로 작업 방식을 고쳐 성능을 높이는 자기개선 프레임워크를 공개했어요.",
+   "context": "AI가 주어진 일을 한 뒤 결과를 보고 스스로 방식을 수정하며 점점 나아지게 만드는 접근이에요. 사람이 일일이 손보지 않아도 성능이 오르는 방향의 연구라서 주목받아요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRWhBVlBBU3lTM2JyQzl1cl9qOGdzOUI3aGI5ZFBqb0x6RTZVdDRjRWQ2TkRhWU9LQjExQl9JX0VCenRicktZQXVGbnZkOXRsOFFiM1IteURyQmN2bWQyWThJeWZ2Ym1WMFE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "붐비는 가을 공모주 시장, AI·반도체 기업 출격",
+   "summary": "가을 공모주 시장에 AI·반도체 기업들이 줄줄이 상장을 준비하고 있어요.",
+   "context": "공모주는 기업이 처음 주식시장에 상장하면서 일반 투자자에게 주식을 파는 것을 말해요. AI와 반도체에 대한 기대가 커서 관련 기업의 상장이 몰리고 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkw0cXh4cXJzb2hOV0FxM2xFZXVHcmVMQTZwamE1RGhtOG9oWkREem00cWNUZmNDcUU0aV9PbkdfZlZ6ZDhnODBFamlQLWlzSmxrcno5dURzdkVwVERkcEV2eE9mRUxVMjdLUVpKUG1ISUh0dUFKX3ZjdkpLX3ZCNTBEQnlmT2p0TmZF?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "김연경 예능, 화제성·2049 시청률 동반 1위",
+   "summary": "배구 스타 김연경이 감독으로 나오는 예능이 화제성과 2049 시청률에서 모두 1위를 했어요.",
+   "context": "2049 시청률은 20~49세 시청자 비율을 따로 본 수치로, 광고 시장에서 중요하게 쓰여요. 스포츠 스타가 예능에서도 큰 인기를 끈 사례예요.",
+   "source": "톱스타뉴스",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pZ3IzMXdidW5hVlFjRkZSS3N3V0ZvbXJHNGNnMngtaEh1T25mLUVtNlctZHBYbTJzYlByMDcwVmtsYW1CVnJyVlRSMTNHRTZKVnRBdExqcVFzWWxibzgxYVBJbG5qZk5Lc2gtVFRrcmlkdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "이집트 신생아의 남다른 포즈 화제",
+   "summary": "태어나자마자 세상을 달관한 듯한 포즈를 취한 이집트 신생아 사진이 화제가 됐어요.",
+   "context": "갓 태어난 아기가 한쪽 팔을 괴고 누운 듯한 모습으로 찍혀 온라인에서 큰 관심을 받았어요. 가볍게 웃으며 나눌 수 있는 해외 토픽이에요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZLWxRRUZmM3o3ZG1WVmJBaEJBREx0b1NvN3YxeVlaQWF3X1pRNjhtYmNseElBV2dQU0lXbDlGZjdKNGwwUW5lMHYwVjNHZzE5WDZkcVRqYmliSGRveFBQcFlwU2ZwWk0?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "프랑스 약탈 동반 시위, 일부 도시 야간 통행금지",
+   "summary": "프랑스에서 시위 중 약탈과 폭력이 이어져 일부 도시에 야간 통행금지령이 내려졌어요.",
+   "context": "주민과 상인들은 약탈한 시위대에도, 이를 막지 못한 국가에도 분노하고 있다고 해요. 총리는 필요하면 비상사태 선포도 배제하지 않겠다는 입장이에요. 정부 대응이 충분했는지를 두고 의견이 갈려요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SZ2VhYk81X0lFbUlJbWhPVmwtNUxoQUo3cmpSeWI3Mng0YWVhdV9panZJYWxOcXJpZm1EVHlJalhMZ2Q1cVYzWjB4QzlTT2daX0kwMGlyWGNvbnN6M29qYVVjbkdTNjQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "소방 국가직화 이후 재정 부담 논란",
+   "summary": "소방관이 국가직이 된 지 6년이 지났지만, 월급의 대부분을 지방이 내는 구조를 두고 논란이 이어지고 있어요.",
+   "context": "소방관은 2020년 국가직으로 전환됐지만 인건비 상당 부분을 지방자치단체가 부담하고 있다는 지적이 나와요. 한 정치인의 발언을 계기로 처우 개선과 재정 부담을 어떻게 나눌지 논쟁이 커졌어요. 현장에서는 구조를 제대로 바꿔야 한다는 목소리가 나와요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUYmVCNmhFYmM1Rm4xSGZjSmFZUHhIVTNveEFNU0Zwbm1rd1RxaXpLSUFsQTRKSFc4cFVveWVhdnhSUlA5OVF1SmRIVUVXWVNwclA4U002b2hMd9IBX0FVX3lxTE9fWmJBcUVDcDZLYUtrSmt3a0N5bFl0cW1OdU5WQTF3bGplX2N2Q21PRWlRaHVGUS11UVBVY0hhRlF5YldYeWtZb0lvS1FzZnZwQ3B4bmFUVmI1cjdHS1A0?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이 대통령, 전시작전통제권 조기 환수 의지 재확인",
+   "summary": "이재명 대통령이 전시작전통제권을 빠르게 돌려받겠다는 뜻을 다시 밝혔어요.",
+   "context": "전시작전통제권은 전쟁이 났을 때 군대를 지휘하는 권한으로, 현재 한미 연합 체제에서 미국이 중요한 역할을 맡고 있어요. 정부는 이를 한국이 가져오는 방향으로 협의하겠다는 입장이고, 안보 공백 우려와 자주국방 필요성을 두고 의견이 나뉘어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDa25MdkxkZVFTaDZlRjQwMTZRdUNwUi11dmxqXzZjZzR4c25YTHp2c1lJR19LRWlOMENCdmdJcDNoVWM4b215ck91cXIwRDBVcGhxM3EtOUpPbFFKQlFMWk1EWGFmU00?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "조희대 대법원장 탄핵론 재점화",
+   "summary": "여당 일각에서 조희대 대법원장 탄핵 추진 목소리가 다시 나오고 있어요.",
+   "context": "찬성 쪽은 탄핵 사유가 충분하다고 주장하고, 반대 쪽은 의회가 사법부를 압박하는 것이라고 비판해요. 헌법재판소가 파면을 결정할 가능성은 낮다는 분석과 역풍 우려도 함께 나와요. 국정감사가 끝난 뒤 실행 여부가 가려질 전망이에요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tRmEtM3NRb3NiWC1ZQTJKMHNMdXVEdl9GY1lCZHBYeXVKT01MaHNIX1E3ZzhXZ0lURkRoSXRTYU9ybXRxWHNYTGhrUzZNRWc3Zkl4U0NJN1FsUdIBX0FVX3lxTE1VNWt2UFZyVFhIT3VDdTMtWkNWbFdZM01nZUJJNFhKNWx6YXVUem9iYUtULUdMSnFzcmZBSFpORGJJMWlJNWdUSTZNckxpUmF4RjQwYjlUQ2VleDdJc2JZ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프, 11월 김정은 회담 여부 \"모르겠다\"",
+   "summary": "트럼프 대통령이 11월 북미 회담 가능성에 대해 \"모르겠다\"며 선을 그었어요.",
+   "context": "통일부 장관은 북미 회담이 가시권이라고 했지만, 트럼프 대통령은 요청이 확실하지 않다고 답했어요. 일주일 전에는 가능성을 높게 본 듯한 발언이 있어서 입장이 달라졌는지 해석이 갈려요. 아시아태평양경제협력체 정상회의 기간이 회담 후보로 거론돼요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2RVNmlscXpMQmd5UHV6cG9BOVJuNjdpVkN2d196cng4cmhQV2pkT3N0R1ZTajlZa25rckdnWlphaTc5SU5mZzY0MEdnTWNLUnFLc091d0M5UHkxbnRNWEVQRDRQS25uLUlWR3VIZGVNeHN6Y0ZibGhtMWxHblFtdjNRMzFaVEc5WnNZWERmLVNYV3Vaa1BMOG5QQ1RTUQ?oc=5"
+  }
+ ],
+ "term": {
+  "word": "공모주",
+  "meaning": "기업이 주식시장에 처음 상장하면서 일반 투자자에게 미리 파는 주식이에요.",
+  "example": "요즘 AI 기업 공모주가 많이 나온대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도이고 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 비 소식이 있어요. 저는 우산을 두 번 확인하고 나왔어요.",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고 {최고}도인데 내일은 {내일최고}도래요. 기온이 롤러코스터 같아요.",
+   "explain": "오늘과 내일 낮 기온 차이가 커서 옷차림 조절이 필요해요."
+  },
+  {
+   "cond": "swing",
+   "text": "내일은 {지역} 낮 기온이 {내일최고}도로 바뀐대요. 옷 고르기가 어려운 계절이에요.",
+   "explain": "오늘 최고 {최고}도에서 내일 최고 {내일최고}도로 크게 달라져요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 최고 {최고}도래요. 벌써 시원한 음료가 생각나요.",
+   "explain": "오늘 {지역} 낮 최고 기온이 {최고}도까지 올라요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 낮에 {최고}도까지 오른대요. 가을 맞나 싶어요.",
+   "explain": "낮 최고 {최고}도, 아침 최저 {최저}도로 일교차도 있어요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 {최저}도래요. 저는 아침에 이불 속에서 못 나올 뻔했어요.",
+   "explain": "오늘 {지역} 아침 최저 {최저}도, 낮 최고 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침 기온이 {최저}도까지 내려갔대요. 겉옷이 필요한 날이에요.",
+   "explain": "아침이 쌀쌀해서 겉옷을 챙기는 게 좋아요. 낮 최고는 {최고}도예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨가 {날씨}이고 최고 {최고}도래요. 산책하기 괜찮은 날이에요.",
+   "explain": "오늘 {지역}은 낮 최고 {최고}도, 아침 최저 {최저}도로 무난해요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 최저 {최저}도, 최고 {최고}도래요. 딱 가을 날씨예요.",
+   "explain": "크게 덥거나 춥지 않은 평범한 날씨예요. 날씨는 {날씨}이에요."
+  }
+ ],
+ "types": [
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 분위기를 부드럽게 만드는 유머예요."
+  },
+  {
+   "name": "의인화",
+   "desc": "계절이나 사물을 사람처럼 말해 웃음을 주는 유머예요."
+  },
+  {
+   "name": "질문 이어가기",
+   "desc": "사실 한 줄 뒤에 상대에게 질문을 넘겨 대화를 이어 가는 방법이에요."
+  }
+ ],
+ "date": "2026-10-20",
+ "weekday": "화요일",
+ "tone": "jondae",
+ "strength": "safe",
+ "generated_at": "2026-10-20 09:38",
+ "model": "claude-sonnet-5-5"
+}
