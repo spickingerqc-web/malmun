@@ -1,0 +1,509 @@
+{
+ "lede": "오늘은 비 그친 뒤 갑자기 쌀쌀해진 날씨, 손흥민 경기 무료 입장 소식, 프로야구 암표 이야기, 2PM 콘서트 영화, 키스트 휴머노이드의 문워크까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "처음 만난 사람",
+  "text": "국정감사 하는 자리에서 로봇이 문워크를 췄대. 로봇이 나보다 먼저 사회생활 잘하는 것 같아.",
+  "why": "신기한 소식에 나를 살짝 낮추는 농담을 얹어서 부담 없이 웃을 수 있어요.",
+  "explain": "KAIST에서 만든 휴머노이드 로봇이 국정감사장에서 마이클 잭슨 문워크를 선보여서 화제가 됐대."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음식",
+    "topic": "홍성 바비큐축제",
+    "safety": "가벼움",
+    "text": "홍성에서 바비큐 축제 한대. 대관람차 위에서 고기 굽는 그릴도 있다던데, 고기가 나보다 전망이 좋네.",
+    "explain": "홍성 바비큐축제에 대관람차나 스카이타워 같은 높은 곳에 특이한 그릴을 설치했대."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 포스트시즌 암표",
+    "safety": "가벼움",
+    "text": "프로야구 포스트시즌 암표를 경찰이 수사한대. 표 구하기가 이 정도면 나는 응원도 예매 전쟁이겠다.",
+    "explain": "포스트시즌 입장권을 비싸게 되판 의심자 31명을 수사 의뢰했고, 규모가 7억 3천만 원 정도래."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "KAIST 휴머노이드 문워크",
+    "safety": "가장 안전",
+    "text": "국감장에서 휴머노이드가 문워크를 췄대. 나는 아직 걷는 것도 어색한데.",
+    "explain": "KAIST에서 만든 휴머노이드 로봇이 국정감사 자리에서 문워크를 보여 줘서 화제가 됐대."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "2PM 콘서트 영화",
+    "safety": "상대가 관심 있을 때",
+    "text": "2PM 첫 콘서트 실황 영화가 오늘 개봉했대. 극장에서 콘서트 보는 거 해 본 적 있어?",
+    "explain": "'더 리턴'이라는 제목이고 CGV 특별관에서 개봉했대."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "비 그친 뒤 쌀쌀한 날씨",
+    "safety": "가장 안전",
+    "text": "오늘 비 그친 뒤에 바람이 꽤 차던데요. 겉옷은 챙기셨어요?",
+    "explain": "오전까지 비가 오고 낮부터 찬 바람이 불어서 기온이 뚝 떨어진대요."
+   },
+   {
+    "field": "음식",
+    "topic": "홍성 바비큐축제",
+    "safety": "가벼움",
+    "text": "홍성에서 바비큐 축제를 한다던데요. 고기가 높은 곳에서 구워지면 맛도 더 좋을까요?",
+    "explain": "대관람차나 스카이타워 같은 높은 곳에 특이한 그릴을 설치한 축제래요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 경기 무료입장 대기발령",
+    "safety": "가벼움",
+    "text": "손흥민 선수 경기를 보러 갔다가 대기발령 난 분이 있다던데요. 경기가 그만큼 보고 싶었나 봐요.",
+    "explain": "경기 관리를 나간 경찰 간부가 가족을 무료로 입장시켰다가 대기발령을 받았대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "북한 예술단원 출신의 K팝",
+    "safety": "상대가 관심 있을 때",
+    "text": "북한 예술단원이었던 분이 K팝을 처음 접했다는 이야기를 읽었어요. 음악은 어디서나 통하나 봐요.",
+    "explain": "같은 음악이지만 전혀 다른 환경에서 자란 사람이 K팝을 만나 느낀 점을 다룬 기사예요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "KAIST 휴머노이드 문워크",
+    "safety": "가장 안전",
+    "text": "국정감사 하는 자리에서 로봇이 문워크를 췄다는 거 봤어?",
+    "explain": "KAIST에서 만든 휴머노이드가 국정감사장에서 마이클 잭슨식 문워크를 보여 줬대."
+   },
+   {
+    "field": "음식",
+    "topic": "가을 바비큐",
+    "safety": "가벼움",
+    "text": "요즘 쌀쌀해져서 그런지 따뜻한 고기가 땡겨. 너는 이런 날 뭐 먹고 싶어?",
+    "explain": "비가 그친 뒤 기온이 갑자기 떨어져서 따뜻한 음식이 생각나는 날씨야."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "이번 주 개봉 영화",
+    "safety": "가벼움",
+    "text": "이번 주에 개봉하는 영화가 역사 이야기랑 AI 이야기로 나뉜다던데, 너는 어느 쪽이 끌려?",
+    "explain": "MBC 뉴스에서 이번 주 개봉작을 역사 속 아픔 쪽과 AI 속 고민 쪽으로 나눠 소개했어."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 포스트시즌",
+    "safety": "상대가 관심 있을 때",
+    "text": "포스트시즌 표 구하기가 너무 힘들어서 경찰까지 나섰대. 야구 좋아해?",
+    "explain": "온라인에서 입장권을 비싸게 되파는 암표가 많아서 경찰이 내사에 들어갔대."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "경제·돈",
+    "topic": "스페이스X 매출",
+    "safety": "가벼움",
+    "text": "스페이스X 매출이 161%나 늘었대. 내 월급은 언제 저렇게 오를까?",
+    "explain": "AI 투자 열풍에 힘입어 스페이스X 매출이 크게 늘었고 기대와 우려가 함께 나온대."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "아이브 신곡 무대",
+    "safety": "가벼움",
+    "text": "아이브가 새 곡 무대를 처음 공개했대. 요즘 출근길 노래 뭐 들어?",
+    "explain": "아이브가 스포티파이 행사에서 '룩스 캔 킬' 무대를 처음 선보였대."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "비 그친 뒤 기온 급락",
+    "safety": "가장 안전",
+    "text": "비 그치고 기온이 확 떨어진대. 오늘 퇴근길에는 따뜻하게 입어야겠어.",
+    "explain": "오전까지 비가 오고 낮부터 찬 바람이 불어 기온이 뚝 떨어진대."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 과학 연구 성능",
+    "safety": "상대가 관심 있을 때",
+    "text": "AI가 과학 연구는 얼마나 잘하는지 순위를 낸 기사가 있었어. 일반 업무랑 순위가 달랐대.",
+    "explain": "AI타임스에서 AI 모델들의 과학 연구 성능을 비교했는데 일반 업무 순위와 달랐대."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "비 그친 뒤 쌀쌀한 날씨",
+    "safety": "가장 안전",
+    "text": "오늘 비가 그치고 바람이 꽤 차네요. 이동하시는 길에 추우셨죠?",
+    "explain": "오전까지 비가 오고 낮부터 찬 바람이 불어서 기온이 떨어졌어요."
+   },
+   {
+    "field": "음식",
+    "topic": "홍성 바비큐축제",
+    "safety": "가벼움",
+    "text": "홍성에서 바비큐 축제를 한다던데요. 이런 쌀쌀한 날엔 따뜻한 음식이 생각나네요.",
+    "explain": "대관람차와 스카이타워 같은 높은 곳에 특이한 그릴을 설치한 축제예요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "2PM 콘서트 영화",
+    "safety": "상대가 관심 있을 때",
+    "text": "2PM 콘서트 실황 영화가 오늘 개봉했다던데, 혹시 관심 있으세요?",
+    "explain": "'더 리턴'이라는 영화이고 CGV 특별관에서 상영한대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "축구협회 국정감사",
+    "safety": "가벼움",
+    "text": "오늘 국정감사에서 축구협회 이야기가 나온대요. 축구 좋아하세요?",
+    "explain": "감독 선임이나 심판 행정 같은 운영 문제를 다룰 예정이래요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제야?",
+  "why": "정답이 따로 없고 누구나 자기 이야기를 꺼낼 수 있어서 대화가 이어지기 좋아요."
+ },
+ "scenes": [
+  {
+   "title": "쌀쌀해진 퇴근길 엘리베이터",
+   "topics": "기온 급락, KAIST 휴머노이드 문워크",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 바람 진짜 차던데, 겉옷 챙기셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아침에 비 와서 우산만 들고 나왔어요. 낮에 갑자기 추워져서 당황했네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 오전엔 가을옷, 오후엔 겨울옷이 필요했어요. 하루에 계절이 두 번 바뀌네요.",
+     "humor": {
+      "type": "과장",
+      "why": "하루 만에 기온이 떨어진 걸 계절이 두 번 바뀐 것처럼 부풀려서 온화하게 웃겨요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "맞아요. 요즘 날씨가 정말 변덕스럽죠.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러고 보니 국정감사에서 로봇이 문워크를 췄다는 거 보셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "문워크요? 국감에서요? 그게 무슨 이야기예요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "KAIST에서 만든 휴머노이드 로봇이 국감장에서 시연을 했대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "신기하네요. 로봇이 요즘은 춤까지 추는군요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 아직 제자리 걷기도 어색한데, 로봇은 뒤로 걷는 것까지 잘하네요.",
+     "humor": {
+      "type": "자조",
+      "why": "나를 살짝 낮추면서 로봇의 문워크를 뒤로 걷는 것에 빗대어 가볍게 웃겨요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "점심 후 카페, 썰렁한 한마디 수습",
+   "topics": "프로야구 암표, 홍성 바비큐축제",
+   "lines": [
+    {
+     "who": "a",
+     "text": "포스트시즌 표 구하기가 너무 힘들어서 경찰까지 나섰대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "암표 때문에 그런 거야? 규모가 꽤 커?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "7억 3천만 원 정도라는데, 의심자가 31명이래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "와, 그 정도면 표가 아니라 거의 금괴네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러니까 내 월급도 암표처럼 오를 수 있으면 좋겠다.",
+     "humor": {
+      "type": "자조",
+      "why": "암표 가격이 비싸다는 이야기를 내 월급 이야기로 돌려 나를 살짝 낮추는 농담이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 좀 썰렁한데?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아, 방금 한마디는 암표처럼 가격이 확 떨어졌네. 다시 정가로 돌아갈게.",
+     "humor": {
+      "type": "능청",
+      "why": "썰렁했다는 지적을 가격 이야기에 얹어 능청스럽게 받아넘기며 수습해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 정가는 인정해 줄게.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "요즘 쌀쌀해서 그런지 홍성 바비큐 축제 소식이 눈에 띄더라. 대관람차 위에서 고기 굽는 그릴도 있대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "고기가 전망 좋은 데서 구워지는 거네. 나보다 팔자가 좋은데?",
+     "humor": {
+      "type": "의인화",
+      "why": "고기를 전망 좋은 곳에 사는 사람처럼 표현해 온화하게 웃기는 의인화예요."
+     }
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람과 엘리베이터에 탔어요. 오늘 날씨 이야기로 시작해 보세요.",
+   "hints": [
+    "날씨 변화를 사실로 말하기",
+    "상대에게 가볍게 묻기"
+   ],
+   "answer": "오전엔 비 오더니 낮부터 바람이 차졌어. 너는 겉옷 챙겼어?",
+   "note": "사실 한 줄과 가벼운 질문 한 줄로 이어 가는 유형이에요."
+  },
+  {
+   "q": "친구 모임에서 말이 끊겼어요. 오늘 본 신기한 뉴스로 분위기를 풀어 보세요.",
+   "hints": [
+    "핵심 사실 먼저",
+    "상대가 모를 것에 대비해 설명 한 줄"
+   ],
+   "answer": "국정감사에서 로봇이 문워크를 췄대. KAIST에서 만든 휴머노이드래.",
+   "note": "사실을 먼저 말하고 누가 했는지를 설명으로 덧붙이는 유형이에요."
+  },
+  {
+   "q": "썰렁한 한마디를 했어요. 어색하지 않게 수습해 보세요.",
+   "hints": [
+    "방금 말을 인정하기",
+    "가볍게 자조로 넘기기"
+   ],
+   "answer": "방금 건 내가 봐도 좀 썰렁했다. 다음엔 온도 좀 올려서 올게.",
+   "note": "썰렁함을 인정하고 날씨 표현에 얹어 자조로 수습하는 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "비 그친 뒤 찬 바람, 낮부터 기온 뚝",
+   "summary": "오전까지 곳곳에 비가 오고 낮부터 찬 바람이 불며 기온이 크게 떨어진대요.",
+   "context": "가을에는 비가 지나간 뒤 북쪽의 찬 공기가 내려오면서 기온이 갑자기 떨어지는 경우가 많아요. 이번에는 바람까지 강해서 체감 온도가 더 낮아진대요. 내일 아침은 올가을 들어 가장 쌀쌀할 것으로 예보됐어요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5la0E2aWFQQ3RTbVRranpLenNNVFpMOUg2U2lIRkt4dGVpdTBoZDdVaC1NM1hEeUNfQ3d6RDhJc290YzZNRWdhdjQ4RUlheU15cXMzQTNVb0xuZw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "손흥민 경기 관리 갔다가 가족 무료 입장시킨 경찰 간부",
+   "summary": "경기 현장을 관리하러 간 경찰 간부가 가족을 공짜로 입장시켰다가 대기발령을 받았대요.",
+   "context": "스포츠 경기장에서는 안전 관리를 위해 경찰이 나가기도 해요. 그 간부가 직무를 이용해 가족에게 혜택을 준 것이 문제가 되어 대기발령 조치가 내려졌대요. 공직자가 직무와 관련된 혜택을 받는 일에 사회가 엄격하다는 걸 보여 주는 사례예요.",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrZ3RxRFJ2ZEV5czJqUW5mamN1V3VJdTQ4U2lRTGlMYnhaSUQ3QjBGMWptWUQteFROeng4WDM2aDdKbE90V3BGbXp4bW8yZ1lsVEJQX0NXcXdjc0VjYVpVRUFLUzV6R290MnRJ0gFwQVVfeXFMTjJvdGItQlN6NnpyZEtwU1ZSR3RPMFM2RjFZWEpEbDJyZGhlVUlvbTN6MzRsTDJONmFxMkh3ZmRvN0lURVVVV2FfMTRFUm53aWdBMm52NW9ZSFgyUWlzdW5Ob00ydjVvLXBNTW5hWlI1Sw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "2PM 첫 콘서트 실황 영화 '더 리턴' 오늘 개봉",
+   "summary": "2PM의 첫 콘서트를 담은 실황 영화가 CGV 특별관에서 오늘 개봉했대요.",
+   "context": "콘서트 실황 영화는 공연 장면을 극장의 큰 화면과 좋은 음향으로 다시 즐기는 형태예요. 공연을 직접 보지 못한 팬도 극장에서 비슷한 분위기를 느낄 수 있어요. 최근 K팝 가수들도 이런 방식으로 팬들과 만나는 경우가 늘고 있어요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iSzNVT3o4WU5hMWRiM2JqeE5vemNZOXVRV1gwTkQ5b3FKbEtiRmpwTFZUZU13UWVmSHRMV2pTMm1YeWo1emRHMWpNWlJhSm94aFlDM2xfdWtfSGxU?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "국감장에서 문워크 선보인 KAIST 휴머노이드",
+   "summary": "KAIST가 만든 휴머노이드 로봇이 국정감사장에서 문워크를 선보여 화제가 됐대요.",
+   "context": "휴머노이드는 사람처럼 두 발로 걷고 움직이는 로봇이에요. 균형을 잡으며 뒤로 미끄러지듯 걷는 문워크는 기술력을 보여 주기에 좋은 동작이에요. 국정감사 자리에서 이런 시연이 나와 사람들의 관심이 모였어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xbGVfNEZGeXp3WF9GcGkybVVyTEIzVFQ5Y0RPYnRIcDJJRzJ3S0Z4YW5qcFBiN25IbTktT19uUlBXVXg4UEN0YmV4MldGNzdTTUV5Q3k4VGRYYVBXY1Nja3VUVnhpdHM?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "홍성 바비큐축제, 대관람차부터 스카이타워까지 이색 그릴",
+   "summary": "홍성 바비큐축제에 대관람차와 스카이타워 같은 이색 그릴이 등장해 눈길을 끌어요.",
+   "context": "지역 축제는 그 지역의 먹거리를 알리는 일이 많아요. 이번에는 높은 구조물을 활용한 그릴을 내세워 볼거리를 더했대요. 쌀쌀해지는 계절에 따뜻한 음식과 함께 즐길 만한 소식이에요.",
+   "source": "뉴데일리 충청세종",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xTXZ0OUFaYzZmelpxZktqM25SQU9YdGNnUk5kNUZSc0ZYaW10aTI0N0YzOFJtOV9HbnBESDR6N3B4Z0R1dzhmOGZNZTRJUlRHYUFIeVlabEtEVkdaWktIekM1R25ISE9RaTdST2ZyTnFYajBwNF9VSVRn0gF_QVVfeXFMTmV3Nmt3WFpFQ1ZMT2hzeG80bXY5T3JPTmdJMklfODk3LU5YZ3RCY3dNNVFlbDVjWF9saUtRRUQzUU8tUGNuRUlKWjM5NnhOQkl2YU1tRUNDWG56MzdQY0RXVFZldEVUdFJsTndmTXA3UWJHNm9wMi1MaDREYmNUVQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "스페이스X 매출 161% 급증",
+   "summary": "스페이스X 매출이 크게 늘었고, AI 투자 열풍 속에서 기대와 우려가 함께 나온대요.",
+   "context": "스페이스X는 로켓과 위성 인터넷 사업을 하는 미국 우주 기업이에요. 매출이 크게 늘었다는 소식은 우주 산업과 AI 투자에 대한 관심을 보여 줘요. 다만 투자 열기가 너무 뜨겁다는 걱정도 함께 나오고 있어요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wSFRKc21oaVhMQ015TUN2ZFJNMGg2ZThVSlJoLWVja3RobHRMNk5mOVBnLTVGV05TN2xaMzcxd3A4M1FrQ2dCUkhtanZTcjdnYjlCcTZzZFVRNC1Qemc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "아이브, '룩스 캔 킬' 무대 첫 공개",
+   "summary": "아이브가 스포티파이 행사에서 '룩스 캔 킬' 무대를 처음 선보였대요.",
+   "context": "스포티파이는 음악 스트리밍 서비스로, 아티스트와 팬이 만나는 행사도 열어요. 아이브는 이 행사에서 새로운 곡의 무대를 공개했어요. 신곡을 미리 보여 주는 자리는 팬들 사이에서 큰 화제가 되곤 해요.",
+   "source": "스타뉴스",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43UmpDeWI0ZXRKR1BfSDVGWVctLV9hV0ZtOVhKejRLLVpaZHREeVRjYW5pa1JRbXRLX3drTlNJazN0eVpoZUZwNV9TOGgxVDlrV29tUTFHR2RrMjhPTlBsenJ5bHgwOWliTTJWMzdkTnpEVlVa?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "민주당 내홍, 추미애 징계 요구 놓고 갈등",
+   "summary": "더불어민주당 안에서 추미애 의원 거취와 징계를 둘러싼 의견이 엇갈리고 있대요.",
+   "context": "소방노조를 만난 자리에서 추 의원이 사과했다는 보도가 있었고, 당 안팎에서 징계를 요구하는 쪽과 그 자격을 문제 삼는 쪽이 맞서고 있어요. 야당은 이를 여당의 내부 갈등이라고 비판하고, 여당 안에서는 신중하게 대응해야 한다는 의견도 있어요. 정확한 쟁점은 계속 지켜볼 필요가 있어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUWDJjYXd0TnBqbHBDTU8wZUt3em16M0FLQlZrbFJHemYxWVNHR19sWDQweG9nc3YzY0tWU2ZyajI5WnFzZE5LY2xwMmJfNFBQOGM3cWhSZS1pM0pwd1hNZUhkeFFNa2dSc0hGRU56cU1DNnB2?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "민주당, 조희대 탄핵 앞서 국정조사 검토",
+   "summary": "여당이 대법원장 탄핵에 앞서 국정조사를 먼저 검토하며 여론을 살피고 있대요.",
+   "context": "국정조사는 국회가 특정 사안을 직접 조사하는 제도이고, 탄핵은 고위 공직자를 직에서 물러나게 하는 절차예요. 찬성하는 쪽은 사법부 책임을 묻는다는 입장이고, 반대하는 쪽은 헌법 위배 소지가 있다고 주장해요. 국정감사는 후반전에 들어가 이번 주 종합감사가 이어져요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TcXZzZndlbURCVmo5TERQalVLQ3A2eGJHX1NXak1rakF3ZFdETDEtM2xJX1ZYYmlzLXpRcVBTSF95bnY0QTAwMjVyMm5JQnZxTktQMjJROEkySGt2TUYxZUYxd1hhS05qZXc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "북한군 사흘간 60회 경고사격에도 MDL 넘어",
+   "summary": "북한군이 사흘 동안 경고사격 60회를 받고도 군사분계선을 계속 넘어왔대요.",
+   "context": "MDL은 남북을 가르는 군사분계선이에요. 우리 군은 추가 도발 시 단호하게 대응하겠다고 밝혔고, 북한은 한미·미일 연합훈련을 비난하고 있어요. 대남 확성기 재개 움직임에 접경지 주민들이 불안해하고, 대화에 응해야 한다는 의견과 단호히 대응해야 한다는 의견이 갈려요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSWh4d0NzY1NEVFZGcHVOOUYyNFI0aVVoX20zM0ExLXJabzg0bnEzNlhPMGhtbHY3NVh5MDRGamtRR2RJUTdLZVFPNnhjYkdITzNWOWE1U0ZBTjVyTUtWSk9HYlVpUXNJWFFSdVFIRmlVS2lBTWlkZlFaUW9BNkNvVGVjT0JzS3NkT1Q3SlFXdFhkZw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프, 우크라이나 종전 합의 촉구",
+   "summary": "트럼프 대통령이 이제 종전 합의를 할 때라고 말했고, 젤렌스키 대통령은 미국 특사와 정전 조건을 조율했대요.",
+   "context": "러시아와 우크라이나의 전쟁이 이어지는 가운데 미국이 중재에 나서고 있어요. 젤렌스키 대통령은 패트리엇 방공 미사일을 받으면 러시아 공격을 멈출 수 있다고 말했고, 미국은 요격미사일을 모든 나라가 원한다며 선을 그었어요. 합의 조건을 둘러싼 이견이 아직 커요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55ZHRqbzFuVGNtNVZja3pZNWF1eUdWdFo2M2QzZmlIbWtsMF94WUR1Tkw2WnhoMEdSUnRfbUVpTnc1WFVBbE5lMmxnXzZGWVREUUpZZDA0OExfQdIBX0FVX3lxTE1vWVFib3k2bXZMc2dLLVBXRXVDbmR5QnRiMkxWelJKamUxeE9iYzNuN3VyazRhTllyMXR5d3JzamdHeEd4eVNBcnMtX1k4RzdkQVBfVTJkNmF3eEZJNTQw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이 대통령, 3기 신도시 계양 찾아 신속 공급 강조",
+   "summary": "대통령이 3기 신도시 계양지구를 찾아 주택을 빠르게 공급하는 것이 부동산 정책의 성패를 가른다고 말했대요.",
+   "context": "3기 신도시는 수도권 주택 부족을 해소하려고 정부가 조성하는 새 도시예요. 정부는 용적률을 250%로 올려 더 많은 주택을 짓는 방안을 내놓았어요. 공급 확대가 집값 안정에 도움이 된다는 시각이 있는 반면, 속도와 효과를 두고 신중한 시각도 있어요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yZlhzZ0VDTWxJMUdUOWdRMDVaNHpMV2lBSU5GU2RjalF0WWp1M2hiSEVmc1QzakJzcDltY1BaQmxkRHdHNDl6QW5Wb1ZxTEJFY2l2cjZfaFFJRjlWa0x0ZXZZbHRuaGZEYlViZnpfdE5jLVpzdG1j0gFmQVVfeXFMTXZXVDl5YlhuZ2FFQ1ZKVWRwaTdvTC1EVDY2amdYNGgzZ2pQX0NBWXBhbFNRX2laX3pRbkltc2JBeFhndl9kSGw5X2I5MGprTEU4bHh5OXV2ZGVHRWY2T2s5cWhQbEJ3?oc=5"
+  }
+ ],
+ "term": {
+  "word": "국정조사",
+  "meaning": "국회가 중요한 사안에 대해 직접 조사해서 사실관계를 밝히는 제도예요.",
+  "example": "국정조사를 할지 말지를 두고 여야가 서로 입장이 달라."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}라던데, 우산이 오늘의 필수템이겠다.",
+   "explain": "{지역} 비 올 확률이 {비확률}%고 낮 최고 {최고}도래."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘은 {최고}도인데 내일은 {내일최고}도래. 옷 고르기 어려운 날씨야.",
+   "explain": "{지역} 오늘 낮 최고 {최고}도, 내일 낮 최고 {내일최고}도로 기온 차가 커."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 내일 최고 {내일최고}도래. 하루 만에 계절이 바뀌는 느낌이네.",
+   "explain": "오늘 {지역} 낮 최고가 {최고}도라서 내일과 차이가 꽤 나."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 최고가 {최고}도래. 가을인데 한낮엔 꽤 덥네.",
+   "explain": "{지역} 오늘 낮 최고 {최고}도, 아침 최저는 {최저}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 {최고}도까지 오른대. 겉옷은 가방에 넣어 두는 게 좋겠어.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 {최저}도래. 이불이 오늘따라 제일 좋은 친구야.",
+   "explain": "{지역} 오늘 아침 최저 {최저}도, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 떨어진대. 따뜻한 국물이 생각나는 날씨야.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 쌀쌀해."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 낮 최고 {최고}도래. 걷기 딱 좋은 가을 날씨야.",
+   "explain": "{지역} 오늘 아침 최저 {최저}도, 낮 최고 {최고}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {날씨}라던데, 가볍게 산책하기 좋겠어.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  }
+ ],
+ "types": [
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮추어 부담 없이 웃기는 유형이에요."
+  },
+  {
+   "name": "과장",
+   "desc": "사실을 조금 부풀려서 가볍게 웃기는 유형이에요."
+  },
+  {
+   "name": "의인화",
+   "desc": "사물이나 음식을 사람처럼 말해서 웃기는 유형이에요."
+  },
+  {
+   "name": "능청",
+   "desc": "썰렁한 순간을 태연하게 받아넘기는 유형이에요."
+  }
+ ],
+ "date": "2026-10-21",
+ "weekday": "수요일",
+ "tone": "banmal",
+ "strength": "safe",
+ "generated_at": "2026-10-21 09:02",
+ "model": "claude-sonnet-5-5"
+}
