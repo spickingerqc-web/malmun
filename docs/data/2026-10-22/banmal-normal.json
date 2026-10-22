@@ -1,0 +1,500 @@
+{
+ "lede": "오늘은 올가을 첫 한파특보, 상어 부캉이, 손흥민 '7번' 논란, 딥시크 신기술, 우주 산업까지 훑어볼 수 있는 하루예요.",
+ "today": {
+  "situation": "처음 만난 사람과 어색한 첫 1분",
+  "text": "오늘 서울이 올가을 들어 제일 추웠대. 5.4도래. 아직 안 입은 패딩이 있으면 오늘이 그날인 것 같아.",
+  "why": "계절 소식이라 누구에게나 통하고, 패딩 이야기가 상대의 경험담을 자연스럽게 끌어내요.",
+  "explain": "오늘 아침 서울 기온이 5.4도로 올가을 최저였고, 내륙 곳곳에 한파특보가 내렸어."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "축구대표팀 불화설",
+    "safety": "상대가 관심 있을 때",
+    "text": "국감에서 축구대표팀 선수들이 손흥민을 이름 대신 '7번'이라고 부른다는 얘기가 나왔대. 너 들었어?",
+    "explain": "어제 문체위 국감에서 그런 지적이 나왔고, 축구협회가 선수단 갈등설을 인정했대."
+   },
+   {
+    "field": "음식",
+    "topic": "카페 대기",
+    "safety": "가벼움",
+    "text": "요즘 커피 한 잔 받으려고 40분씩 기다리는 카페가 있대. 나 같으면 그 시간에 집에서 원두를 갈겠다.",
+    "explain": "수로에 나타난 상어 '부캉이'를 보려는 사람들이 몰려서, 근처 카페마다 줄이 길다는 기사가 있었어."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 해킹",
+    "safety": "가벼움",
+    "text": "AI한테 해킹을 시켰더니 100곳이 뚫렸고, 한 건에 50달러밖에 안 들었대. 가성비가 너무 좋아서 오히려 무서워.",
+    "explain": "AI에 해킹을 맡긴 실험에서 100곳이 뚫렸고, 성공 한 건당 비용이 50달러 정도였다는 보도야."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "상어 부캉이",
+    "safety": "가장 안전",
+    "text": "수로에 들어온 상어 이름이 '부캉이'래. 바다로 안내해 줬는데 다시 돌아왔대. 아마 거기가 마음에 들었나 봐.",
+    "explain": "상어 부캉이를 수로 밖으로 유도했는데 차단망을 넘어 다시 돌아와서 화제가 됐어."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "한파주의보",
+    "safety": "가장 안전",
+    "text": "오늘 아침 많이 쌀쌀하죠? 올가을 들어 가장 추운 날이라는데, 선배님은 두꺼운 옷 꺼내 입으셨어요?",
+    "explain": "오늘 서울 아침 기온이 5.4도로 올가을 최저였고, 내륙에는 한파주의보가 내렸어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "스페이스X와 나스닥",
+    "safety": "가벼움",
+    "text": "스페이스X 실적 덕분에 어제 미국 나스닥이 1%쯤 올랐다는데, 요즘 우주 쪽 이야기가 정말 많네요.",
+    "explain": "스페이스X 실적이 좋게 나오면서 AI 기대감이 살아나 나스닥이 1.05% 올랐대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "상어 부캉이",
+    "safety": "가벼움",
+    "text": "수로에 상어가 들어와서 난리였다는 소식 보셨어요? 이름이 '부캉이'래요.",
+    "explain": "유도 작업으로 수로 밖으로 내보냈는데 다시 돌아와서 계속 화제가 되고 있어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "딥시크 오픈소스",
+    "safety": "상대가 관심 있을 때",
+    "text": "딥시크가 AI 운영 비용을 줄여 주는 기술을 무료로 공개했다는데, 이런 건 어떻게 보세요?",
+    "explain": "추론 기술 '딥인퍼'를 오픈소스로 풀어서, 누구나 가져다 쓸 수 있게 됐다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음식",
+    "topic": "추운 날 먹을 것",
+    "safety": "가장 안전",
+    "text": "이렇게 갑자기 추워지면 따뜻한 국물이 당기지 않아? 오늘 뭐 먹을지 고민이야.",
+    "explain": "오늘 아침 기온이 확 떨어져서 따뜻한 음식 이야기를 꺼내기 좋은 날이야."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "공연 이야기",
+    "safety": "가벼움",
+    "text": "요즘 가을이라 공연이나 전시가 많이 열리던데, 최근에 본 거 있어?",
+    "explain": "이번 주에 전시, 창극, 바로크 음악 공연 같은 소식이 여러 군데에서 나왔어."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "배우 인터뷰",
+    "safety": "가벼움",
+    "text": "배우 저스틴 민이 '흐르는 여정'으로 한국 영화에 처음 도전했대. 요즘 본 영화 중에 기억에 남는 거 있어?",
+    "explain": "저스틴 민이 첫 한국 영화 출연작 '흐르는 여정' 현장에서 인터뷰한 기사가 나왔어."
+   },
+   {
+    "field": "스포츠",
+    "topic": "여자축구 랭킹",
+    "safety": "가장 안전",
+    "text": "한국 여자축구가 FIFA 랭킹 17위로 올라서 아시아 4위가 됐대. 중국도 제쳤다더라.",
+    "explain": "어제 발표된 FIFA 랭킹에서 한국 여자축구가 중국을 앞질러 아시아 4위가 됐어."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 도시지수",
+    "safety": "가벼움",
+    "text": "서울이 영국 옵서버가 낸 AI 도입·활용 부문에서 세계 1위라는데, 우리 일상에서도 체감하세요?",
+    "explain": "옵서버의 AI 도시지수에서 서울이 AI 도입·활용 부문 1위, 종합 3위를 했어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차",
+    "safety": "가장 안전",
+    "text": "오늘 출근길 진짜 추웠죠? 낮엔 19도까지 오른다는데, 겉옷을 어떻게 해야 할지 모르겠어요.",
+    "explain": "아침엔 한파특보가 날 만큼 추웠고 낮 최고는 19도 정도라 일교차가 커요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "피지컬 AI",
+    "safety": "상대가 관심 있을 때",
+    "text": "경제계가 '피지컬 AI 지원법' 같은 정책 과제를 119건이나 건의했다는데, 로봇이 일하는 세상이 진짜 오려나요.",
+    "explain": "피지컬 AI는 로봇처럼 실제 몸을 가진 AI를 말하고, 경제계가 내년 정책과제로 이런 법을 요청했어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "JBL 80주년",
+    "safety": "가벼움",
+    "text": "삼성이 JBL 80주년 기념 전시를 연대요. 요즘 이어폰 하나로 하루가 좌우되는 것 같아요.",
+    "explain": "삼성이 오디오 브랜드 JBL의 80주년을 기념하는 전시를 열었다는 소식이에요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "한파주의보",
+    "safety": "가장 안전",
+    "text": "오늘 많이 쌀쌀하죠? 올가을 들어 가장 추운 날이라고 하더라고요. 따뜻하게 입고 오셨어요?",
+    "explain": "오늘 서울 아침 기온이 5.4도로 올가을 최저였고 내륙에는 한파주의보가 내렸어요."
+   },
+   {
+    "field": "음식",
+    "topic": "따뜻한 음료",
+    "safety": "가벼움",
+    "text": "이런 날은 따뜻한 차 한 잔이 제일 생각나더라고요. 평소에 어떤 걸 즐겨 드세요?",
+    "explain": "갑자기 추워진 날이라 따뜻한 음료 이야기로 자연스럽게 취향을 물을 수 있어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "여자축구 랭킹",
+    "safety": "가벼움",
+    "text": "한국 여자축구가 FIFA 랭킹 17위로 아시아 4위까지 올랐다고 하더라고요. 혹시 축구 좋아하세요?",
+    "explain": "어제 발표된 랭킹에서 한국 여자축구가 중국을 제치고 아시아 4위가 됐어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "상어 부캉이",
+    "safety": "가벼움",
+    "text": "요즘 수로에 상어가 나타났다는 뉴스 보셨어요? 이름이 '부캉이'래요.",
+    "explain": "유도 작업을 했는데도 다시 돌아와 화제가 된 상어 이야기예요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날씨가 갑자기 추워졌는데, 이럴 때 제일 먼저 꺼내는 옷이 뭐야?",
+  "why": "누구나 바로 답할 수 있고, 답에서 취향 이야기가 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "점심 뒤 사무실 복도",
+   "topics": "한파, 상어 부캉이",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 아침 서울이 5도까지 내려갔대. 올가을 중에 제일 춥대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "어쩐지 출근길에 코끝이 얼 뻔했어. 난 아직 가을 옷인데.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "내 외투는 어제까지 옷장에서 자고 있었는데, 오늘 갑자기 호출당했어.",
+     "humor": {
+      "type": "의인화",
+      "why": "옷장 속 외투를 잠에서 불려 나온 사람처럼 표현해서 웃음을 만들어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 외투가 억울하겠다. 그건 그렇고 수로에 상어 들어온 거 봤어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "부캉이 말이지? 바다로 보내줬는데 다시 돌아왔대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "왜 돌아왔대? 거기가 그렇게 좋았나?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "월세는 안 내도 되고 조망은 좋으니까, 이사 갈 이유가 없었나 봐.",
+     "humor": {
+      "type": "능청",
+      "why": "상어를 집 좋은 세입자처럼 말하는 능청스러운 해석이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그럼 부캉이는 거기서 계속 사는 거야?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그건 모르겠는데, 근처 카페는 줄이 길어서 부캉이 덕을 제일 많이 보는 것 같아.",
+     "humor": {
+      "type": "반전",
+      "why": "주인공은 상어인데 이득은 카페가 본다는 엉뚱한 결론이 웃음 포인트예요."
+     }
+    }
+   ]
+  },
+  {
+   "title": "썰렁했던 한마디 수습하기",
+   "topics": "AI 해킹, 딥시크",
+   "lines": [
+    {
+     "who": "a",
+     "text": "AI한테 해킹을 시켰더니 100곳이 뚫렸대. 한 건에 50달러밖에 안 들었다더라.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그거 진짜야? 완전 무섭다.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "응, 근데 AI가 그렇게 일을 잘하는데 월급은 안 받으니까, 사람 입장에선 좀 섭섭하지.",
+     "humor": {
+      "type": "자조",
+      "why": "해킹 소식을 사람의 입장에서 가볍게 비틀어 쓴 자조 섞인 농담이에요. 하지만 상대가 웃지 않을 수 있어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "음... 그러게.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 방금 말은 좀 썰렁했지? 그냥 요즘 AI 얘기가 너무 많아서 나도 모르게 나왔어.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아니야, 괜찮아. 그 소식은 나도 궁금했어. 보안 쪽이 걱정되긴 하더라.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아. 딥시크는 AI 비용 줄이는 기술을 무료로 공개했다는데, 쓰는 사람은 많아지겠지?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그럼 좋은 쪽이든 나쁜 쪽이든 퍼지긴 하겠지. 결국 쓰는 사람 몫인 것 같아.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람과 엘리베이터에서 둘만 탔을 때, 날씨 얘기로 말을 꺼내 보세요.",
+   "hints": [
+    "오늘 기온 같은 사실 한 줄 말하기",
+    "상대의 옷차림이나 경험 묻기"
+   ],
+   "answer": "오늘 서울이 올가을 중에 제일 추웠대. 5도까지 내려갔다더라.",
+   "note": "사실 한 줄 유형: 기온 같은 숫자로 시작하면 상대가 편하게 대답할 수 있어요."
+  },
+  {
+   "q": "친구 모임에서 말이 끊겼을 때, 가벼운 화제를 하나 던져 보세요.",
+   "hints": [
+    "요즘 화제가 된 동물 이야기",
+    "질문으로 마무리하기"
+   ],
+   "answer": "수로에 들어온 상어 이름이 '부캉이'래. 바다로 안내해 줘도 다시 돌아왔다더라.",
+   "note": "화제 던지기 유형: 이름이 있는 소재는 기억에 남고 상대가 한마디 더 얹기 쉬워요."
+  },
+  {
+   "q": "썰렁한 농담 뒤에 분위기를 수습해 보세요.",
+   "hints": [
+    "가볍게 인정하기",
+    "상대에게 질문으로 넘기기"
+   ],
+   "answer": "방금 말은 좀 썰렁했지? 그건 넘어가고, 너 요즘 뭐 재밌게 보고 있어?",
+   "note": "수습 유형: 인정하고 질문으로 넘기면 어색함이 금방 풀려요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "전국 내륙에 올가을 첫 한파특보",
+   "summary": "오늘 아침 기온이 하루 만에 10도 가까이 떨어졌고, 서울은 5.4도로 올가을 최저를 기록했어요.",
+   "context": "한파특보는 기온이 갑자기 크게 떨어질 때 내려지는 경보예요. 오늘은 내륙 곳곳에 한파주의보가 내려졌고, 낮에는 19도 안팎까지 올라 일교차가 커요. 주말에는 추위가 풀린다고 해요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SaTlPdTVOdmxaalJoR1djTEVuYnZER0N6SWN1NHJBWFhmQ0tIckNneUhRcFVEYXBweUFKejZVejlaZkJNdVlnM281V05hSGtWRm9SczZteENZQdIBX0FVX3lxTE0tN2pPWlNZWHdmME5RZHZ4Tlk4enZRQjFlNGdwdXE3clVSekpDUzl3cG1EQkgydGtZS1pWN2l3cXhiN1JEQkJReDVwMktjOGFkWHlHN0g4QXRmY3YtS1Mw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "상어 '부캉이', 유도 작업 뒤에도 수로 근처 배회",
+   "summary": "수로에 들어온 상어를 바다 쪽으로 유도했는데, 차단망 근처로 다시 돌아와 화제가 되고 있어요.",
+   "context": "수로에 들어온 상어에 '부캉이'라는 이름이 붙으면서 관심이 커졌어요. 안전을 위해 밖으로 내보내는 작업을 했지만 다시 돌아오려는 모습이 보여 관계자들이 계속 지켜보고 있어요. 구경하러 오는 사람이 늘어 주변 가게들도 북적인다고 해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02emtxRGhBZzFhWDQ0UU01ejVfOWxBNVVTbGlWb0tZN0Z0UmdzZ2NVSnctUFVtOExlNHRWR1pWeHl6b3hVbjBqY3ZwYWU2Mmp0ZUJ6eUZtMGlqQ1HSAWBBVV95cUxORW8xUURmOWcyYWt2TXU3TFJaT2JWeW9EdFR3eU5BbWNnREhJSnc5SmtPQUY3S3JERUdPMkhIT0dzZEs4S19vdUFOTGxkb0IzMThOZTRIM2xkZmNKQ3RMNU8?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "국감장에 오른 축구대표팀 불화설",
+   "summary": "국정감사에서 대표팀 선수들이 주장을 이름 대신 '7번'이라 부른다는 지적이 나왔고, 축구협회가 갈등설을 인정했어요.",
+   "context": "문화체육관광위원회 국정감사에서 대표팀 내부 분위기가 도마에 올랐어요. 손흥민 선수는 오랫동안 대표팀 주장을 맡아 왔고, 선수단 사이의 호칭 문제가 불화설로 번졌어요. 축구협회는 선수단 갈등이 있다는 점을 인정했어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EdkJrdWNfQkphdUgzczFRSlFLQzdta3p5bHhiVEVKcU43N2RhVjZ4VzZiTno1bHJHUHh1MUVBdThLRU9lcVFpV1FKbDRDa2JtSzNwNDhqTmJpUUHSAWBBVV95cUxPdmsxNjV0TnpxMlhhOEpMV0Mtc29ZTWNibzFpSUEyZklNQ1BxRklVYmItdW0xekMwUTNPeDJFcTdHZXNzajFfUmUtaV8zZ0R6NnUtSVlQTUZETV9yeG5BY00?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "딥시크, AI 운영 비용 낮출 '딥인퍼' 오픈소스 공개",
+   "summary": "중국 AI 기업 딥시크가 AI를 돌릴 때 드는 비용을 줄여 주는 핵심 추론 기술을 누구나 쓸 수 있게 공개했어요.",
+   "context": "추론은 AI가 질문에 답을 만들어 내는 과정이고, 서비스를 운영하는 데 비용이 많이 들어요. 오픈소스는 설계도를 공개해서 누구나 가져다 쓰고 고칠 수 있게 하는 방식이에요. 이런 기술이 퍼지면 AI 서비스를 만드는 비용이 낮아질 수 있어요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41X2FoZElsamlSd2ZOWjFtNEZydGs4V2V4cmNVN25HZXZEZktzZFc2Tlh3SzIxWDFJdzJDV0VoTjN6VHh0dExnNVlUZjZjbHR2TzRMZS1IXzMxbm9HN1Bxdkd2UmdReHpOSlE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "스페이스X 실적에 AI 기대 살아나 나스닥 1.05% 상승",
+   "summary": "스페이스X 실적이 좋게 나오면서 어제 미국 나스닥 지수가 1% 넘게 올랐어요.",
+   "context": "나스닥은 미국의 대표적인 기술주 중심 주식시장이에요. 스페이스X는 우주 발사와 위성 사업을 하는 회사로, 실적이 AI와 반도체 관련 기대감까지 끌어올렸어요. 우리나라 반도체 업계도 이 흐름의 영향을 받을 수 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVZDLVJjTW9JcFR3REhSdjRhT1BUekJFN3JhLTdCVEtuclpNbGozTGxyLUlwR1pJemYwOGJXcElENlo2dkE0NE5sQ0llMlBwZDM1Q3pVbkdLbk8xUG5OU2pndHpXZFh1Q1lIY3lBOXRZTlpwamJEdXVkU2ZiR29EYW1EeFYyQ2Nu?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "저스틴 민, '흐르는 여정'으로 첫 한국 영화 도전",
+   "summary": "배우 저스틴 민이 첫 한국 영화 출연작 '흐르는 여정'을 소개하며 더 많은 작품을 하고 싶다고 말했어요.",
+   "context": "저스틴 민은 해외에서도 활동해 온 배우예요. 이번 작품이 한국 영화 첫 도전이라 현장 인터뷰에서 소감을 전했어요. 앞으로 한국 작품에서 계속 볼 수 있을지 기대를 모으고 있어요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53QXViWGx1SXpDb0tzWS1QQ2V1NTNGTWhrZGVYWG9LLXJYdklCZERaVEFDZ1c0SkVXM044c0h5QjctVkhFSDF2dWh0c3JlTXdkOVRDckRLOWRaVi1O?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "삼성, JBL 80주년 기념 전시로 '명품 사운드' 계보 잇는다",
+   "summary": "삼성이 오디오 브랜드 JBL의 80주년을 기념하는 전시를 열었어요.",
+   "context": "JBL은 스피커와 헤드폰으로 유명한 미국 오디오 브랜드이고, 삼성이 인수해 함께 운영하고 있어요. 이번 전시는 JBL의 80년 역사와 소리에 대한 철학을 보여 주는 자리예요. 음악을 즐기는 방식이 달라진 요즘, 오디오 기기에 대한 관심도 함께 높아지고 있어요.",
+   "source": "팍스경제TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfS3IwLUc5OTlaRDlLVS1OcEVBemZ4ZnZDbDZlRUtCcmstWGJENFVjMFZMaUlrWU1ELURwWUVydk1aeHdDWk1WUVl1S21FOG5xTzVDWDc0UEZLWHlnMl9IbUdNX2tjSEk?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "김여정 '국경선 새 대응수단 임무 대기…확성기 이달 중 가동'",
+   "summary": "북한 김여정이 모든 국경선에 새 대응수단을 대기시켰다고 밝히며 확성기를 이달 중 가동하겠다고 했어요.",
+   "context": "김여정은 북한 최고지도자의 동생으로, 대남 메시지를 자주 내는 인물이에요. 이번 발언은 한 달 전 있었던 지뢰 도발 이후 나온 것으로, 접경 지역 긴장이 이어지고 있다는 뜻이에요. 우리 정부와 군은 상황을 지켜보며 대응을 검토하고 있어요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZjhtZk1rYVgzYVRKdElybWtxUXR5eUVJUkl2LUdHSmJnY05rMkdRYU13WV9pbU9FSkxmLURTQlBOSUMtdGpGNDZIeDFmY3R6U1ZZM3Z6TTNPZ9IBX0FVX3lxTE5UNE5TbDRwUnhRZnV5Rm90NWJ4TFd3LXZZaDAyX2pOeVlNblBTNUhGVGM0NW1oYU9YSHkzNnI4WmJjeFFmeVNDTkNYYkVZeGpvakRIeDVIaDVUZkR5YmFj?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "박성재 전 법무장관, 항소심서 징역 25년에서 9년으로 감형",
+   "summary": "비상계엄 관련 혐의로 1심에서 징역 25년을 받은 박성재 전 장관이 2심에서 징역 9년을 선고받았어요.",
+   "context": "법원은 항소심에서 박 전 장관이 윤석열 전 대통령과 계엄을 사전에 모의한 것은 아니라고 판단했어요. 일부 혐의는 유죄에서 무죄로 바뀌어 형량이 크게 줄었어요. 일각에서는 판결이 지나치게 가볍다는 비판이, 다른 쪽에서는 법리에 맞는 판단이라는 반응이 나와요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE15ZEhLcFUxWllXUm8yVjNKUnAwbUhLMEhpWV9wT1NZRVdyalJDQVRTS0ZmRlV0ZnlOM1g1dHViZFpYRXhVZlo4VTdqM1JpWFN4R2hPdEFMT2VscDJINHhwZW00SjZ4VDJJZjRMeG91LUFadw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이 대통령, 유시민 명예훼손 혐의 '처벌 불원' 의사",
+   "summary": "대통령이 자신에게 사기를 쳤다고 말한 유시민 작가에 대해 처벌을 원하지 않는다고 밝혀, 경찰이 수사를 마무리할 전망이에요.",
+   "context": "명예훼손은 피해자가 처벌을 원하지 않으면 수사를 이어가기 어려운 경우가 많아요. 여당 안팎에서는 대통령의 선의로 보는 시각과, 오히려 논란을 키운다는 시각이 함께 나와요. 야권은 대통령을 향한 비판 자체가 위축될 수 있다고 주장해요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdVI3YnpKX0ctN3NkdXlxYTA4VGpBMXhkUUtHNmZjdHd0dE1NbHhVdG5PSXRmcVIzWFZCZG40U1N2TnE3dlNSUGZMM0tKb1VqSjk4TDE1cjN3RWRuVXZnYjhGaDFzSjQzWWtWRmQ1QWp6cWRubkdqLTh2RWF5a01COTBZT0xPdHI1UV85cmpNOEQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프 '우크라 종전 어느 때보다 가까워'…푸틴도 3자 협상 재개 동의",
+   "summary": "트럼프 대통령이 종전이 가까워졌다고 밝혔고, 푸틴 대통령이 미국·우크라이나와의 3자 종전협상 재개에 동의했다고 전해졌어요.",
+   "context": "3자 협상은 미국, 러시아, 우크라이나가 한자리에서 종전 조건을 논의하는 방식이에요. 협상이 열리면 약 9개월 만이에요. 우크라이나 쪽은 휴전을 원하지만, 영토 같은 핵심 쟁점은 여전히 입장 차가 커서 실제 합의까지는 지켜봐야 해요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50cHU3Z2NabExnM2ZvX2RfUmxDZlFTQ1phVGpjNFByallGSHBMdUZXWmE4aDVkX0RSMk4wQU85TzZYMFJjMXpiTGg4M05GYmxDdnRhQl93N3plMDUyNnJMVGVKZTZGN1E?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "프랑스 국채금리 5% 돌파, 24년 만의 최고치…24일 대규모 시위",
+   "summary": "프랑스 10년물 국채금리가 24년 만에 5%를 넘었고, 정치·사회 혼란 속에 24일 대규모 시위가 예고됐어요.",
+   "context": "국채금리가 오른다는 건 투자자들이 그 나라 빚을 못 믿어 더 높은 이자를 요구한다는 뜻이에요. 프랑스는 극좌와 극우로 정치가 갈라져 중도 세력이 약해졌다는 분석이 나와요. 이 불안이 유럽 경제 전체로 번질지 시장이 주시하고 있어요.",
+   "source": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YQmFxUXk3c3liVzYzNXRyVlU1SHAwY3BnNEYzQm1Sd21PUmJOQ0VGUS1ocnR2SFBoaXBMZTJfWVhFTlZxTExUU0NwZndrMURTV3J0ejZBSTFvWnM?oc=5"
+  }
+ ],
+ "term": {
+  "word": "국채금리",
+  "meaning": "나라가 빌린 돈에 대해 투자자에게 주는 이자율이에요. 금리가 오르면 그 나라의 빚에 대한 불안이 커졌다는 신호로 읽을 수 있어요.",
+  "example": "프랑스 국채금리가 24년 만에 5%를 넘었다던데, 시장이 불안해하나 봐."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}에 비 올 확률이 {비확률}%라는데, 출근길에 우산 들고 나왔어?",
+   "explain": "오늘 {지역}은 {날씨}이고 비 올 확률은 {비확률}%, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최저 {최저}도에 최고 {최고}도래. 일교차가 심해서 옷 입기 어렵지 않아?",
+   "explain": "오늘 {지역}은 아침 {최저}도에서 낮 {최고}도까지 올라가고, 내일 최고는 {내일최고}도래."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역} 오늘 아침 {최저}도인데 낮엔 {최고}도까지 오른대. 겉옷 벗었다 입었다 해야겠다.",
+   "explain": "오늘 {지역} 아침 {최저}도, 낮 {최고}도로 하루 사이 기온 차가 커."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 최고 {최고}도까지 오른대. 이 시기에 이 정도면 좀 덥지 않아?",
+   "explain": "오늘 {지역} 낮 최고 기온이 {최고}도이고 {날씨}야."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 {최고}도까지 간다는데, 벌써 겉옷이 짐처럼 느껴져.",
+   "explain": "오늘 {지역} 최고 기온은 {최고}도, 내일은 {내일최고}도 예상이야."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 {최저}도래. 올가을 들어 제일 쌀쌀한 거 아니야?",
+   "explain": "오늘 {지역} 아침 최저 기온이 {최저}도이고 낮엔 {최고}도까지 올라."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 오늘 아침 {최저}도였는데, 두꺼운 옷 꺼냈어?",
+   "explain": "오늘 {지역} 아침 {최저}도, 낮 최고 {최고}도, 날씨는 {날씨}야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨 {날씨}에 최고 {최고}도래. 이 정도면 딱 좋지 않아?",
+   "explain": "오늘 {지역}은 아침 {최저}도, 낮 {최고}도로 크게 춥지도 덥지도 않아."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {최저}도에서 {최고}도 사이래. 산책하기 좋은 날씨 같아.",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고, 내일 최고는 {내일최고}도 예상이야."
+  }
+ ],
+ "types": [
+  {
+   "name": "사실 한 줄",
+   "desc": "숫자나 사실 하나로 대화를 열어요."
+  },
+  {
+   "name": "의인화",
+   "desc": "사물이나 동물을 사람처럼 말해 웃음을 줘요."
+  },
+  {
+   "name": "능청",
+   "desc": "진지한 얼굴로 엉뚱한 해석을 해요."
+  },
+  {
+   "name": "반전",
+   "desc": "예상과 다른 결론으로 끝내 웃음을 줘요."
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 분위기를 풀어요."
+  }
+ ],
+ "date": "2026-10-22",
+ "weekday": "목요일",
+ "tone": "banmal",
+ "strength": "normal",
+ "generated_at": "2026-10-22 09:08",
+ "model": "claude-sonnet-5-5"
+}
