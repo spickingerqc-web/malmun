@@ -1,0 +1,493 @@
+{
+ "lede": "오늘은 서리 내린다는 상강 날씨, 프로야구장 쓰레기 대란, 손흥민 호칭 논란, 이름만 AI 광고 제한까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "엘리베이터에서 이웃과 마주쳤을 때",
+  "text": "오늘이 서리 내린다는 상강이래. 이름만 들어도 춥지?",
+  "why": "절기라는 가벼운 사실 하나로 날씨 이야기를 자연스럽게 열 수 있어요.",
+  "explain": "상강은 24절기 중 하나로, 이맘때부터 서리가 내리기 시작한다는 뜻이야."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 쓰레기",
+    "safety": "가벼움",
+    "text": "올해 프로야구 관중이 1200만이 넘었대. 그래서 경기장 쓰레기도 3천 톤 가까이 나왔다더라. 야구보다 쓰레기가 더 흥행한 거 아니야?",
+    "explain": "관중이 13% 늘 때 쓰레기는 24% 늘었대. 흥행 속도를 쓰레기가 앞질렀다는 얘기야."
+   },
+   {
+    "field": "음식",
+    "topic": "불닭 페스타",
+    "safety": "가장 안전",
+    "text": "삼양식품이 불닭 달리기 행사를 연대. 달리고 나서 불닭 먹는 순서가 맞는 건지, 먹고 달리면 큰일 나는 건지 궁금하지 않아?",
+    "explain": "'불닭 버닝 페스타'라는 행사인데, 달리고 먹고 즐기는 체험형이래."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 안경 시험",
+    "safety": "가벼움",
+    "text": "AI 안경 쓰고 국가자격증 시험 본 사람이 검찰에 넘겨졌대. 안경이 정답을 알려줬다는데, 안경만 시험에 합격한 셈이지.",
+    "explain": "20대 수험생이 AI 안경으로 시험 중 도움을 받은 혐의로 송치됐어."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "아일릿 사전 저장",
+    "safety": "가장 안전",
+    "text": "아일릿 신곡이 나오기도 전에 스포티파이 사전 저장이 50만을 넘었대. 아직 듣지도 않았는데 이미 저장부터 하는 거야.",
+    "explain": "사전 저장은 노래가 나오기 전에 미리 내 보관함에 담아 두는 기능이야."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "상강 절기",
+    "safety": "가장 안전",
+    "text": "오늘이 서리 내린다는 상강이라고 하더라고요. 이름이 상강인데 옷은 아직 가을이라 마음이 복잡하더라고요.",
+    "explain": "상강은 24절기 중 하나로 서리가 내리기 시작하는 시기를 말해요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "킬링타임 개봉",
+    "safety": "가벼움",
+    "text": "이번 주에 '킬링타임'이라는 스릴러가 개봉했다고 하더라고요. 제목처럼 시간 때우려다 시간에 쫓길 것 같아요.",
+    "explain": "타임어택을 소재로 한 스릴러 영화가 이번 주 개봉했어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "이름만 AI 광고",
+    "safety": "가벼움",
+    "text": "요즘은 AI라고 이름만 붙여도 팔리던 시절이 끝나 가나 봐요. 이름만 AI인 광고를 제한하는 기준이 생겼다고 하더라고요.",
+    "explain": "실제 AI 기능이 없는데 AI라고 광고하는 걸 막으려고 판단 기준을 만들었대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "전국체전 경기도 5연패",
+    "safety": "가장 안전",
+    "text": "이번 전국체전에서 경기도가 5연패를 했다고 하더라고요. 5년 연속 우승이면 이제 트로피 둘 자리부터 걱정이겠어요.",
+    "explain": "전국체전 마지막 날 축구와 수구 등에서 금메달을 따서 종합 우승을 지켰어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "제주마축제",
+    "safety": "가장 안전",
+    "text": "이번 주말에 제주마축제가 열린대. 말 경주도 있다는데, 말이 사람보다 출근 의지가 강해 보이지 않아?",
+    "explain": "24~25일 제주에서 제주마 경주와 공연, 체험이 함께 열리는 축제야."
+   },
+   {
+    "field": "음식",
+    "topic": "도다리 홍보",
+    "safety": "가장 안전",
+    "text": "울진에서 수산물축제 홍보를 '도다리를 압니다'로 했대. 도다리랑 인사 정도는 하고 가야 할 것 같지 않아?",
+    "explain": "울진 죽변항 수산물축제가 도다리를 알린다는 뜻으로 이색 홍보 문구를 썼대."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "K팝 클래식",
+    "safety": "가장 안전",
+    "text": "대구에서 K팝을 클래식으로 연주하는 공연이 열린대. 아이돌 노래를 오케스트라가 하면 후렴이 더 비장해질 것 같지 않아?",
+    "explain": "대구 남구 대덕문화전당에서 K-POP을 클래식으로 편곡해 들려주는 공연이 열려."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차",
+    "safety": "가벼움",
+    "text": "요즘 아침저녁은 겨울인데 낮엔 가을이라 옷 입기가 어렵더라. 너는 오늘 어느 쪽 옷 입고 나왔어?",
+    "explain": "오늘 아침은 쌀쌀하지만 낮에는 18~23도까지 올라가서 일교차가 커."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 챌린지",
+    "safety": "가벼움",
+    "text": "대통령이 제미나이한테 뭘 물어본 뒤로 다들 AI한테 질문해 보는 챌린지가 생겼대. 나는 오늘 점심 메뉴부터 물어볼까 봐.",
+    "explain": "대통령이 AI에게 질문한 일이 화제가 되면서 일반인도 따라 해 보는 챌린지가 퍼졌대."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "나스닥 낙폭",
+    "safety": "상대가 관심 있을 때",
+    "text": "어제 나스닥이 4개월 만에 가장 크게 떨어졌대. AI 거품 걱정이 다시 커졌다는데, 요즘 주가는 심장 약한 사람 출입 금지야.",
+    "explain": "미국 나스닥 지수가 AI 불안 때문에 4개월 만에 가장 크게 하락했어."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "하이커 그라운드",
+    "safety": "가장 안전",
+    "text": "K공연부터 K드라마까지 한 번에 즐기는 곳이 있대. 퇴근하고 가면 하루 만에 한류 졸업하고 나올 수 있겠지.",
+    "explain": "하이커 그라운드는 K콘텐츠를 체험할 수 있는 공간이래."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "전화 인터뷰 과제",
+    "safety": "가벼움",
+    "text": "중국 명문대에 모르는 사람한테 전화해서 인터뷰하라는 과제가 있대. 이거 진짜 어려운 과제 아니야? 나는 아는 사람한테 전화하는 것도 힘든데.",
+    "explain": "낯선 사람에게 전화해 인터뷰하는 과제가 세상에서 제일 어려운 과제로 화제가 됐대."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "음식",
+    "topic": "불닭 페스타",
+    "safety": "가장 안전",
+    "text": "삼양식품이 불닭을 먹고 달리는 행사를 연다고 하더라고요. 맵기와 달리기 중에 뭐가 더 힘들까요?",
+    "explain": "'불닭 버닝 페스타'라는 행사로, 달리고 먹고 즐기는 체험형이에요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "비 소식",
+    "safety": "가장 안전",
+    "text": "오후부터 남부와 제주에는 비가 온다고 하더라고요. 우산은 챙기셨어요?",
+    "explain": "오늘 오후부터 내일까지 남부와 제주를 중심으로 비가 내린대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 포스트시즌",
+    "safety": "가벼움",
+    "text": "요즘 프로야구 포스트시즌 열기가 대단하죠? 올해 관중이 1200만이 넘었다고 하더라고요.",
+    "explain": "올해 프로야구 관중이 1200만 명을 넘겨서 사상 최대급 흥행이래요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "클래식 공연",
+    "safety": "가장 안전",
+    "text": "대구에서 K팝을 클래식으로 연주하는 공연이 열린다고 하더라고요. 혹시 이런 공연 좋아하세요?",
+    "explain": "대구 남구 대덕문화전당에서 열리는 K팝 클래식 연주 공연이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제야?",
+  "why": "정답이 없어서 편하게 답할 수 있고, 상대의 일상 이야기로 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "엘리베이터에서 이웃과",
+   "topics": "상강 절기, 프로야구 쓰레기",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕하세요. 오늘 아침 엄청 쌀쌀하지 않았어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그러게요. 서울이 올가을 들어 제일 추웠대요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "오늘이 서리 내린다는 상강이라는데, 이름값을 하네요.",
+     "humor": {
+      "type": "능청",
+      "why": "절기 이름을 이름값이라고 말해 날씨를 가볍게 의인화했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "서리 내린다더니 진짜 서리가 왔네요. 이름만 믿고 외투를 안 입었어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그건 절기가 너무 정직한 거예요. 요즘은 거짓말하는 게 더 흔한데요.",
+     "humor": {
+      "type": "반전",
+      "why": "절기의 정직함을 칭찬하는 척하다가 세상이 거짓말투성이라는 반전으로 끝내요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 맞아요. 이름만 AI인 광고도 단속한다잖아요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도 이름만 부지런한 사람이라 조심해야겠어요.",
+     "humor": {
+      "type": "자조",
+      "why": "앞 화제를 자기 이야기로 돌려 가볍게 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저도요. 그럼 오늘은 둘 다 이름값 하는 하루 보내요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기, 회식 자리",
+   "topics": "프로야구 쓰레기, AI 안경",
+   "lines": [
+    {
+     "who": "a",
+     "text": "올해 프로야구 관중이 1200만이 넘었대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "와, 진짜 많이 갔네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그래서 쓰레기도 3천 톤 가까이 나왔대. 야구장이 홈런보다 쓰레기를 더 많이 쳤나 봐.",
+     "humor": {
+      "type": "말장난",
+      "why": "홈런을 치는 야구장에서 쓰레기도 쳤다고 비틀었는데, 일부러 약간 썰렁하게 던졌어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...어, 그렇구나.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 그건 제가 던지고 제가 못 받은 공이에요. 파울로 처리해 줘.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁한 걸 숨기지 않고 야구 용어로 인정하면 오히려 분위기가 풀려요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 파울이긴 한데 아웃은 아니야.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 다음 타석에선 AI 안경이라도 쓰고 나올게.",
+     "humor": {
+      "type": "능청",
+      "why": "앞에서 나온 AI 안경 뉴스를 끌어와 능청스럽게 마무리해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 반칙으로 송치돼.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 처음 보는 이웃과 단둘이 탔어. 날씨로 한마디 꺼내 봐.",
+   "hints": [
+    "절기 이야기",
+    "옷차림 이야기"
+   ],
+   "answer": "오늘 서리 내린다는 상강이라는데, 이름값 하네요.",
+   "note": "절기라는 사실 하나로 가볍게 여는 방식이에요."
+  },
+  {
+   "q": "회식 자리에서 말이 끊겼어. 스포츠 소식으로 다시 열어 봐.",
+   "hints": [
+    "숫자 하나 던지기",
+    "상대에게 질문 붙이기"
+   ],
+   "answer": "올해 프로야구 관중이 1200만이 넘었대. 혹시 직관 가 봤어?",
+   "note": "숫자 사실에 질문을 붙이면 상대가 답하기 쉬워요."
+  },
+  {
+   "q": "처음 만난 사람에게 주말 계획을 가볍게 물어봐 줘.",
+   "hints": [
+    "행사 소식 활용",
+    "선택지로 묻기"
+   ],
+   "answer": "이번 주말에 제주마축제가 열린대. 주말에 어디 가는 계획 있어?",
+   "note": "행사 소식에서 상대의 주말 이야기로 넘어가는 방식이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 관중 13% 늘 때 쓰레기는 24% 증가",
+   "summary": "올해 프로야구 관중이 1200만 명을 넘기면서 경기장에서 나온 쓰레기도 3천 톤 가까이 늘었다.",
+   "context": "프로야구가 큰 인기를 끌면서 구장 쓰레기 처리 문제가 새 과제가 됐다. 관중이 늘어난 비율보다 쓰레기가 늘어난 비율이 더 커서 구단과 지자체의 대책이 필요하다는 지적이 나온다.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnSHJ1QW1nbUFkTDZ6QWlMd2g4dEh3dWttNzNsZ092dVNtWkxLZEpiUkpYUUFYQkN3WUc4NjFWNHpGS2t5VlpWSkxTRTN5QzBjMllzRVRUbk5FWlU?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "절기 상강, 아침 쌀쌀하다 낮부터 풀려",
+   "summary": "서리가 내린다는 절기 상강인 오늘 아침은 쌀쌀하지만 낮 기온은 18~23도까지 오르고 남부와 제주엔 비가 온다.",
+   "context": "상강은 24절기 중 하나로 가을 끝무렵 서리가 내리기 시작하는 시기를 말한다. 강원 일부는 이틀 연속 영하권이었고 서울도 올가을 가장 낮은 5.2도를 기록해 일교차에 주의해야 한다.",
+   "source": "뉴시스",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IOWZueUw2UDBMVnEyaWFweVZxWUFYLWh6dDRNMVRHTnM3WVJiQ0ZVWXZkR3NyeUE4OXJHdUVPRnllZE9ocVM5bG9VR2ljS3BVTmthS0RlSkpWZ9IBX0FVX3lxTE0xVjFFZDVtQzNrOGdfRUJ6bzRZMllPTDVwV3ZSUF9udmlvNXBrdXJCQUNVQThXTTRFZDhtUElEeFBIVUJ5dzc1b1Jja2pVam0zdkgzbFB6ZXVnUU5pNHM4?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI 안경 쓰고 국가자격시험 본 수험생 송치",
+   "summary": "AI 안경으로 도움을 받으며 국가자격증 시험을 본 20대 수험생이 검찰에 넘겨졌다.",
+   "context": "스마트 안경 같은 기기에 AI 기능이 들어가면서 시험 부정행위 방식도 달라지고 있다. 시험 감독과 규정이 새 기술을 따라가야 한다는 논의로 이어질 수 있다.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kenZkem9DUG9CWnhVcDgzQXhqZlNoX0JnR2o1Nl9tZnVYVnlHMHV6Wkp1ZkgxNkpGeDJUZERQdy1tMWVsZUF0OUtLeHFYUzdtYnQ5YmZfX3cxcjFUM2xVdnVLRzNuODRmMVRmTWZvejEtQ0NCN29R0gF3QVVfeXFMT2pXZWp4VktqTDZlU0FTMkZyakZqT3VUZzhsMWZGd21HLVN1dl9wOXQxQWFvNklUdmswMXdJNEIxWHRfSk1tczJyb2JPQ21oWlBySlQtVjhGa1d2U1paRUZNSVlHa1o2V28wSWRzQndOSkhUcEN4MEk?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "이름만 AI 광고 제한, 판단 기준 마련",
+   "summary": "실제 AI 기능이 없는데 AI라는 이름만 붙인 광고를 막기 위한 판단 기준이 만들어진다.",
+   "context": "AI가 유행하면서 별 기능이 없는데도 AI 제품이라고 홍보하는 사례가 늘었다. 소비자가 속지 않도록 어떤 경우에 AI 광고로 볼 수 있는지 기준을 정한 것이다.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQ2FXa1Ruc2JyWlNsSTJGQWhXWmdGODh0R2Vmd0lOcDFwMTh0cVZFMmh6XzVKdzhWZDBaNnpPX0ZtdGNYYldHSnFmb29NdHJldkZrNVlVUFliWjhtTDRVc3VqUjVmYVk?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "아일릿 신곡 스포티파이 사전 저장 50만 돌파",
+   "summary": "아일릿의 새 곡 'BREAK EVEN'이 공개 전부터 스포티파이 사전 저장 50만을 넘겼다.",
+   "context": "사전 저장은 곡이 나오기 전에 미리 내 보관함에 담아 두는 기능으로, 기대감을 보여 주는 지표로 쓰인다. K팝 걸그룹 중 최상위권 수치라고 알려졌다.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS1gxN2ZOa2RDUXY3U1FEODJLbk1FdzktRXNjMjlSeUp6eGZtT1RuRjV4TnBtNE5UOU53THRrRTh4bWFjSEhkSUNoS2JXbWpEamloR2oxNnhFOF9KazM4aS1CVW83NjIxMzNVY2N1YlIzQ0ZBREFwbzFySFd2SlhTbnZXYW9vOER5clE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "삼양식품, 달리고 먹는 '불닭 버닝 페스타' 개최",
+   "summary": "삼양식품이 캐릭터 페포와 함께 달리고 먹고 즐기는 불닭 페스타를 연다.",
+   "context": "불닭 브랜드를 앞세운 체험형 행사로, 식품 회사들이 제품을 먹는 데서 그치지 않고 행사로 경험을 파는 흐름을 보여 준다.",
+   "source": "푸드아이콘",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQRlhkR2x3V1JvdWl0Zi1acDVEX0hTSzZhbDFsRjJJNkVnZGtzVjZLVnhOZWZ3VHpzT3AwTkNJcnBrODhXZnR2TC1ielhGb0lEd1RrdWc4dmhzQWpSZ0o0TGVvYy1scFJsX3VoUw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "주말 제주마축제, 말 경주부터 체험까지",
+   "summary": "24~25일 제주에서 제주마 경주와 공연, 체험 행사가 열리는 제주마축제가 열린다.",
+   "context": "제주마는 제주에서 오래 길러 온 토종 말로, 지역 문화 자산으로 보호받고 있다. 이번 축제는 경주뿐 아니라 가족 단위로 즐길 체험도 갖췄다.",
+   "source": "TV서울",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OYjk5RE1TM0pEQksyWkJIR292MVZ2R3hpaXhPSmpkdjBQUi1NVkRKSnNpYjZxM01JRUM4WlQ3NUZFSEhFdzU2RUFzYWoxVUxyenl3aVdfRmY?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "DMZ 긴장 고조, 국무부 한일과 긴밀 협의",
+   "summary": "북한이 접경지에서 확성기와 발파 등으로 긴장을 높이자 미 국무부가 억지를 위해 한국·일본과 협의하겠다고 밝혔다.",
+   "context": "비무장지대는 남북 사이 완충 지대인데, 최근 이곳에서 맞대응 성격의 행동이 이어지고 있다. 북한은 국경선에 새 대응수단을 쓰겠다고 위협했고, 우발적 충돌 위험이 커졌다는 분석이 나온다.",
+   "source": "VOA 한국어",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jazhRcXQySVVpQTBOU0QwakFVWnlROEplRDd0ZnlESkFnQzRvVkZlNXZKVVJVTk4zd0tvaEwtOEpycURWYnlxb2dpb0s4eGtMOVYwMmxpSUhNR1QxVlo1eGtNMGxIb3hEcGRMalhnRHlNRDA5eDNIcDAxeTRBdVnSAYIBQVVfeXFMTTVzbHY2dkE3eGFYUmg4dVliYXhkcnFEUE9BTzBCNlNza3VRNE5QTjZaOWF6UHZmM2dORWZPZ0VwYzJjSjZHM1ZOYk5DTW1YWDBiOHNHblNzZFdxSWoxbDJYWUZtNFRXcFgyTmRhUzYxLUoxdGtLYk82N0J2WU5PbzdmUQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "오세훈 서울시장 여론조사비 대납 의혹 항소심 선고",
+   "summary": "오세훈 서울시장의 여론조사비 대납 의혹 사건 항소심 선고가 오늘 오후 2시에 열리고 생중계된다.",
+   "context": "이 사건은 선거 과정에서 여론조사 비용을 다른 사람이 대신 냈다는 의혹을 다룬다. 결과에 따라 시장직 유지 여부가 갈릴 수 있어 정치권이 주목하고 있으며, 여야 반응은 선고 결과에 따라 달라질 전망이다.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TWmVhd3dnaFNqcGI2STQ1MUJvUW5mU1ZDWDRvLWNFYXhhV196c21vMEk5TUxCV3B0UWRaVFloQ3RsdHBMbWZ1U1pLOWI5OWdidFJ3ZGtPNGVnZ9IBX0FVX3lxTE5pVVM4ZG11eThYdmV4OHp3b1p1MkRjOFVaWDBRcWhjSGVpR0tLME56SUFLanNibWgxTXMzMXEwMVFlMllscjZMQlVvejNsTEFWSWZBSm9oczZ1ZWxjbDVF?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "프랑스 10여 개 도시 시위 금지령, 국채 위험 프리미엄 15년 만에 최고",
+   "summary": "프랑스에서 청년 시위가 격해지자 10여 개 도시가 시위를 금지했고, 재정 불안으로 국채 위험 프리미엄도 크게 올랐다.",
+   "context": "프랑스는 정치·경제 불안이 겹치면서 시위가 격해지고 있다. 국채 위험 프리미엄은 투자자들이 그 나라에 돈을 빌려줄 때 더 요구하는 이자를 뜻하는데, 15년 만에 가장 높아져 유로존 재정 불안을 걱정하는 시각이 커졌다.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hYmpSYk5NaEs0dFRDaExZZVV2aDlBSHZiTkRTQV9PNGJYU1ZtQm1mb0huS1VySmlTa1BMdUZSTEt6c0NUV29wWXh6MFk3T0toSktZdTUyTW40anc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "푸틴 단기 휴전 아닌 최종 평화협정 원해",
+   "summary": "푸틴 대통령이 짧은 휴전이 아니라 최종 평화협정을 원하며 우크라이나 동부는 러시아 땅이라고 밝혔다.",
+   "context": "러시아·우크라이나 전쟁 종전 협상이 다시 이어지는 가운데 나온 발언이다. 우크라이나는 영토를 포기할 수 없다는 입장이어서 영토 문제가 협상의 가장 큰 쟁점으로 남아 있다.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05a3ZKSzM3OEhuS2ctcTYzeG5CNlNGTzItTE5fM1NzdDgtYzFfT0VJbnN3a1NLb0UzSGlPbzR5Q21qQlpTNW13LWtOVmtUQW92VUxCdWpGZ3Yta0NCeHRwOVYyaDZDOXc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "소방관 순직 관련 발언 논란, 인건비 전액 국비 지원 검토",
+   "summary": "소방관 순직을 둘러싼 부적절한 발언 논란 뒤 여당이 소방관 인건비를 전액 국비로 지원하는 방안을 검토한다.",
+   "context": "소방관 인건비는 지금 지방 사무라 지방자치단체가 주로 부담한다. 여당은 이를 국가가 부담하는 방안을 논의 중이고, 대통령실은 소방이 지방 사무라는 입장이라 정부·여당 간 의견 조율이 필요하다.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4Q3pNUnc3QzMzQkdYNDRPTkRSS3AxQnRESkJfR29GQmt4bGl3dDA3NWtESmVRQzdjeGp1eHlMa3ZONER4TUlMMnJtbmxUSjRfU0lOY2NKUk50UdIBX0FVX3lxTE5ITVFZZDA0enR3Y2lUaTNNNmpsUWppSlNJNmxzb0M0Mzh4cDdBLXNHcGNZTTN1dU9EWGlyeDI1dFdtckVrZTVZM3djQ09RNkQ5bGtXNjlKS0V1QmJHS1FB?oc=5"
+  }
+ ],
+ "term": {
+  "word": "국채 위험 프리미엄",
+  "meaning": "투자자들이 어떤 나라의 국채를 사면서 그 나라가 돈을 못 갚을 위험이 있다고 보고 더 요구하는 이자를 말해요.",
+  "example": "프랑스 국채 위험 프리미엄이 15년 만에 최고라는데, 그만큼 시장이 프랑스를 불안하게 본다는 거야."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 비 온대. 비 오는 날엔 {날씨}이니까 신발 젖기 딱 좋은 날이야.",
+   "explain": "{지역}은 오늘 비 올 확률이 {비확률}%고 최고 {최고}도야."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고 {최고}도, 내일은 {내일최고}도래. 기온이 롤러코스터 같지 않아?",
+   "explain": "오늘은 최고 {최고}도, 내일은 최고 {내일최고}도로 차이가 꽤 나."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 오늘이랑 내일 기온이 꽤 달라. 옷을 어떻게 입을지 고민되지 않아?",
+   "explain": "오늘 최고 {최고}도, 내일 최고 {내일최고}도래."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 최고 {최고}도래. 10월 말에 이 정도면 여름이 아직 안 갔나 봐.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침 최저는 {최저}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 낮에 {최고}도까지 올라간대. 외투 벗었다 입었다 하느라 바쁘겠어.",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침 최저 {최저}도라 일교차가 커."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침 {지역} 최저 {최저}도래. 이불 밖은 위험한 날씨야.",
+   "explain": "오늘 {지역} 아침 최저 {최저}도, 낮 최고 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 내려갔대. 상강이라더니 이름값 하네.",
+   "explain": "{지역}은 아침 최저 {최저}도, 낮에는 {최고}도까지 올라."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨가 {날씨}래. 이런 날은 산책하기 딱 좋지 않아?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 아침 최저 {최저}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 최고 {최고}도래. 이 정도면 한 해 중에 제일 무난한 날씨 아니야?",
+   "explain": "오늘 {지역} 최고 {최고}도, 최저 {최저}도로 무난한 날씨야."
+  }
+ ],
+ "types": [
+  {
+   "name": "숫자 사실형",
+   "desc": "숫자 하나를 던지고 질문을 붙여 상대가 답하게 만드는 유형"
+  },
+  {
+   "name": "능청 비틀기형",
+   "desc": "진지한 사실을 장난스럽게 비틀어 가볍게 웃기는 유형"
+  },
+  {
+   "name": "썰렁 수습형",
+   "desc": "썰렁한 말을 인정하고 자기 얘기로 돌려 분위기를 푸는 유형"
+  }
+ ],
+ "date": "2026-10-23",
+ "weekday": "금요일",
+ "tone": "banmal",
+ "strength": "bold",
+ "generated_at": "2026-10-23 09:10",
+ "model": "claude-sonnet-5-5"
+}
