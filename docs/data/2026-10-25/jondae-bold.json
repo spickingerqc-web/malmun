@@ -1,0 +1,500 @@
+{
+ "lede": "오늘은 서울 FC서울의 10년 만의 우승, 부산항에서 발견된 인기 스타 '부캉이', 제주에 200mm 폭우를 쏟은 태풍 참피, 그리고 일본에서 인기라는 한국 라면까지 한 바퀴 훑어봤어요.",
+ "today": {
+  "situation": "일요일 오후, 아무나 만났을 때",
+  "text": "FC서울이 10년 만에 우승했대요. 10년이면 우승 트로피가 보관 기간 지나서 유통기한 확인해야 할 판이잖아요.",
+  "why": "스포츠 소식 하나로 가볍게 열고, 능청스러운 과장으로 웃음을 줄 수 있는 말이에요.",
+  "explain": "프로축구 K리그에서 FC서울이 어제 우승을 확정했어요. 2016년 이후 10년 만이고 통산 7번째래요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "FC서울 10년 만의 우승",
+    "safety": "가벼움",
+    "text": "FC서울이 10년 만에 우승했대요. 10년 만에 꺼낸 트로피면 먼지부터 털어야 하는 거 아니에요?",
+    "explain": "K리그에서 FC서울이 통산 7번째 우승을 확정했는데, 2016년 이후 10년 만이에요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "빅뱅 하노이 공연",
+    "safety": "가벼움",
+    "text": "빅뱅이 하노이 공연으로 8천억 동을 번다는 기사가 났어요. 동이 이렇게 많으면 계산이 안 돼서 일단 환전부터 해야겠어요.",
+    "explain": "베트남 화폐 단위가 '동'이라 숫자가 커 보이는데, 한국 돈으로는 대략 4~5백억 원 정도래요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "부산항 부캉이",
+    "safety": "가장 안전",
+    "text": "부캉이라고 들어보셨어요? 부산 수로에 나타났던 동물인데, 이틀 동안 안 보이다가 부산항에서 발견됐대요.",
+    "explain": "부산 도심 수로에 나타났다가 주목을 받은 동물이고, 최근 2km 떨어진 부산항에서 다시 발견돼 화제가 됐어요."
+   },
+   {
+    "field": "음식",
+    "topic": "일본에서 인기인 한국 라면",
+    "safety": "가장 안전",
+    "text": "한국 라면이 일본에서 엄청 잘 팔린다는데, 일본 분들이 라면 종주국에서 한 수 배우는 건가 싶더라고요.",
+    "explain": "한국 라면 회사들이 일본에서 색다른 맛과 한국식 마케팅으로 인기를 얻고 있다는 기사예요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "태풍 참피와 일요일",
+    "safety": "가장 안전",
+    "text": "제주에는 비가 200mm나 왔는데 수도권은 나들이 날씨래요. 같은 나라 맞나 싶어요.",
+    "explain": "태풍 참피의 영향으로 제주와 남해안엔 폭우가 내렸고, 수도권은 오전 중에 맑아졌대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 포스트시즌",
+    "safety": "가벼움",
+    "text": "삼성 마무리 김재윤 선수가 부상으로 플레이오프 엔트리에서 빠졌다는데, 요즘 야구 보세요?",
+    "explain": "프로야구 플레이오프를 앞두고 삼성의 마무리 투수가 부상으로 제외됐다는 소식이에요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 의료진단",
+    "safety": "가벼움",
+    "text": "의사 진단 과정을 따라 한 AI가 의사보다 정확도가 높았다는 연구가 나왔대요. 병원에서 AI가 진료 보는 시대가 오려나 봐요.",
+    "explain": "DongA Science가 소개한 연구로, 실제 의료진이 진단하는 과정을 모방한 AI가 정확도에서 의사를 넘었다는 내용이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI 일자리",
+    "safety": "상대가 관심 있을 때",
+    "text": "신입 일자리를 AI가 가져간다는 기사가 요즘 많더라고요. 선배님 회사는 어떠세요?",
+    "explain": "AI 때문에 신입 채용이 줄고 경영진도 안심할 수 없다는 내용이 보도됐어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음식",
+    "topic": "피자의 세계사",
+    "safety": "가장 안전",
+    "text": "나폴리의 단순한 음식이 어떻게 세계로 퍼졌는지 다룬 책이 나왔더라고요. 혹시 피자 좋아하세요?",
+    "explain": "『피자에 담긴 세계사』라는 책이 이번 주말 소개됐어요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 행사",
+    "safety": "가장 안전",
+    "text": "요즘 가을이라 국화 전시 같은 게 많이 열린대요. 최근에 가을 나들이 다녀오셨어요?",
+    "explain": "경기도 물향기수목원에서 국화 등 가을꽃 10종을 11월 30일까지 전시한다는 소식이에요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "이광수 기도 버블",
+    "safety": "가벼움",
+    "text": "이광수 배우의 '기도 버블'이 화제라던데 보셨어요? 교회 청소년부에서 패러디까지 한대요.",
+    "explain": "SNS에서 배우 이광수의 '기도 버블'이 화제가 됐고, 교회 청소년부도 패러디했다는 기사예요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "임윤찬 개관 무대",
+    "safety": "상대가 관심 있을 때",
+    "text": "피아니스트 임윤찬이 런던·뉴욕 공연 전에 고향 시흥의 새 극장 개관 무대에 선대요. 클래식 자주 들으세요?",
+    "explain": "시흥아트센터 개관 공연에 임윤찬이 서고, 그 뒤 해외 공연이 예정돼 있다는 소식이에요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "경제·돈",
+    "topic": "뉴욕증시 주간 전망",
+    "safety": "상대가 관심 있을 때",
+    "text": "이번 주에 미국 금리 결정에 물가 지표, AI 기업 실적까지 한꺼번에 몰렸대요. 시험 기간 같은 한 주네요.",
+    "explain": "미국 연준의 FOMC 회의, 물가 발표, AI 기업 실적 발표가 한 주에 몰려 시장이 주목하고 있다는 기사예요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "블랙베리의 변신",
+    "safety": "가벼움",
+    "text": "오바마 폰으로 유명했던 블랙베리가 지금은 자동차 소프트웨어 회사로 부활을 노린대요. 폰에서 차로 갈아탄 셈이네요.",
+    "explain": "한때 스마트폰으로 유명했던 블랙베리가 차량용 소프트웨어 사업으로 재기를 노린다는 중앙일보 기사예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "추위와 변비",
+    "safety": "가벼움",
+    "text": "날씨가 추워지면 장운동도 같이 느려진다는 기사가 있더라고요. 몸도 겨울잠 모드로 들어가나 봐요.",
+    "explain": "경향신문 기사로, 추워지면 변비가 심해지는 이유와 장운동에 도움 되는 습관 세 가지를 소개했어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "한중청년영화제",
+    "safety": "가벼움",
+    "text": "한중청년영화제 대상을 중국 영화 '하이에나'가 받았대요. 제목부터 시상식 분위기랑 안 어울리는데 반전이네요.",
+    "explain": "한중청년영화제에서 중국 청년영화 '하이에나'가 대상을 받았다는 소식이에요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "오늘 날씨",
+    "safety": "가장 안전",
+    "text": "오늘은 어디는 폭우, 어디는 나들이 날씨라는데 이쪽은 어떠세요?",
+    "explain": "태풍 참피 영향으로 남부와 제주는 비가 내리고 수도권은 맑았다는 날씨 소식이에요."
+   },
+   {
+    "field": "음식",
+    "topic": "라면 인기",
+    "safety": "가장 안전",
+    "text": "한국 라면이 일본에서 인기라는데, 요즘 라면 중에 뭐 좋아하세요?",
+    "explain": "한국 라면이 일본에서 독특한 맛과 마케팅으로 인기를 끌고 있다는 기사예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "FC서울 우승",
+    "safety": "가벼움",
+    "text": "어제 FC서울이 우승했다는 소식 들으셨어요? 10년 만이래요.",
+    "explain": "프로축구 FC서울이 통산 7번째 우승을 확정했어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "부캉이",
+    "safety": "가벼움",
+    "text": "부산항에서 발견된 부캉이 소식 보셨어요? 새 환경에 적응 중이래요.",
+    "explain": "부산 도심 수로에서 화제가 된 동물이 부산항에서 다시 확인됐다는 소식이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 가장 자주 먹는 간식이 뭐예요?",
+  "why": "누구나 답할 수 있고 취향이 드러나서 대화가 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "일요일 오후 카페에서 친구 만나기",
+   "topics": "FC서울 우승, 한국 라면, 빅뱅 하노이 공연",
+   "lines": [
+    {
+     "who": "a",
+     "text": "혹시 어제 FC서울 우승한 거 보셨어요? 10년 만이래요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "어, 진짜요? 10년이나 걸렸어요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 2016년 이후 처음이에요. 트로피가 10년 만에 나왔으니 유통기한부터 확인했을 것 같아요.",
+     "humor": {
+      "type": "능청",
+      "why": "트로피를 식품처럼 취급하는 엉뚱한 상상으로 가볍게 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 광택 내느라 바빴겠네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그리고 한국 라면이 일본에서 엄청 인기래요. 종주국이 라면 수출국이 된 셈이에요.",
+     "humor": {
+      "type": "반전",
+      "why": "라면 종주국 일본에 한국 라면이 역수출된다는 반전이 재미 포인트예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저 일본 여행 갔을 때 한국 라면 코너 큰 거 봤어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도 가면 하나 사 먹고 싶어요. 혹시 요즘 드시는 라면 있으세요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "요즘은 치즈 넣어서 끓이는 게 좋더라고요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "어색한 자리에서 썰렁했을 때 수습하기",
+   "topics": "태풍 참피, 날씨 차이, 썰렁 수습",
+   "lines": [
+    {
+     "who": "a",
+     "text": "오늘 제주엔 비가 200mm나 왔는데 수도권은 맑았대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그래요? 저는 오늘 밖에 안 나가서요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 우산이 필요 없으셨겠네요. 사실 우산이 제일 열 일한 곳은 제주였겠지만요.",
+     "humor": {
+      "type": "의인화",
+      "why": "우산을 일하는 존재처럼 표현해 가볍게 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 말은 비처럼 흘려 주세요. 제 개그는 가끔 맑은 날에도 비가 오더라고요.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁함을 날씨에 빗대어 스스로 수습하는 능청스러운 자조예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그 표현은 좋네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "감사합니다. 그럼 오늘 주말은 뭐 하며 보내셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "그냥 집에서 쉬었어요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "어색한 점심시간에 옆자리 사람에게 스포츠 이야기로 말 걸기",
+   "hints": [
+    "최근 우승 소식 활용",
+    "상대 의견 묻기"
+   ],
+   "answer": "어제 FC서울이 10년 만에 우승했다는데 혹시 보셨어요?",
+   "note": "사실 전달 후 질문으로 마무리하는 유형이에요."
+  },
+  {
+   "q": "날씨 이야기로 처음 만난 사람과 대화 열기",
+   "hints": [
+    "지역별 차이 활용",
+    "상대 동네 묻기"
+   ],
+   "answer": "오늘 제주엔 비가 엄청 왔는데 여기는 어땠어요?",
+   "note": "지역 차이를 열어 두는 질문 유형이에요."
+  },
+  {
+   "q": "썰렁한 농담 후 수습하기",
+   "hints": [
+    "자조 활용",
+    "화제 전환"
+   ],
+   "answer": "방금 건 비처럼 흘려 주세요. 그럼 오늘 점심 뭐 드셨어요?",
+   "note": "자조 후 질문으로 화제를 바꾸는 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "FC서울, 10년 만에 K리그 우승 확정",
+   "summary": "프로축구 FC서울이 10년 만에 통산 7번째 정상에 올랐어요.",
+   "context": "FC서울은 K리그 대표 명문 구단 중 하나로 2016년 이후 우승이 없었어요. 김기동 감독이 4위, 6위를 거쳐 세 번째 시즌에 우승을 이끌었다는 점이 화제예요.",
+   "source": "미주중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9neWNyTXpDLTZSQmtTSnhydDVvUkN0MFU4dGhrcmpWXzgzV1plZ09uaDVkVG9ERElXcUIwamZxd0ptaWtRMmp0SVJkdjdFZkI0SUMyUVNjelBSOWtsWEF0VEdB?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "부산항에서 다시 발견된 부캉이",
+   "summary": "수로를 벗어난 부캉이가 2km 떨어진 부산항에서 다시 확인됐어요.",
+   "context": "부캉이는 부산 도심 수로에 나타나 관심을 모은 동물이에요. 이틀간 보이지 않아 걱정이 컸는데 항만에서 발견돼 새 환경에 적응 중이라고 해요.",
+   "source": "매일경제",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBueDJfNS03d0VqNy0tRmZfX1ZKTDI1RVpLTTVjZzRvWDFabGd5THlveWxId3R3clpPaXZIdExabzcxdk5ob0tDOGZsY0RBZ3BxR0ZmbQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "제주엔 폭우, 수도권은 나들이 날씨",
+   "summary": "태풍 참피의 영향으로 제주와 남해안엔 많은 비가 왔고 수도권은 맑았어요.",
+   "context": "태풍 참피가 북상하면서 한라산에는 209mm의 비가 내렸어요. 정부는 제주와 남해안 풍수해 위기경보를 '주의'로 올렸어요.",
+   "source": "경기일보",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vZHZwSkZzR080T2o1Mi1xMjNna0JybkFOR0pyOHNiYVdFVkxmXzZDWGpMejVoWkhVWlc2T2s0YkNPUDd3ZU1YTVdobDREXzdpQ3l2SDl5XzBxYU0?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "빅뱅 하노이 공연, 8천억 동 규모 기대",
+   "summary": "빅뱅의 하노이 공연이 블랙핑크 기록을 넘을지 주목받고 있어요.",
+   "context": "베트남 화폐 '동'은 단위가 커서 숫자가 크게 보여요. 8천억 동은 한국 돈으로 약 4~5백억 원 규모예요.",
+   "source": "굿모닝베트남미디어",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkNkdnRlItRThoXy1TLUNVRFI1dnRDRUpkdWhmbkdqS3BpbHdUdE9ZcndmOXdZelQ3aGxxYW5JbFJoc2J2LWIxX3ZmLXM2akRRS3F0UHhTYU1SZjRPdkEtODMtR0JsaGljRFByLThsRHc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "의사 진단 방식을 따라 한 AI, 정확도 의사 능가",
+   "summary": "실제 의료진단 과정을 모방한 AI가 의사보다 높은 정확도를 보였다는 연구예요.",
+   "context": "단순히 답만 내는 AI와 달리 의사가 진단하는 과정을 단계별로 따라 한 방식이에요. 논문 표지로 소개될 만큼 주목받았어요.",
+   "source": "DongA Science",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83R28za2RkSjl5dmVDWERQblNnelN2NEU2XzFuU3Bmbm01VnlkSzYyR3RqQ2xiZTN1clpBbXhCaFNCSjhtTmFlSDdpV2xhRXpYVVZLRA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "일본을 사로잡은 한국 라면",
+   "summary": "이색 변주와 K-마케팅으로 한국 라면이 일본 시장을 공략하고 있어요.",
+   "context": "일본은 인스턴트 라면을 처음 만든 나라인데, 한국 라면이 오히려 인기를 얻고 있어 눈길을 끌어요.",
+   "source": "서울경제TV",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFTzZzLVgtd3ZfQ3RFeE0xR2w4YkFDZktUYnNsWTBPallWbGFZUWgtTlZ2eGU3OWJGYjVoRTZqQlZ6cmEtUS1pMGhUZkxtYjY1OUFHUXpaMnRqSWlUTURQTGYteVI?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "뉴욕증시, FOMC·물가·AI 실적 3중 시험대",
+   "summary": "이번 주 미국 금리 결정과 물가, AI 기업 실적이 한꺼번에 발표돼요.",
+   "context": "FOMC는 미국 중앙은행의 금리 결정 회의예요. 미국 증시는 한국 증시와 환율에도 영향을 줘서 경제 뉴스에서 자주 언급돼요.",
+   "source": "연합인포맥스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9maHlzMkdxNTM2NkduMGtfX2JnUElsOVRjbDZEODlORk9QdGxxd3dkc2UteF9qWjVpeXVvMFhHd1RNems0czZldC1JOWk0N0FyMHhzZ3JsQXlrTjZOZXZ5MzFZLW13U0VTZFMwSTF0ZW8?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "김정은, 당일치기 방중 후 왕후닝과 회담",
+   "summary": "김정은 위원장이 중국을 방문해 서열 4위 왕후닝과 회담했고 북한은 경제 협력 강화를 언급했어요.",
+   "context": "왕후닝은 중국 공산당 서열 4위의 고위 인사예요. 이번 방중은 트럼프 미국 대통령의 중국 방문을 앞두고 이뤄져 외교적 의미가 크다는 해석이 나와요. 북한은 북중 친선을 강조했어요.",
+   "source": "한국경제",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15cXNjZG9TMGJkQjRFem83ZG40SVV5dzZWUFIzemFIU0lrMUstczVhM3NLTThXOFdaclhPOTJoMG1rNWdlbGNsVHpxaGZxSVpkMkEzUHluYUpLUQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "오세훈 2심 무죄, 조희대 대법원장 탄핵 논의로 여야 충돌",
+   "summary": "오세훈 서울시장이 항소심에서 무죄를 받자 여당이 대법원장 탄핵을 논의하고 야당이 반발하고 있어요.",
+   "context": "오세훈 시장은 항소심에서 무죄 판결을 받았어요. 이후 여당 일부에서 조희대 대법원장 탄핵 논의가 나왔고, 오 시장은 자제를 촉구했어요. 찬성 측은 사법부 책임을 묻겠다는 입장이고, 반대 측은 3권 분립을 훼손한다고 비판해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sbUxHVVZIb2dSRzkyLWJtVHNZU2xPN1J1Y0JmZUtaTWxVUFNRY2JZbzhHZXdlR1MxSWRlc1dfU25za29lYkp4YUFiQlllWHdSMDlTQTR4dzlXMGlDVVJnUHM1X1dPZ3Jla2NzcmVKSi1tdw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "사우디와 후티 반군 충돌로 사망자 속출",
+   "summary": "예멘 후티 반군과 사우디가 서로 공격하면서 사상자가 늘고 있어요.",
+   "context": "후티는 이란의 지원을 받는 예멘의 무장 세력이에요. 사우디 수도 리야드의 공항과 송유관 등을 공격했다고 주장했고 사우디도 보복 공습을 했어요. 미국은 중동 각국에서 외교관을 철수시키고 있어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBocW9MZmFuSTVXUFNXcDF0Ri1ILUlLT3JkWXZhQ05RN1BMNGxvbVkwbW1tcVpvc1ZPdzhCTzdRSV9qV3RYRzkxMlVFemVWa1RLVmJ3dmRHNDBKSXJqcGJmemhGZXdjRVE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이란 \"美 군함 걸프 진입 불가\" 경고",
+   "summary": "이란군이 미국 군함의 걸프 해역 진입을 막겠다고 밝혔고 트럼프 대통령도 강경 발언을 내놓았어요.",
+   "context": "걸프는 세계 석유 운송의 핵심 해역이에요. 이란이 진입 불허를 선언했고 트럼프 대통령은 공격 재개 가능성을 언급해 긴장이 높아졌어요. 국제 유가에도 영향을 줄 수 있어 주목받고 있어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QdWZsZTNIOHdXU2pibDVqdklFTTJuSWtkWEVpZ3Z5aFgyYW43UHltTDM5dk5ZMUl1Y3ZybElwM1BXNGNzTHZJa0p4TGxwaGVuQ0liZ1B6QVFTTG9EOE11M01IY3VsUE0?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이태원 참사 4주기 시민추모대회",
+   "summary": "이태원 참사 4주기를 앞두고 시민 추모대회가 열려 유가족과 시민들이 희생자를 기렸어요.",
+   "context": "이태원 참사는 2022년 10월 29일 서울 이태원에서 발생한 압사 사고로 많은 사람이 희생됐어요. 4주기를 맞아 정부 인사가 사과하고 진상을 밝히겠다고 했어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wWnhmOG52LUo0MG40MHUyRnFyVW9zaFg1TWdKUHJVMTNwM2stc1JoeE45d216Z2xYUXktNjAzckRLaUpvUTdjTWc5NWpFeDFOTHBHUEZXa3czNkHSAWBBVV95cUxNdXQtTm1YSzZwR1ppNkhDOWNzbllRbTNZTTNFVXlJUzJMNVRwVllkS3NwTXp3c25Ka0RLemJDbEY3eXUySmlWSG13YnZwUFQ3eVVOREZ0dUJDckJscUpvYzY?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "고물가·주거난에 성난 유럽, 곳곳에서 대규모 시위",
+   "summary": "프랑스, 이탈리아, 스페인 등 유럽 각지에서 물가와 주거비 부담에 항의하는 시위가 이어졌어요.",
+   "context": "고물가와 주택 가격 상승으로 생활비 부담이 커지자 시민들이 거리로 나왔어요. 프랑스에서는 수십만 명이 참여하고 일부 체포와 충돌이 있었어요. 유럽 전반의 경제 불만이 반영된 움직임으로 해석돼요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HbDJpUW41S0FLdm9OSkJTZzlkbE9JZUFFTEhCS2oyZzNGSXltSGpseGNqbnJCekRva1dxTlhBeWxxZjloTDVhWS1XaDBMWGtsZEMwd0NMMWplaHfSAWBBVV95cUxNdGFoWHBpUzBaRGJFWElxbXVrQmw5ZERWemtvQUhoSjRoRVBoTmtOOGFkLXc1U1ExUzVDYm9XNk9SVGN5UUVDMmxpbnBiX0JidmJWNEp4QldXS20wZkhTNS0?oc=5"
+  }
+ ],
+ "term": {
+  "word": "FOMC",
+  "meaning": "미국 중앙은행인 연방준비제도(Fed)에서 금리를 정하는 회의예요. 여기서 정한 금리는 전 세계 금융시장에 영향을 줘요.",
+  "example": "이번 주에 FOMC가 있어서 주식 시장이 다들 긴장하고 있대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 기온은 {최고}도이고 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 비가 올 수도 있대요. 가을비는 우산을 두고 온 날에만 온다던데 오늘은 챙기셨나요?",
+   "explain": "{지역}은 {날씨}이고 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 오늘 최고 {최고}도인데 내일은 {내일최고}도래요. 옷 고르기가 만만치 않겠어요.",
+   "explain": "오늘 최고 {최고}도, 내일 최고 {내일최고}도로 기온 차가 커요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘과 내일 기온 차가 큰데 옷은 어떻게 입으셨어요? 저는 겹쳐 입는 게 답이더라고요.",
+   "explain": "{지역}은 오늘 최고 {최고}도, 내일 최고 {내일최고}도예요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 {최고}도까지 올라간대요. 10월 말인데 가을이 잠깐 외출한 걸까요?",
+   "explain": "오늘 {지역} 낮 최고 기온은 {최고}도예요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 꽤 따뜻하대요. 가을 옷 입고 나왔다가 후회하신 건 아니죠?",
+   "explain": "{지역}은 최고 {최고}도, 최저 {최저}도 예보예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 내려간대요. 오늘은 겉옷이 일을 많이 하겠어요.",
+   "explain": "오늘 {지역} 아침 최저 기온은 {최저}도, 낮 최고는 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "아침 공기가 꽤 쌀쌀하다던데 따뜻하게 입고 나오셨어요?",
+   "explain": "{지역}은 최저 {최저}도로 아침이 쌀쌀해요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 최고 {최고}도로 무난하대요. 이 정도면 나들이하기 괜찮은 날씨죠?",
+   "explain": "{지역}은 오늘 최고 {최고}도, 최저 {최저}도 예보예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역} 날씨가 {날씨}래요. 평범한 날씨가 가장 고마운 날씨라는 말이 있잖아요.",
+   "explain": "{지역}은 최고 {최고}도, 최저 {최저}도이고 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "능청",
+   "desc": "진지한 표정으로 엉뚱한 상상을 이어 가는 유머"
+  },
+  {
+   "name": "반전",
+   "desc": "예상과 다른 결말로 웃음을 주는 유머"
+  },
+  {
+   "name": "의인화",
+   "desc": "사물이나 자연에 성격을 부여하는 유머"
+  },
+  {
+   "name": "자조",
+   "desc": "자기 실수를 가볍게 인정하며 분위기를 풀어 주는 유머"
+  }
+ ],
+ "date": "2026-10-25",
+ "weekday": "일요일",
+ "tone": "jondae",
+ "strength": "bold",
+ "generated_at": "2026-10-25 08:38",
+ "model": "claude-sonnet-5-5"
+}
