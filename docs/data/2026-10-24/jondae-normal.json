@@ -1,0 +1,494 @@
+{
+ "lede": "오늘은 늦깎이 태풍과 AI 시험 소동, 프로야구 플레이오프, 우주쓰레기까지 가볍게 꺼낼 만한 소재가 골고루 있어요.",
+ "today": {
+  "situation": "어른·선배와의 대화",
+  "text": "요즘 대학 시험에서 AI 때문에 재시험까지 봤대요. 저희 때랑은 시험 풍경이 많이 달라졌더라고요.",
+  "why": "세대 차이를 소재로 삼으면 상대가 자기 경험을 꺼내 놓기 좋아요.",
+  "explain": "건국대에서 한 학생이 문제를 캡처해 AI로 99점을 받았다고 글을 올렸고, 600여 명이 재시험을 치르게 됐대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가장 안전",
+    "text": "프로야구 플레이오프가 이틀 뒤래요. 혹시 응원하는 팀 있으세요?",
+    "explain": "KIA가 도전자로 나서는 플레이오프가 곧 시작돼서, 선수들이 훈련에 한창이래요."
+   },
+   {
+    "field": "음식",
+    "topic": "초가공식품",
+    "safety": "가벼움",
+    "text": "초가공식품 많이 먹는 아이들은 음식 사진만 봐도 뇌 반응이 더 세다는 연구가 나왔대요. 저는 라면 사진만 봐도 배고픈데 괜찮은 거죠?",
+    "explain": "어린이 대상 연구 결과인데, 초가공식품을 자주 먹을수록 음식 사진에 뇌가 더 강하게 반응했다는 내용이에요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "유튜브 화제성",
+    "safety": "가벼움",
+    "text": "이제 유튜브도 TV처럼 화제성 순위를 매긴다는데, 1위가 안원잘부라는 채널이래요. 들어 보신 적 있으세요?",
+    "explain": "굿데이터가 TV·OTT에 이어 유튜브 웹드라마까지 화제성 조사를 시작했고, 그 첫 순위에서 1위가 나왔대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "우주쓰레기",
+    "safety": "상대가 관심 있을 때",
+    "text": "하늘에서 떨어지는 우주쓰레기가 늘고 있대요. 오늘 우산보다 헬멧이 필요한 건 아닌가 싶어요.",
+    "explain": "인공위성 잔해 같은 우주쓰레기가 지구로 떨어지는 일이 잦아져서 인명 피해 우려가 커졌다는 소식이에요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 시험 소동",
+    "safety": "가벼움",
+    "text": "요즘 대학 시험에서 AI 때문에 재시험까지 봤대요. 선배님 때랑은 시험 풍경이 많이 다르죠?",
+    "explain": "건국대에서 한 학생이 문제를 AI로 풀어 99점을 받았다고 글을 올렸고, 600여 명이 재시험을 치렀대요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "소비 트렌드",
+    "safety": "가벼움",
+    "text": "내년 소비 트렌드에 '알파쉽'이라는 말이 나온대요. 무리만 따라가지 않는 소비를 뜻한다는데, 선배님은 평소 어떻게 쓰세요?",
+    "explain": "2027년 소비 트렌드를 다룬 책에서 무리를 좇지 않고 자기 기준대로 소비하는 흐름을 알파쉽이라고 부른대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 날씨",
+    "safety": "가장 안전",
+    "text": "남쪽은 비가 많이 오는데 중부는 포근하대요. 오늘 산책하기 좋은 날씨네요.",
+    "explain": "태풍 영향으로 제주와 남해안엔 강한 비가 오고, 중부는 구름 많고 포근하다는 예보예요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "잔나비 콘서트",
+    "safety": "상대가 관심 있을 때",
+    "text": "잔나비가 발라드만 불러도 재밌다고 했다던데, 가을밤에 어울리는 노래 추천해 주실 수 있으세요?",
+    "explain": "밴드 잔나비가 가을밤 콘서트를 열었고, 이번엔 발라드 위주로 불렀다는 기사가 나왔어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음악·K팝",
+    "topic": "가을 공연",
+    "safety": "가장 안전",
+    "text": "가을이라 공연이나 전시가 많더라고요. 요즘 가 보신 곳 있으세요?",
+    "explain": "이번 주말 전국에서 오케스트라 공연, 포크 콘서트, 전시가 이어지고 있어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "야구 관중",
+    "safety": "가벼움",
+    "text": "올해 프로야구 관중이 13% 늘었는데 쓰레기는 24%나 늘었대요. 야구장 가 보신 적 있으세요?",
+    "explain": "관중 증가보다 쓰레기 증가가 훨씬 커서 처리 비용도 크게 늘었다는 조사 결과예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "태풍 소식",
+    "safety": "가장 안전",
+    "text": "10월에 태풍이 온다니 신기하죠. 계절 감각이 헷갈리는 요즘이에요.",
+    "explain": "30호 태풍 참피가 제주와 남해안에 영향을 주고 있어요. 10월 태풍은 흔하지 않아요."
+   },
+   {
+    "field": "음식",
+    "topic": "찜질방",
+    "safety": "가벼움",
+    "text": "요즘 찜질방이 땀 빼는 곳을 넘어 하루 종일 노는 곳이 됐다는데, 가 보셨어요?",
+    "explain": "찜질방이 놀이 공간처럼 바뀌면서 2030 세대에게 인기라는 기사가 나왔어요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 광고",
+    "safety": "가벼움",
+    "text": "'AI 샴푸'가 거짓 광고로 문제가 됐대요. 샴푸가 머릿결을 계산해 주는 건 아닌가 봐요.",
+    "explain": "AI가 들어갔다고 광고했지만 실제와 달라서 과징금 대상이 될 수 있다는 기사예요."
+   },
+   {
+    "field": "음식",
+    "topic": "점심 메뉴",
+    "safety": "가장 안전",
+    "text": "찬 바람이 불기 시작하니 국물 있는 음식이 자꾸 생각나요. 요즘 점심은 뭐 드세요?",
+    "explain": "쌀쌀해지는 가을이라 따뜻한 국물 음식을 찾게 된다는 일상적인 이야기예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "축구 소식",
+    "safety": "가벼움",
+    "text": "일본 축구협회장이 아시안컵 개최가 쉽지 않다고 했대요. 정말 1년 미뤄질 수도 있나 봐요.",
+    "explain": "사우디가 개최하는 아시안컵에 대해 일본 협회장이 우려를 밝혔고, 연기 가능성이 거론돼요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "화제의 드라마",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 드라마 화제성 순위에 개그맨들도 올랐더라고요. 최근에 보신 작품 있으세요?",
+    "explain": "김원훈, 백현진 씨가 화제성 3위와 5위에 올랐고 장기하 씨가 합류한 드라마도 소개됐어요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "주말 날씨",
+    "safety": "가장 안전",
+    "text": "주말인데 날씨 괜찮으시죠? 남쪽은 비가 온다는데 이곳은 포근해서 다행이에요.",
+    "explain": "태풍 영향으로 제주와 남해안은 강한 비가 오고, 중부는 구름 많고 포근해요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "K메이크업",
+    "safety": "가벼움",
+    "text": "20분 안에 K팝 아이돌로 변신하는 메이크업 쇼가 있었대요. 20분이면 저는 눈썹만 겨우 그릴 것 같아요.",
+    "explain": "20분 안에 메이크업으로 아이돌 스타일을 완성하는 경연이 열렸다는 YTN 보도예요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "소비 트렌드",
+    "safety": "가벼움",
+    "text": "요즘은 남 따라 사기보다 자기 취향대로 사는 게 대세래요. 손님들도 그런 경향이 있나요?",
+    "explain": "2027년 소비 트렌드 책에서 무리를 좇지 않는 소비를 알파쉽이라는 말로 소개했어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "신기한 생물",
+    "safety": "상대가 관심 있을 때",
+    "text": "눈이 머릿속에 있는 물고기가 있다는 걸 아세요? 아이들이 신기해한다던데요.",
+    "explain": "극한 환경에 사는 생물의 진화를 다룬 어린이 전시 소식이고, 물고기 눈 이야기가 나와요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 가장 자주 듣는 노래가 뭐예요?",
+  "why": "정답이 없는 질문이라 부담이 적고, 대답에서 다음 이야기가 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "선배와 점심 후 커피 타임",
+   "topics": "AI 시험 소동, 소비 트렌드",
+   "lines": [
+    {
+     "who": "a",
+     "text": "선배님, 요즘 대학에서 AI로 시험 본 학생 때문에 재시험까지 했대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "정말? 우리 때는 커닝 페이퍼가 최고 기술이었는데.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "이제는 커닝 페이퍼가 AI로 업그레이드된 셈이네요. 구독료는 비싸겠지만요.",
+     "humor": {
+      "type": "능청",
+      "why": "커닝의 진화를 구독 서비스처럼 말해서 담백하게 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그건 맞네. 그럼 시험은 어떻게 본다는 거야?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "결국 연필과 종이로 돌아가는 건 아닐까 싶어요. 기술은 한 바퀴 돌아 제자리로 오나 봐요.",
+     "humor": {
+      "type": "반전",
+      "why": "첨단 기술의 끝이 아날로그라는 반전이 의외라서 웃음이 나와요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그럴지도 모르겠다. 요즘은 다들 새로운 걸 좇기 바쁜 것 같아.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러고 보니 내년 소비 트렌드는 무리를 안 따라가는 거래요. 이 얘기도 다들 따라 하면 아이러니하겠죠?",
+     "humor": {
+      "type": "자조",
+      "why": "유행하지 말라는 유행이라는 모순을 가볍게 짚어 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그러게. 오늘 커피나 한 잔 더 할까?",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "어색한 한마디 뒤 수습하기 (직장 동료)",
+   "topics": "프로야구, 태풍",
+   "lines": [
+    {
+     "who": "a",
+     "text": "플레이오프가 곧 시작이래요. 혹시 응원하는 팀 있으세요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "어, 저는 야구는 잘 몰라서요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 그러세요? 저도 사실 치킨 먹으러 가는 쪽에 가까워요.",
+     "humor": {
+      "type": "자조",
+      "why": "야구를 잘 아는 척하지 않고 솔직하게 낮추는 말이 분위기를 풀어 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 치킨은 저도 좋아해요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 오늘은 야구 대신 치킨 이야기로 갈아탈까요. 요즘 어디가 맛있어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "저는 집 앞에 새로 생긴 가게요. 닭이 하늘을 나는 것처럼 바삭해요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "하늘 얘기가 나오니 말인데, 10월에 태풍이 왔대요. 닭이 정말 날아가면 큰일이겠네요.",
+     "humor": {
+      "type": "과장",
+      "why": "태풍과 치킨을 엮어 말도 안 되는 상황을 상상하게 해서 웃게 해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그럼 단단히 붙잡아 둬야겠네요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 같은 층 이웃을 만났어요. 날씨 이야기로 한마디 건네 보세요.",
+   "hints": [
+    "날씨 사실 + 질문",
+    "계절 느낌 + 공감"
+   ],
+   "answer": "남쪽엔 태풍 때문에 비가 많이 온다는데, 여기는 포근해서 다행이에요.",
+   "note": "사실 + 안도의 한마디 유형이에요. 이웃과 가볍게 이어지기 좋아요."
+  },
+  {
+   "q": "처음 만난 사람과 말이 끊겼어요. 음식 소재로 이어 가 보세요.",
+   "hints": [
+    "가벼운 질문",
+    "내 경험 먼저"
+   ],
+   "answer": "요즘 쌀쌀해서 국물 음식이 자꾸 생각나는데, 혹시 좋아하는 메뉴 있으세요?",
+   "note": "내 이야기를 먼저 꺼내고 질문하는 유형이에요. 상대가 대답하기 쉬워요."
+  },
+  {
+   "q": "동료가 AI 이야기를 꺼냈어요. 뉴스 한 줄로 맞장구쳐 보세요.",
+   "hints": [
+    "뉴스 사실",
+    "웃음 한 스푼"
+   ],
+   "answer": "AI 때문에 재시험까지 봤다는 대학 얘기 들으셨어요? 시험도 이제 기술 전쟁인가 봐요.",
+   "note": "뉴스 + 능청 유형이에요. 가볍게 이어 가기 좋아요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI로 시험 99점, 건국대 600여 명 재시험",
+   "summary": "한 학생이 문제를 캡처해 AI로 풀어 99점을 받았다고 밝혔고, 학교가 600여 명에게 재시험을 치르게 했대요.",
+   "context": "대학가에서 AI를 시험에 어떻게 다룰지가 큰 이슈예요. 온라인 시험은 부정행위를 막기 어렵다는 점이 드러났고, 학교마다 시험 방식을 다시 고민하고 있어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zVlNJQ0Jrdk5KUVN0MzBjWWhqSnhrQUNvczJxYm1XaW4tQ3RNTHpqNmVyOEZTdHloWnhyR0g5SkFxaGJFb2tkUmZkMWVRNU9nRTJoeFZrc2R6a3M1T09GRzZ1MzJHU2pBSmM1aUx2RDlfdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "늦깎이 태풍 참피, 제주·남해안에 강한 비",
+   "summary": "10월에 태풍 참피의 영향으로 제주와 남해안에 강한 비가 오고, 중부는 포근하대요.",
+   "context": "태풍은 보통 여름에서 초가을에 많은데 10월 태풍은 드문 편이에요. 제주와 남부는 최대 250mm 안팎의 비가 예보돼 있고, 중부는 비교적 포근한 가을 날씨예요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1USl95NHVFczNLbkdmRWJNTjRuYk1mcnFqb3VmVUFVS2pZRlVzN2JiclZHby1lcHhVRmFUeUQtaDdVMDRMQmR6RnJMeFdqSW1GMUJkbU55enZTQjI4QVE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 플레이오프 D-2, KIA 도전자 훈련",
+   "summary": "플레이오프를 이틀 앞두고 KIA가 도전자 입장에서 구슬땀을 흘리고 있대요.",
+   "context": "플레이오프는 한국시리즈에 오르기 위한 단계의 경기예요. 정규시즌 순위가 높은 팀이 유리한 구조여서, 아래 순위 팀을 도전자라고 부르곤 해요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jalh1anp2cTBVanVOUmltdHVmcGEwTXpnNzVndDdzb080bS0zTjF4Yjk2ZHlfUkh3NThDVjJab0JrU1RDU21qcmQtX1B4VjJoYUFUUlI0YzFUelh5MFVVSnU5V3UxRnM?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "툭하면 떨어지는 우주쓰레기, 인명 피해 우려",
+   "summary": "하늘에서 떨어지는 우주쓰레기가 늘어 인명 피해 가능성이 커졌다는 소식이에요.",
+   "context": "우주쓰레기는 수명이 다한 위성이나 로켓 잔해를 말해요. 대부분 대기권에서 타 없어지지만, 일부는 지상까지 떨어져서 국제적으로 관리 필요성이 커지고 있어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrMHZtRkNnTDgxSFBZeHdaekk1aVpPNE1ZYnJ2Z0M4cU8wc0c5LTRGTkxHYTRzajZxSnhZbDkwdjd6QlpzUVBYVGJmb1NZdVpMN2V0elFXVFJjcDTSAWBBVV95cUxPNmQ2MV95MGNIZXdKcFFxMnNLYk92dEZwLTEwMHNHZmNaQnRzeXVRTU5nSTZ6Wnc0dHFJXzk4N09ucTY5U1ZyWk5pbVVNWnJMTmRUdnd1T0tsd2FhOFkzVk4?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "초가공식품 즐기는 아이, 음식 사진에 뇌 반응 더 강해",
+   "summary": "초가공식품을 자주 먹는 어린이는 음식 사진을 볼 때 뇌 반응이 더 강하다는 연구가 나왔어요.",
+   "context": "초가공식품은 공장에서 여러 가공을 거친 과자, 즉석식품, 탄산음료 같은 음식이에요. 이번 연구는 어린 시절 식습관이 뇌의 보상 반응에 영향을 줄 수 있다는 점을 시사해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZX1E4eUpMS1lUSWdhYllXaW5Lc1pLX3NXSWczMEJDNUR1TmVFZGlxZmFVZU5jdk5wRFQ2bUhZalFqOV9WYkV5WC1rU3ZRaUh2ZG1pYzlDcm15U1JhTlRsMNIBYEFVX3lxTFBZX1E4eUpMS1lUSWdhYllXaW5Lc1pLX3NXSWczMEJDNUR1TmVFZGlxZmFVZU5jdk5wRFQ2bUhZalFqOV9WYkV5WC1rU3ZRaUh2ZG1pYzlDcm15U1JhTlRsMA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "2027 소비 트렌드, 무리 좇지 않는 알파쉽",
+   "summary": "내년 소비 트렌드 10가지 중 무리만 따라가지 않고 자기 기준을 세우는 소비가 소개됐어요.",
+   "context": "매년 연말이면 다음 해 소비 흐름을 전망하는 책이 나와요. 이번엔 남을 따라 사기보다 자기 취향과 기준을 우선하는 소비자가 늘어난다는 내용이에요.",
+   "source": "ER 이코노믹리뷰",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nY2o3Q3BkYkNtTkNzUUVfNDRSclZaWDRxOGl0b1FmdXZwRlYtUmtkVFc0VV9EYTRyWkVzb1lkbHJma290WGxDVUpLTUNEaUxhM1FBbzBHWTE4OFR1X2hOZzFZUGRHQjRTNkdCOQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "유튜브도 TV처럼 화제성 분석, 1위는 안원잘부",
+   "summary": "TV와 OTT에 이어 유튜브 웹드라마까지 화제성을 따지기 시작했고, 1위는 안원잘부래요.",
+   "context": "화제성 조사는 온라인 반응과 검색량을 모아 작품의 인기를 보는 지표예요. 이제 유튜브 콘텐츠도 방송 프로그램처럼 순위를 매기는 시대가 됐다는 뜻이에요.",
+   "source": "미디어오늘",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CdmZmM0YydWFWbS1DaWs1bTdjaDZxVnR3R0VGTUpfVVI4d2JNT2w2SGppRzlJeE1PV3NNLU9oS2hyUTRzVXhocTdPMVIyT0ltMThwYmlXT1lIOEk0Q3h2a1g4OFJZUmpTU3R2SEE5Ujg?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "오세훈 시장 2심 무죄 선고",
+   "summary": "서울시장 재판의 2심에서 무죄가 선고됐고, 정치권에서는 서로 다른 해석이 나와요.",
+   "context": "재판부는 관련 인물과 대납을 요청할 만한 관계가 아니었다고 판단했어요. 여권은 보궐선거 부담을 덜었다는 해석이, 야권과 일부 매체에서는 정면 승부가 통했다는 평가가 나와요. 판결에 대한 평가는 입장에 따라 갈려요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE91REdvQXB5YTFnZ0RseDdJZkJZTmozQ3N6NVQ0NkRyM0NUeHlkbllFdzVZLUM2aUZmeFFqQ3BnQUVlcFJzMFVOOW84LUxMZWFRTHFlOVRJNHVmLXoxeGpORlpmblNWUmwtc1lIc1NMQTJPdw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "소방관 순직 부천 화재, 지휘 문제 논란",
+   "summary": "부천 화재에서 소방관이 순직한 사건과 관련해 당시 지휘와 무전 내용이 공개되며 논란이 이어지고 있어요.",
+   "context": "공장에 인화물질이 있다는 보고가 있었는데도 공격적 진압 지시가 내려졌다는 내용이 알려졌어요. 소방당국과 정부는 재발 방지 대책을 논의 중이고, 현장 판단의 적절성이 쟁점이에요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ2M1eW16NVdQODlSMERsTkE1ZjNiLWNWZV9MWjZFRm9xOXVsUkUzQUFJWnJqRFQ1bVY5Vmhtd212RXVOMXlscFczVnBObEFVMGs4RTczdFJUWVlnc3VuREI1dXFCSjRCVXMzbzlYZk0zOWhiWk9qYWRZNUVNYmZrWko1a1lTMm5FM1VHdm5ZV0M?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "김정은 사망설에 국정원 '허위' 보고",
+   "summary": "국정원이 김정은 사망설은 허위라고 국회 정보위에 보고했고, 김정은은 군 행사에 모습을 드러냈어요.",
+   "context": "한동안 사망설이 돌았지만, 정보당국은 이를 부인했어요. 이후 김정은이 중대장대회를 주재하며 임전태세를 강조한 사실이 보도됐어요. 북한 관련 소식은 공식 확인이 어려워 정보당국 발표를 기준으로 보는 게 안전해요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlQ21tMVBwUGwwMlVVSnVJYVkxNWR1dlY1TzhfeThkQlZZQWdKVG00NXp4dHJFRE9hVWtuZFFKSzJUYWhoSGliR2stMVhXbFF5UFdjU0t1SHhCa2lCM2l1Q3c5c3VQanc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "푸틴, 우크라이나 최종 평화 협정 추진 언급",
+   "summary": "푸틴 대통령이 단기 휴전이 아닌 최종 평화 협정을 추진하겠다고 밝혔고, 우크라이나 동부는 러시아 땅이라고 주장했어요.",
+   "context": "러시아는 점령한 우크라이나 동부 지역의 영유권을 주장하고, 우크라이나는 이를 받아들이지 않아요. 미·러·우 3자 회담이 다시 열릴 가능성도 거론되지만, 영토 문제가 가장 큰 쟁점이에요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Nd1FnN2ZZaTkydVhNNi1kYkhKNVJ4QzRlZzZJdlh3bkxXNFlRV2FwZDRnN2FsQjdzNk9MM3FaN3hqTnZMT2xDc211SDh1Q2VsMWFBSzRNN0JOdXM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "초광역특구법 추진, 주52시간 예외 논란",
+   "summary": "정부가 지역 규제 특례를 담은 초광역특구법을 추진하는 가운데, 노동 규제 완화를 두고 찬반이 갈려요.",
+   "context": "정부는 지역 성장을 위해 규제 특례 320여 개를 담겠다는 입장이에요. 경제계는 환영하지만, 노동계와 일부 지역에서는 주52시간제가 무력화되고 영리병원까지 허용될 수 있다고 우려해요.",
+   "source": "헤드라인제주",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2VjhJWG9WQXZYQ0p2dkd4bW8xTElYaGc1c1VfdGNzZWFjQWRtYUhMbWdXdWFlOUpTN09XbFl1akdwM2xHbk5BZ3RXbFZwN0NidnJ5NnA2a1RVckdtT29BbmpfS2U1amhJRktYN2hQRUo2cXM?oc=5"
+  }
+ ],
+ "term": {
+  "word": "초광역특구",
+  "meaning": "여러 지역을 묶어 규제를 완화하고 특례를 주는 구역을 말해요. 지역 경제를 키우려는 취지이지만 노동·의료 규제 완화 논란도 따라와요.",
+  "example": "초광역특구가 생기면 지역에 기업이 오겠지만, 노동 규제는 어떻게 되는지도 같이 봐야 한대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도에 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 {비확률}% 확률로 비 소식이 있어요. 가을비 오면 괜히 따뜻한 국물이 생각나지 않으세요?",
+   "explain": "오늘 {지역} 최고 {최고}도, 최저 {최저}도에 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘은 {최고}도인데 내일은 {내일최고}도래요. 일교차보다 하루 차이가 더 커서 옷 고르기 어렵네요.",
+   "explain": "{지역} 오늘 최고 {최고}도, 내일 최고 {내일최고}도로 기온 차가 커요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 내일 최고 {내일최고}도까지 달라진대요. 가을 날씨가 변덕을 부리네요.",
+   "explain": "오늘 {지역} 최고 {최고}도에서 내일은 {내일최고}도로 바뀌어요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 최고 {최고}도까지 오른대요. 10월인데 아직 여름이 짐을 안 싼 것 같아요.",
+   "explain": "{지역} 오늘 최고 {최고}도, 최저 {최저}도로 가을치곤 더운 편이에요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 낮에 {최고}도까지 올라서 겉옷이 짐이 되겠어요. 가볍게 입고 나오셨어요?",
+   "explain": "오늘 {지역} 낮 기온은 {최고}도이고 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침은 {최저}도까지 내려갔대요. 겉옷 없이 나왔다가 후회했어요.",
+   "explain": "{지역} 오늘 아침 최저 {최저}도, 낮 최고 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "아침 {최저}도면 이제 확실히 쌀쌀하죠. 따뜻한 커피가 간절해지는 날씨예요.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 아침저녁 쌀쌀해요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 최고 {최고}도에 {날씨}래요. 산책하기 딱 좋은 가을 날씨죠?",
+   "explain": "{지역} 오늘 최고 {최고}도, 최저 {최저}도로 무난한 날씨예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 {최저}도에서 {최고}도 사이라 지내기 편하겠어요. 이런 날은 괜히 밖에 나가고 싶어져요.",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "뉴스 + 능청",
+   "desc": "사실 한 줄 뒤에 가볍게 한마디 덧붙이는 유형"
+  },
+  {
+   "name": "내 이야기 먼저 + 질문",
+   "desc": "내 경험을 꺼낸 뒤 상대에게 질문하는 유형"
+  },
+  {
+   "name": "자조로 수습",
+   "desc": "어색한 순간 솔직하게 낮추어 분위기를 푸는 유형"
+  },
+  {
+   "name": "사실 + 안도",
+   "desc": "날씨 사실에 공감을 더하는 유형"
+  }
+ ],
+ "date": "2026-10-24",
+ "weekday": "토요일",
+ "tone": "jondae",
+ "strength": "normal",
+ "generated_at": "2026-10-24 09:01",
+ "model": "claude-sonnet-5-5"
+}

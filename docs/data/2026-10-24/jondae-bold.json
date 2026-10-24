@@ -1,0 +1,502 @@
+{
+ "lede": "오늘은 늦게 찾아온 가을 태풍, 야구 플레이오프, 학교를 흔든 AI 시험 소동, 우주쓰레기, 찜질방 놀이터까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "직장·학교",
+  "text": "요즘은 시험 문제를 캡처해서 AI한테 풀게 했다가 육백 명이 재시험을 본 일도 있대요. 저는 그 소식만 듣고 제 쪽지시험 기억이 막 떠올랐어요.",
+  "why": "가벼운 놀람과 자기 경험으로 이어져서 상대가 '나도 그런 적 있는데' 하고 받기 쉬운 한마디예요.",
+  "explain": "건국대에서 한 학생이 시험 문제를 캡처해 AI로 99점을 받았다는 글을 올렸고, 그 시험을 본 학생 육백여 명이 재시험을 보게 됐다는 소식이에요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가장 안전",
+    "text": "이틀 뒤에 프로야구 플레이오프가 시작한대요. 저는 벌써 치킨 먼저 예약해야 하나 고민 중이에요.",
+    "explain": "가을야구 플레이오프가 이틀 뒤 열리고, 도전자인 KIA가 훈련에 구슬땀을 흘리고 있다는 소식이에요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "물고기 눈",
+    "safety": "가벼움",
+    "text": "어떤 물고기는 눈이 머릿속에 들어 있대요. 저는 제 눈이 어디 달렸는지도 요즘 자주 잃어버리는데요.",
+    "explain": "극한 환경에서 사는 생명체의 신기한 진화를 다룬 어린이 전시 이야기예요. 머리 속에 눈이 있는 물고기도 나와요."
+   },
+   {
+    "field": "음식",
+    "topic": "초가공식품",
+    "safety": "상대가 관심 있을 때",
+    "text": "초가공식품 많이 먹는 아이들은 음식 사진만 봐도 뇌가 더 크게 반응한대요. 저는 어른인데도 라면 사진에 뇌가 먼저 반응하더라고요.",
+    "explain": "연합뉴스 건강 기사에서, 초가공식품을 자주 먹는 어린이는 음식 사진을 볼 때 뇌 반응이 더 강했다는 연구를 소개했어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "우주쓰레기",
+    "safety": "가벼움",
+    "text": "하늘에서 우주쓰레기가 자꾸 떨어져서 걱정이 커지고 있대요. 이제는 우산 말고 헬멧을 챙겨야 하나 싶어요.",
+    "explain": "수명을 다한 인공위성이나 로켓 부품이 지구로 떨어지는 일이 잦아져서 인명 피해 우려가 커졌다는 뉴스예요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "늦가을 태풍",
+    "safety": "가장 안전",
+    "text": "10월 말에 태풍이 온다니 올해 날씨는 정말 지각생 같아요. 선배님 동네는 괜찮으세요?",
+    "explain": "태풍 참피의 영향으로 제주와 남해안에 비바람이 있고, 중부는 비교적 포근한 가을 날씨라는 소식이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "프로야구 쓰레기와 처리비",
+    "safety": "가벼움",
+    "text": "프로야구 관중이 13% 늘었는데 쓰레기는 24%나 늘었대요. 응원은 열심히 하는데 정리까지는 못 챙긴 모양이에요.",
+    "explain": "관중이 늘어난 만큼 경기장 쓰레기 양과 처리 비용도 크게 늘었다는 연합뉴스TV 보도예요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "잔나비 콘서트",
+    "safety": "상대가 관심 있을 때",
+    "text": "잔나비가 이번 공연에서 발라드만 불러도 재밌다고 했대요. 저도 가을 밤엔 발라드가 제일 잘 어울리는 것 같아요.",
+    "explain": "밴드 잔나비가 가을밤 콘서트에서 발라드 위주로 공연을 열었고 후기를 연합뉴스가 전했어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "드라마 화제성 순위",
+    "safety": "가벼움",
+    "text": "요즘은 TV뿐 아니라 유튜브 드라마까지 합쳐서 화제성 순위를 낸다고 해요. 저는 어디서 보는지도 헷갈려서 순위 따라가기가 벅차요.",
+    "explain": "굿데이터가 TV, OTT에 이어 유튜브 웹비드라마까지 화제성 조사에 포함하기 시작했다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음악·K팝",
+    "topic": "K메이크업 쇼",
+    "safety": "가장 안전",
+    "text": "20분 안에 K팝 아이돌로 변신하는 메이크업 쇼가 열렸대요. 저는 20분이면 아침에 겨우 집에서 나오는 정도예요.",
+    "explain": "YTN이 전한 K메이크업 쇼는 참가자들이 20분 안에 아이돌 콘셉트로 메이크업을 완성하는 대결이에요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "주말 날씨",
+    "safety": "가장 안전",
+    "text": "이번 주말은 남쪽엔 비가 많이 온다는데, 계신 곳은 어떠세요? 저는 이런 날 집에서 뭘 해야 오래 쉴 수 있을지 고민이에요.",
+    "explain": "태풍의 영향으로 제주와 남부에는 강한 비, 중부는 포근하다는 날씨 예보예요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "극한 생명체",
+    "safety": "가벼움",
+    "text": "눈이 머릿속에 있는 물고기도 있대요. 얼굴은 모르겠고 눈 위치만 들으면 사진 찍기가 좀 어려울 것 같아요.",
+    "explain": "극한 환경 생명체의 진화를 소개하는 어린이 대상 전시에서 나온 이야기예요."
+   },
+   {
+    "field": "음식",
+    "topic": "이색 찜질방",
+    "safety": "상대가 관심 있을 때",
+    "text": "땀 빼러 갔다가 하루 종일 노는 찜질방이 2030에서 인기래요. 저도 한 번 가면 저녁까지 못 나올 것 같아요.",
+    "explain": "찜질방에 놀이 공간과 콘텐츠를 더한 이색 공간이 젊은 층에 인기를 끌고 있다는 뉴시스 기사예요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "AI 시험 소동",
+    "safety": "가장 안전",
+    "text": "문제를 캡처해서 AI로 99점을 받았다는 글 때문에 600여 명이 재시험을 봤대요. 저는 그 소식에 99점보다 재시험 공지가 더 놀랍더라고요.",
+    "explain": "건국대 한 학생이 쓴 글이 퍼지면서 해당 시험을 본 학생들이 재시험을 보게 된 일이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI 토큰 거래",
+    "safety": "가벼움",
+    "text": "이제는 AI가 쓰는 계산 능력을 석유처럼 사고판다는 이야기가 나오고 있대요. 저는 제 점심값 계산도 어렵더라고요.",
+    "explain": "AI 연산에 쓰이는 토큰 가격에 베팅하는 금융상품이 나오면서 컴퓨팅 자원이 원자재처럼 거래될 수 있다는 AI타임스 기사예요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "상대가 관심 있을 때",
+    "text": "이틀 뒤 프로야구 플레이오프라서 월요일 아침 분위기가 벌써 궁금해요. 응원하시는 팀 있으세요?",
+    "explain": "프로야구 플레이오프가 이틀 뒤 시작하고, 도전자로 나서는 KIA가 훈련 중이라는 소식이에요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "드라마 화제성",
+    "safety": "가벼움",
+    "text": "요즘 드라마 화제성 순위에 유튜브 콘텐츠도 들어간다고 해요. 저는 쉬는 시간에 보는 영상이 사실상 드라마 같기도 해요.",
+    "explain": "굿데이터가 웹비드라마 화제성 조사를 시작했고 유튜브 콘텐츠도 순위에 포함하겠다는 이데일리 기사예요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "오늘 날씨",
+    "safety": "가장 안전",
+    "text": "오늘 남쪽엔 비가 많다는데, 이쪽은 비교적 포근하네요. 나가시는 길에 우산은 챙기셨어요?",
+    "explain": "주말 날씨 예보로, 태풍 영향권인 남해안·제주와 비교적 포근한 중부 지방의 차이를 말하는 거예요."
+   },
+   {
+    "field": "음식",
+    "topic": "초가공식품",
+    "safety": "가벼움",
+    "text": "초가공식품 많이 먹는 아이들은 음식 사진에도 뇌 반응이 더 크대요. 요즘은 간식 고를 때 뇌가 먼저 줄을 서는 것 같아요.",
+    "explain": "연합뉴스가 소개한 연구로, 초가공식품을 자주 먹는 어린이는 음식 사진에 뇌가 더 강하게 반응했다는 내용이에요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "저스틴 비버 팝업",
+    "safety": "상대가 관심 있을 때",
+    "text": "저스틴 비버가 서울 스카일락에서 몰입형 오디오 전시를 연대요. 눈 감고 들어야 할 것 같은 전시라서 꽤 궁금해요.",
+    "explain": "하입비스트에 따르면 저스틴 비버가 스카일락 서울 팝업에서 몰입형 오디오 전시를 연다는 소식이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "2027 소비 트렌드",
+    "safety": "가벼움",
+    "text": "2027 소비 트렌드 책에는 무리만 따라가지 않는 '알파쉽'이라는 말이 나온대요. 사실 저는 아직 올해 트렌드도 따라가는 중이에요.",
+    "explain": "2027년 소비 트렌드를 정리한 책에서 소개한 키워드로, 남들을 무작정 따르기보다 자기 기준으로 소비하는 태도를 뜻해요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제세요?",
+  "why": "정답이 따로 없고 누구나 한마디 보탤 수 있어서 대화가 이어지기 쉬워요."
+ },
+ "scenes": [
+  {
+   "title": "직장 점심시간, AI 시험 소동 꺼내기",
+   "topics": "AI 시험 소동, 프로야구 플레이오프",
+   "lines": [
+    {
+     "who": "a",
+     "text": "혹시 그 소식 보셨어요? 시험 문제를 캡처해서 AI로 풀었다는 글 때문에 학생 600명이 재시험을 봤대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 저는 처음 들어요. 재시험 정도면 꽤 큰일이었겠네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 대학교에서 있었던 일이래요. 문제 푸는 속도가 AI는 사람 몇 배라는데, 재시험 공지 뜨는 속도도 만만치 않았나 봐요.",
+     "humor": {
+      "type": "능청",
+      "why": "AI의 속도에 재시험 공지의 속도를 슬쩍 빗대서, 진지한 소식을 가볍게 비틀었어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그건 좀 빠르긴 했겠네요. 학생들은 얼마나 당황했을까요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저는 오히려 99점이 신경 쓰여요. 100점은 AI도 양심에 찔렸나 봐요.",
+     "humor": {
+      "type": "반전",
+      "why": "99점이라는 숫자에 의미를 붙여 AI를 사람처럼 만드는 반전 유머예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그러게요. 그건 생각 못 했네요. 아, 이번 주 프로야구 플레이오프 보세요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 챙겨 보려고요. 저는 응원 팀이 이기든 지든 치킨은 이긴 팀이 먹는 거라고 생각해서요.",
+     "humor": {
+      "type": "능청",
+      "why": "승패와 상관없이 치킨은 먹겠다는 속마음을 능청스럽게 말한 거예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그 논리면 저는 매번 이기고 있네요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "처음 만난 자리, 썰렁한 한마디 수습하기",
+   "topics": "우주쓰레기, 이색 찜질방",
+   "lines": [
+    {
+     "who": "a",
+     "text": "요즘 우주쓰레기가 하늘에서 자꾸 떨어진다는 소식이 있더라고요. 하늘에서 선물 온다고 생각하면 안 되는 거죠?",
+     "humor": {
+      "type": "능청",
+      "why": "위험한 소식을 선물에 빗대 가볍게 던졌지만, 상대는 웃기 애매한 순간이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "음, 그건 좀 무섭네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "아, 제가 너무 가볍게 말했네요. 죄송해요. 사실 인명 피해 우려가 커져서 걱정하는 사람이 많대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "저도 그 기사는 봤어요. 어디로 떨어질지 모르니까 신경 쓰이긴 해요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그래서 저는 하늘은 포기하고 땅에서라도 편하게 쉬려고 해요. 요즘 하루 종일 노는 찜질방이 인기래요.",
+     "humor": {
+      "type": "능청",
+      "why": "걱정스러운 소식에서 편안한 소재로 부드럽게 화제를 돌린 수습 장면이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "아, 거기 가 봤어요! 땀만 빼러 갔는데 저녁까지 있었어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 땀 빼러 갔다가 일정까지 빼고 오신 거네요.",
+     "humor": {
+      "type": "말장난",
+      "why": "'빼다'라는 단어를 땀과 일정에 겹쳐 쓴 가벼운 말장난이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 정확해요. 다음에 같이 가실래요?",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람에게 날씨 소재로 말을 걸어 보세요. 지역 차이를 열어 두는 질문이에요.",
+   "hints": [
+    "내가 아는 사실 한 줄",
+    "상대 동네를 묻는 질문"
+   ],
+   "answer": "이번 주말엔 남쪽엔 비가 많이 온다던데, 계신 곳은 어때요?",
+   "note": "사실+질문 유형이에요. 사실 하나를 던지고 상대 경험을 묻는 가장 쉬운 형태예요."
+  },
+  {
+   "q": "직장 동료와 AI 시험 소동 이야기를 나눠 보세요. 먼저 한마디로 시작해 보세요.",
+   "hints": [
+    "소식 한 줄",
+    "내 반응 한 줄"
+   ],
+   "answer": "문제 캡처해서 AI로 99점 받은 학생 글 때문에 재시험까지 봤대요. 저는 그 소식에 좀 놀랐어요.",
+   "note": "소식+내 반응 유형이에요. 감정을 한 줄 곁들이면 상대가 대답하기 쉬워요."
+  },
+  {
+   "q": "썰렁한 한마디를 던졌다고 가정하고, 분위기를 부드럽게 바꾸는 말을 해 보세요.",
+   "hints": [
+    "내가 한 말 인정",
+    "화제 바꾸기"
+   ],
+   "answer": "아, 제 농담이 좀 썰렁했네요. 그래도 날씨는 포근하죠?",
+   "note": "인정+전환 유형이에요. 어색함을 인정하고 가벼운 질문으로 넘어가면 오히려 호감이 생겨요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "태풍 참피, 제주·남해안에 비바람",
+   "summary": "10월 늦은 태풍 영향으로 제주와 남해안에 강한 비가 내리고 있어요. 중부는 비교적 포근해요.",
+   "context": "태풍 참피는 대만을 거쳐 일본 쪽으로 향하고 있고, 우리나라는 직접 상륙은 아니지만 간접 영향으로 제주와 남부에 많은 비가 오고 있어요. 제주는 최대 250mm 이상 예상되고, 중부는 서울 낮 21도 안팎으로 포근해요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1USl95NHVFczNLbkdmRWJNTjRuYk1mcnFqb3VmVUFVS2pZRlVzN2JiclZHby1lcHhVRmFUeUQtaDdVMDRMQmR6RnJMeFdqSW1GMUJkbU55enZTQjI4QVE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI로 99점 받은 학생, 600여 명 재시험",
+   "summary": "시험 문제를 캡처해 AI로 풀었다는 글이 퍼지면서 건국대 학생들이 재시험을 보게 됐어요.",
+   "context": "대학교 시험에서 AI를 활용한 부정 의혹이 제기되면서 학교가 재시험을 결정했어요. AI 시대에 시험 방식과 공정성을 어떻게 지킬지에 대한 논의가 커지고 있어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zVlNJQ0Jrdk5KUVN0MzBjWWhqSnhrQUNvczJxYm1XaW4tQ3RNTHpqNmVyOEZTdHloWnhyR0g5SkFxaGJFb2tkUmZkMWVRNU9nRTJoeFZrc2R6a3M1T09GRzZ1MzJHU2pBSmM1aUx2RDlfdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 플레이오프 D-2",
+   "summary": "이틀 뒤 플레이오프가 시작되고, 도전자 KIA가 훈련에 구슬땀을 흘리고 있어요.",
+   "context": "플레이오프는 포스트시즌에서 결승인 한국시리즈로 가기 위한 준결승 격 단계예요. 올해 관중이 크게 늘어난 만큼 가을야구에 대한 관심도 높아요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jalh1anp2cTBVanVOUmltdHVmcGEwTXpnNzVndDdzb080bS0zTjF4Yjk2ZHlfUkh3NThDVjJab0JrU1RDU21qcmQtX1B4VjJoYUFUUlI0YzFUelh5MFVVSnU5V3UxRnM?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "AI 토큰 가격에 베팅하는 금융상품 등장",
+   "summary": "AI가 쓰는 컴퓨팅 능력이 석유처럼 거래될 수 있다는 이야기가 나와요.",
+   "context": "토큰은 AI가 글을 읽고 쓸 때 쓰는 처리 단위예요. 이 가격을 기준으로 한 금융상품이 나오면서, 컴퓨팅 자원이 원자재처럼 거래되는 시대가 올 수 있다는 분석이 있어요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93TjZrbWFhMzhUZUNQTXc4ZmxMQzZTLWJCVUo5bmQwaDF1cXNpX3FGVmRzQk5DTVBINmxHLXJuajRPejViVDFLQkJ3cF9qMHE3TWNoUG9jbFhmOU9od0QyMUlfRUc4U0RnNHc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "20분 안에 아이돌로, K메이크업 쇼",
+   "summary": "참가자들이 20분 만에 K팝 아이돌 메이크업을 완성하는 대결이 열렸어요.",
+   "context": "K팝 인기와 함께 K뷰티, 특히 메이크업에 대한 관심도 커지고 있어요. 이런 쇼는 외국인 관광객과 젊은 층에게 한국 문화를 체험하게 하는 콘텐츠로 주목받아요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KbU8wRy1ZeWZwWl96VWVhbERtNWU3M1pqelRBQjhoaUpKMHlRQWE1dm9wVUN1LTRJaVNPeWNaZmo5TjNVSHVnWGRxN0FVTVljcWJjRVBoZjdtREtqd3c?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "유튜브 드라마까지 화제성 조사",
+   "summary": "굿데이터가 TV와 OTT에 이어 유튜브 웹비드라마까지 화제성 조사를 시작했어요.",
+   "context": "화제성 지표는 시청률 말고도 검색량, 언급량 등으로 콘텐츠가 얼마나 이야기되는지 보는 기준이에요. 유튜브에서 드라마를 소비하는 방식이 늘면서 조사 범위도 넓어졌어요.",
+   "source": "이데일리",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ0F3WFpBQ3hoLUFvM2Jqb0hkcU9ESGk1NnRPUzBoMmZ0S1Y1NjlIVXFiczFEb3lNVzVFSTBDamxjN2h0c2pDSV80UjNubFF3bmRzRkY0RG1ncmhfUmloTlNrLVVyUnZYLWpCSlRabXpBcFZRdDJRanB1dEVqeVpUdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "초가공식품 즐기는 아이, 음식 사진에 뇌 반응 강해",
+   "summary": "초가공식품을 자주 먹는 어린이는 음식 사진을 볼 때 뇌가 더 크게 반응했다는 연구예요.",
+   "context": "초가공식품은 공장에서 여러 첨가물을 넣어 만든 과자, 라면, 탄산음료 같은 식품을 말해요. 이런 음식이 아이들의 식욕 조절에 어떤 영향을 주는지 보여 주는 연구라서 눈길을 끌어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZX1E4eUpMS1lUSWdhYllXaW5Lc1pLX3NXSWczMEJDNUR1TmVFZGlxZmFVZU5jdk5wRFQ2bUhZalFqOV9WYkV5WC1rU3ZRaUh2ZG1pYzlDcm15U1JhTlRsMA?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "머릿속에 눈이 있는 물고기",
+   "summary": "극한 환경에서 사는 생명체의 진화를 소개하는 전시에서 신기한 물고기가 화제예요.",
+   "context": "깊은 바다처럼 빛이 거의 없는 곳에서 살아남기 위해 몸의 구조가 바뀐 생물이 많아요. 이런 진화의 비밀이 미래 기술 개발에도 힌트가 된다는 점을 아이들에게 보여 주는 전시예요.",
+   "source": "헬로디디",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yR1JHanJ6dWE4d0QxZVZLc1Z5MXdtNUNpd0JGTEY3cGNTcElaclVKTjhzcGFjdHVSVXllMkZkcDdWUmdDSXlxRy1lYkNpZXc5d2dIUHVuRnZfNy1TTWlwbDhOWjVVSTdhdVE?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "오세훈 서울시장 2심 무죄 선고",
+   "summary": "오세훈 시장이 2심 재판에서 무죄 판결을 받았어요.",
+   "context": "재판부는 오 시장과 관련자 사이에 비용 대납을 요청할 만한 관계가 아니었다고 판단했어요. 이번 판결은 정치권에서 보궐선거 등 여러 이야기로 연결되고 있고, 해석은 정당마다 달라요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE91REdvQXB5YTFnZ0RseDdJZkJZTmozQ3N6NVQ0NkRyM0NUeHlkbllFdzVZLUM2aUZmeFFqQ3BnQUVlcFJzMFVOOW84LUxMZWFRTHFlOVRJNHVmLXoxeGpORlpmblNWUmwtc1lIc1NMQTJPdw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "초광역특구법 추진, 규제 특례 논란",
+   "summary": "정부가 지역에 규제 특례를 주는 초광역특구법 제정을 추진하는데 찬반이 갈려요.",
+   "context": "정부는 규제 특례 약 320여 개를 담아 지역 성장을 돕겠다고 해요. 경제계는 환영하지만 노동계 일부는 주 52시간제가 약해질 수 있다고 우려해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2VjhJWG9WQXZYQ0p2dkd4bW8xTElYaGc1c1VfdGNzZWFjQWRtYUhMbWdXdWFlOUpTN09XbFl1akdwM2xHbk5BZ3RXbFZwN0NidnJ5NnA2a1RVckdtT29BbmpfS2U1amhJRktYN2hQRUo2cXM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "북한, 군 대회 열고 임전태세 강조",
+   "summary": "김정은이 중대장대회를 주재해 사상 정화와 강군 건설을 강조했어요.",
+   "context": "일각에서는 김정은 사망설이 돌았지만 국정원은 허위라고 국회에 보고했어요. 북한은 국경선 방송 등 대응 수단도 언급하고 있어서, 남북 긴장 관련 소식으로 지켜볼 필요가 있어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlQ21tMVBwUGwwMlVVSnVJYVkxNWR1dlY1TzhfeThkQlZZQWdKVG00NXp4dHJFRE9hVWtuZFFKSzJUYWhoSGliR2stMVhXbFF5UFdjU0t1SHhCa2lCM2l1Q3c5c3VQanc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "푸틴, 최종 평화협정 추진 입장",
+   "summary": "푸틴 대통령이 우크라이나와의 최종 평화 협정을 추진하겠다고 밝혔어요.",
+   "context": "푸틴은 우크라이나 동부를 러시아 땅이라고 주장했고, 젤렌스키는 미국·러시아·우크라이나 정상회담을 위해 실무 회담이 필요하다고 말했어요. 양쪽 입장 차이가 커서 실제 합의까지는 시간이 걸릴 수 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Nd1FnN2ZZaTkydVhNNi1kYkhKNVJ4QzRlZzZJdlh3bkxXNFlRV2FwZDRnN2FsQjdzNk9MM3FaN3hqTnZMT2xDc211SDh1Q2VsMWFBSzRNN0JOdXM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국·이란 긴장 계속, 걸프 해저케이블 위협",
+   "summary": "이란이 미국의 공격이 재개되면 걸프 해역 해저케이블을 타격하겠다고 위협했어요.",
+   "context": "트럼프 대통령은 이란이 중간선거를 앞두고 유가를 올리려 한다고 비판했고, 이란은 신형 무인기를 공개했어요. 중동 갈등은 국제 유가와 통신에도 영향을 줄 수 있어 세계가 주목하고 있어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aOVhxTHh6UkFERnpXN1ZoNnRFRlQzc1N4UWhZXzdHaTl5WDB3YWpVcUw0TU54ZVNQX3pTU2JrRFZnUmpCY0lXYklIZEZBLWU0MEpxNUdoLXN5b1dFbGJiOEFicGtlYWc?oc=5"
+  }
+ ],
+ "term": {
+  "word": "초광역특구",
+  "meaning": "여러 지자체를 묶어서 규제를 완화해 주는 특별 구역을 말해요. 지역 성장을 빠르게 하려는 정책이에요.",
+  "example": "초광역특구가 생기면 지방에서도 기업이 더 쉽게 일할 수 있대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 비 소식이 {비확률}%라서 오늘은 우산이 가방 속 주인공이 될 것 같아요.",
+   "explain": "{지역} 기준으로 오늘 날씨는 {날씨}이고 최고 기온은 {최고}도예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {최고}도인데 내일은 {내일최고}도래요. 옷 고르기가 계속 퀴즈 같아요.",
+   "explain": "오늘 {지역} 최고 {최고}도, 내일 최고 {내일최고}도로 하루 만에 차이가 꽤 나요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 오늘과 내일 기온 차이가 꽤 크대요. 겉옷을 챙기는 게 안전할 것 같아요.",
+   "explain": "{지역}의 오늘 최저는 {최저}도, 최고는 {최고}도라서 일교차가 있어요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮엔 {최고}도까지 올라간대요. 가을인데 여름이 아직 퇴근을 안 했네요.",
+   "explain": "{지역} 오늘 최고 기온이 {최고}도라서 낮에는 덥게 느껴질 수 있어요."
+  },
+  {
+   "cond": "hot",
+   "text": "{최고}도면 오늘은 가을 옷 입고 여름 기분으로 다녀야 할 것 같아요.",
+   "explain": "{지역}의 오늘 날씨는 {날씨}이고, 최고 기온은 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침엔 {최저}도까지 내려간대요. 이불에서 나오는 게 오늘의 첫 과제예요.",
+   "explain": "오늘 {지역} 아침 최저 기온은 {최저}도, 낮 최고는 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침은 {최저}도라서 쌀쌀하더라고요. 따뜻한 커피가 더 생각나는 날이에요.",
+   "explain": "{지역}은 아침 {최저}도, 낮 {최고}도로 아침저녁이 쌀쌀해요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 최고 {최고}도, 날씨가 {날씨}라서 산책하기 좋을 것 같아요.",
+   "explain": "{지역}의 오늘 기온은 {최저}도에서 {최고}도, 날씨는 {날씨}예요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {날씨}에 {최고}도래요. 이런 날은 밖으로 나가야 손해가 없을 것 같아요.",
+   "explain": "오늘 {지역}은 비 올 확률이 {비확률}%이고 낮 최고는 {최고}도예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "사실+질문",
+   "desc": "사실 하나를 던지고 상대 경험을 묻는 유형"
+  },
+  {
+   "name": "소식+내 반응",
+   "desc": "소식을 전하고 내 느낌을 곁들이는 유형"
+  },
+  {
+   "name": "인정+전환",
+   "desc": "어색함을 인정하고 가벼운 화제로 넘기는 유형"
+  }
+ ],
+ "date": "2026-10-24",
+ "weekday": "토요일",
+ "tone": "jondae",
+ "strength": "bold",
+ "generated_at": "2026-10-24 09:02",
+ "model": "claude-sonnet-5-5"
+}
