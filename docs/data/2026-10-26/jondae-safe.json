@@ -1,0 +1,492 @@
+{
+ "lede": "오늘은 태풍이 지나간 뒤의 비, 수요일부터 뚝 떨어지는 기온, 프로야구 플레이오프와 손흥민 경기, BTS 공연, AI 이야기, 퓨전 떡과 김밥 소식까지 골고루 준비했어요.",
+ "today": {
+  "situation": "직장·학교",
+  "text": "요즘 편의점에 피자설기라는 게 나왔대요. 떡이랑 피자가 만났다니 궁금하지 않으세요?",
+  "why": "가볍고 안전한 음식 소재라서 누구에게나 부담 없이 꺼낼 수 있어요.",
+  "explain": "GS25에서 SNS에서 화제가 된 퓨전 떡 상품으로 피자설기를 내놨다는 소식이에요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가벼움",
+    "text": "어제 프로야구 플레이오프 1차전이 태풍 때문에 비로 취소됐대요. 야구 좋아하세요?",
+    "explain": "태풍 '참피' 영향으로 어제 열릴 예정이던 플레이오프 1차전이 우천 취소됐대요."
+   },
+   {
+    "field": "음식",
+    "topic": "피자설기",
+    "safety": "가장 안전",
+    "text": "편의점에 피자설기라는 게 나왔대요. 떡이랑 피자라니, 어떤 맛일지 궁금하더라고요.",
+    "explain": "GS25가 SNS에서 화제인 퓨전 떡을 상품으로 출시했다는 소식이에요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "BTS 아르헨티나 공연",
+    "safety": "가벼움",
+    "text": "BTS가 아르헨티나에서 마지막 공연을 했는데 팬분들이 눈물까지 흘렸대요. 혹시 들어보셨어요?",
+    "explain": "BTS 월드투어 아르헨티나 마지막 공연에서 현지 팬들이 환호하고 울었다는 현지 르포가 나왔어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "씨름 도전",
+    "safety": "상대가 관심 있을 때",
+    "text": "66세에 씨름판에 도전하신 분이 있대요. 상대가 16세 중학생이었다니 대단하죠?",
+    "explain": "한 쥬얼리 대표님이 66세에 씨름에 도전해 16세 여중생과 맞붙어서 화제가 됐대요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "태풍 뒤 날씨",
+    "safety": "가장 안전",
+    "text": "태풍이 지나갔는데도 오늘 오전까지는 비가 온다고 하네요. 오는 길은 괜찮으셨어요?",
+    "explain": "태풍 '참피'가 약해지면서 낮까지 곳곳에 비가 오고, 수요일부터는 기온이 뚝 떨어진대요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "경험을 학습하는 AI",
+    "safety": "가벼움",
+    "text": "요즘 AI가 경험까지 배워서 연구 시간이 줄어든다는 소식을 봤어요. 저는 아직도 길 찾기도 헤매는데요.",
+    "explain": "AI가 경험 자체를 학습해서 연구에 필요한 횟수와 시간을 줄여 준다는 연구 소식이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI 투자와 수익",
+    "safety": "가벼움",
+    "text": "AI에 엄청 투자했는데 수익은 어디 있냐는 이야기가 요즘 나온대요. 어른들은 이런 흐름 어떻게 보세요?",
+    "explain": "AI에 막대한 투자를 했지만 비기술 기업엔 재무 성과가 거의 없다는 분석과, 중국 AI 주가 랠리가 꺾였다는 소식이 나왔어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "가곡과 K팝",
+    "safety": "상대가 관심 있을 때",
+    "text": "한국 가곡을 K팝처럼 세계에 알리고 싶다는 가수분 인터뷰를 봤어요. 좋아하시는 가곡 있으세요?",
+    "explain": "성악가 임태경 씨가 한국 가곡을 K팝처럼 세계에 알리고 싶다고 인터뷰에서 말했어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음식",
+    "topic": "김천김밥축제",
+    "safety": "가장 안전",
+    "text": "김천에서 김밥축제가 열렸는데 김밥 종류가 60가지나 됐대요. 좋아하는 김밥 있으세요?",
+    "explain": "김천김밥축제에서 이색 김밥 60종이 한자리에 모여 사람들이 북적였대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "기온 변화",
+    "safety": "가장 안전",
+    "text": "수요일부터 기온이 확 내려간다는데, 겉옷 미리 챙기셔야겠어요. 요즘 뭐 입고 다니세요?",
+    "explain": "태풍이 지나고 주 중반인 수요일부터 다시 기온이 뚝 떨어진다는 예보가 나왔어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "대학로 공연",
+    "safety": "가벼움",
+    "text": "대형 광고도 스타도 없는데 대학로에서 인기 공연이 된 작품이 있대요. 공연 보러 가는 거 좋아하세요?",
+    "explain": "KBS가 광고 없이 입소문만으로 대학로 인기 공연이 된 작품의 비결을 소개했어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민 LA 더비",
+    "safety": "가벼움",
+    "text": "손흥민 선수가 오늘 LA 더비에서 도움 신기록에 도전한대요. 축구 좋아하세요?",
+    "explain": "손흥민이 LA 더비에서 구단 도움 신기록과 플레이오프 확정을 노린다는 기사예요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "가상 섬 AI",
+    "safety": "가벼움",
+    "text": "가상 섬에 혼자 둔 AI가 스스로 놀이를 만들었다는 기사를 봤어요. 저보다 주말을 더 알차게 보내는 것 같아요.",
+    "explain": "가상의 섬에 홀로 둔 AI가 스스로 놀이를 만들고, 개발자도 몰랐던 기술까지 발견했다는 연구 소식이에요."
+   },
+   {
+    "field": "음식",
+    "topic": "피자설기",
+    "safety": "가장 안전",
+    "text": "편의점에 피자설기가 나왔대요. 점심 후식으로 도전해 보실래요?",
+    "explain": "GS25가 SNS 화제 상품인 피자설기를 선보였다는 소식이에요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "유통가 이색 상품",
+    "safety": "가벼움",
+    "text": "요즘 캐릭터 양말이랑 고구마 치즈롤 같은 이색 상품이 많이 나온대요. 혹시 써보신 거 있으세요?",
+    "explain": "소비심리가 얼어붙자 유통업계가 이색 캐릭터 상품과 새로운 간식으로 승부하고 있다는 기사예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "출근길 비",
+    "safety": "가장 안전",
+    "text": "오늘 오전까지는 비가 온다는데 출근길 괜찮으셨어요? 저는 우산이 저를 챙기는 기분이에요.",
+    "explain": "수도권과 영남, 제주에 오전까지 비가 오고 바다엔 풍랑과 강풍이 분다는 예보예요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "13년 만의 한국행",
+    "safety": "상대가 관심 있을 때",
+    "text": "13년 만에 한국에 온 누군가가 서울 곳곳에서 포착돼 화제래요. 혹시 보셨어요?",
+    "explain": "SBS가 13년 만에 한국을 찾은 인물이 서울 곳곳에서 목격돼 화제라고 보도했어요."
+   },
+   {
+    "field": "음식",
+    "topic": "고구마 치즈롤",
+    "safety": "가장 안전",
+    "text": "요즘 고구마 치즈롤 같은 새 간식이 나온다는데, 가을엔 고구마가 또 제맛이죠?",
+    "explain": "유통업계가 가을에 맞춰 고구마 치즈롤 같은 이색 상품을 강화한다는 기사예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "가을 옷차림",
+    "safety": "가장 안전",
+    "text": "이번 주 수요일부터 쌀쌀해진다니까 따뜻한 차 생각이 나지 않으세요?",
+    "explain": "태풍이 지나가고 주 중반부터 다시 기온이 떨어진다는 예보가 나왔어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "수원 7연승",
+    "safety": "가벼움",
+    "text": "K리그2 수원이 구단 최다인 7연승을 했대요. 혹시 축구 좋아하세요?",
+    "explain": "수원이 성남 원정에서 2대0으로 이겨서 구단 역대 최다 7연승을 기록했대요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제세요?",
+  "why": "누구나 답할 수 있고 취향이 드러나서 대화가 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "처음 만난 사람에게 날씨로 말 걸기",
+   "topics": "태풍 뒤 날씨, 피자설기",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕하세요. 오늘 오전까지 비가 온다는데 오시는 길 괜찮으셨어요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "네, 우산 챙겨서 괜찮았어요. 태풍이 지나갔다던데 아직 바람이 세네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "맞아요. 제 우산이 저보다 더 열심히 바람과 싸우고 있어요.",
+     "humor": {
+      "type": "의인화",
+      "why": "우산을 의지를 가진 존재처럼 표현해서 온화한 웃음을 만들었어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그렇죠. 우산이 고생이 많네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러게요. 그래서 오늘은 따뜻한 간식이 생각나요. 편의점에 피자설기가 나왔대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "피자설기요? 떡이랑 피자가 같이 있는 거예요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 퓨전 떡이 유행이래요. 저는 용기가 안 나서 아직 못 먹어봤어요.",
+     "humor": {
+      "type": "자조",
+      "why": "나를 살짝 낮추면서 상대가 편하게 웃을 수 있게 했어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "저도 궁금했는데, 다음에 같이 도전해 봐요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기",
+   "topics": "AI, 가상 섬",
+   "lines": [
+    {
+     "who": "a",
+     "text": "요즘 AI가 가상 섬에서 혼자 놀이를 만들었다는 기사를 봤어요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "AI가 혼자서 놀았다고요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 저보다 주말을 알차게 보내더라고요. 저는 소파와 하루 종일 같이 있었는데요.",
+     "humor": {
+      "type": "자조",
+      "why": "나를 낮춰서 가볍게 웃기되 상대를 소재로 삼지 않았어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...아, 네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "죄송해요, 방금 말은 좀 썰렁했죠. 소파가 서운해하겠어요.",
+     "humor": {
+      "type": "의인화",
+      "why": "썰렁함을 인정하고 소파를 의인화해 분위기를 부드럽게 풀었어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 소파한테 사과하셔야겠네요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러게요. 아무튼 그 AI가 개발자도 몰랐던 기술을 스스로 발견했대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "신기하네요. 어떤 기술인지 궁금해요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "처음 만난 사람에게 날씨로 말 걸기. 오늘 오전 비 소식을 활용해 보세요.",
+   "hints": [
+    "날씨 사실 + 안부 질문",
+    "가벼운 자조 한 스푼"
+   ],
+   "answer": "오늘 오전까지 비가 온다는데 오시는 길 괜찮으셨어요?",
+   "note": "날씨 사실에 안부 질문을 붙이는 가장 안전한 유형이에요."
+  },
+  {
+   "q": "직장에서 점심 후에 가벼운 음식 이야기를 꺼내 보세요.",
+   "hints": [
+    "새로 나온 상품",
+    "궁금하다는 표현"
+   ],
+   "answer": "편의점에 피자설기가 나왔대요. 점심 후식으로 한번 도전해 볼까요?",
+   "note": "소식 한 줄에 제안을 붙이는 유형이에요."
+  },
+  {
+   "q": "어른께 AI 이야기를 가볍게 꺼내 보세요.",
+   "hints": [
+    "기사 한 줄",
+    "나를 낮추는 한마디"
+   ],
+   "answer": "AI가 경험까지 배워서 연구 시간이 줄어든다는 소식을 봤어요. 저는 아직도 길 찾기도 헤매는데요.",
+   "note": "소식에 자조를 살짝 더하는 유형이에요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "태풍 '참피' 물러가도 오전까지 비",
+   "summary": "태풍 영향으로 남부와 제주에 오전까지 비가 오고, 수요일부터 기온이 뚝 떨어진대요.",
+   "context": "제30호 태풍 '참피'가 온대저기압으로 약해지면서 오전까지 수도권, 영남, 제주에 비가 내려요. 제주에는 많은 비가 와서 하늘길에 차질이 있었고, 바다에는 풍랑과 강풍이 부니 주의가 필요해요. 수요일부터는 다시 기온이 떨어질 예정이에요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gay12SFM3OFBaUVNqdzdhUFZGLTFXOGthcGlnQWJJYlNpNk8tTE1BRlh4QzJkNFFpaDhzaUpVeHE3S0s5eDVTcVBBVXpVLVA0T3BtaE1WNzdXdjI3?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "태풍에 프로야구 PO 1차전 취소",
+   "summary": "태풍 영향으로 프로야구 플레이오프 1차전이 비로 취소됐어요.",
+   "context": "플레이오프는 프로야구에서 한국시리즈에 오를 팀을 가리는 경기예요. 태풍 '참피'의 영향으로 1차전이 열리지 못하고 우천 취소됐어요. 일정은 뒤로 밀리게 돼요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zaVVnUXFSRFVsOWd0b1ktYzhITExXanEtZGhDQ0dlVkpVYUhrLXZvUDNXMWczQ2NGNGJrWF85TmpHRUQ3S2VvNWxDcVdoMmNRcDJZd0ZPQ2UzWm1ULWx2RGROV2hjYjQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "BTS 아르헨티나 마지막 공연 현장",
+   "summary": "BTS 아르헨티나 마지막 공연에서 팬들이 함성과 눈물로 호응했대요.",
+   "context": "BTS는 월드투어 중에 아르헨티나에서 마지막 공연을 가졌어요. 현지 팬들이 'BTS는 문화 혁명'이라고 말할 만큼 뜨겁게 반응했다는 현장 르포가 나왔어요.",
+   "source": "연합뉴스 한민족센터",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jZlFJWEl5ZHRiT0lfWHdsaFlPNzdqZkdDcC1CUllrTUZ2RFhkbkIyQlpxRG5rMFRZbERjaG5ZWmNoeW5SM3RUM2RRaThzek9CbURFV2l0ZnBVVmwxTW9kNjJCTmdRZzF5Q3NVZUdHbkJkdU1B?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "가상 섬에 둔 AI, 스스로 놀이를 만들었다",
+   "summary": "가상 섬에 홀로 둔 AI가 놀이를 만들고 개발자도 몰랐던 기술을 발견했대요.",
+   "context": "연구진이 AI를 가상의 섬에 혼자 두고 관찰했더니 AI가 스스로 놀이를 만들어 냈어요. 심지어 개발자도 예상하지 못한 기술까지 찾아냈다고 해요. AI가 스스로 탐색하고 배우는 능력을 보여 주는 사례예요.",
+   "source": "AI타임스",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tandXV04xMVEtZ2dZVjRCNjgtRXM5M2ZOeFVIbWY5T2UwckEzT0FIcmVPM1RJRG5VVTF6Uy1wYzJLcHFneXNoQ1ozYU95cXZoMmY1Q25GRzl0R1BNSEN1STJpY0R1R0hKcVE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "GS25 피자설기 등 퓨전 떡 열풍",
+   "summary": "GS25가 SNS에서 화제인 피자설기를 선보였어요.",
+   "context": "설기는 쌀가루를 쪄서 만든 부드러운 떡이에요. 유통가에서 퓨전 떡이 계속 인기를 끌고 있고, GS25가 SNS에서 화제가 된 피자설기를 출시했어요.",
+   "source": "팝콘뉴스",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QMDRIbE9WMG1UNzRBcUFVR3Nta3NiRFVhcXNpb29xeENTTHQyRGk0WnNqYW1zNUpnZW10UTJjOThacFlrMHgzUGpZMWtRcVBHQ0FhdVRleWhmTnowMkRKNlJYcENQazV0dnlCUExKVdIBckFVX3lxTE80TC1hTmZqRnJHN3dST2RtZTBFZGN4YlllLXNJaVplQjJfaE9DZW13TmxhSGRSX1BDdks3LVhWMThGU0F1aUp0M0d1SW9HUGRqdnNJSGRhY3ZzQjZrakVOeUZrajVFWWRYRHBBMW9JUDJWZw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "AI 투자 대비 수익은 어디에",
+   "summary": "AI 투자 대비 수익이 아직 불분명하다는 분석이 나오고 있어요.",
+   "context": "사모펀드 아폴로는 AI가 비기술 기업엔 재무 성과를 거의 주지 못했다고 평가했어요. 중국에서도 AI 관련 주가 랠리가 꺾였다는 보도가 나왔고, 미국에서는 S&P500 기업들의 실적 발표가 이어져 AI 성과가 확인될지 관심이에요.",
+   "source": "연합인포맥스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FcFFycDNJU21GakxQMllSVmNmUUk2RmFFOTlQZ0FYRXk1MlVjc2ZzZVV1SWFscGdqNmw0ZEpUeXZQWVdITlJiRzAxMDhfVzdwWmJNWlFYNERETnJjcHFuYkNOX0lNckZUNk5FTG5MZFQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "66세 씨름 도전, 16세 중학생과 맞대결",
+   "summary": "66세 대표님이 씨름판에서 16세 중학생과 맞붙어 화제가 됐어요.",
+   "context": "한 쥬얼리 업체 대표가 66세의 나이로 씨름에 도전했어요. 상대는 16세 여중생이었고, 나이 차이를 넘어선 도전이 화제가 되었어요.",
+   "source": "EKW이코리아월드",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLeFdJOThuZnZZOEIyVGhoS2VXV0JwbV9aUW9hdnpxTXNaTjhDOWVJN1d2MHJnYXg3MEUxSW9pd1hiWWFIcV9OS1p6dGJTOFl1LTN6NUZRdkRidEw0RnhIWjdObElzQQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "김정은, 중국 단둥 당일치기 방문",
+   "summary": "김정은 위원장이 중국 단둥을 당일치기로 방문해 북중 협력 강화를 내세웠어요.",
+   "context": "김정은은 열차 대신 승용차로 국경을 넘어 단둥을 찾았고, 항미원조기념관과 자동차 공장을 시찰했어요. 시진핑 주석이 아닌 서열 4위 왕후닝이 맞이한 점이 눈길을 끌었어요. 일각에서는 대북 제재에 구멍이 커질 수 있다는 분석을 내놓고 있어요.",
+   "source": "VOA 한국어 홈페이지",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTGVlT09oNEpib051NUpNZDdXTmU3bEhHaUZKNGw4N3BNNG5qeXpab1Z0LXMycGtqbV9zVUE0dlFySFBSYl96VFFkcjhFSlJ5ckhq0gFTQVVfeXFMT2pJM1A1dGE5eVE4N1hDdVRZRHVPTWx4VjhlS0N5RGp6dWdrQWhBdmpic1QtYXJHQm1xcTBzNU02NEwxN0NiZnpzR2Q3QlJQcGhsLWM?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국 중간선거 열흘 앞, 오바마와 트럼프 맞불 유세",
+   "summary": "미국 중간선거를 열흘 앞두고 전현직 대통령이 각각 유세에 나섰어요.",
+   "context": "중간선거는 대통령 임기 중간에 치르는 의회 선거예요. 오바마 전 대통령은 현 정부를 강하게 비판했고, 트럼프 대통령은 관세 효과를 내세우며 반박했어요. 양측의 주장은 서로 달라 선거 결과가 향후 정책에 영향을 줄 전망이에요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QeF93TTlpeFo4SExjcnRXQ2t0Q3c4d2lKTXAzREc2ZnNTaWVLSHNKRmtYN2RFMjJHZ3FoOEhvcGw0aGpYOGpGcl9PMlA4dW1HTjU3dzZzOFg4VEVWME9qTzg2b012YTNfcmtFM3VHRQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "오세훈 서울시장 2심에서 무죄",
+   "summary": "오세훈 서울시장이 2심에서 유죄 판단을 뒤집고 무죄를 받았어요.",
+   "context": "1심에서는 유죄였지만 2심 재판부는 명태균 씨 진술의 신빙성을 인정하지 않아 무죄로 판단했어요. 이에 대해 정치권에서는 선거를 앞두고 야권과 여권 모두 각자의 해석을 내놓고 있어요. 다만 아직 최종 판결은 아니에요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DYXgzYzdMcmVqLUZOd01GZUFhTmQwTHNOcjc0RE5aUzd4dFpEQkRNNUJGVFJWcnI0ZkxLTjRlQi0zNWIyMF9lR1JBcjFLMk45czRjUEluQWFzQdIBX0FVX3lxTE8xNWhoakh6NXJ4SjVYWDM2Y3lFMHZlc090aDFRWW9iSllJSzRlb0xYeWRwY1dpa2x0WVZfY2h1WDY1bUx1Q0g0VGRZY1kwbTVaOEgwYlNRUnhYSnpTOU1F?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "프랑스 대규모 시위, 1,300명 체포",
+   "summary": "프랑스에서 대규모 시위가 이어져 1,300명이 체포됐어요.",
+   "context": "시위는 대체로 산발적인 충돌 수준에 그쳤고, 지난 약탈 사태가 재연되지는 않았어요. 상점들은 합판으로 가게를 막는 등 대비를 강화했어요. 프랑스 대선 후보들은 이를 표심 확보에 활용하고 있어요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54emtmeFgxYXYySzV0QnBmTDZLZW15cUxmdmMxWlZDYTdqcGF2ckJzWmdyVXp4emw1Ql9vRXBtZWtfN2lJN3R5ZjFSdFVDZXRVODMxMW9uTjlXR1VfdkxJT2dHUU02V2c?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "외국인 건강보험 첫 1조원 흑자",
+   "summary": "외국인 대상 건강보험 재정이 처음으로 1조원 흑자를 기록했어요.",
+   "context": "외국인이 낸 보험료가 받은 급여보다 많아 1조원 흑자가 났어요. 다만 중국인은 1년 만에 400억 원대 적자로 돌아섰고, 이를 두고 상호주의 논쟁이 다시 불붙고 있어요. 찬반 의견이 모두 있는 사안이에요.",
+   "source": "한국일보",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBINlFXNXh5RnIyNmVRVWJicEJtVkQ1WVY3WjB5bENWcUxsTjcwTGVLdXFKQi1hMktKZmpsUENEbHlSR2lwbXpSWG5wWGtDeWg5NElGT29ERnZiMGV4M0FyTUlXU25yaVVoVEZMNUJR0gFzQVVfeXFMTy1lX3ZsNjZjU2hGQVJYUzRwNGVfcTFKeFBBaHpJQTdMbHRaQ1JPUkJUZWZSVTNaazFYU3VoOVBoS0R6b0dCY21EeUhRWWJEanJTTnB2aC16N0hnN1ZIeXNodEo1ZVd5LWN3LUNybFNLLWljRQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "트럼프, 알래스카 LNG 사업 두고 러시아와도 거래 시사",
+   "summary": "러시아 에너지 기업의 알래스카 LNG 비밀 자금 지원 의혹이 나왔어요.",
+   "context": "LNG는 액화천연가스예요. 미국이 제재 중인 러시아 에너지 기업이 알래스카 LNG 사업에 비밀리에 자금을 댔다는 보도가 나왔고, 트럼프 대통령은 전쟁이 끝나면 러시아와도 거래할 것이라고 말했어요. 한국에 투자를 압박하는 상황과 맞물려 논란이 되고 있어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd3lTendsem5jZzBVWFNsNngyeEF5d1BoaVRFUFBhbXltZnZiREJyVWhGV3p4MGxCeVNBbjFiQUNUWUl6dzM0QXB2SGtlYnFEMFpOMWxXUlRrbHZOb2paU2lsTGpLck5fT0RfdDlNdnZvZTVjMUF6RFJBR3YxN1dJdk9ZLWExTkY2Z1BvNDY5bV9neFo4M3V2clBiVXY3QQ?oc=5"
+  }
+ ],
+ "term": {
+  "word": "중간선거",
+  "meaning": "대통령 임기 중간에 의회 의원들을 새로 뽑는 선거예요. 대통령의 국정 운영에 대한 평가 성격도 있어요.",
+  "example": "미국 중간선거가 열흘 뒤라서 두 대통령이 유세에 나섰대요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}이고 비 올 확률이 {비확률}%라는데, 오시는 길 괜찮으셨어요?",
+   "explain": "{지역}은 최고 {최고}도, 최저 {최저}도에 비 올 확률이 {비확률}%예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역}은 {최고}도인데 내일은 {내일최고}도래요. 기온 차가 커서 겉옷 챙기셔야겠어요.",
+   "explain": "{지역}의 오늘 최고기온은 {최고}도, 내일은 {내일최고}도로 예보됐어요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}이 오늘과 내일 기온 차이가 크다고 하더라고요. 옷 고르기 어렵지 않으세요?",
+   "explain": "오늘 {최고}도에서 내일 {내일최고}도로 바뀌는 예보예요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 최고가 {최고}도래요. 가을인데도 꽤 따뜻하죠?",
+   "explain": "{지역}의 오늘 낮 최고기온은 {최고}도예요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 {최고}도까지 오른대요. 겉옷이 짐이 될 것 같아요.",
+   "explain": "{지역}은 최저 {최저}도에서 최고 {최고}도까지 오를 것으로 보여요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침은 {최저}도로 쌀쌀하대요. 따뜻하게 입고 오셨어요?",
+   "explain": "{지역}의 오늘 아침 최저기온은 {최저}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 내려간대요. 따뜻한 차가 생각나는 날씨예요.",
+   "explain": "{지역}은 최저 {최저}도, 최고 {최고}도 예보예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨는 {날씨}고 최고 {최고}도래요. 지내기 괜찮은 날씨죠?",
+   "explain": "{지역}의 오늘 날씨는 {날씨}이고, 최저 {최저}도에서 최고 {최고}도예요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {최저}도에서 {최고}도 사이래요. 산책하기 딱 좋은 날씨 같아요.",
+   "explain": "{지역}의 오늘 기온은 최저 {최저}도, 최고 {최고}도예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 상대가 편하게 웃게 하는 유형이에요."
+  },
+  {
+   "name": "의인화",
+   "desc": "사물에 마음이 있는 것처럼 말해서 온화한 웃음을 만드는 유형이에요."
+  }
+ ],
+ "date": "2026-10-26",
+ "weekday": "월요일",
+ "tone": "jondae",
+ "strength": "safe",
+ "generated_at": "2026-10-26 08:33",
+ "model": "claude-sonnet-5-5"
+}
