@@ -1,0 +1,7 @@
+run 2026-10-27 09:37 model=claude-sonnet-5-5 items=72
+ok banmal-safe
+ok banmal-normal
+ok banmal-bold
+ok jondae-safe
+ok jondae-normal
+ok jondae-bold
