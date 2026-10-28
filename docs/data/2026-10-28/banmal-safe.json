@@ -1,0 +1,481 @@
+{
+ "lede": "오늘은 올가을 가장 추운 아침, 발롱도르, 가을 음악회, 손그림 엽서 전시, 쿼드메디슨 같은 소재를 골라 봤어요. 어제와 다른 자리 조합으로 준비했어요.",
+ "today": {
+  "situation": "직장·학교",
+  "text": "오늘 아침에 이불이 나를 안 놔주더라. 올가을 제일 춥대.",
+  "why": "계절 이야기에 나를 살짝 낮추는 한마디라서 누구와도 편하게 시작할 수 있어요.",
+  "explain": "오늘 전국 대부분에 한파주의보가 내려졌고, 올가을 들어 가장 추운 아침이래."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음식",
+    "topic": "추운 날 음식",
+    "safety": "가장 안전",
+    "text": "이렇게 추운 날엔 뜨끈한 국물이 생각나지 않아? 오늘 뭐 먹을래?",
+    "explain": "오늘 아침이 올가을 중 가장 추워서 따뜻한 국물 생각이 난다는 얘기야."
+   },
+   {
+    "field": "스포츠",
+    "topic": "발롱도르",
+    "safety": "가벼움",
+    "text": "어제 케인이 발롱도르 받았대. 서른 넘어서 처음이래.",
+    "explain": "발롱도르는 한 해 가장 잘한 축구 선수에게 주는 상이고, 케인이 생애 처음 받았대."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "가을 음악회",
+    "safety": "가벼움",
+    "text": "이번 토요일에 공원에서 무료 가을 음악회 한대. 같이 가볼래?",
+    "explain": "31일에 남양주 다산중앙공원에서 가을 음악공연이 열린대."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "3세 축구 신동",
+    "safety": "상대가 관심 있을 때",
+    "text": "세 살짜리가 축구를 너무 잘해서 경찰이 출동했대. 이유가 궁금하지 않아?",
+    "explain": "미국 소식인데, 3살 아이의 축구 실력이 화제가 되어 경찰까지 나온 사연이 있었대."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "음악·K팝",
+    "topic": "K팝 공연장",
+    "safety": "가벼움",
+    "text": "요즘 K팝 전문 공연장이 서울에 새로 생긴다고 하더라고요. 들어보셨어요?",
+    "explain": "문화체육관광부 장관이 서울아레나 건설 현장을 찾았다는 소식이에요."
+   },
+   {
+    "field": "음식",
+    "topic": "추운 날 음식",
+    "safety": "가장 안전",
+    "text": "오늘 정말 춥던데, 이런 날엔 어떤 음식 드시고 싶으세요?",
+    "explain": "오늘 올가을 가장 추운 아침이라 따뜻한 음식 생각이 난다는 얘기예요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "한파",
+    "safety": "가장 안전",
+    "text": "오늘 아침에 많이 추워서 옷 단단히 입고 나왔어요. 선배님도 추우셨죠?",
+    "explain": "전국 대부분에 한파주의보가 내려질 만큼 쌀쌀한 아침이었어요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "킥보드",
+    "safety": "상대가 관심 있을 때",
+    "text": "높이가 2.4미터나 되는 킥보드가 화제라는데, 보셨어요?",
+    "explain": "엄청 큰 킥보드를 만들어 타는 영상이 화제가 됐다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "이색 금연 표지판",
+    "safety": "가장 안전",
+    "text": "요즘 광화문에 조선 왕과 왕비가 코 막은 표지판이 있다던데 혹시 보셨어요?",
+    "explain": "광화문 일대에 금연을 알리는 재미있는 표지판이 등장했대요."
+   },
+   {
+    "field": "음식",
+    "topic": "추운 날 음식",
+    "safety": "가장 안전",
+    "text": "날이 갑자기 추워졌는데 이런 날 뭐 드시는 편이에요?",
+    "explain": "오늘 아침이 올가을 중 가장 추웠어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구",
+    "safety": "가벼움",
+    "text": "프로야구 플레이오프 보세요? 오늘 3차전이래요.",
+    "explain": "삼성과 기아가 플레이오프를 치르는 중이고 오늘이 3차전이래요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 민원 안내",
+    "safety": "가벼움",
+    "text": "강남구에 AI 민원 안내원이 생겼다는데, 이름이 오사랑이래요.",
+    "explain": "강남구청이 AI가 민원을 안내해 주는 시스템을 도입했다는 소식이에요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "날씨·생활",
+    "topic": "한파",
+    "safety": "가장 안전",
+    "text": "오늘 출근길 진짜 춥더라. 나 이불이랑 헤어지는 데 한참 걸렸어.",
+    "explain": "오늘 전국 대부분에 한파주의보가 내려졌고 올가을 가장 추운 아침이었어."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "SK하이닉스",
+    "safety": "가벼움",
+    "text": "SK하이닉스가 주주들한테 60조 원을 돌려준다더라. 숫자가 너무 커서 실감이 안 나.",
+    "explain": "배당과 자사주 매입으로 주주에게 돈을 돌려주겠다는 발표가 있었대."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI와 문제 풀이",
+    "safety": "상대가 관심 있을 때",
+    "text": "AI한테 10분 도움받고 나면 혼자 문제 풀 때 더 빨리 포기한다는 연구가 있대.",
+    "explain": "AI 도움을 받은 사람이 이후 혼자 문제를 풀 때 더 쉽게 포기했다는 연구 결과야."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "닥터X",
+    "safety": "가벼움",
+    "text": "요즘 닥터X 시청률이 안 꺾인다던데, 너 봤어?",
+    "explain": "논란 속에서도 시청률과 화제성이 유지되는 드라마 소식이야."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "한파",
+    "safety": "가장 안전",
+    "text": "오늘 정말 춥죠? 따뜻한 차 한 잔 드릴까요?",
+    "explain": "오늘 전국 대부분에 한파주의보가 내려질 만큼 추운 날씨예요."
+   },
+   {
+    "field": "음식",
+    "topic": "광희로드 축제",
+    "safety": "가벼움",
+    "text": "DDP 옆에서 세계 음식 축제를 한다던데, 들어보셨어요?",
+    "explain": "몽골, 러시아 등 여러 나라 음식을 맛볼 수 있는 광희로드 축제 소식이에요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "무료 음악회",
+    "safety": "가벼움",
+    "text": "31일에 무료 가을음악회가 열린다던데, 시간 괜찮으시면 가보세요.",
+    "explain": "선착순 무료로 가을음악회가 열린다는 소식이에요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "손흥민",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘 축구 보세요? 케인 선수가 어제 발롱도르를 받았대요.",
+    "explain": "발롱도르는 한 해 가장 뛰어난 축구 선수에게 주는 상이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 은근히 기다리는 게 뭐 있어?",
+  "why": "거창하지 않아도 답할 수 있고, 상대의 일상이나 기대를 자연스럽게 들을 수 있어요."
+ },
+ "scenes": [
+  {
+   "title": "출근길 엘리베이터에서 만난 동료",
+   "topics": "한파, 따뜻한 음식",
+   "lines": [
+    {
+     "who": "a",
+     "text": "안녕. 오늘 진짜 춥지 않아? 나 이불이랑 이별하느라 힘들었어.",
+     "humor": {
+      "type": "의인화",
+      "why": "이불을 헤어지기 아쉬운 상대처럼 말해서 아침의 피곤함이 귀엽게 전달돼요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "맞아, 나도 오늘 겨우 일어났어. 올가을 제일 춥대.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "이런 날은 점심에 뜨끈한 국물 먹어야겠다. 너는 뭐 먹고 싶어?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "나는 칼국수 생각나. 같이 갈래?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "좋아. 내 위장도 오늘만큼은 겨울이래.",
+     "humor": {
+      "type": "능청",
+      "why": "몸을 핑계 삼아 담담하게 말해서 가볍게 웃음이 나요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그럼 점심 때 보자.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "동기와 대화 중 썰렁해진 순간",
+   "topics": "발롱도르, 수습",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 케인이 발롱도르 받았대. 서른 넘어서 처음이래.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그래? 난 축구는 잘 몰라서.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "사실 나도 잘 몰라. 발롱도르가 축구계의 노벨상 같은 거래.",
+     "humor": {
+      "type": "자조",
+      "why": "잘 모른다고 솔직하게 말하면서도 쉬운 비유로 풀어 줘서 부담이 없어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "아, 그런 거구나. 그럼 엄청난 거네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 내 말이 좀 썰렁했지? 오늘 날씨 때문에 말도 얼었나 봐.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁함을 날씨 탓으로 돌려서 어색함을 가볍게 넘겨요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 괜찮아. 그런데 너는 요즘 뭐 보고 있어?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "요즘 드라마 하나 보고 있어. 너도 추천할 거 있어?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "있지. 점심 때 알려 줄게.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 처음 보는 이웃과 단둘이 탔어요. 오늘 날씨로 한마디 해 보세요.",
+   "hints": [
+    "오늘 아침 기온 언급",
+    "나의 상황 덧붙이기"
+   ],
+   "answer": "오늘 진짜 춥죠? 저 아침에 이불이랑 헤어지는 데 한참 걸렸어요.",
+   "note": "날씨 + 자조 유형: 모두가 공감하는 소재에 나를 살짝 낮춰서 시작해요."
+  },
+  {
+   "q": "직장 동료와 점심 메뉴를 정하려고 해요. 추운 날씨를 이용해 한마디 꺼내 보세요.",
+   "hints": [
+    "날씨 언급",
+    "음식 제안"
+   ],
+   "answer": "오늘 너무 추운데, 뜨끈한 국물 어때? 내 몸이 겨울이래.",
+   "note": "날씨 + 제안 유형: 날씨를 이유로 자연스럽게 메뉴를 제안해요."
+  },
+  {
+   "q": "친구와 이야기 중 말이 끊겼어요. 가을 음악회 소식으로 이어 가 보세요.",
+   "hints": [
+    "소식 전하기",
+    "같이 가자고 제안"
+   ],
+   "answer": "이번 토요일에 공원에서 무료 가을 음악회 한대. 같이 가볼래?",
+   "note": "소식 + 제안 유형: 구체적인 사실로 말을 이어 가요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "케인, 생애 첫 발롱도르",
+   "summary": "잉글랜드의 해리 케인이 축구계 최고 개인상인 발롱도르를 처음 받았어요.",
+   "context": "발롱도르는 한 해 동안 가장 뛰어난 활약을 한 남자 축구 선수에게 주는 상이에요. 케인은 오랫동안 상을 받지 못한 것으로 유명했는데, 이번에 처음 받았다는 점이 화제예요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uWWpLSnpfQ3pSSi1mbVJRYlpoXzZjdUpoeDNhQ292NUNyOWJQaE1aV2pmVzQtbzBDYkJXRXNMWDkyZVVqTHl0akptZE5TMlNoSG5vWkF1R3FjTm9OR2dET0RrTUwwdDQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "올가을 가장 추운 아침, 한파주의보",
+   "summary": "오늘 전국 대부분 지역에 한파주의보가 내려졌고 곳곳이 올가을 최저 기온을 기록했어요.",
+   "context": "한파주의보는 갑자기 기온이 크게 떨어질 때 발효되는 기상 특보예요. 서울 아침 기온이 2도, 체감 0도까지 내려갔어요. 아직 10월인데 초겨울 같은 추위라 옷차림 걱정이 많아요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xOV82YTN5NVc1blZKSGNEOFBZT1RXRHNRQzhJdHE2WU1IVk9WZnQwcURtUHI2ZjhvNlJNOEFpM3hIOTRMSHdGa1R2ZjdCcXVpaC1MZGtubVVtVTNxT3FuMHkyN2I1Rjg?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "서울에 K팝 전용 공연장 '서울아레나' 건설 중",
+   "summary": "문화체육관광부 장관이 K팝 전문 공연장 서울아레나 건설 현장을 찾아 점검했어요.",
+   "context": "서울아레나는 K팝 공연을 위해 짓는 대형 공연장이에요. 그동안 큰 공연을 할 만한 실내 시설이 부족하다는 얘기가 많았는데, 이를 해결하려는 사업이에요.",
+   "source": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04VXdnbjhiS0NkZmxpNVBBNkdEeXFacFZqcnlJbmlkUml5eVlDMkR6bGxGOW1XN3JjV0lxTjlEZUt0T3RONzQyZ21kRzJwMFU3YjVfMmQ1ZUFKMGdw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "AI 도움 10분 받으면 혼자 풀 때 포기가 빨라진다",
+   "summary": "AI 도움을 잠깐 받은 사람이 이후 혼자 문제를 풀 때 더 빨리 포기했다는 연구가 나왔어요.",
+   "context": "AI를 쓰면 편하지만 스스로 끈기 있게 생각하는 힘이 약해질 수 있다는 점을 보여 주는 연구예요. AI를 어떻게 쓸지 생각해 보게 하는 소식이에요.",
+   "source": "지디넷코리아",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YeHVYOHN4NWNSLXpTWjFzX0lxb1JnZzhsaVBmSUJtVnNHOHVQWnRRUEkyWFdpQzdtRk9WbDZQdXNzZG9fTGdKc0xPdmRmYjVMSFpMMnF3?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "광화문에 등장한 코 막은 조선 왕·왕비 금연 표지판",
+   "summary": "광화문 일대에 조선 왕과 왕비가 코를 막고 인상을 찌푸린 이색 금연 표지판이 생겼어요.",
+   "context": "금연 구역에서 담배 냄새가 나면 불쾌하다는 메시지를 유머러스하게 전하는 표지판이에요. 딱딱한 경고보다 재미있게 전해서 관심을 끌려는 시도예요.",
+   "source": "주간조선",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjV2JfQW84QTh5SEV1d1JKaUtoZFpWTXFPc1RCUllpaGxMWU1xbm1pc2R1bmNmRUtaVXh0cENXSDJuTXh4eUNRSDRBYnp1N3l3dFJXcG5RWVRuVUFVYmE2NUlzZ3UxdmF1M1HSAW5BVV95cUxOMFRuWXA4NUJzR2V1WXY1OEtKQTdDbnBVQUhvRWdqUWtzaVc5UVJCZUV2Vk5qbGUwRXZVdGxVMFpnWTFOVTZjeGxReU5ndkduS2ZQYkVQcVpjYWxGZjdQSnRjU1RWZVlKYnhfYmx3QQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "SK하이닉스, 60조 원 추가 주주환원",
+   "summary": "SK하이닉스가 배당과 자사주 매입으로 60조 원을 주주에게 돌려주겠다고 발표했어요.",
+   "context": "주주환원은 회사가 번 돈을 주식을 가진 사람들에게 배당이나 자사주 매입으로 돌려주는 일이에요. 규모가 매우 커서 시장의 관심이 높아요.",
+   "source": "JTBC",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FeGxhT1FuYzdDandHT0dnRnp3VHliaDlfREF5b0Vka19JU1hsdE1LZmIyMWE4dkE5VXlyOUprNkpVZFRqSkpZLXRCYWEyZTdUNFhFa21BdlFGdHB0SU5NajYtbU0zUQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "드라마 '닥터X', 논란 속에서도 시청률·화제성 유지",
+   "summary": "의료계와 정치권의 반발에도 드라마 닥터X가 시청률과 화제성을 이어 가고 있어요.",
+   "context": "방영 초기부터 여러 논란이 있었지만, 시청자 반응은 꾸준하다는 소식이에요. 드라마가 사회적 주제를 다룰 때 이런 반응이 나오기도 해요.",
+   "source": "뉴스엔",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwVmdqcjdBNlp3RmFzNlI4cHBTWmJvbEJTZlhQdlVhTXd4cGdrNnRaWnFBMHU4LUlFcVZPZXhQcDRLMk0xLUFhdW1xdzZJeFhzVkhqSHFzOHZBRlhmejlhOERSSjhpcmF5TWhpQmJkSlloRnJGUWFBdU1Fcw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "서울 강남 구룡마을 화재, 107명 이재민",
+   "summary": "구룡마을에서 큰불이 나 13시간 만에 꺼졌고, 부상 1명과 이재민 107명이 발생했어요.",
+   "context": "구룡마을은 서울 강남구에 있는 오래된 주거지예요. 이번 화재로 77가구가 피해를 입었고, 경찰과 소방이 합동감식을 진행해 원인을 조사할 예정이에요. 서울시는 이재민 지원을 약속했어요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WT21Ob2pENUpfeEtUcDM5RE0xQ1ltbGhaSGFoVEZXWlJnXzJDMEVMQXdkMXFfeUc5SjhwTFFwQW11aFFQdzAwUjctcjYwNDBVQ1BOYjBYZmlFUGM2ZjJZeEFSNmV2RkloSVhabHBhS0psUQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이스라엘 총선, 출구조사 초박빙",
+   "summary": "출구조사에서 네타냐후 반대 진영과 지지 진영 모두 과반에 못 미치는 것으로 나왔어요.",
+   "context": "이스라엘 의회는 120석이고, 과반인 61석을 얻어야 안정적으로 정부를 꾸릴 수 있어요. 출구조사로는 반대 진영이 52~53석, 지지 진영이 50석 안팎이라 어느 쪽도 과반이 아니에요. 최종 결과와 연립 협상에 따라 정권 향방이 정해질 거예요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WYjZwNElxSHE2eXFLb3hNQnRkTV9ZZmJZaVY1YVpBeW5lRG9wVDRhaW84ckZETFZKM2Rlc3hnOERsOURSQkVyZWdUaWUxeGkxM0pLRVpiWldhZ9IBX0FVX3lxTE80d3dGaU9EZzRKaGN0Y1hkT1JITlFfd2lmMnlQdUprbno5NEt3b3p1WE1HSDlEUW1GSUVBMXlLeDFvYU5UWjdOTkFnUWxoTGN5eS10VE1WWUJxUktFbG5J?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "올림픽공원 투표지 공개 검증 착수",
+   "summary": "선관위 특검이 올림픽공원 핸드볼경기장에서 투표지 검증을 시작했어요.",
+   "context": "6·3 지방선거 이후 개표 관련 의혹이 제기되었고, 이를 확인하기 위해 특검이 약 247만 장의 투표지를 검증해요. 의혹을 제기한 쪽은 철저한 확인을 요구하고, 다른 쪽은 논란을 끝내는 계기가 되길 바란다는 입장이에요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10OWttYTl1bHRVb0VPRF9TRGRfcG9NWmNCdWtUTFBpMWxKY3dJTnVrcVN4NzNRb2FSbGNQWi1GWU53MVZjZUR4WjR6T3p0VW1zVnA0dHVMTUlsOWZpMk5KUDFHbnZ6QQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "이 대통령 내국인 고용 확대 발언 논란",
+   "summary": "대통령의 내국인 고용 확대 언급을 두고 보도와 반박이 오갔어요.",
+   "context": "대통령이 내국인 고용을 늘리는 방안을 마련하라고 언급했는데, 일부 언론이 이를 외국인 노동자 비하 취지로 보도했어요. 대통령실은 발언이 왜곡됐다며 정정을 요구했고, 인건비 지원으로 내국인 고용을 늘리는 방안을 검토하라는 취지라고 설명했어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxOXhGNmEyZnR4MTh6LXpfR3ZDMjFkNEhjWUZMSXZjRlZFZ1FHNFpGUUo4QVZRemN1SlFwR0tESHhtS3UxZUluNEZScWgtUTlCZVgxaVJnbGVUOHc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "여당, 대법원장 국정조사 추진",
+   "summary": "더불어민주당이 조희대 대법원장 관련 국정조사를 다음 달 추진할 예정이에요.",
+   "context": "국정조사는 국회가 나랏일에 대해 직접 조사하는 제도예요. 여당은 탄핵보다 먼저 국정조사로 근거를 찾겠다는 입장이고, 야당은 사법부 압박이라며 반발해요. 삼권분립과 관련된 민감한 사안이라 논쟁이 이어질 전망이에요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOOWtPaFZYQ0c1M1RzSlBMY0hEanJKVHFhVXVlUVVVWjFIRVh1NGF1Vy1rVVB0ZWIxaGc0REFYd3AzaWc1VF9ZQVBUZk9YZFZxdVBEVXgwa0tjMWNQdkVEMEg0VG41S25lNzRtbTJtOXZ1UDZy?oc=5"
+  }
+ ],
+ "term": {
+  "word": "한파주의보",
+  "meaning": "갑자기 기온이 크게 떨어질 때 기상청이 내리는 특보예요. 피해를 줄이도록 미리 알려 주는 경고예요.",
+  "example": "오늘 한파주의보 떴대. 옷 따뜻하게 입고 나가."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}이고 비 올 확률이 {비확률}%래. 오늘은 우산이 필수야.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도에 비 올 확률이 {비확률}%야."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역}은 최고 {최고}도인데 내일은 {내일최고}도래. 기온 차가 커서 옷 고르기 힘들겠어.",
+   "explain": "{지역} 오늘 낮 최고 {최고}도, 내일 낮 최고 {내일최고}도로 차이가 꽤 커."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘이랑 내일 {지역} 기온이 꽤 달라. 오늘 {최고}도, 내일 {내일최고}도래.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도이고 내일 최고는 {내일최고}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 최고가 {최고}도래. 가을인데 좀 따뜻하지 않아?",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고 낮 최고 {최고}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역}은 {최고}도까지 올라간대. 겉옷 하나 벗고 다녀도 되겠어.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 낮에 꽤 따뜻해."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침 {지역}은 {최저}도래. 이불이랑 헤어지기 힘들었지?",
+   "explain": "오늘 {지역} 아침 최저 {최저}도, 낮 최고는 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침 기온이 {최저}도까지 내려갔대. 따뜻하게 입고 나왔어?",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 아침저녁이 쌀쌀해."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨는 {날씨}에 최고 {최고}도래. 산책하기 괜찮은 날이야.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도로 무난한 날씨야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {최저}도에서 {최고}도 사이래. 무난해서 오히려 기분 좋은 날이야.",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고 기온은 {최저}도에서 {최고}도야."
+  }
+ ],
+ "types": [
+  {
+   "name": "날씨",
+   "desc": "모두가 공감하는 소재로 부담 없이 시작해요."
+  },
+  {
+   "name": "자조",
+   "desc": "나를 살짝 낮춰서 상대의 긴장을 풀어 줘요."
+  },
+  {
+   "name": "의인화",
+   "desc": "사물을 사람처럼 말해서 귀엽게 웃겨요."
+  },
+  {
+   "name": "능청",
+   "desc": "담담한 표정으로 한마디 던져 웃음을 만들어요."
+  }
+ ],
+ "date": "2026-10-28",
+ "weekday": "수요일",
+ "tone": "banmal",
+ "strength": "safe",
+ "generated_at": "2026-10-28 09:38",
+ "model": "claude-sonnet-5-5"
+}
