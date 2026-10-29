@@ -1,0 +1,493 @@
+{
+ "lede": "오늘은 올가을 첫서리와 한파 소식, 한국 축구 대표팀 명단, 에그타르트 위에 올라간 곤충 모양 디저트, 뷰티와 식품의 이색 협업까지 가볍게 꺼낼 소재가 골고루 있어요.",
+ "today": {
+  "situation": "점심 먹으러 가는 길",
+  "text": "요즘 립밤이 버터를 닮고 틴트가 푸딩을 닮은 게 나온대요. 먹는 건지 바르는 건지 헷갈릴 것 같아요.",
+  "why": "가벼운 사실 하나에 담백한 반전을 얹어서, 누구에게나 부담 없이 꺼낼 수 있어요.",
+  "explain": "식품 회사와 화장품 회사가 손잡고 서로의 모양을 닮은 제품을 내놓는 협업이 요즘 많대요."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "음식",
+    "topic": "뷰티·식품 협업",
+    "safety": "가벼움",
+    "text": "요즘 립밤이 버터를 닮고 틴트가 푸딩을 닮은 게 나온대요. 먹는 건지 바르는 건지 헷갈릴 것 같아요.",
+    "explain": "식품 회사와 화장품 회사가 손잡고 서로의 모양을 닮은 제품을 내놓는 협업이 늘고 있대요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "한국 축구 11월 명단",
+    "safety": "가장 안전",
+    "text": "11월 축구 대표팀 명단이 곧 나온대요. 새 얼굴이 들어올지가 관심이래요.",
+    "explain": "11월 A매치를 앞두고 감독이 새 선수를 뽑을지, 주축 선수를 쉬게 할지가 화제라는 기사였어요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "우주비행체 착륙 AI",
+    "safety": "가벼움",
+    "text": "인하대에서 AI로 우주비행체를 착륙시키는 기술을 연구했는데, 미국 학회에서 최우수 논문으로 뽑혔대요.",
+    "explain": "우주선이 달이나 행성에 내릴 때 알아서 방향을 잡도록 돕는 기술을 연구했대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "단양 마늘 축제",
+    "safety": "상대가 관심 있을 때",
+    "text": "충북 단양에서 육쪽마늘과 드라큘라를 합친 축제를 한대요. 이름만 들어도 한 번 가 보고 싶어져요.",
+    "explain": "단양은 마늘로 유명한 곳이라, 드라큘라 하면 마늘이라는 연상으로 만든 이색 축제래요."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "서울 첫서리",
+    "safety": "가장 안전",
+    "text": "서울에 올가을 첫서리가 내렸대요. 작년보다는 하루 늦었다고 해요. 건강 잘 챙기고 계시죠?",
+    "explain": "서리는 기온이 영하 가까이 떨어질 때 땅 위에 하얗게 어는 건데, 서울은 올가을 처음 관측됐대요."
+   },
+   {
+    "field": "음식",
+    "topic": "에그타르트 곤충 디저트",
+    "safety": "가벼움",
+    "text": "에그타르트 위에 곤충 모양을 올린 디저트가 화제래요. 맛은 괜찮을지 궁금하세요.",
+    "explain": "요즘 이색 디저트가 많은데, 곤충 모양이라 보는 순간 놀라는 사람이 많았대요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "AI 공급국 한국",
+    "safety": "가벼움",
+    "text": "미국 연준 의장이 한국을 AI 공급국으로 눈여겨본다고 했대요. 반도체 이야기 같아요.",
+    "explain": "연준은 미국의 중앙은행이고, 한국이 AI에 필요한 반도체를 많이 공급하는 나라로 주목받는다는 소식이에요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "신병 더 무비",
+    "safety": "가벼움",
+    "text": "드라마 신병이 영화로 나온대요. 12월 30일 개봉이라 연말에 극장 가시는 분들이 많을 것 같아요.",
+    "explain": "군대 생활을 다룬 인기 드라마가 극장판으로 만들어져 연말에 개봉한다는 소식이에요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "50살 9급 합격",
+    "safety": "가장 안전",
+    "text": "50살에 9급 공무원에 합격했다는 글이 화제래요. 시작하는 데 나이는 상관없구나 싶었어요.",
+    "explain": "공무원 시험에 늦은 나이로 합격한 사람의 후기 글이 온라인에서 많은 응원을 받았대요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "아침 추위",
+    "safety": "가장 안전",
+    "text": "요즘 아침 공기가 정말 차가워졌어요. 옷은 어떻게 입고 다니세요?",
+    "explain": "이번 주에 올가을 가장 추운 아침이 이어지고, 일부 지역은 영하까지 내려갔대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "김동률 공연",
+    "safety": "상대가 관심 있을 때",
+    "text": "김동률 공연은 사진도 안 찍고 떼창도 안 한대요. 오롯이 노래만 듣는 분위기라고 해요.",
+    "explain": "가수 김동률의 콘서트는 관객이 조용히 음악에 집중하기로 유명하다는 기사였어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "미식축구",
+    "safety": "가벼움",
+    "text": "미식축구는 수능 공부하듯 작전을 외워야 하는 스포츠래요. 생각보다 머리를 많이 쓰나 봐요.",
+    "explain": "미식축구 선수가 작전 암기가 공부와 비슷하다고 인터뷰한 기사였어요."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "IT·과학",
+    "topic": "대학 AI 활용 기준",
+    "safety": "가장 안전",
+    "text": "숭실대가 수업별로 AI를 어디까지 써도 되는지 기준을 세분화했대요. 요즘은 AI 쓰는 규칙도 학교마다 따로 있나 봐요.",
+    "explain": "AI로 과제를 해도 되는 범위를 수업마다 다르게 정한 가이드라인을 시행했대요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "더보이즈 에릭",
+    "safety": "가벼움",
+    "text": "더보이즈 에릭이 팬 사랑으로 화제래요. 솔로 앨범에 기대가 크다고 해요.",
+    "explain": "더보이즈는 아이돌 그룹이고, 막내 에릭이 솔로 활동을 앞두고 팬들 사이에서 주목받는다는 소식이에요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "비 소식",
+    "safety": "가장 안전",
+    "text": "오후부터 중부 지방에 비가 온대요. 퇴근길에 우산 챙기셨어요?",
+    "explain": "오늘 오후 중부부터 비가 시작돼 전국 곳곳으로 이어진다는 예보가 있었어요."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "소비 트렌드",
+    "safety": "상대가 관심 있을 때",
+    "text": "요즘은 불안한 소비자들이 작은 즐거움에 지갑을 연대요. 커피 한 잔, 디저트 하나 같은 거요.",
+    "explain": "2027년 소비 트렌드 전망 기사에서, 큰돈 대신 작은 기쁨에 쓰는 소비가 늘 거라고 했어요."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "날씨",
+    "safety": "가장 안전",
+    "text": "오늘 날이 꽤 쌀쌀하죠. 따뜻한 거 한 잔 드리고 싶어요.",
+    "explain": "올가을 들어 가장 추운 아침이 이어지고 오후엔 비 소식도 있어요."
+   },
+   {
+    "field": "음식",
+    "topic": "이색 디저트",
+    "safety": "가벼움",
+    "text": "요즘 에그타르트 위에 곤충 모양을 올린 디저트가 화제라던데, 혹시 보신 적 있으세요?",
+    "explain": "보기엔 놀랍지만 모양만 그렇게 만든 이색 디저트라는 기사였어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "신병 더 무비",
+    "safety": "상대가 관심 있을 때",
+    "text": "드라마 신병이 영화로 나온다던데, 보셨던 드라마세요?",
+    "explain": "군대 생활을 다룬 인기 드라마가 12월 30일에 극장판으로 개봉한대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "바퀴벌레 모양 디저트",
+    "safety": "가벼움",
+    "text": "단양에서는 마늘 드라큘라 축제를 한다는데, 이름이 정말 독특하지 않나요?",
+    "explain": "단양은 육쪽마늘로 유명해서 드라큘라와 엮은 이색 축제를 열었대요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날이 갑자기 추워졌는데, 이번 주에 뭐 따뜻한 거 드셨어요?",
+  "why": "누구나 대답할 수 있는 가벼운 질문이고, 음식 이야기로 자연스럽게 이어가기 좋아요."
+ },
+ "scenes": [
+  {
+   "title": "점심시간에 동료와",
+   "topics": "뷰티·식품 협업, 에그타르트 곤충 디저트",
+   "lines": [
+    {
+     "who": "a",
+     "text": "요즘 립밤이 버터를 닮고 틴트가 푸딩을 닮은 게 나온대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "정말요? 헷갈려서 먹을 것 같은데요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러게요. 그러다 점심을 입술에 바르는 날이 올지도 몰라요.",
+     "humor": {
+      "type": "과장",
+      "why": "먹을 것과 바르는 것의 경계가 무너진다는 상황을 살짝 부풀려서 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 좀 곤란한데요. 에그타르트 위에 곤충 모양 올린 디저트도 봤어요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "봤어요. 보는 순간 놀랐는데, 맛은 에그타르트일 거라 안심했어요.",
+     "humor": {
+      "type": "능청",
+      "why": "놀랐다고 하면서도 결국 맛은 멀쩡할 거라고 담담하게 받아넘기는 능청이에요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "용기가 대단하시네요. 저는 사진만 볼래요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도 눈으로 먼저 먹고 가려고요. 오늘 점심은 뭐 드실래요?",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "따뜻한 국물이 당겨요. 날이 추우니까요.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁했을 때 수습하기",
+   "topics": "서울 첫서리, 아침 추위",
+   "lines": [
+    {
+     "who": "a",
+     "text": "서울에 올가을 첫서리가 내렸대요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아, 그래요? 어쩐지 아침에 많이 춥더라고요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "서리까지 내렸으니 제 기분도 얼어붙었으면 좋겠네요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "...네? 그게 무슨 말씀이세요?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "죄송해요, 방금 말은 썰렁했죠. 서리 이야기에 괜히 힘을 줬어요.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁했다는 걸 먼저 인정하고 가볍게 웃어넘기면 분위기가 오히려 풀려요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 솔직해서 좋네요. 저도 오늘은 옷을 두 겹 입고 나왔어요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "저도요. 이 정도면 겨울 옷을 꺼낼 때인 것 같아요.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "맞아요. 오후에 비도 온다니까 우산도 챙기세요.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "네, 알려 주셔서 고마워요.",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 처음 보는 이웃과 단둘이 있어요. 가볍게 한마디 해 보세요.",
+   "hints": [
+    "날씨 소재",
+    "상대에게 질문으로 마무리"
+   ],
+   "answer": "오늘 아침 정말 쌀쌀하죠. 오후에 비도 온다는데 우산 챙기셨어요?",
+   "note": "날씨 소재 + 질문형으로 마무리하면 대답하기 쉬워요."
+  },
+  {
+   "q": "친구가 요즘 볼 만한 영화가 없다고 해요. 한마디 건네 보세요.",
+   "hints": [
+    "신작 소식",
+    "상대 의견 묻기"
+   ],
+   "answer": "신병이 영화로 나온대요. 12월 30일 개봉이라는데 같이 볼래요?",
+   "note": "소식 전달 + 제안형 문장이에요."
+  },
+  {
+   "q": "점심 메뉴를 고르다가 말이 끊겼어요. 분위기를 풀어 보세요.",
+   "hints": [
+    "이색 소재",
+    "능청스러운 반전"
+   ],
+   "answer": "에그타르트 위에 곤충 모양 올린 디저트가 있대요. 오늘 디저트는 안전하게 가시죠.",
+   "note": "능청 유형이에요. 놀라운 소식을 담담하게 받아넘겨요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "서울에 올가을 첫서리 관측",
+   "summary": "서울에서 올가을 처음 서리가 관측됐어요. 작년보다 하루 늦었어요.",
+   "context": "서리는 기온이 영하 근처로 떨어질 때 풀이나 땅 위에 얼음 알갱이가 생기는 현상이에요. 첫서리는 겨울이 가까워졌다는 신호로 여겨져요. 오늘은 오후에 중부부터 비가 오고, 내일은 아침 추위가 풀린다고 해요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnUy1WM3NYVnpvVklkMzZXMENkdFhTWkoxTjgwUHMwYTZVeDRFWW5kMG5vRkFJYzF0SDkzNlJ2RXVpc1dTYVRtVDVyNmx0YXQ0WUswVWRZZkFhREU?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "11월 축구 대표팀 명단, 새 얼굴과 주축 관리가 관건",
+   "summary": "11월 대표팀 명단에 새 얼굴이 들어올지, 주축 선수를 쉬게 할지가 관심이에요.",
+   "context": "대표팀은 11월에 평가전을 치르는데, 최근 성적이 흔들려서 감독의 명단 구성이 주목받고 있어요. 새 선수를 뽑으면 경쟁이 자극되지만, 주축 선수를 너무 쓰면 체력이 걱정돼요.",
+   "source": "뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrakU2dDFrZFF3YmgxNVBVSzR2Tnd1eExWVEFIdFVLdWcxZ1A5RkxkWm85Zi16RDU2azdCX2ZpN2VBX3NqMXFpRnNUODNEcWhiMEo3Sw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "사진 촬영도 떼창도 없는 김동률 공연",
+   "summary": "김동률 콘서트는 관객이 조용히 노래에만 집중하는 독특한 분위기래요.",
+   "context": "보통 콘서트는 사진도 찍고 따라 부르기도 하지만, 김동률 공연은 그런 소리 없이 음악에만 집중하는 분위기로 알려져 있어요. 기자가 직접 가서 느낀 풍경을 소개한 기사예요.",
+   "source": "중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFRUk5THFXU3FwS1JPV0ZuR3M1eEFvSnBtS09wRlE0aFU2d3ZSVzJFR1N5aXhoQ21VNTd2UUktMzZDcnlQendfWGRuZzRXWG8xUlJJc1d3?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "영화·드라마",
+   "title": "신병 더 무비, 12월 30일 개봉 확정",
+   "summary": "군대 드라마 신병이 극장판으로 만들어져 연말에 개봉해요.",
+   "context": "신병은 군대 생활을 코믹하게 그려 인기를 끈 드라마예요. 연말 극장가를 노리고 12월 30일 개봉을 확정했어요. 드라마를 본 사람들은 극장판이 어떻게 이어질지 궁금해하고 있어요.",
+   "source": "YTN star",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80dWxVSVZtaTVmeGVFaDEyNTVkQU12VmZHLVJlWmxlV2U2Skp5alk3bERuSUlPQlB6MDdPenRxckh1UElHWV90MEZHZ2JSZXFuOEhUV2dSNTV0ckFRb0lB?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "인하대 AI 착륙 유도 연구, 미국 학회 최우수 논문",
+   "summary": "AI로 우주비행체가 스스로 착륙하도록 돕는 연구가 상을 받았어요.",
+   "context": "우주선이 달이나 행성에 내릴 때는 아주 정밀하게 방향과 속도를 조절해야 해요. 인하대 연구팀은 AI로 이 과정을 돕는 방법을 연구해 미국 항공우주학회에서 최우수 논문으로 뽑혔어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85cFlKYTdHaTQ5NEVXVU1DZjJIYzl0Wmhkbkp5UDN3VXJkaVhOOVUyclctMU1xWDJRZXN0REFlTnZCVGdTSGN0el9jQVgtSDVWVE1lZktSNWpjYUXSAWBBVV95cUxNVkZNT3R1YWdIelFIUUNMeDF1SmE3b0Z2WFVKV1dfMEg0dzZ4ZXY0V2IzWTRscFVMbnljR0dYWEl2Z004REhGckdMMlRFekpFelZjQmRWSGtQZ2NKSDVVSlQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "버터 닮은 립밤·푸딩 닮은 틴트, 뷰티·식품 이색 협업",
+   "summary": "화장품이 음식 모양을 닮은 협업 제품이 잇따라 나오고 있어요.",
+   "context": "식품 회사와 화장품 회사가 손잡고 서로의 이미지를 빌려 신제품을 만드는 협업이 늘고 있어요. 먹는 것 같은 모양이 눈길을 끌고 SNS에서 사진으로 공유되기 좋다는 장점이 있어요.",
+   "source": "한국경제",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80N0dCcGZ1b0tyNjM4SzVOeXRIYTY1aWsxLS03c1JzZ0dDWnB6eTg5bWVNaWFLUUhqVHk1QXVTaEgzaWloSVVBSkxQaTNkaG5ndDJldTBkbF91dw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "단양 구경시장에서 육쪽마늘과 드라큘라 축제",
+   "summary": "마늘로 유명한 단양에서 드라큘라를 접목한 이색 축제를 열었어요.",
+   "context": "드라큘라는 마늘을 싫어한다는 이야기에서 착안한 축제예요. 단양은 육쪽마늘 산지로 유명해서 지역 특산물을 알리려는 의도로 이런 이색 축제를 열었어요.",
+   "source": "연합뉴스 한민족센터",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3VlJtTk0tMURTX0oyVFAzcTZhaVJZZkhLM2JhRmE0dFFwQjF6S0lYbmdmcDlOV1VaV19BVUVzSFUtdnB1a2JrRWswdXFRLUFGQUZxSGlXM1NWSFNyd1ZwdnNpQXFDZmxJNzk2R3hOU1JDcjdF?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "스페인 고속열차 참사, 68명 사망·한국인 2명 부상",
+   "summary": "스페인에서 고속열차 충돌 사고로 68명이 숨지고 한국인 2명이 다쳤어요.",
+   "context": "파업을 하루 앞두고 발생한 대형 열차 사고예요. 한국인 승객 일부가 부상으로 병원에서 치료를 받고 있어요. 이재명 대통령은 애도를 표하고 국민 안전을 최우선으로 지원하겠다고 밝혔어요.",
+   "source": "전기신문",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtaVpxSmFYX01GRTJ4VE1SZG5aenNlaUd6MUluNVR1Vm5JbTh1YzZIMzJHTjUtZDROc21GeWdlWHNOT0lCbENMdzlpcTljcXh4dGpqR3JHTTVWYll1M3FoZXV3aHd1ZllTdUowNtIBcEFVX3lxTFBNal9hQWhocGVZUGNjc0JfM1ppYlhRWGhkelZpRVB4a2hqSkl3LTRCWmhqWVVrNGkzYXVPQUwzR05iS3JhTkhWV1NKUmJOQUF0NVp5WEh5ZU1FcnIxOFZ1Tm4xMGMyRE9GRGlNNXpOUU8?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "윤석열 내란 우두머리 항소심 결심 공판",
+   "summary": "오늘 항소심 결심 절차가 열리고 특검의 구형 수위가 관심이에요.",
+   "context": "1심에서는 무기징역이 선고됐고, 항소심 마지막 변론에서 특검이 어떤 형량을 요청할지가 쟁점이에요. 윤 전 대통령 측은 장기 독재 의도는 없었다는 취지로 주장하고 있어요.",
+   "source": "KBS 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91dVdiZ2p4bU1XNThjZjRYa1BLTWtGZEdLSVduTngzWkZUMVJtdWlKREFZMUI1Vk4xN092WVBuVmNtUGFMM1NCcU1ORk4yZEdfX0xpNHd2Sk5tb2M?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "올림픽공원 투표지 247만 장 반출, 국민의힘 반발",
+   "summary": "올림픽공원에 보관되던 투표지 247만 장이 146일 만에 반출됐어요. 국민의힘은 반발했어요.",
+   "context": "특검이 증거 검증을 위해 투표지를 가져갔고 일부는 국과수에서 정밀 감정을 받아요. 국민의힘은 절차에 문제가 있다며 항의한 반면, 반대편은 정당한 수사 절차라는 입장이에요.",
+   "source": "MBC 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jR3NiUWw1anNqSVQ0bm1HYXJ5VldzRnM3TVUtUlRWeWZ6Ui1UbDE5RzRmb0xlQ01GMVhsV3FGMlJSODJXVHBtcnh6WVpPOC1JRHV1c1RVRjRhMy0xRmJUdXdZRmR0bWo1aVlBeFMzR2VJd1RObnA40gF3QVVfeXFMTXI5ZW9TY3hGSWdLaHV0cnlILTcwQmZQaW9WS05jcm1QbmRfTXBRUTFQdjB1YmZNUmRtTnlrSndYZ21qbVpLbFBuTFZvN1pfTUQ4VGxub0RGUVl5c1hJYzBldjhwakY1aVpUUWM0UldCNldwbEN4bnc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국 중간선거 후 이란 재공격 준비설에 국제유가 급등",
+   "summary": "미국이 중간선거 후 이란을 다시 공격할 준비를 통보했다는 소식에 국제유가가 3% 가까이 올랐어요.",
+   "context": "한편으로는 미국 부통령이 이란 강경파에 협상 재개 서한을 보냈다는 보도도 나와 신호가 엇갈려요. 중동 정세는 석유 공급과 가격에 직접 영향을 줘서 우리 생활 물가와도 연결돼요.",
+   "source": "파이낸셜뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SbWpHN2p6eEcwUWJrRnNwOWFRcXhyMzBBcVM3OGFYSjZkRE5OMUVsZTdhR1MxRGtEUGJteGdDb1dNRm83aXc4OUtEV3MyNTNMU3JHSTVhd285dw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "대법원장 탄핵·국정조사 공방",
+   "summary": "민주당 등이 대법원장 국정조사와 탄핵을 추진하고 국민의힘은 반발하고 있어요.",
+   "context": "여당 쪽은 국정조사 사유가 충분하다고 보고, 야당은 사법부를 흔드는 정치적 공세라고 맞서고 있어요. 조국혁신당은 11월 5일 본회의에서 탄핵안 처리를 제안했어요.",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ3hyYU9kbWsxUFR1VEtYUWVyZi1HUHlaTmRvMWRjSkQtUWpkZWtBRGV5QTJsc3JablFFU2ZfWW5jbl90QjRqYk5NbHdfeU5wUmh4dVpZZEdLUFBMN0lhTVE3bnNEQl9WbEFCZmMyNXdsLWVnVjZZcTMxREJ0OE5BVGdDbDhBdw?oc=5"
+  }
+ ],
+ "term": {
+  "word": "국정조사",
+  "meaning": "국회가 특정 사안에 대해 직접 조사해서 사실관계를 밝히는 제도예요.",
+  "example": "국정조사를 한다는 뉴스가 나와서 어떤 내용인지 찾아봤어요."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래요. 우산 챙기셨어요?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%예요."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 {날씨}라고 해요. 비 소식이 있으니 퇴근길에 조심하세요.",
+   "explain": "비 올 확률이 {비확률}%이고, 최저 {최저}도 최고 {최고}도예요."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역} 최고 {최고}도인데 내일은 {내일최고}도래요. 기온 차가 커서 옷 고르기가 어렵겠어요.",
+   "explain": "오늘과 내일 낮 기온이 꽤 차이 나서 겉옷을 챙기면 좋아요."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역}은 오늘 {최저}도에서 {최고}도까지 오르내린대요. 하루에 계절이 두 번 오는 것 같아요.",
+   "explain": "하루 안에 기온 차가 커서 얇은 옷을 겹쳐 입으면 편해요."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮에 {최고}도까지 오른대요. 이 계절치고 꽤 따뜻하죠?",
+   "explain": "오늘 {지역} 최고 기온이 {최고}도로 평소보다 높아요."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}은 오늘 {최고}도로 포근한 편이에요. 겉옷 하나 벗어도 되겠어요.",
+   "explain": "낮 기온이 {최고}도까지 올라 날씨가 {날씨}해요."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 기온이 {최저}도래요. 출근길에 따뜻하게 입으셨어요?",
+   "explain": "{지역} 아침 최저 {최저}도, 낮 최고 {최고}도예요."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 아침에 {최저}도까지 내려가서 꽤 쌀쌀해요. 따뜻한 차 한 잔이 생각나요.",
+   "explain": "오늘 아침이 가장 추워서 겉옷이 필요해요."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {날씨}이고 최고 {최고}도래요. 산책하기 무난한 날이에요.",
+   "explain": "최저 {최저}도, 최고 {최고}도로 크게 춥거나 덥지 않아요."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {최저}도에서 {최고}도 사이래요. 큰 걱정 없이 지내기 좋겠어요.",
+   "explain": "오늘 {지역} 날씨는 {날씨}이고 비 올 확률은 {비확률}%예요."
+  }
+ ],
+ "types": [
+  {
+   "name": "반전",
+   "desc": "예상과 다른 방향으로 문장을 마무리해서 웃음을 줘요."
+  },
+  {
+   "name": "과장",
+   "desc": "상황을 살짝 부풀려서 재미를 만들어요."
+  },
+  {
+   "name": "능청",
+   "desc": "놀라운 이야기를 담담하게 받아넘겨요."
+  },
+  {
+   "name": "자조",
+   "desc": "썰렁했다고 먼저 인정하며 분위기를 풀어요."
+  }
+ ],
+ "date": "2026-10-29",
+ "weekday": "목요일",
+ "tone": "jondae",
+ "strength": "normal",
+ "generated_at": "2026-10-29 10:18",
+ "model": "claude-sonnet-5-5"
+}
