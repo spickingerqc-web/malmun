@@ -1,0 +1,497 @@
+{
+ "lede": "오늘은 반짝 포근한 가을 날씨, 서울 첫서리, 손흥민 주장 소식, K팝 훈장, 알파벳 주가, 신기한 현금 ATM까지 골고루 모았어요.",
+ "today": {
+  "situation": "점심 후 가벼운 인사",
+  "text": "어제 서울에 첫서리 내리고 설악산엔 첫눈 왔대. 갑자기 겨울 느낌이야.",
+  "why": "계절 변화는 누구에게나 걸쳐 있는 소재라 부담 없이 꺼낼 수 있어요.",
+  "explain": "기상청 소식인데, 어제 서울에 올가을 첫서리가 내리고 설악산엔 올해 첫눈이 왔대. 오늘은 좀 포근하고."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "손흥민 주장 재신임",
+    "safety": "가벼움",
+    "text": "모레노 감독이 손흥민을 계속 주장으로 간다더라. 내분설이 있었는데 정면 돌파한 거래.",
+    "explain": "축구 국가대표 감독이 11월 친선경기 명단을 발표하면서 주장 유임을 알렸다는 소식이야."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "블랙핑크 훈장",
+    "safety": "가장 안전",
+    "text": "블랙핑크가 K팝 걸그룹 최초로 옥관문화훈장을 받았대. 이제 무대 말고 훈장도 센터 선 거지.",
+    "explain": "한류 확산 공로로 정부가 주는 문화훈장을 받았대."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "LA 현금 ATM",
+    "safety": "가벼움",
+    "text": "LA에 돈 나오는 ATM이 나타났대. 영화 홍보인데, 보물찾기처럼 현금을 준다더라. 나 지금 비행기표 알아볼까?",
+    "explain": "영화 홍보 이벤트로 LA에 현금을 나눠 주는 ATM을 설치했다는 소식이야."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "알파벳 시총",
+    "safety": "상대가 관심 있을 때",
+    "text": "구글 모회사 주가가 하루에 12%나 빠졌대. 시총으로 700조가 날아갔다는데, 숫자가 너무 커서 실감이 안 나.",
+    "explain": "AI에 큰돈을 쓰는 데 대한 우려로 미국 증시가 내렸고, 알파벳이 특히 많이 빠졌대."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "날씨·생활",
+    "topic": "오늘 반짝 포근",
+    "safety": "가장 안전",
+    "text": "선배님, 오늘 날씨가 잠깐 가을로 돌아왔어요. 어제는 서리가 내렸다는데 오늘은 한낮이 포근하네요.",
+    "explain": "어제 서울에 첫서리가 내렸는데 오늘은 추위가 주춤하고 낮 최고 20도 안팎이라는 예보가 있어요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "최불암 별세",
+    "safety": "가벼움",
+    "text": "최불암 선생님이 별세하셨다는 소식을 봤어요. '국민 아버지'로 오래 기억될 분이라 마음이 먹먹하더라고요.",
+    "explain": "67년 동안 연기하신 배우가 오늘 세상을 떠나셨다는 소식이에요."
+   },
+   {
+    "field": "음식",
+    "topic": "단양 마늘 축제",
+    "safety": "가벼움",
+    "text": "단양에서 마늘이랑 드라큘라를 합친 갈릭 페스티벌을 연대요. 마늘이 드라큘라를 막는 건 아는데 같이 무대에 서는 건 처음 들어요.",
+    "explain": "충북 단양 구경시장에서 단양 마늘을 주제로 이색 축제를 연다는 소식이에요."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "AI 연봉 격차",
+    "safety": "상대가 관심 있을 때",
+    "text": "AI를 잘 쓰는 사람은 연봉이 62%나 더 높다는 조사가 나왔더라고요. 저도 배워 봐야 하나 싶었어요.",
+    "explain": "AI 활용 능력에 따라 연봉 격차가 커진다는 분석 기사였어요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음악·K팝",
+    "topic": "김동률 콘서트",
+    "safety": "가벼움",
+    "text": "김동률이 세종문화회관 공연을 마치고 이번엔 유독 잘하고 싶었다고 했대. 좋아하는 노래 있어?",
+    "explain": "가수 김동률이 어제 공연을 마친 뒤 한 인터뷰 소식이야."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "주말 날씨",
+    "safety": "가장 안전",
+    "text": "주말엔 다시 추워지고 일요일엔 비가 온대. 이번 주말 계획 있어?",
+    "explain": "기상 예보에서 오늘은 포근하지만 주말부터 기온이 내려가고 일요일에 비가 온다고 했어."
+   },
+   {
+    "field": "음식",
+    "topic": "단양 마늘",
+    "safety": "가벼움",
+    "text": "단양에서 마늘 축제를 한대. 드라큘라까지 등장한다는데, 마늘 좋아해?",
+    "explain": "충북 단양 시장에서 마늘과 드라큘라를 합친 이색 페스티벌을 연다는 소식이야."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "일본 카페 손편지",
+    "safety": "가장 안전",
+    "text": "일본의 어느 카페가 한국 분들 사랑한다는 손편지를 붙였대. 여행 갔다가 이런 거 보면 기분 좋을 것 같지 않아?",
+    "explain": "일본 카페 가게에 한국 손님에게 감사하는 손편지가 붙어서 화제가 됐대."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "영화·드라마",
+    "topic": "임영웅 영화",
+    "safety": "가벼움",
+    "text": "임영웅 콘서트 영화가 4면 스크린X로 나온대. 좌우로 화면이 감싸는 영화관인데, 한번 가 볼래?",
+    "explain": "공연 실황을 담은 영화를 스크린 네 면에 쏘는 방식으로 상영한다는 소식이야."
+   },
+   {
+    "field": "스포츠",
+    "topic": "11월 A매치",
+    "safety": "가벼움",
+    "text": "11월 축구 대표팀 명단이 나왔는데 손흥민이랑 이강인도 들어갔대. 이번엔 경기 보게 될 것 같아?",
+    "explain": "한국 축구 대표팀이 11월 원정 친선경기를 위해 소집 명단을 발표했어."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "오픈AI 사용량 확대",
+    "safety": "상대가 관심 있을 때",
+    "text": "오픈AI가 유료 사용량을 최대 두 배로 늘린대. 나도 일 줄여 주나 싶어서 봤어.",
+    "explain": "오픈AI가 프로와 기업용 요금제의 AI 사용량 한도를 늘렸다는 소식이야."
+   },
+   {
+    "field": "경제·돈",
+    "topic": "수도권 신규택지",
+    "safety": "상대가 관심 있을 때",
+    "text": "정부가 수도권에 집 지을 땅을 7만 6천 호 규모로 더 만든대. 2030년까지 착공하겠다는데 그때쯤이면 우리 집값 얘기 할까?",
+    "explain": "정부가 수도권 주택 공급을 늘리려고 신규 택지를 추가로 발표했어."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "오늘 날씨",
+    "safety": "가장 안전",
+    "text": "오늘은 날씨가 한결 포근하네요. 어제 서울엔 첫서리까지 내렸다는데, 감기 조심하세요.",
+    "explain": "어제는 서울 첫서리가 내릴 만큼 추웠고 오늘은 낮 기온이 20도 안팎으로 올라간다고 해요."
+   },
+   {
+    "field": "음식",
+    "topic": "단양 마늘",
+    "safety": "가벼움",
+    "text": "단양에서 마늘 축제를 연대요. 마늘 요리 좋아하시면 한번 가 보셔도 재밌겠어요.",
+    "explain": "단양 구경시장에서 마늘을 주제로 이색 행사를 연다는 소식이에요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "에이티즈 덕수궁",
+    "safety": "가벼움",
+    "text": "에이티즈가 덕수궁에서 무대를 한다는데, K팝 아이돌로는 처음이래요. 궁에서 하는 공연은 어떨지 궁금하더라고요.",
+    "explain": "그룹 에이티즈가 TV 음악 프로에서 덕수궁 무대를 선보일 예정이라는 소식이에요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "LA ATM",
+    "safety": "가벼움",
+    "text": "LA에 현금 나오는 ATM이 생겼다는 소식 보셨어요? 영화 홍보인데 진짜 돈을 준다더라고요.",
+    "explain": "영화 홍보 이벤트로 현금을 주는 ATM을 설치했다는 소식이에요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 날씨가 갑자기 추워졌는데 따뜻한 음식 중에 뭐가 제일 먼저 생각나?",
+  "why": "날씨와 음식은 누구나 답할 수 있고 대화가 자연스럽게 이어져요."
+ },
+ "scenes": [
+  {
+   "title": "회의 전 대기실에서 동료와",
+   "topics": "서리, 마늘 축제, 알파벳 주가",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 서울 첫서리 내렸대. 아침에 차 유리창 보고 놀랐어.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "진짜? 나는 오늘 반짝 포근하다고 해서 얇게 입고 왔는데.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그거 믿으면 안 돼. 일기예보는 가끔 사람을 시험하는 것 같아.",
+     "humor": {
+      "type": "의인화",
+      "why": "일기예보를 사람을 시험하는 존재처럼 말해서 가볍게 웃겨요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "맞아. 주말엔 또 추워진대.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그럼 오늘이 올가을 마지막 얇은 옷 날이네. 오늘 다 입고 가자.",
+     "humor": {
+      "type": "능청",
+      "why": "마지막 기회처럼 무겁게 말해서 가벼운 능청이 생겨요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 그렇고 단양에선 마늘이랑 드라큘라를 합친 축제를 한대.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "마늘이 드라큘라를 막는 건 아는데 같이 포스터에 찍힌 건 처음 보네.",
+     "humor": {
+      "type": "반전",
+      "why": "천적 관계인 둘이 같은 축제 포스터에 있다는 반전이 웃음 포인트예요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그러게. 드라큘라가 마늘 먹으면 어떻게 될지 궁금하다.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "썰렁해진 순간 수습하기 (직장·학교)",
+   "topics": "AI 연봉, 임영웅 영화, 손흥민 주장",
+   "lines": [
+    {
+     "who": "a",
+     "text": "AI 잘 쓰면 연봉이 62% 더 높다더라. 나도 오늘부터 AI랑 친해질까 봐.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "오, 좋은 생각이네. 어떻게 시작하려고?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "일단 이름부터 불러 줄게. 챗지피티야, 오늘도 잘 부탁해.",
+     "humor": {
+      "type": "자조",
+      "why": "AI와 친해지겠다며 이름부터 부르는 능청이 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금은 반응이 AI보다 느렸네. 내가 다시 로딩해 볼게.",
+     "humor": {
+      "type": "능청",
+      "why": "썰렁한 분위기를 로딩이 걸린 것처럼 말해서 부드럽게 수습해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 그렇게 말하니까 웃기네. 나도 영화 볼 때 로딩이 오래 걸려.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "그러고 보니 임영웅 콘서트 영화가 4면 스크린X로 나온대. 화면이 사방에서 오는데 로딩은 없겠지?",
+     "humor": {
+      "type": "과장",
+      "why": "사방에서 화면이 온다고 과장해서 앞의 로딩 농담과 자연스럽게 이어져요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 가 보고 싶다. 같이 갈래?",
+     "humor": null
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "엘리베이터에서 처음 보는 이웃과 눈이 마주쳤어요. 날씨로 한마디 해 보세요.",
+   "hints": [
+    "어제와 오늘 날씨를 비교해 보세요",
+    "주말 예보를 슬쩍 붙여 보세요"
+   ],
+   "answer": "어제 서리 내렸다는데 오늘은 좀 포근하네요. 주말엔 또 추워진대요.",
+   "note": "비교형: 어제와 오늘의 차이로 시작하면 공감하기 쉬워요."
+  },
+  {
+   "q": "점심 줄에서 동료가 심심해 보여요. 가벼운 K팝 소식을 던져 보세요.",
+   "hints": [
+    "최근에 상 받은 소식을 떠올려 보세요",
+    "상대가 좋아하는 가수를 물어봐도 좋아요"
+   ],
+   "answer": "블랙핑크가 K팝 걸그룹 최초로 문화훈장을 받았대. 너는 요즘 뭐 들어?",
+   "note": "소식 더하기 질문형: 사실을 던지고 질문으로 이어 가요."
+  },
+  {
+   "q": "썰렁해진 순간 수습하기: 농담이 안 먹혔을 때 한마디 해 보세요.",
+   "hints": [
+    "스스로를 가볍게 놀려 보세요",
+    "다른 소재로 자연스럽게 넘어가 보세요"
+   ],
+   "answer": "방금은 내 유머가 업데이트 중이었어. 다음 버전을 기다려 줘.",
+   "note": "능청형: 실수를 앱 업데이트에 빗대면 무겁지 않게 넘어가요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "어제 서울 첫서리, 설악산 첫눈…오늘은 추위 주춤",
+   "summary": "어제 서울에 올가을 첫서리가 내리고 설악산에 올해 첫눈이 왔어요. 오늘은 잠시 포근하고 주말에 다시 기온이 떨어져요.",
+   "context": "서리는 기온이 영하에 가까워질 때 풀잎 등에 얼음 결정이 맺히는 현상이에요. 첫서리가 내렸다는 건 본격적인 겨울 문턱에 들어섰다는 신호로 읽혀요. 주말엔 다시 찬바람이 불고 일요일엔 비가 올 수 있다는 예보도 나왔어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10enM0NU50VmkwV09lM3NJVko0cFZ5eHRuMTFXSWF6RFFKNExwWGhLZF82Z2RZUDJWNzVjVWtRX1Awanp6VU5aMDdUWU8yM1c4c2labXpjdjVOOVptRXdVU9IBYEFVX3lxTE10enM0NU50VmkwV09lM3NJVko0cFZ5eHRuMTFXSWF6RFFKNExwWGhLZF82Z2RZUDJWNzVjVWtRX1Awanp6VU5aMDdUWU8yM1c4c2labXpjdjVOOVptRXdVUw?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "모레노 감독, 손흥민 주장 재신임",
+   "summary": "축구 대표팀 모레노 감독이 11월 원정 친선경기 명단을 발표하며 손흥민을 계속 주장으로 맡긴다고 밝혔어요.",
+   "context": "대표팀에 내분설이 돌았는데 감독이 주장 유임으로 정면 돌파했어요. 손흥민, 이강인 등 핵심 선수가 모두 명단에 들어 팬들의 관심이 커요. 11월 원정 친선경기는 월드컵을 앞둔 점검 무대로 보면 돼요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iQmVheHJrWTYyOG0xZ3ptMm1IWDFTRlRPTk9ITFpaMHF5YUtvc3BYU2pVaE1wRTBUdW1NQkV4aE5NWDJUamFMQlFBSk5vQXFXbGlXMlR0c0d6dlJvcC04SjRRbC1jdlE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장",
+   "summary": "블랙핑크가 한류 확산 공로로 K팝 걸그룹 중 처음으로 옥관문화훈장을 받았어요.",
+   "context": "문화훈장은 문화예술 발전에 기여한 사람에게 정부가 주는 훈장이에요. 옥관은 그중 하나의 등급이고, 아이돌 그룹이 받는 건 이례적이에요. K팝이 문화 산업으로서 공식 인정받는 흐름으로 볼 수 있어요.",
+   "source": "메디컬투데이",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oZjRCdGREXzEwYU5NYTRvczNUdUl4Ym5lR1g1RGdmd0wtVDBZNExVQUJpLURZdWVjR1hpTlZmdEZadGNDZzhfTGl3NUFuaVdvTUdieTl5UmEybnVDbGJTYmRBemo4YTFaczU2WQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "AI 투자 우려에 알파벳 12.6% 급락",
+   "summary": "AI에 막대한 투자를 하는 데 대한 우려가 다시 커지면서 뉴욕증시가 하락했고 알파벳은 하루 만에 12.6% 빠졌어요.",
+   "context": "알파벳은 구글의 모회사예요. AI 개발에 큰돈을 쓰지만 아직 그만큼 수익이 나는지 불확실하다는 걱정이 주가에 반영됐어요. 시가총액으로는 700조 원가량이 사라졌다고 해서 시장이 놀랐어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QOV9BaTQtT0U3cFRRUWlJOEpRUXNIWmpUaEtHTE1UNlN2eTFLdmgyNGV1V29iV0liVFhueUpGaU5mLUdQREdFdUxVekhWaDBheFIyQ0QwRmR5MVHSAWBBVV95cUxNbTZZaUZzdmh6M0NiUU1GZVdhajctUXZFeS1uck42TWpPWWNISlEtNXNnb0dIUmxpWmJtdnZPS2ppWEZVWjI4TDY1UjViQTQ1UnltNTI0V1ZvVHZVMHAyQnI?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "KIST, 코딩 없이 AI 도구를 직접 개발",
+   "summary": "KIST가 코딩 없이도 연구자가 AI 도구를 만들어 쓰는 방식을 확산하고 있어요. 장비 분석부터 행정 업무까지 쓰여요.",
+   "context": "KIST는 한국과학기술연구원이에요. 프로그래밍을 몰라도 말로 AI에게 도구를 만들게 해서 연구와 행정 시간을 줄이는 방식이에요. 일반 직장에서도 비슷한 방식이 퍼질 수 있다는 점에서 눈여겨볼 만해요.",
+   "source": "인공지능신문",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBybWdUVXZBWlNRQU40T2U0cGFOWmF6aWFOQWd3S0xOUG5EeXp4WUk4YXg4NHYzY1ZvTHo4UHp2UGdXcXE1X1Y3MVRpM2pDZ1lGa2VHbTdyQ3NZY0Y0MHpnejNLZVo2RDQ?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "단양 마늘과 드라큘라의 만남, 갈릭 페스티벌",
+   "summary": "충북 단양 구경시장에서 단양 마늘을 주제로 한 이색 갈릭 페스티벌이 열려요.",
+   "context": "단양은 마늘로 유명한 지역이에요. 드라큘라 콘셉트를 더해 마늘을 재미있게 알리는 지역 행사예요. 마늘이 드라큘라를 쫓는다는 이야기를 뒤집어 같이 세운 점이 화제예요.",
+   "source": "비즈월드",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GQnlobEFrclV2cW9mTUZtTEZaTmFEM3BjUFFCcnZqSmlxd2VlbmV3dW1NRVNvMWRzUTh6eXFxUHBubDBTLXpyeXBrTDBwVEh1bGZGWGV1M0pKZU1GY3U0dmNMeFlVZDNqOVE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "LA에 현금 주는 ATM 등장…영화 홍보 이색 보물찾기",
+   "summary": "LA에 현금을 내주는 ATM이 등장했어요. 영화 홍보를 위한 이색 보물찾기 이벤트예요.",
+   "context": "영화 홍보를 위해 거리에 설치한 이벤트성 ATM이에요. 현장에서 찾으면 현금을 받을 수 있는 방식이라 SNS에서 화제가 됐어요. 마케팅이 보물찾기처럼 변하고 있다는 사례로도 볼 수 있어요.",
+   "source": "라디오코리아",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81eEp2TmFOSmRITHJHUEE3ZzBqVG95NjBsZE42aFNjYWl0UHRFYWlxMUh0MGpRdm50VDZWV1M4cHhGa1lSSVh0Rm9hSG9oVXpuNnJyRlA5UFlpRk5zX3RFbTdjMDA?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "한·독일, 강화된 전략적 동반자 관계로 격상",
+   "summary": "메르츠 독일 총리가 방한해 이재명 대통령과 정상회담을 하고 양국 관계를 격상했어요.",
+   "context": "독일은 유럽 최대 경제국이에요. 이번 격상으로 공급망, 경제안보, 첨단산업, 방산 분야 협력이 더 강화될 전망이에요. 두 나라가 반도체와 배터리 등에서 손잡을 가능성이 커졌다는 의미예요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YMjRacVhaVzJ2WlQyNzd0OGlBc3N2bHhkc0RlYW9NMm1wTnc2T1N1cGp1U190MUVKTlhuVzFXbkF0TUx0LUU1cWt6QUZNVEJpeFdQNXZoQVRId9IBX0FVX3lxTE5URzNGNG1mT3poZ2xnd3kwMHlFMmMyZmg4SXljR09IcHJPNkFMbTZRMHFoajN5cDhXNGstdDE3dVRQZWlWR3F0VFpWaGQ2d1BkUi1qZVlzd19aNF9UYzlF?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "수도권에 신규택지 7만 6700호 추가",
+   "summary": "정부가 수도권에 신규 택지 7만 6700호를 추가하고 2030년까지 착공을 추진한다고 밝혔어요.",
+   "context": "집값 안정과 공급 확대를 위해 정부가 추진하는 주택 공급 대책의 하나예요. 택지 지정에서 착공까지는 시간이 걸려서 당장 효과가 나기는 어렵다는 지적도 있어요. 지역 주민과 땅 소유자 의견이 어떻게 반영될지가 관건이에요.",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xNmhZOFdSN2hNaUtYY29LckRiejNHbUdoSnBRSVFGck5oNFFvNUpwZndiS0JHa2Rlc2dhTUg4S0RodU1nQ1NoTmIwMDlFaTVGNTc2SXV3UFhlNXZlb1NJRVI4VFc2OUxYdzNLMw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "경기 버스 노사, 파업 앞두고 극적 타결",
+   "summary": "임금·단체협약 협상이 11시간 만에 타결돼 총파업이 철회되고 오늘 정상 운행해요.",
+   "context": "경기도는 버스로 출퇴근하는 시민이 많아 파업이 현실화되면 영향이 컸을 거예요. 막판 타결로 첫차부터 평소처럼 다녀요. 임금과 근로 조건을 두고 노사가 한 발씩 양보한 결과로 보여요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RSXF0MVpkdnFqYjVjV2ZuYjJ1SHQ5U29Sal9EcnYxTW4zZVZMamVaT3MtQWVkME9FQ0pBWExLbFJ0aGpldXJRUkpFMFBMZjl1VE81VHVETFhPUdIBX0FVX3lxTFB1ZlBIeUNUWWctbWhEVDBCVkxzdVJMdUt1bHdsSmRBcmV1Zy02UTJWSDVxXzljN1JJdk5jai1ULVNJSVFkTEFCa1A3ZFdUVUcyQUxMSU91QWJ5NldIcnhr?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "구룡마을 화재 이재민 지원 논의",
+   "summary": "강남 구룡마을 화재 이후 강남구가 특별재난지역 선포를 요청할 계획이고, 국토부는 이재민에게 2년 무상주택을 약속했어요.",
+   "context": "구룡마을은 서울 강남의 대표적인 무허가 판자촌이에요. 특별재난지역으로 선포되면 정부가 복구비를 더 지원해요. 다만 당장 공급 가능한 주택 물량이 부족하다는 지적도 나와 이재민 거주 문제가 과제로 남았어요.",
+   "source": "YTN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsdWRON3FQcE5lbGV1Vi1SdEd1U2xjN2hGU2l1c2RoZlVmMWVqTDc3VnFsWktBd2xtRVAzV19zUEdmTlR6SzVjWGg5Nk1VOTBHVTZPdjZBZndIMUo4anc?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미 이란 공습 재개 가능성 보도",
+   "summary": "미국 중동지역 사령관이 트럼프 대통령에게 이란 공격 옵션을 보고했다는 보도가 나왔어요.",
+   "context": "미국과 이란은 지난 대치 이후 긴장 상태예요. 공격 재개 검토 보도가 나오면서 국제 유가와 증시가 민감하게 반응했어요. 아직은 검토 단계라 실제 결정은 달라질 수 있다는 점을 알아 두면 돼요.",
+   "source": "경향신문",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTUZPNHhMejFTOUttTG40ZTBITXMydHk1NHFIQ3JQNmRfandxWFRYVWgtbWVCdFdPdXJST3o4YnhsSjJRamplN1hLYnlCNlNBdjFPbkdYYjAxUdIBX0FVX3lxTFBSdVhJNktENnkwdHo2ZW9jT1RKUTFfLW16SkJDWkgtaVdrdEVtZ3ZwLTd6M2ozbV8yeFRhS1BsWXVLdTJHMlNac0pWdU5vUTRGc2MyS1l0d2N5ZU5ROXpv?oc=5"
+  }
+ ],
+ "term": {
+  "word": "시가총액",
+  "meaning": "회사 주식 전체의 값어치를 합한 금액이에요. 주가에 발행한 주식 수를 곱해서 계산해요.",
+  "example": "알파벳 시가총액이 하루에 700조 원 가까이 줄었다니까 얼마나 큰 회사인지 실감 나."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률은 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}엔 오늘 비 소식이 있대. 비 오는 날 뭐 먹고 싶어?",
+   "explain": "{날씨} 예보고 비 올 확률이 {비확률}%라서 우산 챙기는 게 좋아."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {최고}도인데 내일은 {내일최고}도래. 하루 만에 옷차림이 달라지겠어.",
+   "explain": "{지역} 오늘 낮 최고 {최고}도, 내일 낮 최고는 {내일최고}도래."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역} 기온이 오르락내리락하네. 오늘 {최고}도, 내일 {내일최고}도라는데 감기 조심해.",
+   "explain": "오늘과 내일 낮 최고 기온 차이가 커서 겉옷이 필요할 수 있어."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮 최고 {최고}도래. 가을 맞나 싶을 정도로 따뜻하네.",
+   "explain": "{지역} 오늘 최고 {최고}도, 최저 {최저}도라서 한낮엔 얇게 입어도 돼."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}이 오늘 {최고}도까지 올라간대. 오늘은 외투 벗는 날이야.",
+   "explain": "낮 최고 {최고}도라서 낮에는 포근하고 아침저녁은 쌀쌀할 수 있어."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 아침 {지역} {최저}도래. 아침에 나오기 힘들었지?",
+   "explain": "{지역} 오늘 최저 {최저}도, 낮 최고 {최고}도라서 아침엔 따뜻하게 입어야 해."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역}은 오늘 {최저}도에서 시작한대. 두꺼운 옷 꺼내야 하나 고민 중이야.",
+   "explain": "아침 기온이 {최저}도까지 내려가서 아침엔 쌀쌀하다는 예보야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} {날씨}래. 낮 최고 {최고}도라 걷기 괜찮겠어.",
+   "explain": "{지역} 오늘 최저 {최저}도, 최고 {최고}도로 평범한 가을 날씨야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역}은 {최저}도에서 {최고}도 사이래. 점심시간에 산책하기 딱 좋은 날씨야.",
+   "explain": "오늘 {지역} 기온은 {최저}도에서 {최고}도, 날씨는 {날씨}이야."
+  }
+ ],
+ "types": [
+  {
+   "name": "소식 전달형",
+   "desc": "사실 한 줄로 시작하고 설명은 상대가 물으면 이어 가요."
+  },
+  {
+   "name": "비교형",
+   "desc": "어제와 오늘, 또는 두 대상을 비교해서 공감을 이끌어요."
+  },
+  {
+   "name": "능청형",
+   "desc": "썰렁한 순간을 앱 업데이트나 로딩처럼 가볍게 받아넘겨요."
+  },
+  {
+   "name": "질문 이어가기형",
+   "desc": "사실을 던진 뒤 질문으로 상대 이야기를 끌어내요."
+  }
+ ],
+ "date": "2026-10-30",
+ "weekday": "금요일",
+ "tone": "banmal",
+ "strength": "normal",
+ "generated_at": "2026-10-30 10:15",
+ "model": "claude-sonnet-5-5"
+}
