@@ -1,0 +1,506 @@
+{
+ "lede": "오늘은 10월의 마지막 날 핼러윈, 프로야구 플레이오프와 K팝 궁궐 공연, 수능 20일 전 풍경, 일요일 비 소식까지 두루 훑어봤어요.",
+ "today": {
+  "situation": "핼러윈 날 가볍게 인사할 때",
+  "text": "오늘 10월의 마지막 날이래. 내일부터 11월이라니, 올해가 슬슬 영수증 뽑을 시간이야.",
+  "why": "달력 얘기로 시작하면 누구에게나 통하고, 연말 이야기로 자연스럽게 이어져요.",
+  "explain": "오늘이 10월 31일이라 내일부터 11월이거든. 올해도 두 달밖에 안 남았어."
+ },
+ "openers": {
+  "친구 모임": [
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가벼움",
+    "text": "어제 플레이오프 4차전에서 KIA가 삼성 4대2로 이겨서 승부 원점이래. 이제 진짜 한 판 싸움이야.",
+    "explain": "7전 4선승제 시리즈인데 2승 2패가 됐다는 얘기야."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "에이티즈 덕수궁 공연",
+    "safety": "가장 안전",
+    "text": "에이티즈가 덕수궁 석조전 앞에서 공연했대. K팝 그룹으로는 처음이래. 왕궁 무대라니, 스케일이 다르다.",
+    "explain": "불후의 명곡 촬영인데, 덕수궁 석조전에서 K팝 그룹이 공연한 건 처음이래."
+   },
+   {
+    "field": "음식",
+    "topic": "유튜브 빼빼로 기능",
+    "safety": "가벼움",
+    "text": "곧 빼빼로데이인데 유튜브가 빼빼로 관련 기능을 내놨대. 이제 과자도 알고리즘이 추천해 주는 시대야.",
+    "explain": "11월 11일 빼빼로데이에 맞춰 유튜브가 이색 기능을 선보였대."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "배달원 배려",
+    "safety": "가장 안전",
+    "text": "배달원이 음식을 바닥에 못 두겠다고 문 앞을 지켜 줬대. 이런 건 오래 기억에 남더라.",
+    "explain": "음식을 바닥에 둘 수 없어서 문 앞에 머물렀다는 훈훈한 사연이 화제야."
+   }
+  ],
+  "어른·선배": [
+   {
+    "field": "경제·돈",
+    "topic": "은행 특판 적금",
+    "safety": "가벼움",
+    "text": "선배님, 요즘 은행들이 연 15% 적금이나 3.9% 특판까지 내놓는대요. 혹시 눈여겨보신 상품 있으세요?",
+    "explain": "은행들이 예금을 끌어오려고 이색 적금과 특판을 경쟁적으로 내놓고 있대요."
+   },
+   {
+    "field": "영화·드라마",
+    "topic": "최불암 배우 추모",
+    "safety": "상대가 관심 있을 때",
+    "text": "배우 최불암 선생님이 하늘로 가셨다는 소식 들으셨어요? 저희 세대에게도 '국민 아버지'로 기억되는 분이라 많이 안타까워요.",
+    "explain": "오랫동안 국민 아버지로 불린 배우가 별세해 추모가 이어지고 있어요."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가벼움",
+    "text": "어제 KIA가 삼성을 이겨서 플레이오프가 2승 2패가 됐대요. 혹시 응원하시는 팀 있으세요?",
+    "explain": "7전 4선승제라 이제 남은 경기가 승부를 가르게 돼요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "휴양지 이색 실험",
+    "safety": "가벼움",
+    "text": "어떤 휴양지는 해변에 파라솔을 못 세우고, 식당에선 핸드폰도 금지한대요. 저는 사흘 못 버틸 것 같아요.",
+    "explain": "관광지가 자연을 살리고 대화를 늘리려고 시도하는 이색 규칙이래요."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일요일 비와 추위",
+    "safety": "가장 안전",
+    "text": "일요일엔 전국에 비가 오고 쌀쌀해진대요. 주말 계획 있으시면 우산이랑 겉옷 챙기셔야겠어요.",
+    "explain": "토요일은 선선한 가을 날씨지만 일요일부터 비와 함께 기온이 떨어진대요."
+   }
+  ],
+  "처음 만난 사람": [
+   {
+    "field": "음식",
+    "topic": "고속도로 휴게소",
+    "safety": "가장 안전",
+    "text": "휴게소 음식이 더 저렴해지게 정부가 시범사업을 시작했대. 휴게소 우동은 가격이 아니라 분위기로 먹는 건데 말이야.",
+    "explain": "정부가 고속도로 휴게소와 직계약하는 시범사업을 시작해 음식 가격 인하를 기대한대."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "K팝 앨범 판매",
+    "safety": "가벼움",
+    "text": "K팝 앨범이 올해 3년 만에 1억 장 팔릴 전망이래. 요즘 앨범은 듣는 물건이라기보다 모으는 물건인가 봐.",
+    "explain": "플랫폼 앨범이 판매 반등을 이끌어서 3년 만에 1억 장을 넘을 거라는 예측이야."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "우주 데이터센터",
+    "safety": "가벼움",
+    "text": "구글이 우주에 데이터센터를 띄웠는데, AI가 첫 응답으로 지구를 푸른 구슬이라고 시를 썼대. 우주 출장 간 AI가 감성이 올랐나 봐.",
+    "explain": "구글이 우주에 첫 데이터센터를 올렸고 AI가 지구를 보며 시 한 편을 썼대."
+   },
+   {
+    "field": "스포츠",
+    "topic": "프로야구 플레이오프",
+    "safety": "가벼움",
+    "text": "프로야구 플레이오프가 2승 2패로 원점이래. 혹시 야구 좋아해? 아니면 시즌 끝나면 뭐 하고 지내?",
+    "explain": "KIA와 삼성의 플레이오프가 4차전 후 2대2가 됐어."
+   }
+  ],
+  "직장·학교": [
+   {
+    "field": "경제·돈",
+    "topic": "AI와 노동",
+    "safety": "가벼움",
+    "text": "유럽중앙은행 쪽에서 AI를 쓰는 노동자가 절반이 넘는다고 했대. 우리 팀에서도 AI 안 쓰는 사람 찾기가 더 어려울걸.",
+    "explain": "ECB 임원이 AI가 성장에 크게 기여하고 있고 활용 노동자가 절반을 넘는다고 말했대."
+   },
+   {
+    "field": "IT·과학",
+    "topic": "우주쓰레기 청소 위성",
+    "safety": "가장 안전",
+    "text": "내년에 누리호가 우주쓰레기 청소 위성을 쏘아 올린대. 우주에도 대청소 시즌이 온 거야.",
+    "explain": "우주쓰레기를 치우는 위성을 내년에 누리호에 실어 발사할 계획이래."
+   },
+   {
+    "field": "날씨·생활",
+    "topic": "일교차와 비",
+    "safety": "가장 안전",
+    "text": "오늘은 맑은데 내일부터 비 와서 쌀쌀해진대. 이번 가을은 롤러코스터 같아. 내일 출근하는 사람은 겉옷 꼭 챙겨야겠어.",
+    "explain": "토요일은 선선하지만 일요일 비 이후 아침 기온이 많이 내려간대."
+   },
+   {
+    "field": "음식",
+    "topic": "수험생 응원 선물",
+    "safety": "가벼움",
+    "text": "수능이 20일 남아서 이색 응원 선물이 쏟아진대. 찹쌀떡은 이제 기본이고, 합격 기원 선물도 점점 창의력 대결이야.",
+    "explain": "수능을 앞두고 업체들이 이색 선물과 이벤트로 수험생을 응원하고 있대."
+   }
+  ],
+  "손님·고객": [
+   {
+    "field": "날씨·생활",
+    "topic": "쌀쌀한 날씨",
+    "safety": "가장 안전",
+    "text": "오늘은 아침에 쌀쌀했는데 낮엔 맑았어요. 내일은 비 소식도 있던데, 우산 챙기시는 게 좋겠어요.",
+    "explain": "오늘 낮은 맑지만 내일은 전국에 비가 오고 기온이 떨어진대요."
+   },
+   {
+    "field": "음식",
+    "topic": "맥주맛 미역 음료",
+    "safety": "가벼움",
+    "text": "요즘 바다 음식이 신기하게 나온대요. 맥주맛 미역 음료도 있다더라고요. 미역이 한잔하고 싶었나 봐요.",
+    "explain": "귀어 상담 행사에서 맥주맛 미역 음료 같은 이색 먹거리가 소개됐대요."
+   },
+   {
+    "field": "동물·신기한 이야기",
+    "topic": "배달원 배려",
+    "safety": "가장 안전",
+    "text": "배달하시는 분이 음식을 바닥에 둘 수 없다고 문 앞을 지켜 주셨대요. 이런 소식 들으면 마음이 훈훈해져요.",
+    "explain": "음식을 바닥에 둘 수 없어서 문 앞에 머문 배달원의 배려가 화제가 됐어요."
+   },
+   {
+    "field": "음악·K팝",
+    "topic": "에이티즈 덕수궁 공연",
+    "safety": "가장 안전",
+    "text": "에이티즈가 덕수궁 석조전에서 공연을 했다고 해요. 궁궐에서 K팝이라니, 구경 가고 싶어질 것 같아요.",
+    "explain": "K팝 그룹으로는 처음으로 덕수궁 석조전 앞에서 무대를 했대요."
+   }
+  ]
+ },
+ "fallback_question": {
+  "text": "요즘 하루 중에 제일 기다려지는 시간이 언제야?",
+  "why": "정답이 없는 질문이라 부담이 없고, 상대의 일상과 취향이 자연스럽게 나와요."
+ },
+ "scenes": [
+  {
+   "title": "핼러윈 날 친구와 야구 얘기",
+   "topics": "프로야구 플레이오프, 빼빼로데이",
+   "lines": [
+    {
+     "who": "a",
+     "text": "어제 플레이오프 봤어? KIA가 삼성 이겨서 2승 2패 됐대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "아 그래? 난 결과만 봤어. 진짜 팽팽하더라.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "이쯤 되면 남은 경기는 팬 심장이 먼저 지칠 것 같아.",
+     "humor": {
+      "type": "능청",
+      "why": "경기 결과 대신 보는 사람의 체력을 걱정하는 방향으로 틀어서 웃음을 줘요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "맞아. 그래도 응원하는 팀이 있으면 즐겁긴 해. 너는 어디 응원해?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나는 팀보다 치킨을 응원해. 경기마다 늘 이기거든.",
+     "humor": {
+      "type": "반전",
+      "why": "팀을 묻는 질문에 치킨이라는 뜻밖의 답을 해서 예상을 뒤집어요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "그건 인정이다. 다음 경기 때 같이 시켜 먹을까?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "좋아. 내일부터 11월이니까 빼빼로도 사 둬야겠다.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "벌써? 우리 올해 뭐 했나 싶다.",
+     "humor": null
+    }
+   ]
+  },
+  {
+   "title": "조용해진 점심, 썰렁 수습",
+   "topics": "우주 데이터센터, 수능 선물",
+   "lines": [
+    {
+     "who": "a",
+     "text": "구글이 우주에 데이터센터를 올렸대. AI가 지구를 보고 시도 썼대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "우주까지 갔다고? 대단하네.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "우주에선 서버 온도 걱정은 없겠다. 알아서 식으니까.",
+     "humor": {
+      "type": "말장난",
+      "why": "우주가 춥다는 사실을 서버 냉각 걱정과 엮은 말장난이라 가볍게 웃기 좋아요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "...(잠깐 정적)",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "방금 그건 서버처럼 응답 지연이 났네. 내가 다시 재부팅할게.",
+     "humor": {
+      "type": "자조",
+      "why": "썰렁한 상황을 IT 용어로 스스로 놀려서 분위기를 수습해요."
+     }
+    },
+    {
+     "who": "b",
+     "text": "하하, 재부팅은 빨랐네. 그럼 새로 시작해 봐.",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "수능이 20일 남았대. 요즘은 이색 응원 선물이 엄청 나온대.",
+     "humor": null
+    },
+    {
+     "who": "b",
+     "text": "우리 때는 찹쌀떡이 전부였는데. 지금은 뭘 줄까?",
+     "humor": null
+    },
+    {
+     "who": "a",
+     "text": "나라면 시험지랑 같이 휴식 쿠폰을 줄 거야. 합격하면 쉬어야 하니까.",
+     "humor": {
+      "type": "능청",
+      "why": "응원 선물을 합격 후 쉬는 걸로 연결해서 능청스럽게 마무리해요."
+     }
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "친구가 약속에 늦는다고 연락했을 때, 부담 없이 받아칠 한마디는?",
+   "hints": [
+    "여유 있게 받기",
+    "가벼운 농담"
+   ],
+   "answer": "괜찮아, 나 오히려 오늘 일찍 와서 이 동네 구경하고 있어.",
+   "note": "여유형: 상대의 부담을 덜어 주는 말이에요."
+  },
+  {
+   "q": "선배가 주말 계획을 물어볼 때, 짧고 자연스럽게 답하려면?",
+   "hints": [
+    "일정 하나만 말하기",
+    "되묻기"
+   ],
+   "answer": "일요일에 비 온다니까 집에서 쉬려고요. 선배님은 주말에 뭐 하세요?",
+   "note": "되묻기형: 답한 뒤 바로 상대에게 넘겨요."
+  },
+  {
+   "q": "처음 만난 사람과 말이 끊겼을 때 가벼운 소재를 꺼내려면?",
+   "hints": [
+    "오늘 본 뉴스",
+    "공감 질문"
+   ],
+   "answer": "오늘 핼러윈이래. 혹시 챙기는 편이야, 아니면 조용히 보내는 편이야?",
+   "note": "공감 질문형: 정답이 없는 질문이라 부담이 적어요."
+  }
+ ],
+ "news": [
+  {
+   "kind": "talk",
+   "tag": "스포츠",
+   "title": "프로야구 플레이오프 4차전, KIA가 삼성 제압해 원점",
+   "summary": "KIA가 삼성을 4대2로 이겨 시리즈가 2승 2패가 됐어요.",
+   "context": "프로야구 플레이오프는 먼저 일정 승수를 거두는 팀이 한국시리즈로 가는 단판 승부가 이어지는 구조예요. 4차전 결과로 시리즈가 균형을 이뤄서 남은 경기에 관심이 더 커졌어요.",
+   "source": "천지일보",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uckhkSjhHd1VFcURFTW5OZWtudEtCaHRNNGM3dDd5cmFzZ1FlTnNvMVlMZkVXb3BsWG51eXZPamdGbkNNYk44MHhKWksyUm9La3RFa05xUHlLekVhSWNhN0JOVU0tVkgzN1E?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음악·K팝",
+   "title": "에이티즈, K팝 그룹 최초로 덕수궁 석조전 앞에서 공연",
+   "summary": "불후의 명곡 무대로 덕수궁 석조전 앞에서 K팝 그룹이 처음 공연했어요.",
+   "context": "덕수궁 석조전은 대한제국 시기에 지어진 서양식 건물이에요. 보존이 중요한 문화유산이라 K팝 그룹이 공연한 건 이번이 처음이라고 해서 화제가 됐어요.",
+   "source": "SPOTV NEWS",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SMi1FYUFjZWpmaFlCV0piSXdlT3lickQ4UDZhVmNUa1lTdTkta2JPdUNKZVd3UUF3aHg5MDBxWHhqYXU1RnAwY0tTenZCM0NKUEp1dVB0cnl0Ync5SF9jOGpTVXF6S3lsTy1OaC10MFE?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "IT·과학",
+   "title": "구글 첫 우주 데이터센터, AI가 지구를 시로 표현",
+   "summary": "구글이 우주에 띄운 첫 데이터센터에서 AI가 지구를 푸른 구슬에 빗대 시를 썼어요.",
+   "context": "데이터센터는 서버를 모아 두고 인터넷과 AI 서비스를 돌리는 시설이에요. 지상에선 전력과 냉각이 큰 부담이라 우주로 옮기는 실험이 이어지고 있어요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNFhaRXNweG5IeldpZkRzZW9uUG1sdVZCV214MmxCQXZCLTlKZ2JLVWV1QjZIN0ZEUTVvV3B2SHZPOEJEdWpGcnZoTWJyWm9qNmV2ZXdLX3lvRjjSAWBBVV95cUxOUUhwYmJmV0dJa3ZlTENabTRYdndmMGFXWnY1R3hTNFRWT1p5bGt3ZDBQbVBFaEFGeHZzSDkwRWlDVzdGUnRXRFp5bi0tSk1sWXhVb3RNcFJwNEZOMlVuSUc?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "날씨·생활",
+   "title": "토요일은 선선한 가을, 일요일엔 전국 비와 쌀쌀한 날씨",
+   "summary": "오늘은 대체로 맑고 선선하지만 일요일엔 전국에 비가 오며 기온이 떨어져요.",
+   "context": "가을에는 맑은 날과 비 오는 날의 기온 차가 크게 나요. 특히 비가 그친 뒤 아침 기온이 크게 내려가 환절기 건강 관리가 필요해요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RSWFHTmo5aVF2LW01cmVaQmtuY0xBWXM0YlljUlB5OEpkQURwcWxxZ2ROWXZYWjd2QXl1SWFNa0ZlSF81OTdxRHZJYWw5WmlOQmMzVmhJY3JkUkRVWkZMS0I5RDQ3c00?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "음식",
+   "title": "고속도로 휴게소 직계약 시범사업 착수",
+   "summary": "정부가 휴게소 직계약 시범사업을 시작해 음식과 편의시설 가격 인하를 노려요.",
+   "context": "휴게소 가격이 비싸다는 불만이 많았어요. 이번 사업은 공급 구조를 바꿔 가격을 낮추고 서비스를 개선하려는 시도예요.",
+   "source": "대한민국 정책브리핑",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Uak5RT0tBUDRnenN1MDlWdUF4cUVPdVBoN01NZzQzVHQwSkF3YUVZdjhPM09JVkY3M004TE1RTzVTX2VPaXUySlpJVzNZakF1SF81WE1zSWZCNXpsUWF0bVoydjRMLXl4NURaeg?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "경제·돈",
+   "title": "은행들 예금 유치전, 연 15% 적금부터 3.9% 특판까지",
+   "summary": "은행들이 이색 적금과 특판 상품을 앞세워 예금 유치 경쟁을 벌이고 있어요.",
+   "context": "특판 상품은 한정 기간이나 조건을 붙여 높은 금리를 주는 상품이에요. 가입 조건과 한도가 달라서 꼼꼼히 따져 보는 게 중요해요.",
+   "source": "IT조선",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5bjhjU1pVa29lQl9rbS00ekNlMnp6dWhleHptWWN3S3ZCNlNPRWhNNkdISEZEVzhJSExHR3dKQXV6R2tLd3FwSTVXdElIVC1BaDJacXFOYlJWamRFbzlQd0M2aXNPVWRtNV96dG9ZTTXSAXRBVV95cUxNYzhhOW1mdW5GVjdQbkU2d0FJcWNOZ21yOHRGQXZZX2xBVVpVUTUxUXVnd2F5elhmMHFRRnJrdnV3VnctY0FpdXN4WWpkYmtRdkVEYzJuZ2lMcXpXcWo4Qnh2VGt3enRzVzRkYTAtMnUzUmhaQg?oc=5"
+  },
+  {
+   "kind": "talk",
+   "tag": "동물·신기한 이야기",
+   "title": "음식 바닥에 둘 수 없다며 문 앞에 남은 배달원",
+   "summary": "음식을 바닥에 둘 수 없다며 문 앞을 지킨 배달원의 배려가 화제예요.",
+   "context": "배달 현장에서 일어난 작은 배려가 온라인에서 공유되며 훈훈한 반응을 얻고 있어요.",
+   "source": "중앙일보",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZQ2NydmVqejY3cmJXeFpIZDVaaWM0WWlUU2t4d0w0MXkxQURrQ3pBTVRGMUxFU2JDRXE2eGxvM0VISHg5VTJWY1dYX3p4TVRkUmRLSV93?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "소아응급실 압수수색 논란, 의료계와 경찰의 입장 충돌",
+   "summary": "의료계는 진료 방해라 하고 경찰은 적법한 집행이라 맞서고 있어요.",
+   "context": "의료계는 응급 진료 현장에 강제 수사가 들어가면 필수의료가 위축된다고 주장해요. 경찰은 법 절차에 따른 집행이라는 입장이에요. 복지부 장관이 경찰 쪽과 수사 지침을 논의할 예정이라고 해요.",
+   "source": "한겨레",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VejFRV1dGbGJVYTRrbXV6bEV6bUFlbTYwOGVQQmhvaHV3RmVXTjZwUFVzYTJTc05iT2c2Yi04NDR0OFNRU3VhU1BJck9sb3JJdW1VOUVOSVpBWGlMTWRRazVEcWxmZw?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "교황 레오 14세, 현직 교황 최초로 미국 중간선거 우편투표",
+   "summary": "시카고 출신 교황이 미국 시민 자격으로 중간선거에 우편으로 투표했어요.",
+   "context": "미국 중간선거는 대통령 임기 중간에 의회를 뽑는 선거예요. 현직 교황이 투표한 건 처음이라 이목이 쏠렸어요. 어느 쪽을 지지했는지는 공개되지 않았다는 점을 알아 두면 좋아요.",
+   "source": "Vatican News",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMGdycGozcXhZOUwxVDFuUEo3MkVjVlpyR2VrX3A4OFF6OVkwZThUa0J4TlpORkdqaFBmXy0tT3lnWmxIeklWa1RTbU9aQWJiZHRoRG0xTGJYQ194WVJfcUZKQUtaZ2Itd01VNXdwc0FqM2R2NFJpNGFfdWIyamNQM2NxOA?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "국정감사 마무리, 고성과 파행 속에 'F학점' 평가",
+   "summary": "올해 국정감사가 막말과 고성 속에 끝나 낮은 평가를 받았어요.",
+   "context": "국정감사는 국회가 정부 기관의 업무를 점검하는 연례 절차예요. 여야는 서로 증인 채택과 운영을 두고 책임을 돌리고 있고, 제도 개선이 필요하다는 의견도 나와요.",
+   "source": "동아일보",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xRW1EQU5HQWk4YzV6Sk5leGtQcFF4MVo5c3FiODVDOU16QXVfbXJyTXVxZ0U3WksxdXRjSlM3VGxsU0NiVXB4SjhjS1BUMFA0MnQ0ZFYtTkctY2lQdkRXNzJ4Vy1rTElCU3NyOGVadDNYV3ZwQVHSAWZBVV95cUxOcXFFTVphMTROZ3g5YkZwcndDR1V4OXR6cnhDcTNLc3VnUmN2czlTTmhJalRWZl9JWTdxOTQ4aENKemNsUUdFVVItOU1ld3NCTS1sdXpLRmIySjB6UzAzbWNvb3R1c3c?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국 비자 거부 논란, 여당 의원들 잇단 발급 문제",
+   "summary": "미국 비자 심사에서 여당 의원 일부가 거부되거나 늦게 발급돼 논란이에요.",
+   "context": "진성준 의원은 뒤늦게 비자를 받아 내일 출국해요. 미 국무부는 미국 이익을 우선한다고 했고, 청와대는 투자·정보협력 등 한미 현안과 비자를 별개로 본다는 입장이에요.",
+   "source": "연합뉴스TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlNng2ZkdBNkhQS2xUdW9pdEU5WW9wSUdfcGFsejRYWEhHUTdNM04yNjUwdjVfYVJZek9OckxZQksyY1M5LV9mVmlySmd0dnZKMzl6RGQzMDNSVGFYNWkwVWdTd21SRDQ?oc=5"
+  },
+  {
+   "kind": "know",
+   "tag": "알아만 두기",
+   "title": "미국 중간선거 사전투표 4800만명, 역대 최다",
+   "summary": "선거를 나흘 앞두고 사전투표 참여자가 4800만명을 넘어 역대 최다예요.",
+   "context": "중간선거는 상하원 의석을 새로 뽑는 선거라 정권 평가 성격이 커요. 사전투표가 많다고 어느 쪽에 유리하다고 단정하긴 어렵고, 최종 결과는 개표를 지켜봐야 해요.",
+   "source": "연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94QXcyMXFndzJjampuT3JtcE9pNWoyS3BsYjh6eE5UdFlRZlZLblU2YjQzWmZ5Z0ZQdEI1RUxaaWp2U0VubUdubWtOdXpqbEtCYXJGVm9KZndjalHSAWBBVV95cUxOUExUYzE0WkxudTU4Ni14TDY0aUNvajRQVHY5endZZjN3UVF0RmI3VmNDRnpYZ3pKbzBhQ2kwd1lvTUsyX3BnS0wzNS1tZFhCRzZGQ2hlZWJSeDlya2kwYUs?oc=5"
+  }
+ ],
+ "term": {
+  "word": "사전투표",
+  "meaning": "선거일 전에 미리 투표소나 우편으로 투표하는 제도로, 당일에 투표하기 어려운 사람을 위한 방법이에요.",
+  "example": "이번 미국 중간선거는 사전투표만 4800만명이 넘었대."
+ },
+ "weather_templates": [
+  {
+   "cond": "rain",
+   "text": "오늘 {지역} 비 올 확률이 {비확률}%래. 우산 챙겼어?",
+   "explain": "오늘 {지역} 낮 최고 {최고}도, 비 올 확률 {비확률}%야."
+  },
+  {
+   "cond": "rain",
+   "text": "{지역}은 오늘 비 소식이 있대. {날씨}라는데, 출근길 조심해.",
+   "explain": "오늘 {지역} 날씨는 {날씨}, 최고 {최고}도 최저 {최저}도야."
+  },
+  {
+   "cond": "swing",
+   "text": "오늘 {지역}은 {최고}도까지 올라가는데 내일은 {내일최고}도래. 날씨가 롤러코스터야.",
+   "explain": "오늘 최고 {최고}도, 내일 최고 {내일최고}도라 기온 차가 커."
+  },
+  {
+   "cond": "swing",
+   "text": "{지역} 내일 최고기온이 {내일최고}도래. 오늘이랑 차이가 커서 겉옷 고민되겠다.",
+   "explain": "오늘 {지역} 최고 {최고}도, 내일은 {내일최고}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "오늘 {지역} 낮에 {최고}도까지 오른대. 가을인데 아직 한여름 미련이 있나 봐.",
+   "explain": "오늘 {지역} 최고 {최고}도, 최저 {최저}도야."
+  },
+  {
+   "cond": "hot",
+   "text": "{지역}이 오늘 {최고}도래. 얇게 입고 나가도 되겠어.",
+   "explain": "오늘 {지역} 날씨는 {날씨}고 최고 {최고}도야."
+  },
+  {
+   "cond": "cold",
+   "text": "오늘 {지역} 아침 최저 {최저}도래. 아침엔 꼭 따뜻하게 입고 나가.",
+   "explain": "오늘 {지역} 최저 {최저}도, 낮 최고 {최고}도라 일교차가 커."
+  },
+  {
+   "cond": "cold",
+   "text": "{지역} 아침이 {최저}도까지 내려간대. 이불 밖은 위험하다는 말이 딱 맞는 날이야.",
+   "explain": "오늘 {지역} 최저 {최저}도, 최고 {최고}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "오늘 {지역} 날씨 {날씨}래. 최고 {최고}도라 걷기 딱 좋겠어.",
+   "explain": "오늘 {지역} 최고 {최고}도, 최저 {최저}도야."
+  },
+  {
+   "cond": "mild",
+   "text": "{지역}은 오늘 {최저}도에서 {최고}도 사이래. 이런 날은 산책이 답이야.",
+   "explain": "오늘 {지역} 날씨는 {날씨}, 최고 {최고}도야."
+  }
+ ],
+ "types": [
+  {
+   "name": "반전",
+   "desc": "예상과 다른 답으로 웃음을 줘요."
+  },
+  {
+   "name": "능청",
+   "desc": "아무렇지 않은 척 엉뚱한 말을 해요."
+  },
+  {
+   "name": "말장난",
+   "desc": "비슷한 단어를 엮어 가볍게 웃겨요."
+  },
+  {
+   "name": "자조",
+   "desc": "자신의 썰렁함을 먼저 놀려서 수습해요."
+  }
+ ],
+ "date": "2026-10-31",
+ "weekday": "토요일",
+ "tone": "banmal",
+ "strength": "bold",
+ "generated_at": "2026-10-31 10:02",
+ "model": "claude-sonnet-5-5"
+}
