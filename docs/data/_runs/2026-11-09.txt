@@ -1,0 +1,115 @@
+run 2026-11-09 10:03 model=claude-sonnet-5-5 items=72
+fail banmal-safe: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFBqKWncTMy6ykMog5'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFBqKWncTMy6ykMog5'}
+
+fail banmal-normal: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFCo7EbFMST3QSWmmr'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFCo7EbFMST3QSWmmr'}
+
+fail banmal-bold: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFDM6YA8NyTiV9mw3Z'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFDM6YA8NyTiV9mw3Z'}
+
+fail jondae-safe: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFDvLA6QRcGV8mNDBc'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFDvLA6QRcGV8mNDBc'}
+
+fail jondae-normal: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFEW4NyZwg2cFUwuYf'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFEW4NyZwg2cFUwuYf'}
+
+fail jondae-bold: BadRequestError("Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFF5HNEsKGiFUr9VYu'}")
+T, prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/malmun/malmun/generate.py", line 284, in call_claude
+    with client.messages.stream(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 185, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1687, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1238, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1341, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrTFF5HNEsKGiFUr9VYu'}
+
